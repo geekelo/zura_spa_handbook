@@ -1,0 +1,147 @@
+:root {
+  --bg: #f6f0ea;
+  --surface: #ffffff;
+  --ink: #6d2c40;
+  --ink-soft: #7d4a58;
+  --muted: #8b7a80;
+  --muted-soft: #b3a3a8;
+  --line: #eadfd8;
+  --brand: #b58bcf;
+  --brand-deep: #8f6aad;
+  --tint-soft: rgba(109, 44, 64, 0.06);
+  --pastel-mauve: #e8dff3;
+  --pastel-rose: #f3d9e0;
+  --pastel-apricot: #f5e0d2;
+  --pastel-lavender: #e6dff5;
+  --pastel-mint: #dde8dc;
+  --remember: #e8f0e4;
+  --remember-ink: #3f6b4a;
+  --tag-bg: #f3d5d8;
+  --tag-ink: #8a3a48;
+  --shadow-soft: 0 6px 18px rgba(109, 44, 64, 0.06);
+  --nav-h: 4.5rem;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink-soft);
+  background:
+    radial-gradient(ellipse 120% 70% at 0% 0%, rgba(181, 139, 207, 0.14), transparent 52%),
+    radial-gradient(ellipse 90% 50% at 100% 0%, rgba(243, 217, 224, 0.5), transparent 46%),
+    var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+a {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.app-frame {
+  width: min(100%, 430px);
+  margin: 0 auto;
+  min-height: 100dvh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-frame__content {
+  flex: 1;
+  padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom, 0px));
+}
+
+.page {
+  padding: 1rem 1.15rem 1.5rem;
+  animation: rise-in 360ms ease both;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes soft-zoom {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes soft-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: linear-gradient(180deg, #efe6df, #f6f0ea 45%, #f1e8e2);
+  }
+
+  .app-frame {
+    margin: 1.5rem auto;
+    min-height: calc(100dvh - 3rem);
+    border-radius: 1.75rem;
+    overflow: hidden;
+    background: var(--bg);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 24px 60px rgba(74, 40, 50, 0.12);
+  }
+
+  .app-frame .bottom-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

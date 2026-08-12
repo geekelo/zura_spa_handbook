@@ -1,0 +1,94 @@
+.more-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.more-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  background: #0a0a0a;
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+  animation: rise-in 420ms ease both;
+}
+
+.more-brand__logo {
+  width: min(52%, 10.5rem);
+  height: auto;
+  border-radius: 0.45rem;
+  flex-shrink: 0;
+}
+
+.more-brand h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.more-brand p {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.lead-copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.help-list {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.help-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.85rem;
+  align-items: center;
+  padding: 0.95rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.help-row:last-child {
+  border-bottom: 0;
+}
+
+.help-row__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: #f3e8e0;
+  color: var(--ink);
+}
+
+.help-row strong {
+  display: block;
+  color: var(--ink);
+  margin-bottom: 0.15rem;
+}
+
+.help-row small {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.more-footnote {
+  margin: 0.25rem 0 0;
+  text-align: center;
+  color: var(--muted-soft);
+  font-size: 0.78rem;
+}
