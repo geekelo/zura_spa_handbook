@@ -103,11 +103,26 @@ export function searchHandbook(query) {
           section.list?.some((item) => item.toLowerCase().includes(q)),
       )
 
+      const extraSectionMatch = [...(topic.guidelines || []), ...(topic.notes || [])].some(
+        (section) =>
+          section.title?.toLowerCase().includes(q) ||
+          section.paragraphs?.some((paragraph) =>
+            paragraph.toLowerCase().includes(q),
+          ) ||
+          section.list?.some((item) => item.toLowerCase().includes(q)) ||
+          section.items?.some(
+            (item) =>
+              item.label?.toLowerCase().includes(q) ||
+              item.body?.toLowerCase().includes(q),
+          ) ||
+          section.closing?.toLowerCase().includes(q),
+      )
       const procedureMatch = topic.procedure?.some((step) => {
         if (typeof step === 'string') return step.toLowerCase().includes(q)
         return (
           step.title?.toLowerCase().includes(q) ||
-          step.body?.toLowerCase().includes(q)
+          step.body?.toLowerCase().includes(q) ||
+          step.examples?.some((example) => example.toLowerCase().includes(q))
         )
       })
       const relevanceMatch = asList(topic.relevance).some((item) =>
@@ -120,6 +135,7 @@ export function searchHandbook(query) {
         topic.remember?.toLowerCase().includes(q) ||
         stepMatch ||
         sectionMatch ||
+        extraSectionMatch ||
         procedureMatch ||
         relevanceMatch
       ) {

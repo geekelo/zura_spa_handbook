@@ -4,6 +4,80 @@
   "summary": "How to receive a client from arrival through a calm start to their visit.",
   "type": "routine",
   "order": 1,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The client reception routine sets the tone for the entire spa experience. For the team, it establishes a consistent, professional standard that reflects Zura Spa's values and ensures every client is handled with the same level of care. For the client, it creates a first impression of warmth, competence, and trust — making them feel welcomed, valued, and confident in their decision to visit."
+  ],
+  "guidelines": [
+    {
+      "title": "Therapist Appearance, Attitude & Disposition",
+      "items": [
+        {
+          "label": "Appearance",
+          "body": "Clean, neat, and in full uniform. Hair should be tidy, nails trimmed, and personal hygiene impeccable."
+        },
+        {
+          "label": "Attitude",
+          "body": "Calm, warm, and attentive. Avoid appearing rushed, distracted, or disinterested."
+        },
+        {
+          "label": "Disposition",
+          "body": "Approachable and professional. Greet every client with a genuine smile and focused presence."
+        }
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Stand",
+      "body": "Rise to your feet as the client enters. Do not remain seated."
+    },
+    {
+      "title": "Greet",
+      "body": "Offer a warm, professional welcome by name if known."
+    },
+    {
+      "title": "Offer a seat",
+      "body": "Invite the client to sit comfortably."
+    },
+    {
+      "title": "Speak about services",
+      "body": "Clearly present available services and answer any questions."
+    },
+    {
+      "title": "Confirm the service",
+      "body": "Discuss and confirm the client's preferred service, massage needs, and payment method."
+    },
+    {
+      "title": "Optional mind game",
+      "body": "Engage the client in a light, optional mind game before or after payment to ease any tension and enhance the experience."
+    },
+    {
+      "title": "Offer water",
+      "body": "Offer water only after payment has been made and only upon request."
+    },
+    {
+      "title": "Alert therapists",
+      "body": "Communicate all relevant details to the assigned therapist. Notify the assigned therapist(s) to prepare to receive the client. Wait for an affirmative response before proceeding."
+    },
+    {
+      "title": "Usher client upstairs",
+      "body": "Escort the client to the massage room once the therapist confirms readiness."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Not to Say During Client Reception",
+      "paragraphs": [
+        "Avoid language, comments, or compliments that may:"
+      ],
+      "list": [
+        "Come across as overly familiar or inappropriate (e.g., personal remarks about a client's body or appearance)",
+        "Undermine confidence in the spa's services (e.g., expressing uncertainty about treatments)",
+        "Be dismissive or rushed (e.g., \"It won't take long\" or \"We're almost done with someone else\")",
+        "Involve sensitive topics such as religion, politics, or personal relationships",
+        "Include slang, informal language, or unprofessional humor"
+      ],
+      "closing": "Always speak with intention. Every word during reception either builds or diminishes the client's trust."
+    }
+  ]
 }

@@ -15,17 +15,53 @@ function ProcedureList({ procedure }) {
       {procedure.map((step, index) => {
         const title = typeof step === 'string' ? step : step.title
         const body = typeof step === 'string' ? null : step.body
+        const examples = typeof step === 'string' ? null : step.examples
         return (
           <li key={`${title}-${index}`} className="step-item">
             <span className="step-item__num">{index + 1}</span>
             <div>
               <strong>{title}</strong>
               {body ? <p>{body}</p> : null}
+              {examples?.length ? (
+                <ul className="example-list">
+                  {examples.map((example) => (
+                    <li key={example}>{example}</li>
+                  ))}
+                </ul>
+              ) : null}
             </div>
           </li>
         )
       })}
     </ol>
+  )
+}
+
+function ContentSection({ section }) {
+  return (
+    <section className="topic-section">
+      {section.title ? <h3>{section.title}</h3> : null}
+      {section.paragraphs?.map((paragraph) => (
+        <p key={paragraph}>{paragraph}</p>
+      ))}
+      {section.items?.length ? (
+        <ul className="labeled-list">
+          {section.items.map((item) => (
+            <li key={item.label}>
+              <strong>{item.label}:</strong> {item.body}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+      {section.list?.length ? (
+        <ul>
+          {section.list.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      ) : null}
+      {section.closing ? <p>{section.closing}</p> : null}
+    </section>
   )
 }
 
@@ -43,6 +79,8 @@ export default function ArticleDetail() {
   const related = (getTopics(categoryId) || []).filter((item) => item.id !== article.id)
   const relevance = asList(article.relevance)
   const procedure = asList(article.procedure)
+  const guidelines = article.guidelines || []
+  const notes = article.notes || []
   const hasRoutineBody = isRoutine
   const pageTitle = isScenario
     ? pages.article.scenarioPageTitle
@@ -88,6 +126,9 @@ export default function ArticleDetail() {
               <p className="pending-copy">{pages.article.pendingCopy}</p>
             )}
           </section>
+          {guidelines.map((section, index) => (
+            <ContentSection key={section.title || index} section={section} />
+          ))}
           <section className="topic-section">
             <h3>{pages.article.procedureHeading}</h3>
             {procedure.length ? (
@@ -96,23 +137,14 @@ export default function ArticleDetail() {
               <p className="pending-copy">{pages.article.pendingCopy}</p>
             )}
           </section>
+          {notes.map((section, index) => (
+            <ContentSection key={section.title || index} section={section} />
+          ))}
         </div>
       ) : article.sections?.length ? (
         <div className="topic-body">
           {article.sections.map((section, index) => (
-            <section key={section.title || index} className="topic-section">
-              {section.title ? <h3>{section.title}</h3> : null}
-              {section.paragraphs?.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-              {section.list?.length ? (
-                <ul>
-                  {section.list.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              ) : null}
-            </section>
+            <ContentSection key={section.title || index} section={section} />
           ))}
         </div>
       ) : article.steps?.length ? (

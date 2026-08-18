@@ -99,11 +99,21 @@
 }
 
 .topic-section ul {
-  margin: 0.15rem 0 0;
+  margin: 0.15rem 0 0.75rem;
   padding: 0 0 0 1.15rem;
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
+}
+
+.topic-section .labeled-list {
+  list-style: none;
+  padding-left: 0;
+  gap: 0.7rem;
+}
+
+.topic-section .labeled-list li {
+  line-height: 1.55;
 }
 
 .topic-section li {
@@ -186,6 +196,21 @@
   color: var(--muted);
   font-size: 0.86rem;
   line-height: 1.45;
+}
+
+.example-list {
+  margin: 0.45rem 0 0;
+  padding: 0 0 0 1.05rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.example-list li {
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  font-style: italic;
 }
 
 .remember-card {
