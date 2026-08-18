@@ -4,6 +4,43 @@
   "summary": "How to pass a client to the next team member without breaking the experience.",
   "type": "routine",
   "order": 3,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "A smooth client handover demonstrates Zura Spa's commitment to professionalism and care. It:"
+  ],
+  "guidelines": [
+    {
+      "list": [
+        "Reflects orderliness and a well-coordinated team",
+        "Shows respect and attentiveness to the client's comfort",
+        "Ensures the client feels welcomed and at ease throughout their experience",
+        "Provides the client with clarity on who will be attending to them",
+        "Creates a seamless transition that enhances the overall spa experience"
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Escort the client",
+      "body": "The reception therapist or client manager escorts the client to their assigned massage room, which has already been prepared and set up."
+    },
+    {
+      "title": "Therapists ready to receive",
+      "body": "The assigned therapist(s) should be present in the room and ready to receive the client upon entry."
+    },
+    {
+      "title": "Introduce and hand over",
+      "body": "The reception therapist or client manager formally introduces the client to the assigned therapist(s) and hands over any client belongings they assisted with (e.g., phone, bag, etc.)."
+    },
+    {
+      "title": "Use the handover script",
+      "body": "Use the following handover script:",
+      "examples": [
+        "Alright [Sir/Ma], this is [Therapist A] and [Therapist B]. They will be handling your session today. Please enjoy your session, and don't hesitate to call my attention if there is anything you'd like looked into."
+      ]
+    },
+    {
+      "title": "Excuse yourself",
+      "body": "Quietly excuse yourself and leave the room."
+    }
+  ]
 }
