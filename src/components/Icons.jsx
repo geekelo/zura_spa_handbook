@@ -161,6 +161,14 @@ export function Icon({ name, size = 22, className = '' }) {
           <path d="m17 19 2.5 2.5M17 19l2.5-2.5" />
         </svg>
       )
+    case 'download':
+      return (
+        <svg {...props}>
+          <path d="M12 3v12" />
+          <path d="m8 11 4 4 4-4" />
+          <path d="M5 20h14" />
+        </svg>
+      )
     default:
       return null
   }

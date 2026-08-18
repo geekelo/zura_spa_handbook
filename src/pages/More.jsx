@@ -3,6 +3,7 @@ import logo from '../assets/zura-logo.png'
 import { pages } from '../data'
 import { useAuth } from '../auth/AuthContext'
 import { PageHeader } from '../components/PageHeader'
+import { InstallAppButton } from '../components/InstallAppButton'
 import { Icon } from '../components/Icons'
 import './More.css'
 
@@ -42,6 +43,8 @@ export function More() {
           </>
         )}
       </div>
+
+      <InstallAppButton />
 
       <p className="lead-copy">{copy.lead}</p>
 
