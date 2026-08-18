@@ -1,0 +1,212 @@
+{
+  "id": "zura-spa-organogram",
+  "title": "Zura Spa Organogram",
+  "summary": "Roles, reporting lines, and responsibilities across the Zura Spa team.",
+  "type": "article",
+  "order": 4,
+  "sections": [
+    {
+      "title": "1. Zura Group / Founder",
+      "paragraphs": [
+        "Role: Owner and overall business vision holder."
+      ],
+      "list": [
+        "Provides overall direction for Zura Spa.",
+        "Approves major business decisions.",
+        "Guides brand growth, structure, and long-term planning.",
+        "Ensures the spa aligns with the broader Zura Group vision."
+      ]
+    },
+    {
+      "title": "2. Executive Director",
+      "paragraphs": [
+        "Role: Overall head of Zura Spa operations, standards, and service direction."
+      ],
+      "list": [
+        "Oversees the full operation of Zura Spa.",
+        "Sets service standards and brand expectations.",
+        "Supervises leadership, staff conduct, and performance.",
+        "Approves policies, processes, training, and improvements.",
+        "Ensures client satisfaction and business growth."
+      ]
+    },
+    {
+      "title": "3. Spa Manager / Operations Manager",
+      "paragraphs": [
+        "Reports to: Executive Director"
+      ],
+      "list": [
+        "Manages daily spa operations.",
+        "Ensures staff follow routines, processes, and standards.",
+        "Handles staff attendance, discipline, and work coordination.",
+        "Monitors client experience and service delivery.",
+        "Ensures rooms, tools, and facilities are ready for operation.",
+        "Escalates major issues to the Executive Director."
+      ]
+    },
+    {
+      "title": "4. Supervisor / Team Lead",
+      "paragraphs": [
+        "Reports to: Spa Manager / Operations Manager"
+      ]
+    },
+    {
+      "title": "4a. Staff Manager",
+      "paragraphs": [
+        "Reports to: Spa Manager / Operations Manager"
+      ],
+      "list": [
+        "Oversees staff coordination, attendance, and daily work assignments.",
+        "Manages staff discipline, conduct, and performance monitoring.",
+        "Ensures all team members follow Zura Spa standards and routines.",
+        "Reports staff-related concerns and escalates issues to the Spa Manager.",
+        "Supports staff welfare, scheduling, and team communication."
+      ]
+    },
+    {
+      "title": "4b. Lead Therapist",
+      "paragraphs": [
+        "Reports to: Spa Manager / Staff Manager"
+      ],
+      "list": [
+        "Leads the therapy team in delivering professional Zura Massage services.",
+        "Ensures sessions are properly assigned, managed, and executed to standard.",
+        "Monitors therapist performance and service quality during operations.",
+        "Reports client concerns, session issues, and therapist conduct to the Spa Manager.",
+        "Drives continuous improvement in service delivery and client satisfaction.",
+        "Oversees therapist training, correction, and professional development.",
+        "Reviews and confirms morning shift handover reports from all therapists.",
+        "Oversees daily assessments and routine/procedure practice sessions.",
+        "Reviews and evaluates session reports submitted by therapists.",
+        "Submits weekly performance reports on therapists' execution and delivery of massage sessions."
+      ]
+    },
+    {
+      "title": "4c. Supervisor",
+      "paragraphs": [
+        "Reports to: Spa Manager / Staff Manager"
+      ],
+      "list": [
+        "Supervises therapists and support staff during daily operations.",
+        "Checks room readiness, tools, and staff appearance before sessions begin.",
+        "Ensures daily checklists and work packs are completed accurately.",
+        "Reports operational issues and coordinates real-time floor management.",
+        "Supports training, correction, and overall staff improvement.",
+        "Conducts regular stock counts of all spa equipment and supplies.",
+        "Maintains accurate records of equipment inventory and condition.",
+        "Ensures routine maintenance is carried out and supervises all repairs and fixes.",
+        "Monitors stock levels and ensures timely restocking of supplies.",
+        "Submits a daily report covering staff conduct, work climate, client count, repairs completed, stock used, stock remaining, and any concerns related to conduct, inventory, or compliance."
+      ]
+    },
+    {
+      "title": "4d. Hygiene Manager",
+      "paragraphs": [
+        "Reports to: Spa Manager / Supervisor"
+      ],
+      "list": [
+        "Maintains and enforces hygiene standards across all spa areas.",
+        "Inspects rooms, tools, linens, and shared spaces for cleanliness and readiness.",
+        "Coordinates with housekeeping staff and available staff/therapists to ensure consistent hygiene compliance.",
+        "Reports hygiene concerns, damaged items, or sanitation risks promptly.",
+        "Ensures all hygiene protocols align with Zura Spa standards."
+      ]
+    },
+    {
+      "title": "4e. Therapist Guide",
+      "paragraphs": [
+        "Reports to: Lead Therapist / Staff Manager"
+      ],
+      "list": [
+        "Onboards and guides newly hired therapists and support staff during their first month.",
+        "Introduces new staff to Zura Spa service standards, routines, and expectations.",
+        "Provides hands-on support, correction, and mentorship throughout the onboarding period.",
+        "Monitors new staff progress and reports readiness to the Lead Therapist or Staff Manager.",
+        "Ensures new team members are fully integrated and confident before independent operation and handing over to Lead therapist."
+      ]
+    },
+    {
+      "title": "5. Receptionist / Client Manager",
+      "paragraphs": [
+        "Reports to: Spa Manager / Supervisor"
+      ],
+      "list": [
+        "Welcomes clients and manages client communication.",
+        "Handles bookings, calls, chats, and appointment confirmation.",
+        "Coordinates client arrival and session flow.",
+        "Communicates client preferences to therapists.",
+        "Supports payment confirmation and client follow-up.",
+        "Maintains a warm and professional front-desk experience.",
+        "Submit accurate session logs at the end of each shift daily."
+      ]
+    },
+    {
+      "title": "6. Zura Wellness Experts / Massage Therapists",
+      "paragraphs": [
+        "Reports to: Supervisor / Spa Manager"
+      ],
+      "list": [
+        "Provide professional Zura Massage services to clients.",
+        "Prepare and clean massage rooms before and after sessions.",
+        "Maintain hygiene, appearance, and professional conduct.",
+        "Follow Zura Spa service standards and instructions.",
+        "Attend trainings, assessments, and performance reviews.",
+        "Report client concerns, room issues, and tool conditions.",
+        "Support client satisfaction and brand reputation."
+      ]
+    },
+    {
+      "title": "7. Social Media Manager / Content Lead",
+      "paragraphs": [
+        "Reports to: Executive Director / Spa Manager"
+      ],
+      "list": [
+        "Manages Zura Spa social media content and online presence.",
+        "Coordinates staff content creation.",
+        "Promotes services, offers, client education, and brand visibility.",
+        "Works with staff to capture professional content.",
+        "Ensures online communication reflects the Zura Spa brand."
+      ]
+    },
+    {
+      "title": "8. Cleaner / Housekeeping Staff",
+      "paragraphs": [
+        "Reports to: Supervisor / Spa Manager"
+      ],
+      "list": [
+        "Cleans the kitchen, reception, waiting area, rooms, lounge, veranda, and other assigned areas.",
+        "Ensures floors, surfaces, waste bins, and shared spaces are clean.",
+        "Supports room reset and general cleanliness.",
+        "Reports cleaning issues or damaged items.",
+        "Maintains hygiene standards across the spa."
+      ]
+    },
+    {
+      "title": "9. Security Officer",
+      "paragraphs": [
+        "Reports to: Spa Manager / Supervisor"
+      ],
+      "list": [
+        "Opens and closes the gate.",
+        "Controls entry and exit.",
+        "Confirms with management before allowing visitors in.",
+        "Observes the environment within and around the premises.",
+        "Arranges cars and maintains order in the car park.",
+        "Cleans the security room, staircase, car park, and flower beds.",
+        "Ensures staff do not leave with uniforms.",
+        "Reports suspicious activity or security concerns."
+      ]
+    },
+    {
+      "title": "Simple Reporting Structure",
+      "paragraphs": [
+        "Zura Group / Founder",
+        "↓ Executive Director",
+        "↓ Spa Manager / Operations Manager",
+        "↓ Staff Manager / Team Lead / Client Manager / Lead Therapist",
+        "↓ Receptionist / Client Service Officer | Zura Wellness Experts | Cleaner / Housekeeping | Security Officer",
+        "Social Media Manager / Content Lead may report directly to the Executive Director or work with the Spa Manager, depending on the task."
+      ]
+    }
+  ]
+}

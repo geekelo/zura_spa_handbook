@@ -1,0 +1,67 @@
+{
+  "search": {
+    "placeholder": "Search the handbook...",
+    "resultsTitle": "Search results"
+  },
+  "home": {
+    "heroTitle": "Welcome to the Zura Spa Work Handbook",
+    "heroBody": "Your guide to delivering exceptional spa experiences and growing with our team",
+    "heroImageAlt": "Spa towels, candle, and calming amenities",
+    "exploreTitle": "Explore by Category",
+    "searchEmpty": "No handbook matches for “{query}”."
+  },
+  "categories": {
+    "title": "Categories",
+    "handbookSections": "Handbook Sections",
+    "moreResources": "More Resources",
+    "searchEmpty": "No matches found."
+  },
+  "updates": {
+    "title": "Updates",
+    "lead": "Latest changes to policies, procedures, and scenario guidance."
+  },
+  "more": {
+    "title": "More",
+    "brandName": "Zura Spa",
+    "brandTagline": "Work Handbook · Internal guide for the floor team",
+    "lead": "Support, training, and extras beyond the core handbook.",
+    "footnote": "Version 1.0 · For team use only",
+    "featured": {
+      "title": "Browse scenarios",
+      "description": "Common situations and how to handle them",
+      "to": "/categories/scenarios"
+    },
+    "links": [
+      {
+        "title": "Contact HR",
+        "description": "Questions about policies, leave, or support.",
+        "icon": "headset"
+      },
+      {
+        "title": "Training calendar",
+        "description": "Upcoming sessions and course deadlines.",
+        "icon": "grad"
+      },
+      {
+        "title": "Team announcements",
+        "description": "House notes and spa-floor reminders.",
+        "icon": "doc"
+      }
+    ]
+  },
+  "article": {
+    "scenarioPageTitle": "Scenario Detail",
+    "scenarioTag": "Scenario",
+    "solutionHeading": "Recommended Solution",
+    "articleHeading": "Key Points",
+    "solutionLead": "Follow these steps to manage the situation with care and professionalism.",
+    "articleLead": "Use these steps to stay consistent with Zura Spa standards.",
+    "rememberLabel": "Remember:",
+    "relatedPrefix": "More in",
+    "routinePageTitle": "Routine",
+    "routineTag": "Routine",
+    "relevanceHeading": "Relevance",
+    "procedureHeading": "Procedure",
+    "pendingCopy": "Content for this section will be added soon."
+  }
+}

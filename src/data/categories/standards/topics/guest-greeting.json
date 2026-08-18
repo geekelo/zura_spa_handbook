@@ -1,0 +1,22 @@
+{
+  "id": "guest-greeting",
+  "title": "Guest Greeting Standard",
+  "summary": "How every guest should be welcomed at Zura Spa.",
+  "type": "article",
+  "order": 1,
+  "steps": [
+    {
+      "title": "Make eye contact",
+      "body": "Acknowledge the guest within 10 seconds of arrival."
+    },
+    {
+      "title": "Warm welcome",
+      "body": "Greet with a calm smile and introduce yourself by name."
+    },
+    {
+      "title": "Offer assistance",
+      "body": "Confirm their booking and offer water or herbal tea."
+    }
+  ],
+  "remember": "First impressions set the tone for the entire spa journey."
+}

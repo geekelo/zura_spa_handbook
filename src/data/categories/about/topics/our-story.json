@@ -1,0 +1,22 @@
+{
+  "id": "our-story",
+  "title": "Our Story",
+  "summary": "Who we are and why Zura Spa exists.",
+  "type": "article",
+  "order": 5,
+  "steps": [
+    {
+      "title": "A place to restore",
+      "body": "Zura Spa is a calm, premium space created for rest, renewal, and thoughtful care."
+    },
+    {
+      "title": "Crafted experiences",
+      "body": "Every visit is designed to feel personal — from greeting to treatment to farewell."
+    },
+    {
+      "title": "A trusted team",
+      "body": "Our people are the brand. Presence, kindness, and skill shape every guest journey."
+    }
+  ],
+  "remember": "You represent Zura Spa in every interaction — on and off the floor."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "room-reset",
+  "title": "Treatment Room Reset",
+  "summary": "How to prepare the room between guests.",
+  "type": "article",
+  "order": 2,
+  "steps": [
+    {
+      "title": "Refresh linens",
+      "body": "Replace used towels and sheets with clean, warm sets."
+    },
+    {
+      "title": "Restock products",
+      "body": "Check oils, creams, and amenity trays before the next guest."
+    },
+    {
+      "title": "Set the mood",
+      "body": "Adjust lighting, scent, music, and temperature."
+    }
+  ],
+  "remember": "A ready room is part of the welcome."
+}

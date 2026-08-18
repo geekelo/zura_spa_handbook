@@ -1,0 +1,26 @@
+{
+  "id": "our-values",
+  "title": "Our Values",
+  "summary": "The principles that guide how we work together and serve guests.",
+  "type": "article",
+  "order": 6,
+  "steps": [
+    {
+      "title": "Calm presence",
+      "body": "Move with care, speak softly, and give each guest your full attention."
+    },
+    {
+      "title": "Warm professionalism",
+      "body": "Be kind and welcoming without becoming casual or rushed."
+    },
+    {
+      "title": "Discretion",
+      "body": "Protect guest privacy in conversations, records, and treatment spaces."
+    },
+    {
+      "title": "Excellence in details",
+      "body": "Linens, scent, timing, and follow-through all communicate our standard."
+    }
+  ],
+  "remember": "When in doubt, choose the option that feels most caring and consistent."
+}

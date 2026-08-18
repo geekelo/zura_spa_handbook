@@ -1,0 +1,42 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "summary": "Welcome to Zura Spa and how to use this handbook.",
+  "type": "article",
+  "order": 1,
+  "sections": [
+    {
+      "paragraphs": [
+        "Welcome to Zura Spa.",
+        "This handbook has been created to help every staff member clearly understand how Zura Spa works, what is expected from each team member, and the standards we must all follow to give our clients the best experience possible.",
+        "Zura Spa is not just a place where clients come for massage. It is a place where people come to feel relaxed, cared for, respected, and renewed. Because of this, every staff member must understand the right way to behave, speak, serve clients, work with colleagues, handle responsibilities, and represent the brand."
+      ]
+    },
+    {
+      "title": "What is the Zura Spa Handbook?",
+      "paragraphs": [
+        "The Zura Spa Handbook is a guide that explains the rules, values, duties, responsibilities, and expectations of working at Zura Spa.",
+        "It covers important areas such as punctuality, attendance, hygiene, client care, professional conduct, teamwork, confidentiality, reporting, correction, discipline, use of company property, social media cooperation, and general workplace behaviour.",
+        "In simple terms, this handbook tells you:"
+      ],
+      "list": [
+        "What Zura Spa expects from you",
+        "How you should treat clients",
+        "How you should work with your colleagues",
+        "How you should handle your duties",
+        "What behaviours are accepted",
+        "What behaviours are not accepted",
+        "How to grow and improve as a staff member"
+      ]
+    },
+    {
+      "title": "Why It Is Important to Go Through This Handbook",
+      "paragraphs": [
+        "It is important to read and understand this handbook because it helps you know how to succeed at Zura Spa.",
+        "When everyone understands the same rules and standards, work becomes easier, clients receive better service, and the team becomes stronger. This handbook helps prevent confusion, mistakes, conflict, and poor service.",
+        "Every staff member is expected to go through this handbook carefully, ask questions where anything is not clear, and follow the standards written in it.",
+        "By reading and following this handbook, you will understand how to do your work properly, how to protect the image of Zura Spa, how to relate well with clients and colleagues, and how to grow into a better professional."
+      ]
+    }
+  ]
+}

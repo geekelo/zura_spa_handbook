@@ -1,0 +1,9 @@
+{
+  "id": "assessment-routine",
+  "title": "Assessment Routine",
+  "summary": "How to assess the client, the session, or daily practice to Zura standard.",
+  "type": "routine",
+  "order": 10,
+  "relevance": [],
+  "procedure": []
+}

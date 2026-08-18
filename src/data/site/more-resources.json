@@ -1,0 +1,23 @@
+[
+  {
+    "id": "recent",
+    "title": "Recently Updated",
+    "description": "Latest handbook updates.",
+    "icon": "clock",
+    "to": "/updates"
+  },
+  {
+    "id": "popular",
+    "title": "Popular Topics",
+    "description": "Most viewed and helpful.",
+    "icon": "star",
+    "to": "/categories/scenarios"
+  },
+  {
+    "id": "help",
+    "title": "Need Help?",
+    "description": "Contact HR or get support.",
+    "icon": "headset",
+    "to": "/more"
+  }
+]

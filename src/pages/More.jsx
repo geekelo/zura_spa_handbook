@@ -1,46 +1,29 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/zura-logo.png'
+import { pages } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import './More.css'
 
-const links = [
-  {
-    title: 'Contact HR',
-    description: 'Questions about policies, leave, or support.',
-    icon: 'headset',
-  },
-  {
-    title: 'Training calendar',
-    description: 'Upcoming sessions and course deadlines.',
-    icon: 'grad',
-  },
-  {
-    title: 'Team announcements',
-    description: 'House notes and spa-floor reminders.',
-    icon: 'doc',
-  },
-]
-
 export function More() {
+  const copy = pages.more
+
   return (
     <div className="page more-page">
-      <PageHeader title="More" />
+      <PageHeader title={copy.title} />
 
       <section className="more-brand">
-        <img src={logo} alt="Zura Spa" className="more-brand__logo" />
+        <img src={logo} alt={copy.brandName} className="more-brand__logo" />
         <div>
-          <h2>Zura Spa</h2>
-          <p>Work Handbook · Internal guide for the floor team</p>
+          <h2>{copy.brandName}</h2>
+          <p>{copy.brandTagline}</p>
         </div>
       </section>
 
-      <p className="lead-copy">
-        Support, training, and extras beyond the core handbook.
-      </p>
+      <p className="lead-copy">{copy.lead}</p>
 
       <div className="help-list">
-        {links.map((item) => (
+        {copy.links.map((item) => (
           <div key={item.title} className="help-row">
             <span className="help-row__icon" aria-hidden="true">
               <Icon name={item.icon} size={20} />
@@ -53,15 +36,15 @@ export function More() {
         ))}
       </div>
 
-      <Link to="/categories/scenarios" className="featured-link">
+      <Link to={copy.featured.to} className="featured-link">
         <span>
-          <strong>Browse scenarios</strong>
-          <small>Common situations and how to handle them</small>
+          <strong>{copy.featured.title}</strong>
+          <small>{copy.featured.description}</small>
         </span>
         <Icon name="chevron" size={18} />
       </Link>
 
-      <p className="more-footnote">Version 1.0 · For team use only</p>
+      <p className="more-footnote">{copy.footnote}</p>
     </div>
   )
 }

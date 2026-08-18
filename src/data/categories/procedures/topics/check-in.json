@@ -1,0 +1,22 @@
+{
+  "id": "check-in",
+  "title": "Guest Check-In Flow",
+  "summary": "From arrival to treatment room handover.",
+  "type": "article",
+  "order": 1,
+  "steps": [
+    {
+      "title": "Verify booking",
+      "body": "Confirm name, service, therapist, and duration."
+    },
+    {
+      "title": "Complete intake",
+      "body": "Review health notes and allergies before treatment."
+    },
+    {
+      "title": "Escort calmly",
+      "body": "Guide the guest to the lounge or treatment room."
+    }
+  ],
+  "remember": "A smooth check-in reduces stress before the service begins."
+}

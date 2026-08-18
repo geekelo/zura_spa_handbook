@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { categories, moreResources, searchHandbook } from '../data/handbook'
+import { categories, moreResources, pages, searchHandbook } from '../data'
 import { CategoryCard } from '../components/CategoryCard'
 import { PageHeader } from '../components/PageHeader'
 import { SearchBar } from '../components/SearchBar'
@@ -16,7 +16,7 @@ export function Categories() {
   return (
     <div className="page categories-page">
       <PageHeader
-        title="Categories"
+        title={pages.categories.title}
         right={
           <button
             type="button"
@@ -29,14 +29,20 @@ export function Categories() {
         }
       />
 
-      {showSearch ? <SearchBar value={query} onChange={setQuery} /> : null}
+      {showSearch ? (
+        <SearchBar
+          value={query}
+          onChange={setQuery}
+          placeholder={pages.search.placeholder}
+        />
+      ) : null}
 
       {showSearch && query.trim() ? (
         <section className="section">
-          <h2 className="section-title">Search results</h2>
+          <h2 className="section-title">{pages.search.resultsTitle}</h2>
           <div className="stack">
             {results.length === 0 ? (
-              <p className="empty-copy">No matches found.</p>
+              <p className="empty-copy">{pages.categories.searchEmpty}</p>
             ) : (
               results.map((item) => (
                 <Link key={`${item.type}-${item.id}`} to={item.to} className="result-row">
@@ -53,7 +59,7 @@ export function Categories() {
       ) : (
         <>
           <section className="section">
-            <h2 className="section-label">Handbook Sections</h2>
+            <h2 className="section-label">{pages.categories.handbookSections}</h2>
             <div className="stack">
               {categories.map((category) => (
                 <CategoryCard
@@ -66,7 +72,7 @@ export function Categories() {
           </section>
 
           <section className="section">
-            <h2 className="section-label">More Resources</h2>
+            <h2 className="section-label">{pages.categories.moreResources}</h2>
             <div className="resource-list">
               {moreResources.map((item) => (
                 <Link key={item.id} to={item.to} className="resource-row">

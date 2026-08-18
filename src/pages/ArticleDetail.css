@@ -16,6 +16,10 @@
   background: #f0e5db;
 }
 
+.intro-card--routine {
+  background: #eee4d8;
+}
+
 .intro-card__top {
   display: flex;
   align-items: flex-start;
@@ -67,6 +71,50 @@
   font-size: 0.92rem;
   line-height: 1.55;
   color: var(--ink-soft);
+}
+
+.topic-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.topic-section h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--ink);
+  margin: 0 0 0.55rem;
+  line-height: 1.2;
+}
+
+.topic-section p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem;
+}
+
+.topic-section p:last-child {
+  margin-bottom: 0;
+}
+
+.topic-section ul {
+  margin: 0.15rem 0 0;
+  padding: 0 0 0 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.topic-section li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.pending-copy {
+  font-style: italic;
+  color: var(--muted) !important;
 }
 
 .solution-heading {

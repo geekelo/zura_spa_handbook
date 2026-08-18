@@ -1,79 +1,160 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { getArticle, getCategory, articles } from '../data/handbook'
+import { getCategory, getTopic, getTopics, pages } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import './ArticleDetail.css'
 
+function asList(value) {
+  if (!value) return []
+  return Array.isArray(value) ? value.filter(Boolean) : [value]
+}
+
+function ProcedureList({ procedure }) {
+  return (
+    <ol className="step-list">
+      {procedure.map((step, index) => {
+        const title = typeof step === 'string' ? step : step.title
+        const body = typeof step === 'string' ? null : step.body
+        return (
+          <li key={`${title}-${index}`} className="step-item">
+            <span className="step-item__num">{index + 1}</span>
+            <div>
+              <strong>{title}</strong>
+              {body ? <p>{body}</p> : null}
+            </div>
+          </li>
+        )
+      })}
+    </ol>
+  )
+}
+
 export default function ArticleDetail() {
   const { categoryId, articleId } = useParams()
   const category = getCategory(categoryId)
-  const article = getArticle(categoryId, articleId)
+  const article = getTopic(categoryId, articleId)
 
   if (!category || !article) {
     return <Navigate to="/categories" replace />
   }
 
   const isScenario = article.type === 'scenario'
-  const related = (articles[categoryId] || []).filter((item) => item.id !== article.id)
+  const isRoutine = article.type === 'routine'
+  const related = (getTopics(categoryId) || []).filter((item) => item.id !== article.id)
+  const relevance = asList(article.relevance)
+  const procedure = asList(article.procedure)
+  const hasRoutineBody = isRoutine
+  const pageTitle = isScenario
+    ? pages.article.scenarioPageTitle
+    : isRoutine
+      ? pages.article.routinePageTitle
+      : category.title
 
   return (
     <div className="page article-page">
-      <PageHeader
-        title={isScenario ? 'Scenario Detail' : category.title}
-        backTo={`/categories/${categoryId}`}
-      />
+      <PageHeader title={pageTitle} backTo={`/categories/${categoryId}`} />
 
-      <section className={`intro-card${isScenario ? ' intro-card--scenario' : ''}`}>
+      <section
+        className={`intro-card${isScenario ? ' intro-card--scenario' : ''}${
+          isRoutine ? ' intro-card--routine' : ''
+        }`}
+      >
         <div className="intro-card__top">
-          {isScenario ? (
+          {isScenario || isRoutine ? (
             <span className="intro-card__avatar" aria-hidden="true">
-              <Icon name="person" size={22} />
+              <Icon name={isRoutine ? 'repeat' : 'person'} size={22} />
             </span>
           ) : null}
           <div className="intro-card__heading">
             <h2 className="intro-card__title">{article.title}</h2>
-            {isScenario ? <span className="scenario-tag">Scenario</span> : null}
+            {isScenario ? (
+              <span className="scenario-tag">{pages.article.scenarioTag}</span>
+            ) : null}
+            {isRoutine ? (
+              <span className="scenario-tag">{pages.article.routineTag}</span>
+            ) : null}
           </div>
         </div>
-        <p>{article.summary}</p>
+        {article.summary ? <p>{article.summary}</p> : null}
       </section>
 
-      <section className="solution-block">
-        <h3 className="solution-heading">
-          <Icon name="lotus" size={18} />
-          {isScenario ? 'Recommended Solution' : 'Key Points'}
-        </h3>
-        <p className="solution-lead">
-          {isScenario
-            ? 'Follow these steps to manage the situation with care and professionalism.'
-            : 'Use these steps to stay consistent with Zura Spa standards.'}
-        </p>
-
-        <ol className="step-list">
-          {article.steps.map((step, index) => (
-            <li key={step.title} className="step-item">
-              <span className="step-item__num">{index + 1}</span>
-              <div>
-                <strong>{step.title}</strong>
-                <p>{step.body}</p>
-              </div>
-            </li>
+      {hasRoutineBody ? (
+        <div className="topic-body">
+          <section className="topic-section">
+            <h3>{pages.article.relevanceHeading}</h3>
+            {relevance.length ? (
+              relevance.map((paragraph) => <p key={paragraph}>{paragraph}</p>)
+            ) : (
+              <p className="pending-copy">{pages.article.pendingCopy}</p>
+            )}
+          </section>
+          <section className="topic-section">
+            <h3>{pages.article.procedureHeading}</h3>
+            {procedure.length ? (
+              <ProcedureList procedure={procedure} />
+            ) : (
+              <p className="pending-copy">{pages.article.pendingCopy}</p>
+            )}
+          </section>
+        </div>
+      ) : article.sections?.length ? (
+        <div className="topic-body">
+          {article.sections.map((section, index) => (
+            <section key={section.title || index} className="topic-section">
+              {section.title ? <h3>{section.title}</h3> : null}
+              {section.paragraphs?.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+              {section.list?.length ? (
+                <ul>
+                  {section.list.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              ) : null}
+            </section>
           ))}
-        </ol>
-      </section>
+        </div>
+      ) : article.steps?.length ? (
+        <section className="solution-block">
+          <h3 className="solution-heading">
+            <Icon name="lotus" size={18} />
+            {isScenario
+              ? pages.article.solutionHeading
+              : pages.article.articleHeading}
+          </h3>
+          <p className="solution-lead">
+            {isScenario ? pages.article.solutionLead : pages.article.articleLead}
+          </p>
+
+          <ol className="step-list">
+            {article.steps.map((step, index) => (
+              <li key={step.title} className="step-item">
+                <span className="step-item__num">{index + 1}</span>
+                <div>
+                  <strong>{step.title}</strong>
+                  <p>{step.body}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
 
       {article.remember ? (
         <aside className="remember-card">
           <Icon name="sprout" size={18} />
           <p>
-            <strong>Remember:</strong> {article.remember}
+            <strong>{pages.article.rememberLabel}</strong> {article.remember}
           </p>
         </aside>
       ) : null}
 
       {related.length > 0 ? (
         <section className="related-block">
-          <h3 className="section-label">More in {category.title}</h3>
+          <h3 className="section-label">
+            {pages.article.relatedPrefix} {category.title}
+          </h3>
           <div className="related-stack">
             {related.map((item) => (
               <Link

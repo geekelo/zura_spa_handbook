@@ -1,0 +1,30 @@
+{
+  "id": "client-arrives-late",
+  "title": "Client arrives late",
+  "summary": "A client arrives later than their scheduled appointment time. How should you handle it professionally?",
+  "type": "scenario",
+  "order": 1,
+  "steps": [
+    {
+      "title": "Greet warmly",
+      "body": "Welcome the client with a calm and friendly attitude."
+    },
+    {
+      "title": "Check availability",
+      "body": "Confirm the time available for their service."
+    },
+    {
+      "title": "Communicate clearly",
+      "body": "Let the client know how the delay may impact their service."
+    },
+    {
+      "title": "Offer options",
+      "body": "Suggest rescheduling, a shorter service, or alternative times."
+    },
+    {
+      "title": "Thank and reassure",
+      "body": "Thank the client for understanding and ensure they feel valued."
+    }
+  ],
+  "remember": "Empathy and clear communication build trust and great experiences."
+}

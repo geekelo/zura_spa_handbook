@@ -1,0 +1,26 @@
+{
+  "id": "guest-promise",
+  "title": "The Guest Promise",
+  "summary": "What every guest should feel during a visit to Zura Spa.",
+  "type": "article",
+  "order": 7,
+  "steps": [
+    {
+      "title": "Welcomed",
+      "body": "Guests are greeted promptly, by name when possible, and made to feel expected."
+    },
+    {
+      "title": "Cared for",
+      "body": "Preferences, comfort, and time are respected from check-in through departure."
+    },
+    {
+      "title": "Unhurried",
+      "body": "The pace of the spa should feel restorative, even during busy periods."
+    },
+    {
+      "title": "Remembered",
+      "body": "Small details — water, warmth, a sincere thank you — complete the experience."
+    }
+  ],
+  "remember": "The guest promise is the measure of a successful shift."
+}

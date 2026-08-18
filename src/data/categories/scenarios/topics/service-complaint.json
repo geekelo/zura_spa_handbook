@@ -1,0 +1,30 @@
+{
+  "id": "service-complaint",
+  "title": "Guest has a complaint",
+  "summary": "A guest is unhappy with a recent service. How do you recover the experience?",
+  "type": "scenario",
+  "order": 2,
+  "steps": [
+    {
+      "title": "Listen fully",
+      "body": "Give the guest space to share without interrupting."
+    },
+    {
+      "title": "Acknowledge feelings",
+      "body": "Apologize sincerely and thank them for the feedback."
+    },
+    {
+      "title": "Clarify needs",
+      "body": "Ask what would make the experience right for them."
+    },
+    {
+      "title": "Resolve promptly",
+      "body": "Offer an approved solution and confirm next steps."
+    },
+    {
+      "title": "Follow up",
+      "body": "Check in after resolution and log the issue for the team."
+    }
+  ],
+  "remember": "A recovered moment often creates a stronger relationship."
+}

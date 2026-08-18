@@ -1,0 +1,9 @@
+{
+  "id": "client-handover-routine",
+  "title": "Client Handover Routine",
+  "summary": "How to pass a client to the next team member without breaking the experience.",
+  "type": "routine",
+  "order": 3,
+  "relevance": [],
+  "procedure": []
+}

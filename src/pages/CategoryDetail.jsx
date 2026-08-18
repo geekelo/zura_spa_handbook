@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { articles, getCategory } from '../data/handbook'
+import { getCategory, getTopics } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import './CategoryDetail.css'
@@ -8,7 +8,7 @@ import './Home.css'
 export function CategoryDetail() {
   const { categoryId } = useParams()
   const category = getCategory(categoryId)
-  const items = articles[categoryId]
+  const items = getTopics(categoryId)
 
   if (!category || !items) {
     return <Navigate to="/categories" replace />

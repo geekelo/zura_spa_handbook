@@ -1,0 +1,22 @@
+{
+  "id": "privacy",
+  "title": "Privacy & Discretion",
+  "summary": "Protecting guest comfort and confidentiality.",
+  "type": "article",
+  "order": 2,
+  "steps": [
+    {
+      "title": "Speak softly",
+      "body": "Keep conversations private and never discuss guests publicly."
+    },
+    {
+      "title": "Knock and wait",
+      "body": "Always announce yourself before entering treatment rooms."
+    },
+    {
+      "title": "Secure records",
+      "body": "Store intake forms and notes only in approved systems."
+    }
+  ],
+  "remember": "Discretion is a core part of luxury care."
+}

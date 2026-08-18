@@ -1,0 +1,23 @@
+[
+  {
+    "id": "u1",
+    "date": "Aug 10, 2026",
+    "title": "Late arrival protocol refreshed",
+    "body": "Updated guidance for late clients under Issues / Scenarios.",
+    "to": "/categories/scenarios/client-arrives-late"
+  },
+  {
+    "id": "u2",
+    "date": "Aug 4, 2026",
+    "title": "Check-in procedure clarity",
+    "body": "Added allergy review reminder to the guest check-in flow.",
+    "to": "/categories/procedures/check-in"
+  },
+  {
+    "id": "u3",
+    "date": "Jul 28, 2026",
+    "title": "Onboarding course live",
+    "body": "New hire onboarding modules are now available in Courses.",
+    "to": "/categories/courses/onboarding"
+  }
+]

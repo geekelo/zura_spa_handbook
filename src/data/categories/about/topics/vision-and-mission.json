@@ -1,0 +1,26 @@
+{
+  "id": "vision-and-mission",
+  "title": "Vision and Mission",
+  "summary": "What Zura Spa aims to become and how we serve every client.",
+  "type": "article",
+  "order": 2,
+  "sections": [
+    {
+      "title": "Our Vision",
+      "paragraphs": [
+        "Our vision is to become a trusted massage and wellness spa known for helping clients feel relaxed, satisfied, calm, and renewed.",
+        "At Zura Spa, we want every client to experience deep relaxation, stress relief, and comfort. We aim to help clients reduce body pain, ease muscle tension, calm their minds, and enjoy a peaceful wellness experience that makes them feel better than they came.",
+        "Our vision is to be a place where clients can come to relax, recover, and feel cared for in a professional and peaceful environment."
+      ]
+    },
+    {
+      "title": "Our Mission",
+      "paragraphs": [
+        "Our mission is to provide NON-TIME based quality massage services with professionalism, courtesy, hygiene, and care.",
+        "We are committed to treating every client with respect, maintaining a clean and safe environment, following proper service standards, and delivering massage experiences that bring comfort, relief, and satisfaction.",
+        "At Zura Spa, we believe that good service is not only about skill. It is also about attitude, cleanliness, communication, respect, and consistency.",
+        "Our mission is to make every client feel welcomed, valued, relaxed, and properly attended to."
+      ]
+    }
+  ]
+}

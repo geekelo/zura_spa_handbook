@@ -152,6 +152,15 @@ export function Icon({ name, size = 22, className = '' }) {
           <path d="M12 9.5c1.5-2 1.8-4.5 1-6.5-2 .8-3.5 3-3.5 5.5 0 .4.1.7.2 1" />
         </svg>
       )
+    case 'repeat':
+      return (
+        <svg {...props}>
+          <path d="M17 1v4H7a5 5 0 0 0-5 5v1" />
+          <path d="M7 5 4.5 2.5M7 5 4.5 7.5" />
+          <path d="M7 23v-4h10a5 5 0 0 0 5-5v-1" />
+          <path d="m17 19 2.5 2.5M17 19l2.5-2.5" />
+        </svg>
+      )
     default:
       return null
   }

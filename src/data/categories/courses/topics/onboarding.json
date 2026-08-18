@@ -1,0 +1,22 @@
+{
+  "id": "onboarding",
+  "title": "New Hire Onboarding",
+  "summary": "Core modules for your first two weeks.",
+  "type": "article",
+  "order": 1,
+  "steps": [
+    {
+      "title": "Brand immersion",
+      "body": "Learn the Zura Spa story, values, and service promise."
+    },
+    {
+      "title": "Service basics",
+      "body": "Practice greetings, product knowledge, and room setup."
+    },
+    {
+      "title": "Shadow shifts",
+      "body": "Observe senior team members before independent work."
+    }
+  ],
+  "remember": "Growth is continuous — revisit modules anytime."
+}

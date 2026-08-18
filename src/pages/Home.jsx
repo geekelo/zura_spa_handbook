@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/zura-logo.png'
 import heroImage from '../assets/hero-spa.png'
-import { categories, searchHandbook } from '../data/handbook'
+import { categories, pages, searchHandbook } from '../data'
 import { CategoryCard } from '../components/CategoryCard'
 import { PageHeader } from '../components/PageHeader'
 import { SearchBar } from '../components/SearchBar'
@@ -25,14 +25,20 @@ export function Home() {
         }
       />
 
-      <SearchBar value={query} onChange={setQuery} />
+      <SearchBar
+        value={query}
+        onChange={setQuery}
+        placeholder={pages.search.placeholder}
+      />
 
       {query.trim() ? (
         <section className="section">
-          <h2 className="section-title">Search results</h2>
+          <h2 className="section-title">{pages.search.resultsTitle}</h2>
           <div className="stack">
             {results.length === 0 ? (
-              <p className="empty-copy">No handbook matches for “{query}”.</p>
+              <p className="empty-copy">
+                {pages.home.searchEmpty.replace('{query}', query)}
+              </p>
             ) : (
               results.map((item) => (
                 <Link key={`${item.type}-${item.id}`} to={item.to} className="result-row">
@@ -50,19 +56,16 @@ export function Home() {
         <>
           <section className="hero-card" aria-label="Welcome">
             <div className="hero-card__copy">
-              <h2>Welcome to the Zura Spa Work Handbook</h2>
-              <p>
-                Your guide to delivering exceptional spa experiences and growing
-                with our team
-              </p>
+              <h2>{pages.home.heroTitle}</h2>
+              <p>{pages.home.heroBody}</p>
             </div>
             <div className="hero-card__media">
-              <img src={heroImage} alt="Spa towels, candle, and calming amenities" />
+              <img src={heroImage} alt={pages.home.heroImageAlt} />
             </div>
           </section>
 
           <section className="section">
-            <h2 className="section-title">Explore by Category</h2>
+            <h2 className="section-title">{pages.home.exploreTitle}</h2>
             <div className="stack">
               {categories.map((category) => (
                 <CategoryCard

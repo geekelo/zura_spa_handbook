@@ -1,0 +1,9 @@
+{
+  "id": "client-departure-routine",
+  "title": "Client Departure Routine",
+  "summary": "How to close the visit and send the client off with care.",
+  "type": "routine",
+  "order": 2,
+  "relevance": [],
+  "procedure": []
+}

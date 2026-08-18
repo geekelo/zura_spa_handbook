@@ -1,0 +1,22 @@
+{
+  "id": "daily-goals",
+  "title": "Daily Team Goals",
+  "summary": "What success looks like on every shift.",
+  "type": "article",
+  "order": 1,
+  "steps": [
+    {
+      "title": "Guest satisfaction",
+      "body": "Aim for calm, personalized care on every booking."
+    },
+    {
+      "title": "Room readiness",
+      "body": "Keep treatment spaces reset, clean, and stocked."
+    },
+    {
+      "title": "Team support",
+      "body": "Communicate delays early and help cover peaks."
+    }
+  ],
+  "remember": "Shared goals create consistent guest experiences."
+}
