@@ -7,8 +7,7 @@
   "relevance": [
     "The Client Reception Routine sets the tone for the entire spa experience. It is the client's first direct interaction with the Zura Spa service standard and should immediately communicate warmth, order, professionalism, attentiveness, and care.",
     "For the team, the routine creates a consistent standard for receiving every client. It ensures that important information is properly gathered, payment and service details are confirmed, and the therapist receives the information needed to prepare appropriately.",
-    "For the client, a smooth reception reduces uncertainty and helps them begin relaxing even before they enter the treatment room. The client should feel:",
-    "The reception experience should communicate one simple message: \"You are welcome, we are prepared for you, and you are in good hands.\""
+    "For the client, a smooth reception reduces uncertainty and helps them begin relaxing even before they enter the treatment room."
   ],
   "guidelines": [
     {
@@ -20,7 +19,8 @@
         "Properly attended to.",
         "Confident in the spa and its team.",
         "Comfortable with what will happen next."
-      ]
+      ],
+      "closing": "The reception experience should communicate one simple message: \"You are welcome, we are prepared for you, and you are in good hands.\""
     },
     {
       "title": "Therapist / Reception Appearance, Attitude & Disposition"
@@ -70,8 +70,7 @@
     {
       "title": "Disposition",
       "paragraphs": [
-        "Be approachable, cheerful and professional.",
-        "The warmth should feel natural, not forced or excessive."
+        "Be approachable, cheerful and professional. Maintain:"
       ],
       "list": [
         "A genuine smile.",
@@ -79,7 +78,8 @@
         "Pleasant tone of voice.",
         "Confident body language.",
         "Respectful communication."
-      ]
+      ],
+      "closing": "The warmth should feel natural, not forced or excessive."
     }
   ],
   "procedure": [
