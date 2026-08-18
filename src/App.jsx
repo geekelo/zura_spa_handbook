@@ -6,6 +6,7 @@ import {
   Routes,
   useLocation,
 } from 'react-router-dom'
+import { AuthProvider } from './auth/AuthContext'
 import AppShell from './components/AppShell'
 import { Home } from './pages/Home'
 import { Categories } from './pages/Categories'
@@ -13,6 +14,7 @@ import { CategoryDetail } from './pages/CategoryDetail'
 import ArticleDetail from './pages/ArticleDetail'
 import { Updates } from './pages/Updates'
 import { More } from './pages/More'
+import { Login } from './pages/Login'
 import './App.css'
 
 function ScrollToTop() {
@@ -27,22 +29,25 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Routes>
-        <Route element={<AppShell />}>
-          <Route index element={<Home />} />
-          <Route path="categories" element={<Categories />} />
-          <Route path="categories/:categoryId" element={<CategoryDetail />} />
-          <Route
-            path="categories/:categoryId/:articleId"
-            element={<ArticleDetail />}
-          />
-          <Route path="updates" element={<Updates />} />
-          <Route path="more" element={<More />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route element={<AppShell />}>
+            <Route index element={<Home />} />
+            <Route path="categories" element={<Categories />} />
+            <Route path="categories/:categoryId" element={<CategoryDetail />} />
+            <Route
+              path="categories/:categoryId/:articleId"
+              element={<ArticleDetail />}
+            />
+            <Route path="updates" element={<Updates />} />
+            <Route path="more" element={<More />} />
+            <Route path="login" element={<Login />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   )
 }

@@ -70,3 +70,16 @@ Routine files live in `categories/routines/topics/` and use:
   ]
 }
 ```
+
+## Staff accounts
+
+Edit `src/data/accounts.json` to add or change logins:
+
+```json
+[
+  { "username": "staff", "password": "your-password", "name": "Team Member" }
+]
+```
+
+A matching username and password signs the person in for 1 hour and stores the session in localStorage. Sign out clears it.
+

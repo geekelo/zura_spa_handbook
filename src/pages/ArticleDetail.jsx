@@ -1,6 +1,7 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { getCategory, getTopic, getTopics, pages } from '../data'
 import { PageHeader } from '../components/PageHeader'
+import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
 import './ArticleDetail.css'
 
@@ -113,9 +114,12 @@ export default function ArticleDetail() {
             ) : null}
           </div>
         </div>
-        {article.summary ? <p>{article.summary}</p> : null}
       </section>
 
+      <LockedContent>
+      {article.summary ? (
+        <p className="locked-summary">{article.summary}</p>
+      ) : null}
       {hasRoutineBody ? (
         <div className="topic-body">
           <section className="topic-section">
@@ -181,6 +185,7 @@ export default function ArticleDetail() {
           </p>
         </aside>
       ) : null}
+      </LockedContent>
 
       {related.length > 0 ? (
         <section className="related-block">

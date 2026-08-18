@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { pages, updates } from '../data'
 import { PageHeader } from '../components/PageHeader'
+import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
 import './Updates.css'
 
@@ -11,6 +12,7 @@ export function Updates() {
 
       <p className="lead-copy">{pages.updates.lead}</p>
 
+      <LockedContent>
       <div className="updates-stack">
         {updates.map((item) => (
           <Link key={item.id} to={item.to} className="update-card">
@@ -23,6 +25,7 @@ export function Updates() {
           </Link>
         ))}
       </div>
+      </LockedContent>
     </div>
   )
 }

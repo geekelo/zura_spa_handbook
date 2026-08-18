@@ -1,9 +1,279 @@
 {
   "id": "client-take-over-routine",
-  "title": "Client Take Over Routine",
-  "summary": "How to receive a client from a colleague and continue service smoothly.",
+  "title": "Client Takeover Routine",
+  "summary": "How a therapist receives a client, settles them into the room, and prepares them for the spa experience.",
   "type": "routine",
   "order": 4,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Client Takeover Routine is the standard process through which a therapist receives a client, settles the client into the treatment room, and prepares them mentally and physically for their spa experience.",
+    "The experience should begin before the massage starts. A client who feels expected, welcomed, safe and properly attended to is more likely to relax quickly and enjoy the treatment.",
+    "This routine also creates a consistent Zura Spa service standard, ensuring that every client receives the same level of professionalism, warmth, privacy and attention regardless of the therapist attending to them."
+  ],
+  "guidelines": [
+    {
+      "title": "1. Preparation",
+      "paragraphs": [
+        "Before the client is handed over to the therapist, the room and the therapist must already be ready."
+      ]
+    },
+    {
+      "title": "The Room Must Be Set",
+      "paragraphs": [
+        "The treatment room should already be completely prepared before the client arrives. This includes:"
+      ],
+      "list": [
+        "Clean and properly arranged bed.",
+        "Fresh towel/robe provided.",
+        "Clean footwear/slippers available.",
+        "Wardrobe/storage area ready.",
+        "Room properly ventilated and smelling fresh.",
+        "Appropriate lighting and ambience.",
+        "Treatment products and necessary materials already available.",
+        "Bathroom, where applicable, clean and ready for use.",
+        "No unnecessary items or previous client's belongings should remain in the room."
+      ]
+    },
+    {
+      "title": "The Therapist Must Be Set",
+      "paragraphs": [
+        "The therapist should also be completely prepared before receiving the client. This includes:"
+      ],
+      "list": [
+        "Proper grooming and neat appearance.",
+        "Clean uniform.",
+        "Fresh breath and good personal hygiene.",
+        "Clean hands and nails.",
+        "Hair neatly arranged.",
+        "Calm and professional composure.",
+        "Therapist should have freshened up before receiving another client.",
+        "Therapist should already know relevant information about the client's preferences.",
+        "Therapist should know that the client is coming and be mentally prepared to receive them."
+      ]
+    },
+    {
+      "title": "Why This Matters",
+      "paragraphs": [
+        "A client should never feel as though the spa or therapist is scrambling to get ready because they arrived.",
+        "Preparation communicates: \"We were expecting you.\" That feeling contributes significantly to relaxation.",
+        "When the environment and therapist are already prepared, the client can immediately transition from the pressures outside the spa into a calm, controlled and organised environment."
+      ]
+    },
+    {
+      "title": "2. Therapist Disposition",
+      "paragraphs": [
+        "The therapist's disposition should be:"
+      ],
+      "list": [
+        "Lively",
+        "Cheerful",
+        "Warm",
+        "Confident",
+        "Calm",
+        "Welcoming",
+        "Professional",
+        "Charismatic without being excessive"
+      ],
+      "closing": "The therapist should give the impression that they have been anticipating meeting and attending to the client."
+    },
+    {
+      "title": "Energy and Presence",
+      "paragraphs": [
+        "There should be positive energy in the therapist's facial expression, voice, body language, eye contact, and movement.",
+        "The therapist should not look tired, distracted, irritated or uninterested."
+      ]
+    },
+    {
+      "title": "Why Disposition Matters",
+      "paragraphs": [
+        "Relaxation is emotional before it becomes physical.",
+        "A client may arrive stressed, tired, distracted or uncertain. The therapist's disposition helps the client subconsciously understand: \"I am in good hands. I can relax now.\"",
+        "The therapist therefore becomes part of the spa's atmosphere."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Welcome the client",
+      "body": "Receive the client with a warm, natural smile. Politely greet the client. Maintain pleasant eye contact and confident body language.",
+      "examples": [
+        "Good afternoon, sir. Welcome."
+      ]
+    },
+    {
+      "title": "Introduce yourself",
+      "body": "The therapist should introduce themselves clearly. The introduction creates familiarity and removes the awkwardness of being attended to by an unfamiliar person.",
+      "examples": [
+        "My name is Harmony. I'll be taking care of you today."
+      ]
+    },
+    {
+      "title": "Assist with the client's belongings",
+      "body": "Politely offer to assist the client with their belongings. Handle them carefully, show the client exactly where they are being kept, keep them somewhere secure, and ensure the storage location remains visible or clearly identifiable. The client should never be left wondering where their phone, wallet, bag, keys or other belongings were taken. This builds trust and security, both of which are essential for relaxation."
+    },
+    {
+      "title": "Orient the client to the room",
+      "body": "Briefly show the client the wardrobe/storage area, footwear/slippers, towel or robe, bathroom/shower where applicable, and treatment bed. Calmly explain what the client needs to do. Avoid assuming that the client already understands spa procedures, even if they have visited spas previously."
+    },
+    {
+      "title": "Explain how to prepare for the treatment",
+      "body": "Explain how the client should change and position themselves on the bed. Directions should be simple, respectful and easy to understand. Do not overwhelm the client with unnecessary instructions.",
+      "examples": [
+        "You can change into the towel provided and lie face down on the bed when you're ready."
+      ]
+    },
+    {
+      "title": "Offer the welcome treat",
+      "body": "Hand the client their welcome treat, such as a sweet where applicable. The gesture should feel intentional rather than mechanical. It contributes to the feeling that the client is being hosted rather than merely processed for a service."
+    },
+    {
+      "title": "Offer the client the opportunity to freshen up",
+      "body": "Politely ask whether the client would like to have a shower/bath before beginning the session. Never pressure the client if they decline.",
+      "examples": [
+        "Would you like to have a shower before we begin?"
+      ]
+    },
+    {
+      "title": "Give the client privacy",
+      "body": "After giving the necessary instructions, politely excuse yourself from the room. The client should be allowed to change comfortably, have a shower if desired, put on the towel/robe, and settle onto the treatment bed."
+    },
+    {
+      "title": "Tell the client when you will return",
+      "body": "Before leaving, clearly communicate how long you will be away. This is important because the client should never wonder whether the therapist has forgotten them. Giving a timeframe provides reassurance while preserving privacy.",
+      "examples": [
+        "I'll give you about three minutes to get comfortable. I'll knock before coming back in. If you need me before then, please knock or call my attention."
+      ]
+    },
+    {
+      "title": "Knock before re-entering",
+      "body": "When returning, knock first, wait briefly, and ask whether the client is ready before entering. Never simply walk back into the room. Privacy is one of the most important elements of professional spa service."
+    }
+  ],
+  "notes": [
+    {
+      "title": "4. Things the Therapist Should Never Do"
+    },
+    {
+      "title": "Do not look unprepared",
+      "paragraphs": [
+        "Do not receive a client while still arranging the room, looking for towels, searching for products, cleaning, eating, fixing your uniform, or completing unrelated tasks.",
+        "The client should meet a ready therapist and a ready room."
+      ]
+    },
+    {
+      "title": "Do not look tired or uninterested",
+      "paragraphs": [
+        "Avoid frowning, yawning repeatedly, looking irritated, appearing sleepy, giving dull one-word responses, or behaving as though receiving the client is an inconvenience.",
+        "Even when the therapist is tired, the client should not inherit that mood."
+      ]
+    },
+    {
+      "title": "Do not use your phone",
+      "paragraphs": [
+        "Once the therapist takes over a client, personal phone use should stop except where required for an approved work purpose."
+      ],
+      "list": [
+        "Do not text.",
+        "Do not scroll social media.",
+        "Do not take personal calls.",
+        "Do not carry on unrelated conversations."
+      ],
+      "closing": "The client should feel that they currently have the therapist's full professional attention."
+    },
+    {
+      "title": "Do not discuss another client",
+      "paragraphs": [
+        "Never discuss another client's identity, what another client requested, another client's behaviour, previous sessions, or personal information heard from another client.",
+        "Confidentiality is part of premium spa service."
+      ]
+    },
+    {
+      "title": "Do not make inappropriate comments about the client's body",
+      "paragraphs": [
+        "Do not comment unnecessarily on weight, shape, skin, scars, body hair, tattoos, private areas, or physical appearance.",
+        "Only discuss something relating to the client's body when it is professionally relevant to the treatment."
+      ]
+    },
+    {
+      "title": "Do not stare at the client while they prepare",
+      "paragraphs": [
+        "Once the client has been shown what to do, leave the room.",
+        "Do not remain unnecessarily while the client removes clothing, changes, wraps themselves in the towel, or prepares for the treatment.",
+        "Protect the client's dignity."
+      ]
+    },
+    {
+      "title": "Do not enter without knocking",
+      "paragraphs": [
+        "Never assume that enough time has passed. Always knock.",
+        "Even if the therapist believes the client should already be ready, the client's privacy takes priority."
+      ]
+    },
+    {
+      "title": "Do not touch the client's personal belongings unnecessarily",
+      "list": [
+        "Never open a client's bag.",
+        "Never move their phone unnecessarily.",
+        "Never inspect belongings.",
+        "Never look through personal items."
+      ],
+      "closing": "Belongings should only be handled to the extent necessary to assist the client."
+    },
+    {
+      "title": "Do not rush the client",
+      "paragraphs": [
+        "Avoid statements or body language that make the client feel pressured to hurry.",
+        "The client has come to relax. The therapist should maintain awareness of time without transferring the pressure of the spa's schedule to the client."
+      ]
+    },
+    {
+      "title": "Do not over-talk",
+      "paragraphs": [
+        "Warmth does not mean continuous conversation.",
+        "The therapist should be friendly, but also sensitive to whether the client wants conversation, silence, or rest.",
+        "A premium therapist learns to read the client's energy."
+      ]
+    },
+    {
+      "title": "Do not become overly familiar",
+      "list": [
+        "Avoid unprofessional jokes.",
+        "Avoid excessive teasing.",
+        "Avoid slang that may make the client uncomfortable.",
+        "Avoid personal questions that are not relevant.",
+        "Avoid flirting.",
+        "Avoid uninvited physical familiarity."
+      ],
+      "closing": "Warmth should never remove professional boundaries."
+    },
+    {
+      "title": "Do not argue with a client",
+      "paragraphs": [
+        "If the client raises a concern, listen, remain composed, clarify where appropriate, and escalate to the appropriate supervisor where necessary.",
+        "Never become defensive or confrontational."
+      ]
+    },
+    {
+      "title": "Do not expose the client",
+      "paragraphs": [
+        "The client's body should remain appropriately covered throughout the service.",
+        "Only the area currently being worked on should be exposed where necessary.",
+        "Draping and privacy standards must be maintained consistently."
+      ]
+    },
+    {
+      "title": "Do not make the client feel judged",
+      "paragraphs": [
+        "Whether the client is visiting a spa for the first time, does not know what to do, asks many questions, changes their mind, or has particular preferences, the therapist must remain patient and respectful."
+      ]
+    },
+    {
+      "title": "5. The Standard We Are Trying to Create",
+      "paragraphs": [
+        "The takeover routine should make every client feel expected, welcomed, safe, important, comfortable, respected, and relaxed.",
+        "The objective is not merely to take the client from reception into a treatment room. The objective is to create a smooth emotional transition: Outside World → Zura Spa → Therapist → Comfort → Trust → Relaxation → Treatment.",
+        "When consistently followed, this routine becomes part of the Zura Spa signature experience.",
+        "A client may not consciously remember every step of the routine, but they will remember the overall feeling: \"They were ready for me. They treated me well. I felt comfortable. I could relax.\""
+      ]
+    }
+  ]
 }

@@ -1,83 +1,258 @@
 {
   "id": "client-reception-routine",
   "title": "Client Reception Routine",
-  "summary": "How to receive a client from arrival through a calm start to their visit.",
+  "summary": "How to receive a client from arrival through a calm, prepared start to their visit.",
   "type": "routine",
   "order": 1,
   "relevance": [
-    "The client reception routine sets the tone for the entire spa experience. For the team, it establishes a consistent, professional standard that reflects Zura Spa's values and ensures every client is handled with the same level of care. For the client, it creates a first impression of warmth, competence, and trust — making them feel welcomed, valued, and confident in their decision to visit."
+    "The Client Reception Routine sets the tone for the entire spa experience. It is the client's first direct interaction with the Zura Spa service standard and should immediately communicate warmth, order, professionalism, attentiveness, and care.",
+    "For the team, the routine creates a consistent standard for receiving every client. It ensures that important information is properly gathered, payment and service details are confirmed, and the therapist receives the information needed to prepare appropriately.",
+    "For the client, a smooth reception reduces uncertainty and helps them begin relaxing even before they enter the treatment room. The client should feel:",
+    "The reception experience should communicate one simple message: \"You are welcome, we are prepared for you, and you are in good hands.\""
   ],
   "guidelines": [
     {
-      "title": "Therapist Appearance, Attitude & Disposition",
-      "items": [
-        {
-          "label": "Appearance",
-          "body": "Clean, neat, and in full uniform. Hair should be tidy, nails trimmed, and personal hygiene impeccable."
-        },
-        {
-          "label": "Attitude",
-          "body": "Calm, warm, and attentive. Avoid appearing rushed, distracted, or disinterested."
-        },
-        {
-          "label": "Disposition",
-          "body": "Approachable and professional. Greet every client with a genuine smile and focused presence."
-        }
+      "title": "The client should feel",
+      "list": [
+        "Expected.",
+        "Welcomed.",
+        "Respected.",
+        "Properly attended to.",
+        "Confident in the spa and its team.",
+        "Comfortable with what will happen next."
+      ]
+    },
+    {
+      "title": "Therapist / Reception Appearance, Attitude & Disposition"
+    },
+    {
+      "title": "Appearance",
+      "paragraphs": [
+        "The team member receiving the client must be properly presented before the client arrives.",
+        "The client's impression of the spa begins with what they see."
+      ],
+      "list": [
+        "Clean and neat.",
+        "Full approved uniform.",
+        "Hair properly arranged.",
+        "Nails clean and trimmed.",
+        "Fresh breath and excellent personal hygiene.",
+        "No untidy clothing or distracting appearance.",
+        "Work area should also be clean and properly arranged."
+      ]
+    },
+    {
+      "title": "Attitude",
+      "paragraphs": [
+        "The team member should be:"
+      ],
+      "list": [
+        "Calm.",
+        "Warm.",
+        "Attentive.",
+        "Patient.",
+        "Confident.",
+        "Helpful."
+      ]
+    },
+    {
+      "title": "Avoid appearing",
+      "list": [
+        "Rushed.",
+        "Distracted.",
+        "Tired.",
+        "Irritated.",
+        "Uninterested.",
+        "Preoccupied with a phone or another activity."
+      ],
+      "closing": "The client should receive your full attention during the reception process."
+    },
+    {
+      "title": "Disposition",
+      "paragraphs": [
+        "Be approachable, cheerful and professional.",
+        "The warmth should feel natural, not forced or excessive."
+      ],
+      "list": [
+        "A genuine smile.",
+        "Appropriate eye contact.",
+        "Pleasant tone of voice.",
+        "Confident body language.",
+        "Respectful communication."
       ]
     }
   ],
   "procedure": [
     {
-      "title": "Stand",
-      "body": "Rise to your feet as the client enters. Do not remain seated."
+      "title": "Stand and receive the client",
+      "body": "As the client enters, rise to your feet. Do not remain seated while receiving a client unless there is a genuine reason you cannot stand. Standing communicates acknowledgement, respect and readiness to attend to the client."
     },
     {
-      "title": "Greet",
-      "body": "Offer a warm, professional welcome by name if known."
+      "title": "Greet the client warmly",
+      "body": "Welcome the client with a genuine smile and professional greeting. Where the client's name is known, use it naturally. Avoid shouting greetings across the room or greeting the client while distracted by another activity.",
+      "examples": [
+        "Good afternoon, Mr. James. Welcome to Zura Spa."
+      ]
     },
     {
-      "title": "Offer a seat",
-      "body": "Invite the client to sit comfortably."
+      "title": "Offer the client a seat",
+      "body": "Politely invite the client to sit comfortably. Allow the client a brief moment to settle before immediately beginning questions or discussing payment. The reception should feel organised, not rushed."
     },
     {
-      "title": "Speak about services",
-      "body": "Clearly present available services and answer any questions."
+      "title": "Understand the client's needs",
+      "body": "Engage the client briefly to understand what they have come for. Do not assume that a returning client automatically wants the same service as their previous visit.",
+      "examples": [
+        "Whether the client already has a booking.",
+        "The service requested.",
+        "Preferred massage or treatment.",
+        "Any specific areas of concern.",
+        "Preferred pressure where relevant.",
+        "Any existing preference already recorded for a returning client.",
+        "Any other information the therapist needs to know."
+      ]
     },
     {
-      "title": "Confirm the service",
-      "body": "Discuss and confirm the client's preferred service, massage needs, and payment method."
+      "title": "Present and explain available services",
+      "body": "Where the client has not already selected a service, clearly explain the relevant options. Keep the explanation simple, confident, accurate, and helpful. Guide rather than pressure. The objective is to help the client choose the service most suitable for their needs. If you do not know the answer to a client's question, do not guess. Politely confirm the correct information before responding."
     },
     {
-      "title": "Optional mind game",
-      "body": "Engage the client in a light, optional mind game before or after payment to ease any tension and enhance the experience."
+      "title": "Confirm the service and payment",
+      "body": "Before proceeding, clearly confirm the selected service, duration, price, any approved add-ons, and payment method. Ensure the client understands what they are paying for before payment is completed. Payment should be properly confirmed before the client proceeds for the session."
+    },
+    {
+      "title": "Optional relaxation / mind engagement",
+      "body": "Where appropriate, the client may be invited to participate in a light and optional mind game or engagement activity. This may be offered before or after payment depending on the situation. Participation must always remain optional. Never pressure a client who does not appear interested.",
+      "examples": [
+        "Ease initial tension.",
+        "Create positive engagement.",
+        "Help the client settle into the environment.",
+        "Make the reception experience more memorable."
+      ]
     },
     {
       "title": "Offer water",
-      "body": "Offer water only after payment has been made and only upon request."
+      "body": "Water may be offered after payment has been completed, in line with the spa's reception procedure. Where the standard is to provide water upon request, respond promptly and courteously whenever the client requests it. Do not allow the water process to unnecessarily delay the client's session."
     },
     {
-      "title": "Alert therapists",
-      "body": "Communicate all relevant details to the assigned therapist. Notify the assigned therapist(s) to prepare to receive the client. Wait for an affirmative response before proceeding."
+      "title": "Brief the assigned therapist",
+      "body": "Before taking the client to the treatment room, communicate all relevant information to the assigned therapist. The therapist should not have to start asking reception for basic information after the client has already entered the room.",
+      "examples": [
+        "Client's name.",
+        "Selected service.",
+        "Duration.",
+        "Massage pressure preference.",
+        "Areas requiring attention.",
+        "Previous preferences.",
+        "Important client requests.",
+        "Whether the client is new or returning.",
+        "Any other relevant information necessary to personalise the session."
+      ]
     },
     {
-      "title": "Usher client upstairs",
-      "body": "Escort the client to the massage room once the therapist confirms readiness."
+      "title": "Confirm therapist readiness",
+      "body": "Notify the assigned therapist that the client is ready. Do not immediately take the client upstairs or into the treatment room. Wait for an affirmative response from the therapist confirming that both the therapist and treatment room are ready. The objective is to prevent the client from entering a room that is still being cleaned, arranged or prepared. The client should never see the team scrambling to get ready for them.",
+      "examples": [
+        "Ready.",
+        "You can bring the client."
+      ]
+    },
+    {
+      "title": "Usher the client to the treatment area",
+      "body": "Once the therapist confirms readiness, politely escort the client to the treatment area. Do not simply point toward the staircase or tell a new client to go upstairs. Walk with the client and smoothly hand them over to the assigned therapist. The transition between reception and therapist should feel coordinated and intentional."
     }
   ],
   "notes": [
     {
-      "title": "Things Not to Say During Client Reception",
+      "title": "Things Not to Say or Do During Client Reception"
+    },
+    {
+      "title": "Avoid overly personal comments",
       "paragraphs": [
-        "Avoid language, comments, or compliments that may:"
+        "Do not make unnecessary remarks about the client's body, weight, shape, skin, clothing, attractiveness, relationship status, or personal life.",
+        "Even a compliment can become uncomfortable when it crosses professional boundaries."
+      ]
+    },
+    {
+      "title": "Do not create doubt about the service",
+      "paragraphs": [
+        "If clarification is needed, obtain the correct information confidently. The client should feel that the team understands the services being offered."
       ],
       "list": [
-        "Come across as overly familiar or inappropriate (e.g., personal remarks about a client's body or appearance)",
-        "Undermine confidence in the spa's services (e.g., expressing uncertainty about treatments)",
-        "Be dismissive or rushed (e.g., \"It won't take long\" or \"We're almost done with someone else\")",
-        "Involve sensitive topics such as religion, politics, or personal relationships",
-        "Include slang, informal language, or unprofessional humor"
+        "I don't really know if this one will work for you.",
+        "I've never seen anybody choose this treatment before.",
+        "I'm not sure what the therapist normally does.",
+        "Maybe you should just try it."
+      ]
+    },
+    {
+      "title": "Do not make the client feel like an inconvenience",
+      "paragraphs": [
+        "Where there is a genuine delay, communicate professionally and manage the client's expectations without exposing internal disorder."
       ],
-      "closing": "Always speak with intention. Every word during reception either builds or diminishes the client's trust."
+      "list": [
+        "We're still attending to someone.",
+        "You'll have to wait.",
+        "The therapist isn't ready yet.",
+        "We're trying to arrange the room.",
+        "It won't take long.",
+        "We're almost done with somebody else."
+      ]
+    },
+    {
+      "title": "Avoid sensitive or divisive conversations",
+      "paragraphs": [
+        "Reception is not the place for unnecessary discussions about politics, religion, ethnic issues, personal relationships, sexual matters, gossip, or other clients.",
+        "Allow the client to enjoy a neutral and comfortable environment."
+      ]
+    },
+    {
+      "title": "Avoid excessive slang and unprofessional humour",
+      "paragraphs": [
+        "Your communication should remain warm without becoming careless."
+      ],
+      "list": [
+        "Excessive slang.",
+        "Crude jokes.",
+        "Sexual jokes.",
+        "Mocking comments.",
+        "Loud conversations.",
+        "Arguments between staff.",
+        "Discussing internal spa problems in front of clients."
+      ]
+    },
+    {
+      "title": "Do not use your phone while receiving a client",
+      "paragraphs": [
+        "Once a client approaches reception, your attention should shift to the client."
+      ],
+      "list": [
+        "Do not continue texting.",
+        "Do not continue scrolling.",
+        "Do not continue watching videos.",
+        "Do not take personal calls."
+      ]
+    },
+    {
+      "title": "Do not discuss other clients",
+      "paragraphs": [
+        "Client confidentiality must be treated as part of the Zura Spa standard."
+      ],
+      "list": [
+        "Never reveal who visited the spa.",
+        "Never reveal what another client requested.",
+        "Never reveal a client's spending.",
+        "Never reveal personal behaviour.",
+        "Never reveal therapist-client interactions."
+      ]
+    },
+    {
+      "title": "The Reception Standard",
+      "paragraphs": [
+        "A successful reception should move the client smoothly through the following journey: Arrival → Welcome → Comfort → Understanding → Service Confirmation → Payment → Therapist Preparation → Smooth Handover.",
+        "At no point should the client feel confused about what is happening next.",
+        "By the time the client leaves reception, they should already feel that their relaxation experience has begun.",
+        "Every interaction at reception either increases or reduces the client's confidence in Zura Spa. Speak with intention, act with preparation, and make every client feel expected."
+      ]
     }
   ]
 }
