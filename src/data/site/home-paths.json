@@ -1,0 +1,26 @@
+[
+  {
+    "id": "apply",
+    "title": "Apply",
+    "description": "Requirements, salary structure, accommodation, work timing, training, and form to apply.",
+    "icon": "clipboard",
+    "tone": "rose",
+    "to": "/apply"
+  },
+  {
+    "id": "onboarding",
+    "title": "Onboarding",
+    "description": "Know your staff form, SOPs, obligations, standards, kit, conduct, and signing.",
+    "icon": "grad",
+    "tone": "lavender",
+    "to": "/onboarding"
+  },
+  {
+    "id": "handbook",
+    "title": "Handbook",
+    "description": "Routines, standards, procedures, and day-to-day spa guidance.",
+    "icon": "doc",
+    "tone": "sand",
+    "to": "/categories"
+  }
+]

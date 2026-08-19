@@ -2,11 +2,11 @@ import { Link, useLocation } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
 import './LockedContent.css'
 
-export function LockedContent({ children }) {
+export function LockedContent({ children, locked = true }) {
   const { isLoggedIn } = useAuth()
   const location = useLocation()
 
-  if (isLoggedIn) return children
+  if (!locked || isLoggedIn) return children
 
   return (
     <div className="locked-content">

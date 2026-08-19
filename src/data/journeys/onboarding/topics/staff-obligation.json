@@ -1,0 +1,14 @@
+{
+  "id": "staff-obligation",
+  "title": "Staff Obligation",
+  "summary": "Your duties and what Zura Spa expects from you.",
+  "type": "article",
+  "order": 3,
+  "sections": [
+    {
+      "paragraphs": [
+        "Content for this section will be added soon."
+      ]
+    }
+  ]
+}

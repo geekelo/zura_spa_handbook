@@ -1,0 +1,18 @@
+{
+  "id": "agree-to-terms",
+  "title": "Agree to All Terms",
+  "summary": "Confirm that you have read and accept Zura Spa terms.",
+  "type": "sign",
+  "order": 7,
+  "agreementLabel": "I have read and agree to all Zura Spa terms, standards, and onboarding requirements.",
+  "signLabel": "Sign agreement",
+  "successMessage": "Your agreement has been recorded on this device.",
+  "sections": [
+    {
+      "paragraphs": [
+        "By signing, you confirm that you understand the Zura Spa handbook, staff obligations, code of conduct, uniform and kit requirements, and service standards.",
+        "Content for the full terms will be added soon."
+      ]
+    }
+  ]
+}

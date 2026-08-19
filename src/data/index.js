@@ -1,10 +1,11 @@
 /**
- * Loads handbook content from category folders.
- * Edit JSON in src/data/categories — not this file.
+ * Loads handbook content from JSON folders.
+ * Edit files in src/data/categories and src/data/journeys — not this file.
  */
 import moreResources from './site/more-resources.json'
 import updates from './site/updates.json'
 import pages from './site/pages.json'
+import homePaths from './site/home-paths.json'
 
 const categoryModules = import.meta.glob('./categories/*/category.json', {
   eager: true,
@@ -16,8 +17,22 @@ const topicModules = import.meta.glob('./categories/*/topics/*.json', {
   import: 'default',
 })
 
+const journeyModules = import.meta.glob('./journeys/*/journey.json', {
+  eager: true,
+  import: 'default',
+})
+
+const journeyTopicModules = import.meta.glob('./journeys/*/topics/*.json', {
+  eager: true,
+  import: 'default',
+})
+
 function categoryIdFromPath(path) {
   return path.match(/\/categories\/([^/]+)\//)?.[1]
+}
+
+function journeyIdFromPath(path) {
+  return path.match(/\/journeys\/([^/]+)\//)?.[1]
 }
 
 function byOrder(a, b) {
@@ -49,7 +64,27 @@ for (const list of Object.values(topicsByCategory)) {
   list.sort(byOrder)
 }
 
-export { moreResources, updates, pages }
+export const journeys = Object.entries(journeyModules)
+  .map(([path, data]) => ({
+    ...data,
+    id: data.id || journeyIdFromPath(path),
+  }))
+  .sort(byOrder)
+
+const topicsByJourney = {}
+
+for (const [path, data] of Object.entries(journeyTopicModules)) {
+  const journeyId = journeyIdFromPath(path)
+  if (!journeyId) continue
+  if (!topicsByJourney[journeyId]) topicsByJourney[journeyId] = []
+  topicsByJourney[journeyId].push(data)
+}
+
+for (const list of Object.values(topicsByJourney)) {
+  list.sort(byOrder)
+}
+
+export { moreResources, updates, pages, homePaths }
 
 export function getCategory(id) {
   return categories.find((item) => item.id === id)
@@ -61,6 +96,18 @@ export function getTopics(categoryId) {
 
 export function getTopic(categoryId, topicId) {
   return getTopics(categoryId)?.find((item) => item.id === topicId)
+}
+
+export function getJourney(id) {
+  return journeys.find((item) => item.id === id)
+}
+
+export function getJourneyTopics(journeyId) {
+  return topicsByJourney[journeyId]
+}
+
+export function getJourneyTopic(journeyId, topicId) {
+  return getJourneyTopics(journeyId)?.find((item) => item.id === topicId)
 }
 
 /** @deprecated Use getTopics */
@@ -145,6 +192,36 @@ export function searchHandbook(query) {
           title: topic.title,
           description: topic.summary,
           to: `/categories/${category.id}/${topic.id}`,
+        })
+      }
+    }
+  }
+
+  for (const journey of journeys) {
+    if (
+      journey.title.toLowerCase().includes(q) ||
+      journey.description.toLowerCase().includes(q)
+    ) {
+      results.push({
+        type: 'journey',
+        id: journey.id,
+        title: journey.title,
+        description: journey.description,
+        to: `/${journey.id}`,
+      })
+    }
+
+    for (const topic of getJourneyTopics(journey.id) || []) {
+      if (
+        topic.title.toLowerCase().includes(q) ||
+        topic.summary?.toLowerCase().includes(q)
+      ) {
+        results.push({
+          type: topic.type,
+          id: topic.id,
+          title: topic.title,
+          description: topic.summary,
+          to: `/${journey.id}/${topic.id}`,
         })
       }
     }

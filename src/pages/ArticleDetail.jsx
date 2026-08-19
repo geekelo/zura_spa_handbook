@@ -1,5 +1,5 @@
-import { Link, Navigate, useParams } from 'react-router-dom'
-import { getCategory, getTopic, getTopics, pages } from '../data'
+import { Link } from 'react-router-dom'
+import { pages } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
@@ -66,18 +66,16 @@ function ContentSection({ section }) {
   )
 }
 
-export default function ArticleDetail() {
-  const { categoryId, articleId } = useParams()
-  const category = getCategory(categoryId)
-  const article = getTopic(categoryId, articleId)
-
-  if (!category || !article) {
-    return <Navigate to="/categories" replace />
-  }
-
+export default function ArticleDetail({
+  category,
+  article,
+  related = [],
+  backTo,
+  relatedBase,
+  locked = true,
+}) {
   const isScenario = article.type === 'scenario'
   const isRoutine = article.type === 'routine'
-  const related = (getTopics(categoryId) || []).filter((item) => item.id !== article.id)
   const relevance = asList(article.relevance)
   const procedure = asList(article.procedure)
   const guidelines = article.guidelines || []
@@ -91,7 +89,7 @@ export default function ArticleDetail() {
 
   return (
     <div className="page article-page">
-      <PageHeader title={pageTitle} backTo={`/categories/${categoryId}`} />
+      <PageHeader title={pageTitle} backTo={backTo} />
 
       <section
         className={`intro-card${isScenario ? ' intro-card--scenario' : ''}${
@@ -116,7 +114,7 @@ export default function ArticleDetail() {
         </div>
       </section>
 
-      <LockedContent>
+      <LockedContent locked={locked}>
       {article.summary ? (
         <p className="locked-summary">{article.summary}</p>
       ) : null}
@@ -196,7 +194,7 @@ export default function ArticleDetail() {
             {related.map((item) => (
               <Link
                 key={item.id}
-                to={`/categories/${categoryId}/${item.id}`}
+                to={`${relatedBase}/${item.id}`}
                 className="related-row"
               >
                 <span>

@@ -1,0 +1,33 @@
+{
+  "id": "code-of-conduct",
+  "title": "Code of Conduct",
+  "summary": "Resignation, firing, leave, and choosing work days.",
+  "type": "article",
+  "order": 6,
+  "sections": [
+    {
+      "title": "Resignation",
+      "paragraphs": [
+        "Content for this section will be added soon."
+      ]
+    },
+    {
+      "title": "Firing",
+      "paragraphs": [
+        "Content for this section will be added soon."
+      ]
+    },
+    {
+      "title": "Leave",
+      "paragraphs": [
+        "Content for this section will be added soon."
+      ]
+    },
+    {
+      "title": "Choose Work Days",
+      "paragraphs": [
+        "Content for this section will be added soon."
+      ]
+    }
+  ]
+}

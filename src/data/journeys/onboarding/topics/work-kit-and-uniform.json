@@ -1,0 +1,34 @@
+{
+  "id": "work-kit-and-uniform",
+  "title": "Work Kit and Uniform Confirmation",
+  "summary": "Confirm your uniform, tools, and work kit before you start.",
+  "type": "form",
+  "order": 5,
+  "submitLabel": "Confirm kit and uniform",
+  "successMessage": "Your work kit and uniform confirmation has been saved.",
+  "fields": [
+    { "name": "fullName", "label": "Full name", "type": "text", "required": true },
+    {
+      "name": "uniformReceived",
+      "label": "I have received my approved uniform",
+      "type": "select",
+      "required": true,
+      "options": ["Yes", "Not yet"]
+    },
+    {
+      "name": "kitReceived",
+      "label": "I have received my work kit",
+      "type": "select",
+      "required": true,
+      "options": ["Yes", "Not yet"]
+    },
+    { "name": "missingItems", "label": "Missing or damaged items", "type": "textarea", "required": false },
+    {
+      "name": "confirm",
+      "label": "I confirm I will wear the approved uniform and keep my kit in good condition",
+      "type": "select",
+      "required": true,
+      "options": ["I confirm"]
+    }
+  ]
+}

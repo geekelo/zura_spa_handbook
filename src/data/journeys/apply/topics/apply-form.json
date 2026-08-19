@@ -1,0 +1,38 @@
+{
+  "id": "apply-form",
+  "title": "Form to Apply",
+  "summary": "Submit your application to join the Zura Spa team.",
+  "type": "form",
+  "order": 6,
+  "submitLabel": "Submit application",
+  "successMessage": "Thank you. Your application has been saved on this device. A team member will follow up.",
+  "fields": [
+    { "name": "fullName", "label": "Full name", "type": "text", "required": true },
+    { "name": "phone", "label": "Phone number", "type": "tel", "required": true },
+    { "name": "email", "label": "Email", "type": "email", "required": true },
+    { "name": "dateOfBirth", "label": "Date of birth", "type": "date", "required": true },
+    {
+      "name": "position",
+      "label": "Role applying for",
+      "type": "select",
+      "required": true,
+      "options": [
+        "Massage therapist / Zura Wellness Expert",
+        "Reception / Client manager",
+        "Housekeeping",
+        "Supervisor / Team lead",
+        "Other"
+      ]
+    },
+    { "name": "experience", "label": "Years of relevant experience", "type": "text", "required": true },
+    { "name": "workDays", "label": "Preferred work days", "type": "text", "required": true },
+    {
+      "name": "accommodation",
+      "label": "Do you need staff accommodation?",
+      "type": "select",
+      "required": true,
+      "options": ["Yes", "No"]
+    },
+    { "name": "about", "label": "Tell us about yourself", "type": "textarea", "required": true }
+  ]
+}

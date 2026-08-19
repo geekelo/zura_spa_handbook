@@ -7,11 +7,11 @@
     "heroTitle": "Welcome to the Zura Spa Work Handbook",
     "heroBody": "Your guide to delivering exceptional spa experiences and growing with our team",
     "heroImageAlt": "Spa towels, candle, and calming amenities",
-    "exploreTitle": "Explore by Category",
+    "pathsTitle": "Start here",
     "searchEmpty": "No handbook matches for “{query}”."
   },
   "categories": {
-    "title": "Categories",
+    "title": "Handbook",
     "handbookSections": "Handbook Sections",
     "moreResources": "More Resources",
     "searchEmpty": "No matches found."

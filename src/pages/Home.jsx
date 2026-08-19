@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/zura-logo.png'
 import heroImage from '../assets/hero-spa.png'
-import { categories, pages, searchHandbook } from '../data'
+import { homePaths, pages, searchHandbook } from '../data'
 import { CategoryCard } from '../components/CategoryCard'
 import { PageHeader } from '../components/PageHeader'
 import { SearchBar } from '../components/SearchBar'
@@ -65,14 +65,10 @@ export function Home() {
           </section>
 
           <section className="section">
-            <h2 className="section-title">{pages.home.exploreTitle}</h2>
+            <h2 className="section-title">{pages.home.pathsTitle}</h2>
             <div className="stack">
-              {categories.map((category) => (
-                <CategoryCard
-                  key={category.id}
-                  category={category}
-                  to={`/categories/${category.id}`}
-                />
+              {homePaths.map((path) => (
+                <CategoryCard key={path.id} category={path} to={path.to} />
               ))}
             </div>
           </section>

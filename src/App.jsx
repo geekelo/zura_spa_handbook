@@ -10,8 +10,8 @@ import { AuthProvider } from './auth/AuthContext'
 import AppShell from './components/AppShell'
 import { Home } from './pages/Home'
 import { Categories } from './pages/Categories'
-import { CategoryDetail } from './pages/CategoryDetail'
-import ArticleDetail from './pages/ArticleDetail'
+import { CategoryDetail, JourneyDetail } from './pages/CategoryDetail'
+import { TopicPage } from './pages/TopicPage'
 import { Updates } from './pages/Updates'
 import { More } from './pages/More'
 import { Login } from './pages/Login'
@@ -39,7 +39,20 @@ export default function App() {
             <Route path="categories/:categoryId" element={<CategoryDetail />} />
             <Route
               path="categories/:categoryId/:articleId"
-              element={<ArticleDetail />}
+              element={<TopicPage />}
+            />
+            <Route path="apply" element={<JourneyDetail journeyId="apply" />} />
+            <Route
+              path="apply/:articleId"
+              element={<TopicPage journeyId="apply" />}
+            />
+            <Route
+              path="onboarding"
+              element={<JourneyDetail journeyId="onboarding" />}
+            />
+            <Route
+              path="onboarding/:articleId"
+              element={<TopicPage journeyId="onboarding" />}
             />
             <Route path="updates" element={<Updates />} />
             <Route path="more" element={<More />} />
