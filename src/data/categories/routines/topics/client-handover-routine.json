@@ -1,46 +1,236 @@
 {
   "id": "client-handover-routine",
   "title": "Client Handover Routine",
-  "summary": "How to pass a client to the next team member without breaking the experience.",
+  "summary": "How to pass a client from reception to the therapist so the transition feels coordinated, personal, and prepared.",
   "type": "routine",
   "order": 3,
   "relevance": [
-    "A smooth client handover demonstrates Zura Spa's commitment to professionalism and care. It:"
+    "The Client Handover Routine is the transition between reception and the therapist who will personally manage the client's treatment experience.",
+    "A proper handover should feel smooth, coordinated, and intentional. The client should never feel as though they are being passed from one staff member to another without direction.",
+    "The handover should communicate: \"Everything has been prepared, your therapist is ready for you, and you are now in their care.\""
   ],
   "guidelines": [
     {
+      "title": "For the spa, a consistent handover routine",
       "list": [
-        "Reflects orderliness and a well-coordinated team",
-        "Shows respect and attentiveness to the client's comfort",
-        "Ensures the client feels welcomed and at ease throughout their experience",
-        "Provides the client with clarity on who will be attending to them",
-        "Creates a seamless transition that enhances the overall spa experience"
+        "Demonstrates organisation and teamwork.",
+        "Prevents important client information from being lost between reception and treatment.",
+        "Ensures the therapist is properly prepared before receiving the client.",
+        "Reduces confusion, delays, and unnecessary questions.",
+        "Creates consistency in the Zura Spa service experience."
+      ]
+    },
+    {
+      "title": "For the client, a proper handover",
+      "list": [
+        "Creates confidence in the team.",
+        "Makes them feel expected and properly attended to.",
+        "Clearly establishes who will be responsible for their session.",
+        "Removes uncertainty about what happens next.",
+        "Helps them transition naturally from reception into relaxation."
+      ]
+    },
+    {
+      "title": "Preparation Before Handover",
+      "paragraphs": [
+        "The handover should only begin after the assigned therapist has confirmed that they are ready to receive the client.",
+        "The client should never be escorted to a room where the therapist is still preparing."
+      ]
+    },
+    {
+      "title": "Before leaving reception, confirm that",
+      "list": [
+        "The correct treatment room has been prepared.",
+        "The assigned therapist(s) are ready.",
+        "The therapist has received the relevant client information.",
+        "Towels, robe, slippers, treatment products, and other required items are ready.",
+        "The room is clean and properly arranged.",
+        "The therapist understands the client's selected service.",
+        "Any known client preferences have been communicated.",
+        "Any belongings being assisted with are secure."
+      ]
+    },
+    {
+      "title": "Information That Should Be Handed Over",
+      "paragraphs": [
+        "Important information should preferably be communicated to the therapist before the client enters the room, rather than being discussed openly in front of the client.",
+        "This allows the therapist to receive the client already informed. The client should not have to repeatedly explain information they have already provided to reception."
+      ],
+      "list": [
+        "Client's name.",
+        "New or returning client status.",
+        "Selected treatment.",
+        "Session duration.",
+        "Pressure preference.",
+        "Areas requiring particular attention.",
+        "Known preferences from previous sessions.",
+        "Approved additional services.",
+        "Important requests made at reception.",
+        "Any relevant comfort considerations."
       ]
     }
   ],
   "procedure": [
     {
-      "title": "Escort the client",
-      "body": "The reception therapist or client manager escorts the client to their assigned massage room, which has already been prepared and set up."
-    },
-    {
-      "title": "Therapists ready to receive",
-      "body": "The assigned therapist(s) should be present in the room and ready to receive the client upon entry."
-    },
-    {
-      "title": "Introduce and hand over",
-      "body": "The reception therapist or client manager formally introduces the client to the assigned therapist(s) and hands over any client belongings they assisted with (e.g., phone, bag, etc.)."
-    },
-    {
-      "title": "Use the handover script",
-      "body": "Use the following handover script:",
+      "title": "Confirm therapist readiness",
+      "body": "Before moving the client from reception, contact or notify the assigned therapist. Wait for a clear affirmative response. Do not assume that the therapist is ready simply because the room was previously assigned.",
       "examples": [
-        "Alright [Sir/Ma], this is [Therapist A] and [Therapist B]. They will be handling your session today. Please enjoy your session, and don't hesitate to call my attention if there is anything you'd like looked into."
+        "Ready.",
+        "You can bring the client."
       ]
     },
     {
-      "title": "Excuse yourself",
-      "body": "Quietly excuse yourself and leave the room."
+      "title": "Escort the client personally",
+      "body": "The reception therapist or client manager should personally escort the client to the assigned treatment room. Do not simply point toward the staircase, hallway, or room and tell the client where to go. The escort is part of the hospitality experience.",
+      "examples": [
+        "Avoid: Your room is upstairs.",
+        "Please come with me, sir. I'll take you to your therapist."
+      ]
+    },
+    {
+      "title": "Maintain the client's comfort during the transition",
+      "body": "Walk at a comfortable pace. Remain attentive until the handover has been completed. Do not rush ahead of the client, walk while using your phone, engage in unrelated conversations with staff, leave the client behind, or make the transition feel mechanical."
+    },
+    {
+      "title": "Enter the prepared treatment room",
+      "body": "The assigned therapist(s) should already be present, properly dressed, composed, and ready to receive the client. The therapist should not be arranging the bed, looking for towels, eating, using a phone, changing clothes, or completing another task. The room and therapist should both communicate: \"We were expecting you.\""
+    },
+    {
+      "title": "Introduce the therapist(s)",
+      "body": "The reception therapist or client manager should formally introduce the therapist(s) to the client. Where two therapists are attending to the client, introduce both. The introduction should be warm and confident. Using their names makes the handover more personal and professional. Avoid merely saying \"These are your therapists.\"",
+      "examples": [
+        "Sir, this is Harmony and this is Ruth. They will be taking care of you today."
+      ]
+    },
+    {
+      "title": "Introduce the client where appropriate",
+      "body": "Where appropriate, also introduce the client to the therapist. This creates a complete introduction rather than making the client feel like an anonymous booking. For returning clients, the interaction may naturally be less formal where the therapist and client already know each other.",
+      "examples": [
+        "Harmony, this is Mr. James."
+      ]
+    },
+    {
+      "title": "Transfer any client belongings",
+      "body": "If reception assisted with any belongings such as a phone, bag, keys, or personal items, hand them over carefully and visibly. The client should always know where their belongings are. Where the belongings will remain with the client, hand them directly back to the client or clearly indicate where they are being placed. Never casually place a client's belongings somewhere without their awareness."
+    },
+    {
+      "title": "Complete the verbal handover",
+      "body": "Use a warm and professional handover statement. The statement should introduce the therapist, confirm responsibility for the session, reassure the client, and let the client know assistance remains available.",
+      "examples": [
+        "Alright, sir, this is Harmony and Ruth. They will be taking care of your session today. Please enjoy your session. If there is anything you need or anything you would like us to look into, please don't hesitate to let us know.",
+        "Mr. James, Harmony will be taking care of you today. You're in good hands. Please enjoy your session, and if you need anything at all, we're available to assist."
+      ]
+    },
+    {
+      "title": "Therapist acknowledges the client",
+      "body": "The receiving therapist should actively acknowledge the handover. The therapist should smile, make appropriate eye contact, greet the client, and respond confidently. The therapist should never remain silent while the client is being handed over. The client should immediately feel that responsibility for their experience has been accepted.",
+      "examples": [
+        "Welcome, sir. My name is Harmony. I'll be taking care of you today."
+      ]
+    },
+    {
+      "title": "Quietly excuse yourself",
+      "body": "Once the therapist has acknowledged the client and the handover is complete, the reception therapist or client manager should politely excuse themselves, then leave quietly. Do not remain in the room unnecessarily. At this point, the Client Takeover Routine begins and responsibility for the client's immediate experience moves to the assigned therapist.",
+      "examples": [
+        "Please enjoy your session, sir."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Not to Do During Client Handover"
+    },
+    {
+      "title": "Do Not Take the Client to an Unprepared Therapist",
+      "paragraphs": [
+        "Never escort the client into a room while the therapist is still preparing. This immediately breaks the impression of preparedness."
+      ],
+      "list": [
+        "Preparing the room.",
+        "Searching for materials.",
+        "Freshening up.",
+        "Completing another client's task."
+      ]
+    },
+    {
+      "title": "Do Not Shout for the Therapist",
+      "paragraphs": [
+        "Client assignments should already be known and communicated discreetly."
+      ],
+      "list": [
+        "Harmony! Your client is here!",
+        "Who is taking this client?"
+      ]
+    },
+    {
+      "title": "Do Not Discuss Sensitive Client Information in Front of the Client",
+      "paragraphs": [
+        "Relevant details should normally be communicated privately before the handover. Avoid statements such as:"
+      ],
+      "list": [
+        "He said his back is really bad.",
+        "This is the client that complained last time.",
+        "He usually asks for..."
+      ]
+    },
+    {
+      "title": "Do Not Make the Client Repeat Everything",
+      "paragraphs": [
+        "If reception has already collected information about the client's treatment choice, preferences, pressure, and areas of concern, the therapist should already have that information.",
+        "Repeating basic questions unnecessarily can make the spa appear poorly coordinated.",
+        "The therapist may still professionally confirm important details during the consultation where required."
+      ]
+    },
+    {
+      "title": "Do Not Leave Before the Therapist Acknowledges the Client",
+      "paragraphs": [
+        "Do not introduce the therapist and immediately walk away while the therapist remains distracted.",
+        "The handover is complete only after the receiving therapist has clearly acknowledged the client."
+      ]
+    },
+    {
+      "title": "Do Not Walk Away Without an Introduction",
+      "paragraphs": [
+        "Never simply bring the client into the room and say \"This is your client.\"",
+        "The client is not an item being transferred. The introduction should be personal and respectful."
+      ]
+    },
+    {
+      "title": "Do Not Use Internal Language Around the Client",
+      "paragraphs": [
+        "Avoid discussing staff rotations, therapist availability problems, commission, session allocation, staffing shortages, or internal disagreements. The client should experience the solution, not the operational problem behind it."
+      ],
+      "list": [
+        "She wasn't supposed to take you, but the other therapist is busy."
+      ]
+    },
+    {
+      "title": "Do Not Make Negative Comments About the Assigned Therapist",
+      "paragraphs": [
+        "The handover should increase the client's confidence in the therapist, not reduce it. Never say:"
+      ],
+      "list": [
+        "She's new.",
+        "She doesn't normally do this service.",
+        "Let's see how she does.",
+        "The other therapist is better, but she's busy."
+      ]
+    },
+    {
+      "title": "Do Not Abandon the Client Midway",
+      "paragraphs": [
+        "If the therapist is unexpectedly unavailable, do not leave the client standing outside the treatment room while trying to solve the issue.",
+        "Remain with the client and manage the situation professionally."
+      ]
+    },
+    {
+      "title": "The Zura Spa Handover Standard",
+      "paragraphs": [
+        "A successful handover should follow this flow: Therapist Readiness → Personal Escort → Warm Introduction → Information Continuity → Therapist Acknowledgement → Reassurance → Smooth Exit.",
+        "The client should never feel like they have been passed over. They should feel that they have been personally entrusted from one prepared member of the Zura Spa team to another.",
+        "The goal is for the client to think: \"They know who I am.\" \"They know what I came for.\" \"Everyone seems prepared.\" \"I am being properly taken care of.\""
+      ],
+      "closing": "A good handover is almost invisible. When done properly, the client simply experiences one continuous flow of care from reception into the treatment room."
     }
   ]
 }

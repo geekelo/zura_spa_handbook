@@ -1,101 +1,334 @@
 {
   "id": "client-departure-routine",
   "title": "Client Departure Routine",
-  "summary": "How to close the visit and send the client off with care.",
+  "summary": "How to close the visit so the client leaves feeling valued, complete, and welcome to return.",
   "type": "routine",
   "order": 2,
   "relevance": [
-    "The client departure routine is the final impression Zura Spa leaves on every client — and final impressions are lasting ones. For the spa, a well-executed departure reinforces the quality of the entire session, encourages repeat visits, and increases the likelihood of referrals. For the client, it signals that their experience was valued from start to finish, leaving them with a sense of satisfaction, care, and confidence in returning."
+    "The Client Departure Routine is the final stage of the Zura Spa experience, and it is just as important as the reception and treatment itself.",
+    "A client may enjoy an excellent massage, but the way the experience ends can significantly influence how they remember the entire visit. The departure should therefore feel intentional, warm, organised, appreciative, and complete.",
+    "The final message should be: \"We were happy to have you, your experience mattered to us, and we would genuinely love to welcome you again.\""
   ],
   "guidelines": [
     {
-      "title": "Therapist Appearance, Attitude & Disposition",
-      "items": [
-        {
-          "label": "Appearance",
-          "body": "Remain in full, clean uniform throughout. Ensure your presentation at departure is as polished as it was at reception."
-        },
-        {
-          "label": "Attitude",
-          "body": "Warm, attentive, and unhurried. The client should never feel they are being rushed out."
-        },
-        {
-          "label": "Communication",
-          "body": "Speak clearly and positively. Use the client's name where appropriate and maintain a tone that reflects genuine appreciation for their visit."
-        },
-        {
-          "label": "Disposition",
-          "body": "Gracious and professional. Make the client feel celebrated, not processed."
-        }
+      "title": "For the spa, a strong departure routine",
+      "list": [
+        "Reinforces the quality of the service received.",
+        "Creates another opportunity to identify whether the client was satisfied.",
+        "Helps resolve concerns before the client leaves.",
+        "Encourages repeat visits.",
+        "Increases the likelihood of referrals and positive recommendations.",
+        "Strengthens the client's emotional connection to Zura Spa."
+      ]
+    },
+    {
+      "title": "For the client",
+      "paragraphs": [
+        "It communicates that they were valued beyond the payment they made. They should feel that the team genuinely cared about how they experienced the service from arrival to departure."
+      ]
+    },
+    {
+      "title": "Therapist / Reception Appearance, Attitude & Disposition"
+    },
+    {
+      "title": "Appearance",
+      "paragraphs": [
+        "The staff receiving the client after the session must remain properly presented.",
+        "The standard at departure should be just as polished as the standard at arrival."
+      ],
+      "list": [
+        "Full approved uniform.",
+        "Clean and neat appearance.",
+        "Hair properly arranged.",
+        "Good personal hygiene.",
+        "Receptionist or therapist should not appear disorganised after the session.",
+        "Personal belongings, food, phones, or unrelated items should not be visible around the reception area."
+      ]
+    },
+    {
+      "title": "Attitude",
+      "paragraphs": [
+        "The client should be received with warmth, genuine interest, patience, gratitude, attentiveness, and positive energy.",
+        "Never behave as though the important part of the interaction ended once the massage was completed.",
+        "The client should not feel that the team is now trying to quickly clear the space for the next customer."
+      ]
+    },
+    {
+      "title": "Disposition",
+      "paragraphs": [
+        "Be cheerful, gracious, professional, calm, appreciative, and engaged.",
+        "Make the client feel celebrated rather than processed.",
+        "Use the client's name naturally where appropriate and maintain pleasant eye contact."
       ]
     },
     {
       "title": "Reception Area Arrangement",
       "paragraphs": [
-        "Before the client reaches the front desk, ensure the reception area is:"
+        "Before the client returns to reception, the area should already be prepared to receive them.",
+        "The client should not return from a relaxing session into a visibly chaotic environment."
       ],
       "list": [
-        "Tidy, organized, and presentable",
-        "Free of clutter, used items, or anything that may appear unprofessional",
-        "Stocked with any necessary materials (e.g., receipt book, payment terminal)",
-        "Calm in atmosphere — avoid loud conversations or visible disorder"
+        "Clean.",
+        "Tidy.",
+        "Organised.",
+        "Free from clutter.",
+        "Free from used cups, food, packaging, or staff belongings.",
+        "Calm and professionally presented.",
+        "Free from loud conversations or unnecessary noise.",
+        "Properly arranged for any remaining payment or documentation."
       ]
     },
     {
-      "title": "Preparations Before the Client Arrives at the Front Desk",
-      "paragraphs": [
-        "The moment the therapist signals that the client will be coming down soon:"
-      ],
+      "title": "Where required, have these ready",
       "list": [
-        "Straighten the reception area immediately if not already done",
-        "Confirm with the therapist whether the client intends to tip at the front desk",
-        "Confirm with the therapist whether any additional services were rendered that require payment",
-        "Verify the car wash — confirm with the appropriate staff that the client's car has been washed before making any mention of it",
-        "Be at your post — standing, composed, and ready to receive the client before they arrive"
+        "POS/payment terminal.",
+        "Receipt book or digital receipt system.",
+        "Payment account details.",
+        "Booking information.",
+        "Any client belongings kept at reception."
+      ]
+    },
+    {
+      "title": "Preparation Before the Client Reaches Reception",
+      "paragraphs": [
+        "The departure routine should begin before the client appears at the front desk. As soon as the therapist indicates that the session is ending:"
+      ]
+    },
+    {
+      "title": "1. Prepare the Reception Area",
+      "paragraphs": [
+        "Straighten the reception area immediately if necessary. Do not wait until the client is already approaching."
+      ]
+    },
+    {
+      "title": "2. Confirm Any Outstanding Charges",
+      "paragraphs": [
+        "Discreetly confirm with the therapist whether any additional service was provided, the session was extended, any approved add-on was requested, or any outstanding balance remains.",
+        "The receptionist should already know this before discussing payment with the client."
+      ]
+    },
+    {
+      "title": "3. Confirm Tip Arrangement Where Applicable",
+      "paragraphs": [
+        "Where the client has indicated an intention to tip through reception, confirm the arrangement discreetly with the therapist.",
+        "Never assume a client intends to tip. Never pressure the client to tip."
+      ]
+    },
+    {
+      "title": "4. Confirm Complimentary Car Wash",
+      "paragraphs": [
+        "If complimentary car washing applies, confirm with the responsible staff that the vehicle has actually been washed.",
+        "Do not announce the complimentary gesture until completion has been verified."
+      ]
+    },
+    {
+      "title": "5. Be Ready Before the Client Appears",
+      "paragraphs": [
+        "Return to your post and be standing or ready to stand immediately, composed, smiling, and attentive.",
+        "The client should not have to arrive at reception and wait for staff to finish a conversation, locate a device, or return from another part of the spa."
       ]
     }
   ],
   "procedure": [
     {
-      "title": "Stand",
-      "body": "Rise to your feet as the client approaches the front desk."
+      "title": "Stand and receive the client",
+      "body": "As the client approaches reception, stand to acknowledge them. Make pleasant eye contact and receive them warmly. Do not remain seated, distracted, or focused on your phone."
     },
     {
-      "title": "Ask about their experience",
-      "body": "Invite the client to share feedback on their session with a warm, open question (e.g., \"How was your experience today?\" or \"We hope you had a wonderful time — how are you feeling?\")."
+      "title": "Ask about the client's experience",
+      "body": "Invite the client to share how they feel after the session. Use an open question rather than a question that encourages a simple yes/no answer. The question should sound genuinely interested rather than rehearsed.",
+      "examples": [
+        "How was your experience today?",
+        "How are you feeling after your session?",
+        "We hope you had a relaxing experience. How was everything for you?"
+      ]
     },
     {
-      "title": "Confirm outstanding payments",
-      "body": "Check with the therapist discreetly whether the client is tipping at the front desk or has any unpaid additional services. Inform the client clearly and process payment professionally."
+      "title": "Listen to the response",
+      "body": "Do not ask for feedback and then immediately move to payment or another task. Listen. If the client gives positive feedback, thank them, acknowledge it warmly, and share the feedback with the therapist where appropriate. If the client raises a concern, do not become defensive, do not argue, allow them to explain, thank them for bringing it to your attention, and escalate appropriately if necessary. Where possible, the client should leave feeling that their concern was taken seriously.",
+      "examples": [
+        "We're very happy to hear that. Thank you."
+      ]
+    },
+    {
+      "title": "Handle outstanding payments",
+      "body": "Where there is an outstanding payment for additional services, session extension, approved extras, or other legitimate charges, inform the client politely and clearly. Keep the interaction discreet. Avoid announcing payment details loudly in front of other clients or staff. Payment should feel professional and organised, not confrontational.",
+      "examples": [
+        "Sir, there was an additional 30-minute extension to your session. The additional amount is ₦____."
+      ]
+    },
+    {
+      "title": "Handle tips professionally",
+      "body": "Where the client has requested to give a tip through reception, receive it professionally, confirm the amount where necessary, ensure it is recorded according to spa procedure, and ensure it reaches the appropriate therapist or account. A tip is an expression of appreciation, not an obligation. Never ask directly whether the client wants to tip, suggest an amount, make the client feel guilty for not tipping, or allow staff to hover around the client expecting a tip."
     },
     {
       "title": "Mention the complimentary car wash",
-      "body": "If the client arrived with a car and it has been washed, inform them warmly (e.g., \"We also had your car washed as a complimentary gesture — we hope that's a pleasant surprise!\"). Only mention this after confirming it was done."
+      "body": "If the client arrived with a vehicle and the wash has been confirmed, inform them warmly. The purpose is to create an additional positive moment at the end of the experience. Only mention what has been confirmed. Do not say \"Your car should have been washed\" or \"I think they washed your car.\"",
+      "examples": [
+        "We also had your car washed for you as a complimentary gesture. We hope you enjoy the little surprise."
+      ]
     },
     {
-      "title": "Bid the client farewell",
-      "body": "Close the interaction with a warm, memorable send-off. Examples:",
+      "title": "Encourage the relationship, not just the next sale",
+      "body": "Where appropriate, invite the client to return without sounding aggressive or sales-driven. If the client expresses interest in booking another session, assist them immediately. Do not force a future booking on a client who is clearly not interested.",
       "examples": [
-        "It was truly a pleasure having you. We look forward to welcoming you back soon.",
-        "Thank you so much for choosing Zura Spa. Take care, and we hope to see you again!",
-        "We're so glad you came in today. Safe travels, and please don't hesitate to reach out anytime."
+        "We'd be very happy to welcome you again.",
+        "Whenever you need another moment to relax, we'll be glad to have you."
       ]
+    },
+    {
+      "title": "Return any belongings",
+      "body": "If any belongings were kept at reception, return them carefully. Ensure everything belonging to the client has been returned before they leave.",
+      "examples": [
+        "Sir, here is your phone and your car key."
+      ]
+    },
+    {
+      "title": "Give an intentional farewell",
+      "body": "The final goodbye should never feel casual or automatic. Use the client's name where appropriate.",
+      "examples": [
+        "Thank you very much for choosing Zura Spa. It was a pleasure having you today.",
+        "We're glad you spent some time with us today. We hope to welcome you again soon.",
+        "Thank you for coming. Have a safe journey home, and we look forward to seeing you again."
+      ]
+    },
+    {
+      "title": "Acknowledge the client until they leave",
+      "body": "Do not immediately sit down, turn away, or return to your phone while the client is still walking out. Maintain polite attention until the departure interaction has naturally ended. Where appropriate, open the door or assist with the exit. The client should feel that the welcome they received when entering was matched by the appreciation they received when leaving."
     }
   ],
   "notes": [
     {
-      "title": "Things Not to Do During Client Departure",
-      "list": [
-        "Do not remain seated as the client approaches — always stand",
-        "Do not ask closed or dismissive questions about their experience (e.g., \"Was it okay?\") — use open, affirming language",
-        "Do not mention the car wash unless you have confirmed it was completed",
-        "Do not discuss payment loudly or in a way that feels transactional or abrupt",
-        "Do not rush the farewell — avoid body language or language that signals impatience",
-        "Do not engage in personal, political, or religious conversation during the departure interaction",
-        "Do not allow the reception area to be untidy when the client arrives at the front desk",
-        "Do not let the client leave without a proper, intentional goodbye — every departure should feel warm and complete"
+      "title": "Things Not to Do During Client Departure"
+    },
+    {
+      "title": "Do Not Remain Seated",
+      "paragraphs": [
+        "Always acknowledge an approaching client properly.",
+        "Remaining seated while casually saying goodbye can make the interaction feel dismissive."
+      ]
+    },
+    {
+      "title": "Do Not Ask Weak or Dismissive Feedback Questions",
+      "paragraphs": [
+        "These questions can sound as though the staff simply wants confirmation rather than genuine feedback. Use open questions."
       ],
-      "closing": "The way a client leaves is the memory they carry. Make it one worth returning for."
+      "list": [
+        "Was it okay?",
+        "Everything fine?",
+        "You enjoyed it, right?"
+      ]
+    },
+    {
+      "title": "Do Not Rush the Client",
+      "paragraphs": [
+        "The spa experience ends when the client leaves, not when the massage stops."
+      ],
+      "list": [
+        "Looking repeatedly at the clock.",
+        "Beginning to clean around them.",
+        "Turning your attention to the next client prematurely.",
+        "Standing impatiently near the door.",
+        "Speaking in a manner that suggests they should leave quickly."
+      ]
+    },
+    {
+      "title": "Do Not Mention Unconfirmed Services",
+      "paragraphs": [
+        "Never tell the client their car was washed, an item is ready, a booking was made, or an extra service was completed unless it has been verified. Incorrect information damages trust."
+      ]
+    },
+    {
+      "title": "Do Not Discuss Payment Loudly",
+      "paragraphs": [
+        "Money should be handled discreetly. Do not announce amounts across the reception area or discuss the client's spending in front of others."
+      ]
+    },
+    {
+      "title": "Do Not Pressure the Client for a Tip",
+      "paragraphs": [
+        "Never:"
+      ],
+      "list": [
+        "Ask why they are not tipping.",
+        "Suggest that a therapist expects a tip.",
+        "Request a particular amount.",
+        "Compare their tip to another client's."
+      ]
+    },
+    {
+      "title": "Do Not Ask for Positive Feedback Before Knowing Their Experience",
+      "paragraphs": [
+        "Avoid immediately saying \"Please give us a five-star review\" before first establishing whether the client was genuinely satisfied.",
+        "Client satisfaction should come before review solicitation."
+      ]
+    },
+    {
+      "title": "Do Not Argue With Negative Feedback",
+      "paragraphs": [
+        "If the client says they were unhappy with something, do not respond with statements such as the following. Listen first. A calm response can sometimes recover an experience that might otherwise result in losing the client."
+      ],
+      "list": [
+        "That's not what happened.",
+        "Nobody else has complained.",
+        "The therapist is actually very good.",
+        "You should have said something earlier."
+      ]
+    },
+    {
+      "title": "Do Not Gossip About the Session",
+      "paragraphs": [
+        "Never discuss the following. Client confidentiality continues even after the client leaves."
+      ],
+      "list": [
+        "What happened inside the treatment room.",
+        "The client's body.",
+        "The client's behaviour.",
+        "What the client said privately.",
+        "Any unusual preference."
+      ]
+    },
+    {
+      "title": "Do Not Become Overly Familiar",
+      "paragraphs": [
+        "A client who enjoyed their session may become more relaxed and conversational afterward. Maintain professional boundaries."
+      ],
+      "list": [
+        "Sexual jokes.",
+        "Flirting.",
+        "Intrusive questions.",
+        "Excessive teasing.",
+        "Personal comments about the client's body or appearance."
+      ]
+    },
+    {
+      "title": "Do Not Allow Staff Conflict to Be Visible",
+      "paragraphs": [
+        "Protect the atmosphere until the client is completely out of the spa. The client should never leave while hearing:"
+      ],
+      "list": [
+        "Staff arguments.",
+        "Complaints about management.",
+        "Complaints about another therapist.",
+        "Arguments about tips.",
+        "Discussions about money owed.",
+        "Operational problems."
+      ]
+    },
+    {
+      "title": "Do Not Let the Client Leave Without Acknowledgement",
+      "paragraphs": [
+        "Even during a busy period, every client deserves an intentional goodbye. A simple but genuine \"Thank you for coming. We hope to see you again.\" is better than allowing the client to leave unnoticed."
+      ]
+    },
+    {
+      "title": "The Zura Spa Departure Standard",
+      "paragraphs": [
+        "The ideal departure journey should feel like: Session Completion → Warm Reception → Feedback → Resolution of Outstanding Matters → Added Delight → Appreciation → Farewell.",
+        "The departure should reinforce everything the client experienced during the session.",
+        "The client should leave thinking: \"They cared about my experience.\" \"I was treated properly from beginning to end.\" \"I would like to come back.\""
+      ],
+      "closing": "The treatment may end in the massage room, but the experience ends at the door. Make the final moments as intentional as the first."
     }
   ]
 }
