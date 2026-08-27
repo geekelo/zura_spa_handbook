@@ -138,7 +138,7 @@
 }
 
 .el-sign-line {
-  margin-top: 1.6rem !important;
+  margin-top: 0.45rem !important;
   padding-top: 0.35rem;
   border-top: 1px solid var(--ink);
   max-width: 14rem;

@@ -18,6 +18,7 @@ const emptyValues = {
   terminationNotice: 'one (1) month',
   authorizedName: '',
   authorizedPosition: '',
+  authorizedSignatureImage: '',
   acceptanceName: '',
   employeeSignature: '',
   signatureImage: '',
@@ -41,11 +42,16 @@ function buildLetterHtml(values, { forPrint = false } = {}) {
     terminationNotice: blank(values.terminationNotice),
     authorizedName: blank(values.authorizedName),
     authorizedPosition: blank(values.authorizedPosition),
+    authorizedSignatureImage: values.authorizedSignatureImage || '',
     acceptanceName: blank(values.acceptanceName || values.employeeSignature),
     employeeSignature: blank(values.employeeSignature),
     signatureImage: values.signatureImage || '',
     acceptanceDate: blank(values.acceptanceDate),
   }
+
+  const authorizedSignatureBlock = v.authorizedSignatureImage
+    ? `<img class="sig-img" src="${v.authorizedSignatureImage}" alt="Authorized signatory signature" />`
+    : ''
 
   const signatureBlock = v.signatureImage
     ? `<p><strong>Signature:</strong></p><img class="sig-img" src="${v.signatureImage}" alt="Employee signature" />`
@@ -334,6 +340,7 @@ function buildLetterHtml(values, { forPrint = false } = {}) {
 
     <div class="sign-block">
       <div>
+        ${authorizedSignatureBlock}
         <div class="line">Authorized Signatory</div>
         <p>Name: ${v.authorizedName}</p>
         <p>Position: ${v.authorizedPosition}</p>
@@ -408,6 +415,10 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
     event.preventDefault()
     if (!agreed) {
       setStatus('Please confirm acceptance before signing.')
+      return
+    }
+    if (!values.authorizedSignatureImage) {
+      setStatus('Please add the Zura Spa authorized signatory signature.')
       return
     }
     if (!values.signatureImage) {
@@ -735,6 +746,13 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
           <p><strong>For: Zura Spa</strong></p>
           <div className="el-sign-row">
             <div>
+              {values.authorizedSignatureImage ? (
+                <img
+                  className="el-signature-img"
+                  src={values.authorizedSignatureImage}
+                  alt="Authorized signatory handwritten signature"
+                />
+              ) : null}
               <p className="el-sign-line">Authorized Signatory</p>
               <p>Name: {blank(values.authorizedName)}</p>
               <p>Position: {blank(values.authorizedPosition)}</p>
@@ -766,6 +784,13 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
 
         <form className="el-card el-sign-form" onSubmit={handleSign}>
           <h2>Sign and download</h2>
+
+          <SignaturePad
+            value={values.authorizedSignatureImage}
+            onChange={(dataUrl) => setField('authorizedSignatureImage', dataUrl)}
+            label="Zura Spa authorized signatory handwritten signature"
+          />
+
           <label className="check-row">
             <input
               type="checkbox"
