@@ -151,6 +151,16 @@
   border-top: 1px solid var(--line);
 }
 
+.el-signature-img {
+  display: block;
+  width: 12rem;
+  max-width: 70%;
+  height: auto;
+  margin: 0.25rem 0 0.7rem;
+  border-bottom: 1px solid var(--ink);
+  background: #fff;
+}
+
 .el-actions {
   display: flex;
   flex-wrap: wrap;

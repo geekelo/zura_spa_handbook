@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import logo from '../assets/zura-logo.png'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
+import { SignaturePad } from '../components/SignaturePad'
 import { saveForm, readForm } from '../data/forms'
 import './EmploymentLetter.css'
 
@@ -19,6 +20,7 @@ const emptyValues = {
   authorizedPosition: '',
   acceptanceName: '',
   employeeSignature: '',
+  signatureImage: '',
   acceptanceDate: '',
 }
 
@@ -41,8 +43,13 @@ function buildLetterHtml(values, { forPrint = false } = {}) {
     authorizedPosition: blank(values.authorizedPosition),
     acceptanceName: blank(values.acceptanceName || values.employeeSignature),
     employeeSignature: blank(values.employeeSignature),
+    signatureImage: values.signatureImage || '',
     acceptanceDate: blank(values.acceptanceDate),
   }
+
+  const signatureBlock = v.signatureImage
+    ? `<p><strong>Signature:</strong></p><img class="sig-img" src="${v.signatureImage}" alt="Employee signature" />`
+    : `<p><strong>Signature:</strong> ${v.employeeSignature}</p>`
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -117,6 +124,14 @@ function buildLetterHtml(values, { forPrint = false } = {}) {
       margin-top: 28px;
       padding-top: 14px;
       border-top: 1px solid #d7c7cb;
+    }
+    .sig-img {
+      display: block;
+      width: 220px;
+      max-width: 55%;
+      height: auto;
+      margin: 6px 0 10px;
+      border-bottom: 1px solid #1f1220;
     }
   </style>
 </head>
@@ -332,7 +347,7 @@ function buildLetterHtml(values, { forPrint = false } = {}) {
         I, <strong>${v.acceptanceName}</strong>, hereby accept this offer of employment as a Massage
         Therapist with Zura Spa. I agree to comply with the company’s rules, standards, and employment terms.
       </p>
-      <p><strong>Signature:</strong> ${v.employeeSignature}</p>
+      ${signatureBlock}
       <p><strong>Date:</strong> ${v.acceptanceDate}</p>
     </div>
   </div>
@@ -379,7 +394,9 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
     acceptanceDate: existing?.acceptanceDate || new Date().toISOString().slice(0, 10),
   }))
   const [agreed, setAgreed] = useState(Boolean(existing?.agreed))
-  const [saved, setSaved] = useState(Boolean(existing?.employeeSignature))
+  const [saved, setSaved] = useState(
+    Boolean(existing?.signatureImage || existing?.employeeSignature),
+  )
   const [status, setStatus] = useState('')
 
   const setField = (name, value) =>
@@ -393,14 +410,19 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
       setStatus('Please confirm acceptance before signing.')
       return
     }
-    if (!values.employeeSignature.trim()) {
-      setStatus('Please enter your signature name.')
+    if (!values.signatureImage) {
+      setStatus('Please draw your handwritten signature.')
+      return
+    }
+    if (!values.acceptanceName.trim() && !values.employeeSignature.trim()) {
+      setStatus('Please enter your full name for acceptance.')
       return
     }
 
     const payload = {
       ...values,
       acceptanceName: values.acceptanceName || values.employeeSignature,
+      employeeSignature: values.employeeSignature || values.acceptanceName,
       agreed: true,
       signedAt: new Date().toISOString(),
     }
@@ -726,7 +748,18 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
               accept this offer of employment as a Massage Therapist with Zura Spa. I agree to comply
               with the company’s rules, standards, and employment terms.
             </p>
-            <p><strong>Signature:</strong> {blank(values.employeeSignature)}</p>
+            {values.signatureImage ? (
+              <>
+                <p><strong>Signature:</strong></p>
+                <img
+                  className="el-signature-img"
+                  src={values.signatureImage}
+                  alt="Employee handwritten signature"
+                />
+              </>
+            ) : (
+              <p><strong>Signature:</strong> {blank(values.employeeSignature)}</p>
+            )}
             <p><strong>Date:</strong> {blank(values.acceptanceDate)}</p>
           </div>
         </section>
@@ -753,15 +786,13 @@ export function EmploymentLetter({ topic, backTo, locked = true }) {
               required
             />
           </label>
-          <label>
-            Signature (type full name)
-            <input
-              type="text"
-              value={values.employeeSignature}
-              onChange={(e) => setField('employeeSignature', e.target.value)}
-              required
-            />
-          </label>
+
+          <SignaturePad
+            value={values.signatureImage}
+            onChange={(dataUrl) => setField('signatureImage', dataUrl)}
+            label="Please provide your handwritten signature to confirm your acknowledgment"
+          />
+
           <label>
             Acceptance date
             <input
