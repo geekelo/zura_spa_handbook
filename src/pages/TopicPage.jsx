@@ -10,6 +10,7 @@ import {
 import ArticleDetail from './ArticleDetail'
 import { FormTopic } from './FormTopic'
 import { SignTopic } from './SignTopic'
+import { EmploymentLetter } from './EmploymentLetter'
 
 export function TopicPage({ journeyId }) {
   const { categoryId, articleId } = useParams()
@@ -31,6 +32,10 @@ export function TopicPage({ journeyId }) {
 
   if (article.type === 'sign') {
     return <SignTopic topic={article} backTo={backTo} locked={locked} />
+  }
+
+  if (article.type === 'employment-letter') {
+    return <EmploymentLetter topic={article} backTo={backTo} locked={locked} />
   }
 
   const related = (

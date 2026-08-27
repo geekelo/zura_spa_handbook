@@ -1,18 +1,8 @@
 {
   "id": "employment-letter",
   "title": "Sign Employment Letter",
-  "summary": "Sign your employment letter to complete onboarding.",
-  "type": "sign",
+  "summary": "Fill, sign, and download your Zura Spa employment letter.",
+  "type": "employment-letter",
   "order": 8,
-  "agreementLabel": "I confirm that I have read this employment letter and sign to accept the role.",
-  "signLabel": "Sign employment letter",
-  "successMessage": "Your employment letter signature has been recorded on this device.",
-  "sections": [
-    {
-      "paragraphs": [
-        "This employment letter confirms your role as a member of the Zura Spa team.",
-        "Content for the full employment letter will be added soon."
-      ]
-    }
-  ]
+  "successMessage": "Your employment letter has been signed and saved on this device."
 }

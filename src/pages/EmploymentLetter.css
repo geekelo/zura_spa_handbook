@@ -1,0 +1,217 @@
+.employment-letter-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.el-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1.1rem;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.el-card h2,
+.el-sign-form h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.el-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.el-grid label,
+.el-sign-form label:not(.check-row) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.el-span-2 {
+  grid-column: 1 / -1;
+}
+
+.el-grid input,
+.el-grid textarea,
+.el-sign-form input[type='text'],
+.el-sign-form input[type='date'] {
+  width: 100%;
+  min-height: 2.65rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.el-grid textarea {
+  min-height: 4.5rem;
+  resize: vertical;
+}
+
+.el-letter {
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 1.1rem;
+  background: #fffaf7;
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  box-shadow: var(--shadow-soft);
+}
+
+.el-letter__brand {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.el-letter__brand img {
+  width: 3.4rem;
+  height: auto;
+  margin-bottom: 0.35rem;
+}
+
+.el-letter__brand h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.el-letter__tag {
+  margin: 0.2rem 0 0.45rem;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.el-letter__addr {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.el-letter__title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0.9rem 0;
+  font-size: 1.05rem;
+}
+
+.el-letter h4 {
+  margin: 0.95rem 0 0.35rem;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+
+.el-letter p,
+.el-letter li {
+  margin: 0 0 0.55rem;
+}
+
+.el-letter ul {
+  margin: 0 0 0.55rem;
+  padding-left: 1.1rem;
+}
+
+.el-sign-row {
+  margin-top: 1rem;
+}
+
+.el-sign-line {
+  margin-top: 1.6rem !important;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--ink);
+  max-width: 14rem;
+  font-weight: 600;
+}
+
+.el-acceptance {
+  margin-top: 1.2rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+
+.el-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.el-actions button,
+.el-sign-form button[type='submit'] {
+  min-height: 2.7rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  border: 0;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.el-actions button.ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.el-status {
+  margin: 0;
+  color: #8a2f3d;
+  font-size: 0.88rem;
+}
+
+.form-success {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border-radius: 0.95rem;
+  background: var(--remember);
+  color: var(--remember-ink);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.check-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 0.65rem !important;
+  font-weight: 500 !important;
+  font-size: 0.88rem;
+}
+
+.check-row input {
+  width: auto;
+  min-height: 0;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 560px) {
+  .el-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .el-span-2 {
+    grid-column: auto;
+  }
+}
