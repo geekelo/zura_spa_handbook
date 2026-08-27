@@ -1,31 +1,170 @@
 {
   "id": "work-kit-and-uniform",
   "title": "Work Kit and Uniform Confirmation",
-  "summary": "Confirm your uniform, tools, and work kit before you start.",
+  "summary": "Confirm your work kit, uniforms, and footwear before you resume.",
   "type": "form",
   "order": 5,
   "submitLabel": "Confirm kit and uniform",
   "successMessage": "Your work kit and uniform confirmation has been saved.",
+  "sections": [
+    {
+      "title": "1. Purpose",
+      "paragraphs": [
+        "Every therapist is expected to resume work prepared, clean, presentable and equipped with the personal items required to maintain professional standards throughout the workday.",
+        "The Work Kit and Uniform are part of the therapist's personal responsibility and preparation for work.",
+        "All required items must be confirmed before resumption."
+      ]
+    },
+    {
+      "title": "2. Work Kit",
+      "paragraphs": [
+        "Every therapist should maintain a personal work kit containing the following essential items:"
+      ],
+      "list": [
+        "Perfume or body spray",
+        "Wipes",
+        "Sweets or Chlorate/Clorets gum",
+        "Mouthwash or toothpaste and toothbrush",
+        "Tissue",
+        "Lip gloss",
+        "Phone charger",
+        "Sanitary pads"
+      ]
+    },
+    {
+      "title": "Relevance & Usage",
+      "paragraphs": [
+        "The work kit is intended to help therapists maintain:"
+      ],
+      "list": [
+        "Personal hygiene.",
+        "Fresh breath.",
+        "Personal grooming.",
+        "Professional appearance.",
+        "Comfort throughout the workday.",
+        "Readiness for unexpected personal needs."
+      ],
+      "closing": "Therapists are expected to use these items appropriately and replenish them when necessary. The work kit should be treated as a personal responsibility. Staff should not routinely depend on colleagues to provide these items."
+    },
+    {
+      "title": "3. Uniform Requirements",
+      "paragraphs": [
+        "Every therapist must have at least two (2) approved Zura Spa uniforms.",
+        "Having two uniforms ensures that the therapist has a clean uniform available while the other is being washed or unavailable.",
+        "Uniforms must be clean, neat, properly maintained, presentable, and worn correctly during work hours.",
+        "The uniform is to be worn only within the facility. Therapists must:"
+      ],
+      "list": [
+        "Arrive at the spa in mufti.",
+        "Change into their approved uniform before work.",
+        "Change back into mufti before leaving the facility.",
+        "Change out of uniform before stepping outside the facility during the workday where required."
+      ]
+    },
+    {
+      "title": "4. Uniform Provision",
+      "paragraphs": [
+        "Where necessary, Zura Spa may provide uniforms to therapists pro bono to enable them to meet the required uniform standard.",
+        "Where a therapist receives uniforms from the spa under an arrangement requiring repayment, the therapist may pay the applicable cost within one month, according to the arrangement communicated by the company.",
+        "Regardless of how the uniform is obtained, the therapist remains responsible for maintaining and properly using it."
+      ]
+    },
+    {
+      "title": "5. Required Footwear",
+      "paragraphs": [
+        "Every therapist must have black Crocs or the approved black work footwear specified by Zura Spa. The footwear must be:"
+      ],
+      "list": [
+        "Black.",
+        "Clean.",
+        "Suitable for spa operations.",
+        "Comfortable and safe for extended periods of standing and movement."
+      ]
+    },
+    {
+      "title": "6. Confirmation Before Resumption",
+      "paragraphs": [
+        "The following must be confirmed before a therapist resumes work. A therapist should not consider their onboarding/resumption requirements complete until the required work kit, uniform and footwear have been confirmed.",
+        "Being prepared for work is part of the job."
+      ]
+    }
+  ],
   "fields": [
     { "name": "fullName", "label": "Full name", "type": "text", "required": true },
     {
-      "name": "uniformReceived",
-      "label": "I have received my approved uniform",
+      "name": "perfume",
+      "label": "Perfume / body spray",
       "type": "select",
       "required": true,
-      "options": ["Yes", "Not yet"]
+      "options": ["Confirmed", "Not yet"]
     },
     {
-      "name": "kitReceived",
-      "label": "I have received my work kit",
+      "name": "wipes",
+      "label": "Wipes",
       "type": "select",
       "required": true,
-      "options": ["Yes", "Not yet"]
+      "options": ["Confirmed", "Not yet"]
     },
-    { "name": "missingItems", "label": "Missing or damaged items", "type": "textarea", "required": false },
+    {
+      "name": "sweets",
+      "label": "Sweets or Clorets gum",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "mouthwash",
+      "label": "Mouthwash or toothpaste and toothbrush",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "tissue",
+      "label": "Tissue",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "lipGloss",
+      "label": "Lip gloss",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "phoneCharger",
+      "label": "Phone charger",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "sanitaryPads",
+      "label": "Sanitary pads",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "uniforms",
+      "label": "Minimum of 2 approved uniforms (clean and ready)",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "footwear",
+      "label": "Black Crocs / approved black work footwear",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    { "name": "missingItems", "label": "Missing or unfinished items (if any)", "type": "textarea", "required": false },
     {
       "name": "confirm",
-      "label": "I confirm I will wear the approved uniform and keep my kit in good condition",
+      "label": "I confirm my work kit, uniforms, and footwear meet Zura Spa requirements before resumption",
       "type": "select",
       "required": true,
       "options": ["I confirm"]

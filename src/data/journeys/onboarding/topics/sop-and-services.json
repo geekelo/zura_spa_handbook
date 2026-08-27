@@ -1,13 +1,640 @@
 {
   "id": "sop-and-services",
   "title": "SOP and Services",
-  "summary": "Standard operating procedures and the services Zura Spa offers.",
+  "summary": "Standards, expectations, responsibilities, communication systems, service guidelines, and workplace culture of Zura Spa.",
   "type": "article",
   "order": 2,
   "sections": [
     {
+      "title": "Purpose",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "This handbook establishes the standards, expectations, responsibilities, communication systems, service guidelines, and workplace culture of Zura Spa.",
+        "Our goal is to maintain a spa environment that is safe, professional, hygienic, orderly, confidential, welcoming, and consistent in service quality.",
+        "All staff are expected to understand and comply with these standards. Compliance is a condition of working with Zura Spa and is not optional."
+      ]
+    },
+    {
+      "title": "1. Zura Spa Services",
+      "paragraphs": [
+        "Zura Spa provides professional massage and wellness services in a safe, respectful and non-sexual environment.",
+        "Zura Spa may offer different massage services according to the current service menu and therapist training."
+      ]
+    },
+    {
+      "title": "Zura Massage",
+      "paragraphs": [
+        "The minimum duration for a Zura Massage is 2 hours.",
+        "Therapists must not reduce the required minimum duration without authorization.",
+        "The service must be delivered according to the approved Zura Spa service procedure.",
+        "Therapists are expected to maintain professionalism, privacy, hygiene and appropriate boundaries throughout the session."
+      ]
+    },
+    {
+      "title": "Lunez Massage",
+      "paragraphs": [
+        "The maximum duration for a Lunez Massage is 20 minutes.",
+        "Therapists must follow the approved Lunez Massage procedure.",
+        "Any request outside the approved duration or service procedure must be escalated appropriately."
+      ]
+    },
+    {
+      "title": "General Service Standard",
+      "paragraphs": [
+        "All services must be:"
+      ],
+      "list": [
+        "Professional.",
+        "Non-sexual.",
+        "Hygienic.",
+        "Respectful.",
+        "Client-centred.",
+        "Delivered according to the approved service procedure.",
+        "Reported through the appropriate company channels where reporting is required."
+      ],
+      "closing": "Zura Spa does not offer sexual services. Any staff member who misrepresents, offers, negotiates or provides sexual services under the identity of Zura Spa will be subject to serious disciplinary action, including possible termination."
+    },
+    {
+      "title": "2. Existing Team Roles",
+      "paragraphs": [
+        "Zura Spa operates with defined roles and a clear chain of responsibility. The current roles include:"
+      ],
+      "list": [
+        "Staff Manager",
+        "Client Manager",
+        "Hygiene Manager",
+        "Supervisor",
+        "Lead Therapist",
+        "Therapist Guide",
+        "Therapists",
+        "Non-Leader Staff"
+      ],
+      "closing": "Each person is expected to understand their role and respect the responsibilities of other team members. Being friends, relatives or acquaintances outside work does not change workplace responsibilities."
+    },
+    {
+      "title": "3. New Therapist Onboarding",
+      "paragraphs": [
+        "New therapists do not immediately operate independently as fully integrated members of the team.",
+        "The onboarding process is: New Therapist → Therapist Guide → Lead Therapist → Full Team Integration.",
+        "The Therapist Guide is responsible for initial onboarding, coaching and helping the new therapist understand Zura Spa's systems and standards.",
+        "After the onboarding and coaching stage, the therapist is handed over to the Lead Therapist for further integration into the team.",
+        "New therapists are expected to learn:"
+      ],
+      "list": [
+        "Service procedures.",
+        "Hygiene standards.",
+        "Communication procedures.",
+        "Escalation procedures.",
+        "WhatsApp group usage.",
+        "Client boundaries.",
+        "Attendance and resumption procedures.",
+        "Workplace culture.",
+        "Safety standards.",
+        "General Zura Spa expectations."
+      ]
+    },
+    {
+      "title": "4. Working Hours",
+      "paragraphs": [
+        "The standard operating period of Zura Spa is 8:00 AM – 10:00 PM.",
+        "The working period may extend beyond 10:00 PM when there are late bookings or other legitimate operational requirements.",
+        "Staff are expected to understand that closing time may depend on client bookings and operational needs."
+      ]
+    },
+    {
+      "title": "5. Sleep-Over Policy",
+      "paragraphs": [
+        "Staff may sleep over at the facility when late bookings or operational circumstances make this necessary. During a sleep-over:"
+      ],
+      "list": [
+        "Personal belongings must remain in the designated staff area/room.",
+        "Personal belongings must not be left around the facility or in client-facing areas.",
+        "Staff must keep the facility orderly.",
+        "Staff are not permitted to use the facility's AC during sleep-overs.",
+        "Staff are not permitted to use facility water heaters during sleep-overs.",
+        "Fans may be used.",
+        "Other facility resources must not be unnecessarily consumed."
+      ],
+      "closing": "Where a power unit is provided for a specific estimated period, staff are expected to manage its use responsibly. Where a power unit runs out significantly earlier than the estimated duration due to improper or excessive use, the responsible staff member may be subject to disciplinary action."
+    },
+    {
+      "title": "6. Appearance & Personal Presentation",
+      "paragraphs": [
+        "Zura Spa operates a premium professional environment. Staff appearance must reflect this. Staff are expected to look neat, clean, well-groomed, professional, presentable, prestigious and appropriate for a premium spa environment."
+      ]
+    },
+    {
+      "title": "Hair",
+      "paragraphs": [
+        "Cornrows are not permitted as a work hairstyle. Staff may wear a neat wig or an approved scarf/turban.",
+        "Hair must always be neat and appropriate for the workplace. Personal grooming must be maintained throughout the workday."
+      ]
+    },
+    {
+      "title": "7. Uniforms",
+      "paragraphs": [
+        "Uniforms are workplace attire and are not to be worn outside the facility. Staff should:"
+      ],
+      "list": [
+        "Arrive at the facility in mufti/casual clothing.",
+        "Change into the approved uniform before beginning work.",
+        "Change back into mufti before leaving the facility."
+      ],
+      "closing": "If a staff member needs to leave the facility temporarily, they should change out of the uniform before leaving."
+    },
+    {
+      "title": "8. Resumption & Attendance",
+      "paragraphs": [
+        "Therapists must sign in and sign out using the approved attendance application. The attendance record is used to establish resumption, closing time, days worked, attendance, and applicable salary calculations.",
+        "Therapists select their preferred workdays, number of workdays per week, and availability.",
+        "Pay is based on the agreed work schedule and actual attendance in accordance with the applicable salary structure."
+      ]
+    },
+    {
+      "title": "9. Work Schedule & Salary Structure — Band B",
+      "items": [
+        { "label": "7 Days a Week", "body": "₦70,000" },
+        { "label": "6 Days a Week", "body": "₦60,000" },
+        { "label": "5 Days a Week", "body": "₦50,000" },
+        { "label": "4 Days a Week", "body": "₦40,000" }
+      ]
+    },
+    {
+      "title": "Band A",
+      "paragraphs": [
+        "Sunday work is currently a priority. Staff who meet the requirements for the Band A structure may receive the Band A rate.",
+        "Band A is generally ₦10,000 higher than the corresponding Band B rate where the same work schedule applies."
+      ],
+      "items": [
+        { "label": "7 Days a Week", "body": "₦80,000" },
+        { "label": "6 Days a Week", "body": "₦70,000" },
+        { "label": "5 Days a Week", "body": "₦60,000" },
+        { "label": "4 Days a Week", "body": "₦50,000" },
+        { "label": "3 Days a Week", "body": "₦40,000" }
+      ]
+    },
+    {
+      "title": "10. Working on Off Days",
+      "paragraphs": [
+        "Staff may work on their scheduled off days where there is an operational need and the work is approved/recorded.",
+        "Where a staff member works an additional day, they will be paid for the additional work in accordance with the company's applicable attendance and payment system."
+      ]
+    },
+    {
+      "title": "11. Full Day, Half Day & Quarter Day",
+      "paragraphs": [
+        "Zura Spa recognizes full working days, half working days, and quarter working days.",
+        "Where a staff member needs to leave before the normal closing time, the applicable attendance category may be determined based on their actual period of work and the company's attendance rules.",
+        "Salary/payment is calculated based on actual days and applicable work periods recorded."
+      ]
+    },
+    {
+      "title": "12. Lateness & Absence",
+      "paragraphs": [
+        "Punctuality is an important part of accountability.",
+        "Lateness attracts a 0.4% deduction from applicable pay, subject to the company's applicable disciplinary and payroll rules.",
+        "Staff are expected to plan their movement and arrive on time.",
+        "Claims of circumstances preventing timely arrival should be supported by compelling evidence where appropriate, such as relevant photographs or videos.",
+        "There is no automatic entitlement to excuse lateness simply because an explanation is provided."
+      ]
+    },
+    {
+      "title": "Suspension & Absence",
+      "list": [
+        "Staff do not receive pay for periods during which they are suspended.",
+        "Unauthorized absence may affect pay.",
+        "Attendance records will be used when determining applicable payment."
+      ]
+    },
+    {
+      "title": "13. Morning Routine",
+      "paragraphs": [
+        "Zura Spa conducts a daily morning routine by 9:00 AM. All staff scheduled to work are expected to be present and participate. The morning routine is used for:"
+      ],
+      "list": [
+        "Alignment.",
+        "Announcements.",
+        "Operational updates.",
+        "Team communication.",
+        "Training.",
+        "Accountability.",
+        "Daily preparation."
+      ]
+    },
+    {
+      "title": "14. Communication System",
+      "paragraphs": [
+        "Zura Spa uses WhatsApp groups for different operational purposes. Staff are expected to:"
+      ],
+      "list": [
+        "Be active in the appropriate WhatsApp groups.",
+        "Read group descriptions.",
+        "Understand the purpose of each group.",
+        "Use each group according to its stated purpose.",
+        "Keep important work-related communication within the appropriate group whenever possible."
+      ]
+    },
+    {
+      "title": "Transparency",
+      "paragraphs": [
+        "Work-related communication should remain visible to the appropriate people whenever possible.",
+        "Conflicts, instructions, requests and decisions that occur through private/off-channel communication may be difficult for the company to verify.",
+        "Where a conflict arises primarily from communication that was intentionally taken outside the appropriate company channel, the company may decline to treat the matter as an official workplace communication or may take appropriate disciplinary action where company standards were breached."
+      ]
+    },
+    {
+      "title": "15. Requests to Meet Leaders",
+      "paragraphs": [
+        "Requests to see, meet or speak with a leader should be made through the appropriate WhatsApp group. This allows the request to be visible, documented, properly scheduled, and handled transparently.",
+        "Staff should not bypass the communication structure unnecessarily."
+      ]
+    },
+    {
+      "title": "16. Chain of Communication & Escalation",
+      "paragraphs": [
+        "Zura Spa uses escalation rather than confrontation as its primary method of resolving workplace problems.",
+        "Because team members are not necessarily trained or independently vetted as conflict-resolution professionals, staff are expected to escalate disagreements, conflicts and serious concerns rather than attempt to resolve them through confrontation.",
+        "When an issue arises: Identify → Escalate → Notify → Follow Direction → Report Outcome.",
+        "Therapists should use the appropriate escalation channel first and inform the relevant leader that the issue has been escalated through the proper channel.",
+        "Staff should not unnecessarily bypass the escalation process and go directly to leaders.",
+        "Where an individual is required to escalate an issue personally, they are expected to take responsibility for making that escalation themselves rather than relying on another staff member to report on their behalf.",
+        "Failure to follow the escalation process may attract disciplinary action."
+      ]
+    },
+    {
+      "title": "17. No Confrontation Policy",
+      "paragraphs": [
+        "Confrontation is not part of Zura Spa's safe-workplace culture. Staff must not:"
+      ],
+      "list": [
+        "Intimidate another staff member.",
+        "Shout at another staff member.",
+        "Threaten another staff member.",
+        "Corner another staff member to force a discussion.",
+        "Engage in aggressive face-to-face arguments.",
+        "Attempt to personally enforce company rules through confrontation."
+      ],
+      "closing": "If a staff member disagrees with something: escalate rather than confront. If a staff member needs to push back on a decision or standard, they may do so through the appropriate WhatsApp group using text or voice note where appropriate. The objective is transparency, accountability and a documented communication trail."
+    },
+    {
+      "title": "18. Communication Style",
+      "paragraphs": [
+        "Leaders are expected to communicate in a manner that is firm, clear, direct, respectful, and consistent. Leadership does not require aggression.",
+        "Non-leaders are expected to communicate in a manner that is suggestive, bold, clear, respectful, and willing to raise concerns appropriately.",
+        "Leaders should communicate with one another through appeal, collaboration, clarity, and mutual respect."
+      ]
+    },
+    {
+      "title": "19. \"Get the Message\" Communication Culture",
+      "paragraphs": [
+        "Zura Spa operates with a \"get the message and forget the tone\" communication principle.",
+        "Staff are encouraged to focus on the substance of workplace communication rather than becoming excessively focused on perceived emotional tone.",
+        "At the same time, this does not permit insults, threats, abuse, harassment, discrimination, or humiliation.",
+        "The objective is to help staff become more thoughtful, confident and emotionally resilient while maintaining respectful professional communication."
+      ]
+    },
+    {
+      "title": "20. Why We Escalate",
+      "paragraphs": [
+        "Escalation is not intended merely to report people. It helps Zura Spa:"
+      ],
+      "list": [
+        "Identify problems.",
+        "Understand recurring issues.",
+        "Correct behaviour.",
+        "Align staff with existing standards.",
+        "Identify standards that may need clarification.",
+        "Improve standards where necessary.",
+        "Evaluate whether standards are producing the intended results.",
+        "Maintain accountability.",
+        "Protect the team and clients."
+      ],
+      "closing": "Escalation is therefore part of the company's learning and improvement system."
+    },
+    {
+      "title": "21. Individualism & Safe-Space Culture",
+      "paragraphs": [
+        "Zura Spa operates an individual responsibility / mind-your-business workplace culture.",
+        "We work as a team, but staff are not expected to socialize excessively during work.",
+        "Staff are expected to remain in their assigned rooms unless they need to use the staff convenience, attend to an assigned responsibility, attend to an operational matter, or respond to an appropriate work requirement.",
+        "Staff should not unnecessarily visit one another's rooms or gather excessively.",
+        "The purpose is to maintain privacy, focus, order, professional boundaries, safety, and reduced distractions."
+      ]
+    },
+    {
+      "title": "22. Staff Convenience",
+      "paragraphs": [
+        "Staff should use the designated staff convenience.",
+        "If the convenience located within a massage room needs to be used, the staff member must notify the appropriate WhatsApp group according to the established procedure.",
+        "This is intended to maintain transparency and awareness of movement within the facility."
+      ]
+    },
+    {
+      "title": "23. Personal Belongings & Borrowing",
+      "paragraphs": [
+        "Staff are expected to come to work prepared with what they need.",
+        "Staff should avoid borrowing personal items from other staff members unnecessarily.",
+        "Personal belongings must remain in designated staff areas and must not be left around the facility.",
+        "This standard exists to support security, privacy, order, accountability, and a safe working environment."
+      ]
+    },
+    {
+      "title": "24. Hygiene Is Everyone's Responsibility",
+      "paragraphs": [
+        "Hygiene is a collective responsibility. Every staff member is responsible for maintaining both personal hygiene and facility cleanliness. Staff must:"
+      ],
+      "list": [
+        "Pick up trash when they see it.",
+        "Keep their assigned area clean.",
+        "Clean the toilet after use.",
+        "Ensure towels are properly collected and washed according to procedure.",
+        "Maintain clean treatment areas.",
+        "Dispose of waste appropriately.",
+        "Report hygiene problems.",
+        "Avoid leaving messes for another staff member unnecessarily."
+      ],
+      "closing": "The standard is: if you see it, take responsibility for it. Do not assume that someone else will clean it."
+    },
+    {
+      "title": "25. Cooking & Food",
+      "paragraphs": [
+        "Cooking must be done before or after work hours as much as reasonably possible.",
+        "Food preparation should not interfere with operations or cause food smells to spread into client-facing or treatment areas.",
+        "Staff must clean the area after cooking and ensure that food waste does not create hygiene problems."
+      ]
+    },
+    {
+      "title": "26. Gadgets & Phones",
+      "paragraphs": [
+        "Personal gadgets are permitted at work subject to operational requirements. However, gadgets must not be used:"
+      ],
+      "list": [
+        "During a client task.",
+        "While communicating with a client.",
+        "While carrying out an assigned operational responsibility.",
+        "In a manner that compromises attention, professionalism or safety."
+      ],
+      "closing": "When a client or work responsibility requires attention, the work responsibility takes priority."
+    },
+    {
+      "title": "27. Client Experience",
+      "paragraphs": [
+        "Every interaction with a client must contribute to the feeling that Zura Spa is safe, warm, relaxing, welcoming, and professional.",
+        "Staff are expected to treat clients with courtesy. Staff should:"
+      ],
+      "list": [
+        "Walk softly.",
+        "Speak softly.",
+        "Speak kindly.",
+        "Maintain appropriate body language.",
+        "Avoid unnecessary noise.",
+        "Avoid loud conversations.",
+        "Avoid shouting across rooms.",
+        "Avoid loud conversations with colleagues in the presence of clients."
+      ],
+      "closing": "The client's experience takes priority over casual staff interaction."
+    },
+    {
+      "title": "28. Client Boundaries & Personal Information",
+      "paragraphs": [
+        "Staff must maintain strict professional boundaries with clients.",
+        "Staff are not permitted to give clients their personal phone numbers. All client communication should go through approved company channels.",
+        "Staff should not disclose their personal/legal names to clients where the company has established a professional identity system. Staff must follow the company's approved identity and privacy procedures.",
+        "Staff must not disclose personal information to clients unnecessarily. This includes:"
+      ],
+      "list": [
+        "Personal contact details.",
+        "Home address.",
+        "Private social media accounts.",
+        "Personal family information.",
+        "Other private information that could compromise staff safety or privacy."
+      ]
+    },
+    {
+      "title": "29. Tipping Policy",
+      "paragraphs": [
+        "Clients must not tip therapists directly into their personal bank accounts or personal payment accounts.",
+        "Tips must be directed through the front desk/company-approved process.",
+        "Where applicable, the tip will be recorded and credited to the therapist's designated extra/tipping account with the company.",
+        "Staff must not privately negotiate tips or create personal payment arrangements with clients."
+      ]
+    },
+    {
+      "title": "30. Sexual Services",
+      "paragraphs": [
+        "Zura Spa does not offer sexual services. Any attempt by a staff member to offer sexual services to a client, negotiate sexual services using the company's identity, suggest that sexual services are available, or engage in inappropriate client transactions connected to Zura Spa will be treated as a serious breach of company standards."
+      ]
+    },
+    {
+      "title": "31. Client Confidentiality",
+      "paragraphs": [
+        "Client privacy is mandatory. Staff must not:"
+      ],
+      "list": [
+        "Discuss client sessions with outsiders.",
+        "Share client information unnecessarily.",
+        "Disclose private client information.",
+        "Discuss what happened during a client's session outside approved reporting channels.",
+        "Share confidential client information with friends or family.",
+        "Use client information for personal purposes."
+      ],
+      "closing": "Session reports must be submitted through the appropriate company channels. What happens at Zura Spa stays confidential."
+    },
+    {
+      "title": "32. Theft & Property",
+      "paragraphs": [
+        "Zura Spa does not tolerate theft. This applies to client property, company property, and staff property.",
+        "Taking, hiding, misappropriating or intentionally retaining another person's property without permission may result in serious disciplinary action, up to and including termination."
+      ]
+    },
+    {
+      "title": "33. Training & Courses",
+      "paragraphs": [
+        "Zura Spa is committed to continuous learning and professional development.",
+        "Staff are expected to participate in company training and courses.",
+        "Training participation may be required whether the staff member is on duty or off duty.",
+        "Where a training session is compulsory, staff are expected to comply with the attendance requirement communicated by the company."
+      ]
+    },
+    {
+      "title": "34. Team Synergy",
+      "paragraphs": [
+        "We are not a family and we are not required to be friends. We are a professional team.",
+        "Some team members may be friends outside work, relatives, or existing acquaintances. These personal relationships must not affect workplace decisions or standards.",
+        "We do not permit favouritism, bias, protecting friends from accountability, personal relationships influencing work decisions, or personal conflicts affecting professional responsibilities.",
+        "We understand our respective roles and work together to ensure that Zura Spa's standards are upheld. Professionalism comes before personal relationships."
+      ]
+    },
+    {
+      "title": "35. Accountability & Company Values",
+      "paragraphs": [
+        "Zura Spa values:"
+      ],
+      "list": [
+        "Accountability.",
+        "Transparency.",
+        "Order.",
+        "Seriousness towards work.",
+        "Self-discipline.",
+        "Drive for growth.",
+        "Professionalism.",
+        "Compliance.",
+        "Team responsibility.",
+        "Client safety.",
+        "Confidentiality."
+      ],
+      "closing": "Compliance with company standards is a requirement of working with Zura Spa. Conduct that demonstrates a serious or persistent disregard for these values may result in disciplinary action, up to and including termination, subject to applicable company procedures and law."
+    },
+    {
+      "title": "36. Sanctions",
+      "paragraphs": [
+        "Where standards are breached, Zura Spa may apply appropriate disciplinary measures. Possible sanctions include:"
+      ],
+      "list": [
+        "Financial deductions.",
+        "Warnings.",
+        "Corrective actions.",
+        "Suspension.",
+        "Loss of certain privileges.",
+        "Termination of employment/engagement where appropriate."
+      ],
+      "closing": "The stated financial sanction range is 0.4% – 5% of applicable pay, or a ₦2,000 flat-rate sanction for applicable breaches. The exact sanction should depend on the nature and seriousness of the breach and the applicable company disciplinary process. Any financial deduction should be applied only where permitted by applicable employment/labour rules and the staff member's applicable agreement."
+    },
+    {
+      "title": "37. Serious Breaches",
+      "paragraphs": [
+        "Certain conduct may result in immediate escalation and may lead to termination following the company's disciplinary process. Examples include:"
+      ],
+      "list": [
+        "Theft.",
+        "Serious dishonesty.",
+        "Sexual misconduct.",
+        "Deliberate disclosure of confidential client information.",
+        "Serious breaches of client safety.",
+        "Violence or threats.",
+        "Serious harassment.",
+        "Deliberate circumvention of company systems.",
+        "Repeated refusal to comply with reasonable workplace standards.",
+        "Conduct that seriously damages the safety, reputation or operations of Zura Spa."
+      ]
+    },
+    {
+      "title": "38. WhatsApp Groups",
+      "paragraphs": [
+        "Zura Spa maintains different WhatsApp groups for different purposes. Every staff member is responsible for:"
+      ],
+      "list": [
+        "Joining the groups relevant to their role.",
+        "Reading the group description.",
+        "Understanding the purpose of each group.",
+        "Using the correct group for the correct communication.",
+        "Remaining active and responsive where required.",
+        "Following group-specific rules."
+      ],
+      "closing": "Staff should not use the wrong group for operational matters simply because it is more convenient."
+    },
+    {
+      "title": "39. The Zura Standard",
+      "paragraphs": [
+        "Every staff member should ask: Does this protect the client? Does this protect the team? Does this protect the spa? Does this uphold our standard?",
+        "If the answer is no, the matter should be stopped, corrected or escalated.",
+        "Zura Spa is built around safety, privacy, professionalism, hygiene, accountability, transparency, order, growth, and consistency.",
+        "Every member of the team is responsible for helping maintain these standards."
+      ]
+    },
+    {
+      "title": "40. Staff Acknowledgement",
+      "paragraphs": [
+        "By working with Zura Spa, staff acknowledge that they are expected to read, understand and comply with the applicable SOPs, policies, service standards, communication procedures and workplace expectations.",
+        "Where a staff member does not understand a standard, they are expected to ask for clarification through the appropriate communication or escalation channel.",
+        "Not knowing a standard does not remove the responsibility to learn it.",
+        "Zura Spa may update these SOPs from time to time as the business, team and operational requirements evolve."
+      ]
+    },
+    {
+      "title": "Additional Workplace Standards — Eating & Food",
+      "paragraphs": [
+        "All staff meals and eating must take place in the designated kitchen/eating area. Staff must not eat:"
+      ],
+      "list": [
+        "In massage rooms.",
+        "In client-facing areas.",
+        "In corridors or other operational spaces.",
+        "In areas where food smells may affect the client experience."
+      ],
+      "closing": "After eating, staff are expected to clean up after themselves and leave the kitchen in a hygienic and orderly condition. Food preparation and eating should be managed in a way that does not interfere with spa operations or negatively affect the client experience."
+    },
+    {
+      "title": "No Loitering",
+      "paragraphs": [
+        "Staff are expected to remain productive and purposeful while at work. Loitering around the facility is not permitted.",
+        "Staff should remain in their assigned room or designated work area unless they have a legitimate reason to move around the facility, such as:"
+      ],
+      "list": [
+        "Attending to a client.",
+        "Using the staff convenience.",
+        "Completing an assigned task.",
+        "Attending to an operational matter.",
+        "Participating in an approved team activity.",
+        "Responding to a work-related request."
+      ],
+      "closing": "Staff should not gather unnecessarily in corridors, rooms or other areas of the facility. The purpose of this standard is to maintain order, privacy, focus and a calm client environment."
+    },
+    {
+      "title": "No Gossiping",
+      "paragraphs": [
+        "Zura Spa does not encourage gossip or unnecessary discussion about other staff members, clients, leaders or workplace matters. Staff must not:"
+      ],
+      "list": [
+        "Spread rumours.",
+        "Discuss another staff member's private affairs.",
+        "Speculate about another person's situation.",
+        "Create or spread stories about colleagues.",
+        "Use workplace conversations to damage another person's reputation.",
+        "Discuss confidential client or staff matters with people who are not authorized to know them."
+      ],
+      "closing": "If a staff member has a genuine concern about another staff member, the appropriate action is to escalate it through the proper channel, not discuss it with other colleagues. The preferred process is: Concern → Appropriate Channel → Escalation → Resolution. Not: Concern → Gossip → Rumour → Conflict. Staff should avoid becoming involved in matters that do not concern them. Our workplace culture is based on mind your business, do your work and escalate what genuinely requires attention."
+    },
+    {
+      "title": "Monthly Performance Sheet",
+      "paragraphs": [
+        "Zura Spa maintains a monthly performance sheet for staff.",
+        "The purpose of the performance sheet is to evaluate how each staff member is performing and conducting themselves throughout the month.",
+        "Performance is assessed based on the company's observation of the staff member's overall conduct, compliance and contribution within the spa.",
+        "Areas that may contribute to a monthly performance assessment include:"
+      ],
+      "list": [
+        "Punctuality.",
+        "Attendance.",
+        "Personal appearance.",
+        "Hygiene.",
+        "Room cleanliness.",
+        "Client treatment and courtesy.",
+        "Professionalism.",
+        "Communication.",
+        "Compliance with SOPs.",
+        "Following the chain of communication.",
+        "Proper use of WhatsApp groups.",
+        "Responsiveness.",
+        "Teamwork.",
+        "Accountability.",
+        "Discipline.",
+        "Productivity.",
+        "Respect for workplace boundaries.",
+        "Participation in training.",
+        "Proper handling of client information.",
+        "Willingness to learn and improve.",
+        "General conduct around the spa."
+      ]
+    },
+    {
+      "title": "Performance Is Continuous",
+      "paragraphs": [
+        "The performance sheet reflects how Zura Spa experiences and observes the staff member during that month, not simply whether the staff member completed individual tasks.",
+        "Staff should understand that performance is not assessed only when a formal review takes place. Daily behaviour contributes to the monthly assessment.",
+        "A staff member who consistently demonstrates professionalism, discipline, accountability and respect for company standards should expect this to be reflected positively in their performance record.",
+        "Likewise, repeated lateness, poor conduct, gossiping, loitering, hygiene problems, disregard for instructions, poor communication or other breaches of standards may negatively affect the monthly assessment.",
+        "The performance sheet is intended to help Zura Spa identify strong performers, identify areas requiring improvement, give staff clearer feedback, recognize consistency, identify recurring behavioural or operational problems, determine where coaching or additional training is required, improve team standards, and make better operational decisions.",
+        "Staff are expected to take their monthly performance seriously and use feedback as an opportunity for growth."
       ]
     }
   ]

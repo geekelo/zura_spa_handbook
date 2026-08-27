@@ -4,18 +4,6 @@
   "summary": "Fill in your personal details so the team can support you properly.",
   "type": "form",
   "order": 1,
-  "submitLabel": "Save staff form",
-  "successMessage": "Your staff form has been saved on this device.",
-  "fields": [
-    { "name": "fullName", "label": "Full name", "type": "text", "required": true },
-    { "name": "preferredName", "label": "Preferred name", "type": "text", "required": true },
-    { "name": "phone", "label": "Phone number", "type": "tel", "required": true },
-    { "name": "email", "label": "Email", "type": "email", "required": true },
-    { "name": "dateOfBirth", "label": "Date of birth", "type": "date", "required": true },
-    { "name": "address", "label": "Home address", "type": "textarea", "required": true },
-    { "name": "nextOfKin", "label": "Next of kin name", "type": "text", "required": true },
-    { "name": "nextOfKinPhone", "label": "Next of kin phone", "type": "tel", "required": true },
-    { "name": "allergies", "label": "Allergies or health notes", "type": "textarea", "required": false },
-    { "name": "startDate", "label": "Proposed start date", "type": "date", "required": true }
-  ]
+  "embedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSerm9uAznpD0WbBjdzZ3f1sIb3unZn1f1ByxDGoyuND6Max_w/viewform?embedded=true",
+  "embedTitle": "STAFF PERSONAL DATA"
 }

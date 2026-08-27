@@ -1,9 +1,335 @@
 {
   "id": "post-massage-routine",
   "title": "Post-Massage Routine",
-  "summary": "How to close the session and care for the client after massage.",
+  "summary": "How to close one client session and restore the treatment room before preparation begins for the next client.",
   "type": "routine",
   "order": 7,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Post-Massage Routine is the process of properly closing one client session and restoring the treatment room to a clean, hygienic, and orderly condition before preparation begins for the next client.",
+    "A massage session does not end when the client gets off the bed. The therapist is still responsible for ensuring that everything used during the session is properly removed, cleaned, disinfected, stored, or sent for washing.",
+    "The principle is simple: one client's session must be completely closed before another client's preparation begins."
+  ],
+  "guidelines": [
+    {
+      "title": "For the spa, a consistent post-massage routine",
+      "list": [
+        "Maintains hygiene and sanitation standards.",
+        "Prevents used materials from carrying over into another client's session.",
+        "Protects treatment equipment.",
+        "Keeps treatment rooms consistently clean and organised.",
+        "Reduces unpleasant smells, oil buildup, stains, and clutter.",
+        "Makes the next Pre-Massage Routine faster and more effective.",
+        "Reinforces accountability for the therapist's work area."
+      ]
+    },
+    {
+      "title": "For the client",
+      "paragraphs": [
+        "Although most of this process happens after they leave, it protects the standard they will experience on their next visit and ensures every client receives a genuinely fresh treatment environment."
+      ]
+    },
+    {
+      "title": "When the Post-Massage Routine Begins",
+      "paragraphs": [
+        "The post-massage routine begins immediately after the client has changed, collected their belongings, and left the treatment room.",
+        "Where another client is expected, the room must first go through the Post-Massage Routine, followed by the Pre-Massage Routine. These are two separate stages: Post-Massage = Remove, Clean, Disinfect, Restore. Pre-Massage = Prepare, Set, Freshen, Confirm Ready."
+      ]
+    },
+    {
+      "title": "Do not",
+      "list": [
+        "Leave used sheets on the bed for long periods.",
+        "Leave oily towels lying around.",
+        "Leave used equipment uncleaned.",
+        "Walk away from a dirty treatment room without completing the reset."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Remove all used linen",
+      "body": "Immediately remove all linen that was used during the session. Do not attempt to determine whether a sheet or towel \"still looks clean.\" Once it has been used for a client, it is considered used. It must not be used for another client without proper washing. Place all used linen immediately into the approved used-linen basket or laundry container. Clean and used linen must remain completely separate.",
+      "examples": [
+        "Bed sheets.",
+        "Towels.",
+        "Face towels.",
+        "Robes where used.",
+        "Pillow covers.",
+        "Headrest covers.",
+        "Any other washable fabric that came into contact with the client.",
+        "Do not throw used linen on the floor, place it on clean furniture, mix it with fresh linen, leave it on the treatment bed, or carry oily towels against your uniform unnecessarily."
+      ]
+    },
+    {
+      "title": "Send used sheets and towels for washing",
+      "body": "Used linen should be transferred promptly to the laundry area. Where heavy massage oil has soaked into a towel or sheet, it should receive appropriate laundering rather than simply being rinsed and returned. The standard is: Used → Washed → Properly Dried → Clean Storage → Reused. Never: Used → Folded → Reused.",
+      "examples": [
+        "Sheets are properly washed.",
+        "Towels are properly washed.",
+        "Oil residue is removed as much as possible.",
+        "Items are completely dried before reuse.",
+        "Clean laundry is stored separately from dirty laundry."
+      ]
+    },
+    {
+      "title": "Remove massage oil and products",
+      "body": "After the session, massage oils and treatment products should be removed from the immediate working area and returned to their proper storage location where applicable. Wipe the outside of containers if oil has spilled or transferred onto them. Products should be returned clean and organised. Do not pour used or contaminated product back into the main container. Any oil or product that has been dispensed and contaminated during treatment should be handled according to the spa's disposal standard. Avoid waste by dispensing sensible quantities before and during treatment.",
+      "examples": [
+        "Oil bottles, creams, lotions, aromatherapy products, balms, and other treatment products.",
+        "Do not leave oily bottles on the massage bed, floor, towels, furniture, or random surfaces around the room."
+      ]
+    },
+    {
+      "title": "Clean the massage gun",
+      "body": "Where a massage gun was used, it must be cleaned after the session. The massage gun should never move directly from one client to another without being cleaned. Attachments that make contact with the client's body require particular attention. If an attachment cannot be cleaned to an acceptable hygiene standard, it should not be used on another client until properly addressed or replaced.",
+      "examples": [
+        "Switch it off.",
+        "Disconnect or secure it appropriately.",
+        "Remove the attachment where applicable.",
+        "Clean the attachment according to the manufacturer's safe cleaning instructions.",
+        "Wipe the body/handle of the massage gun.",
+        "Remove oil, sweat, or residue.",
+        "Allow cleaned parts to dry where required.",
+        "Return the device and attachments to their designated storage position.",
+        "There should be no visible oil, lotion, hair, sweat, or skin residue on attachments."
+      ]
+    },
+    {
+      "title": "Remove disposable items and waste",
+      "body": "Collect and dispose of all waste generated during the session. Use the appropriate waste bin. Empty the bin where required before the next client. Do not leave waste beside the bed, under furniture, on tables, in corners, or on the bathroom floor.",
+      "examples": [
+        "Used wipes.",
+        "Tissue.",
+        "Disposable items.",
+        "Sweet wrappers.",
+        "Empty packaging.",
+        "Used cotton or similar materials.",
+        "Any client waste left behind."
+      ]
+    },
+    {
+      "title": "Check for client belongings",
+      "body": "Before completely resetting the room, check carefully for anything the client may have forgotten. If something is found, do not keep it casually in the treatment room. Immediately follow the spa's lost-property procedure and inform reception/client management.",
+      "examples": [
+        "Check bed, under the bed, wardrobe, bathroom, chairs, floor, charging areas, and side tables.",
+        "Possible items include phone, jewellery, keys, wallet, earphones, clothing, watch, and other personal items."
+      ]
+    },
+    {
+      "title": "Clean the massage bed",
+      "body": "After removing the used sheets and towels, inspect and clean the massage bed. Use the approved cleaning products suitable for the bed material. Allow the surface to dry before placing fresh linen.",
+      "examples": [
+        "Pay particular attention to bed surface, headrest, face cradle, sides of the bed, areas touched by oily hands, and adjustment controls or handles.",
+        "Remove oil, sweat, product residue, hair, and dirt."
+      ]
+    },
+    {
+      "title": "Clean touched surfaces",
+      "body": "Clean areas that were frequently touched during the session. The room should not only look clean; frequently contacted surfaces should actually be cleaned.",
+      "examples": [
+        "Door handles.",
+        "Wardrobe handles.",
+        "Light switches.",
+        "AC remote.",
+        "Side tables.",
+        "Chairs.",
+        "Product trays.",
+        "Bathroom handles.",
+        "Other commonly touched surfaces."
+      ]
+    },
+    {
+      "title": "Clean the floor",
+      "body": "Inspect the entire floor after every session. Sweep and clean/mop where required. Oil on the floor is particularly important because it can create a slipping hazard. Never leave an oily or wet floor for the next client or staff member.",
+      "examples": [
+        "Remove hair, tissue, oil droplets, water, dirt, and product residue."
+      ]
+    },
+    {
+      "title": "Clean the bathroom where used",
+      "body": "Where the client used the bathroom or shower, inspect it immediately afterward. The bathroom forms part of the treatment room experience and must be reset to the same standard as the main room.",
+      "examples": [
+        "Floor is clean.",
+        "Water is cleared where necessary.",
+        "Used towels are removed.",
+        "Sink is tidy.",
+        "Toilet area is clean.",
+        "Shower area is presentable.",
+        "No personal items remain.",
+        "Waste is removed."
+      ]
+    },
+    {
+      "title": "Refresh the air",
+      "body": "After a completed massage, especially a long session, the room may feel warm, humid, oily, or stale. Refresh the environment appropriately. Do not attempt to cover an unclean room with excessive air freshener. The order should remain: Clean first → Refresh the air afterward.",
+      "examples": [
+        "Allow brief ventilation where practical.",
+        "Ensure the AC is turned off.",
+        "Remove unpleasant odours.",
+        "Use approved room fragrance only where necessary."
+      ]
+    },
+    {
+      "title": "Return items to their proper positions",
+      "body": "Once cleaning is complete, return the room to a neutral, clean state before the next setup begins.",
+      "examples": [
+        "Put furniture back in position.",
+        "Return products to their storage areas.",
+        "Store cleaned equipment.",
+        "Arrange slippers/footwear appropriately.",
+        "Clear unnecessary items.",
+        "Remove staff personal belongings.",
+        "Ensure the room is orderly."
+      ]
+    },
+    {
+      "title": "Check stock levels",
+      "body": "While clearing the room, note any items that need replenishment. Do not wait until the next client is already in the room before discovering that a basic item has finished. Where stock is low, notify the responsible person immediately.",
+      "examples": [
+        "Massage oils.",
+        "Towels.",
+        "Sheets.",
+        "Wipes.",
+        "Tissue.",
+        "Disposable supplies.",
+        "Treats.",
+        "Cleaning materials."
+      ]
+    },
+    {
+      "title": "Wash your hands",
+      "body": "Wash your hands thoroughly after handling used linen, cleaning surfaces, disposing of waste, cleaning equipment, and handling dirty items. The therapist should not move directly from cleaning the previous client's room into preparing the next session without proper hand hygiene."
+    },
+    {
+      "title": "Complete your freshen-up routine",
+      "body": "After physically completing a massage and cleaning the room, the therapist should assess whether they also need to freshen themselves up. Complete the Freshen-Up Routine before receiving another client. The previous session should leave no noticeable effect on the next client's experience.",
+      "examples": [
+        "Bathing where necessary.",
+        "Cleaning underarms.",
+        "Attending to personal hygiene.",
+        "Refreshing breath.",
+        "Applying deodorant/body spray appropriately.",
+        "Changing a sweaty uniform where necessary.",
+        "Washing hands.",
+        "Resetting appearance and composure."
+      ]
+    },
+    {
+      "title": "Final post-massage check",
+      "body": "Before beginning the next Pre-Massage Routine, inspect the room. Only after the previous session has been fully closed should the room move into preparation for another client.",
+      "examples": [
+        "Linen: have all used sheets and towels been removed?",
+        "Laundry: have dirty items been sent to the appropriate laundry area?",
+        "Bed: has the massage bed been cleaned?",
+        "Equipment: has the massage gun and any other reusable equipment been cleaned?",
+        "Products: have oils and treatment products been cleaned and returned properly?",
+        "Waste: has all rubbish been removed?",
+        "Floor: is it clean, dry, and free of oil?",
+        "Bathroom: has it been cleaned where used?",
+        "Belongings: has the room been checked for forgotten client belongings?",
+        "Air: does the room feel fresh?",
+        "Arrangement: has everything been returned to order?"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Not to Do After a Massage"
+    },
+    {
+      "title": "Do Not Leave Used Linen on the Bed",
+      "paragraphs": [
+        "Used linen should be removed immediately. The treatment room should never remain looking like a session has just ended."
+      ]
+    },
+    {
+      "title": "Do Not Mix Dirty and Clean Linen",
+      "paragraphs": [
+        "Even temporarily. Fresh towels and sheets should never be placed in the same basket, surface, or storage area as used linen."
+      ]
+    },
+    {
+      "title": "Do Not Reuse Towels or Sheets Without Washing",
+      "paragraphs": [
+        "A towel does not need to look dirty to be used. Once used by one client, it must be washed before another client uses it."
+      ]
+    },
+    {
+      "title": "Do Not Leave the Massage Gun Uncleaned",
+      "paragraphs": [
+        "Cleaning equipment is part of completing the treatment. Do not assume the next therapist will clean it. The person completing the session is responsible for leaving equipment properly cleaned and stored."
+      ]
+    },
+    {
+      "title": "Do Not Leave Oil Everywhere",
+      "paragraphs": [
+        "Oil buildup makes the environment look poorly maintained and may also create safety and hygiene problems. Oil should not remain:"
+      ],
+      "list": [
+        "On bottles.",
+        "On the bed.",
+        "On handles.",
+        "On tables.",
+        "On the floor.",
+        "On equipment."
+      ]
+    },
+    {
+      "title": "Do Not Return Contaminated Oil to Its Container",
+      "paragraphs": [
+        "Once a product has been dispensed and contaminated, do not pour it back into the original container."
+      ]
+    },
+    {
+      "title": "Do Not Leave Cleaning for the Next Therapist",
+      "paragraphs": [
+        "The therapist responsible for the session should also ensure the room is properly closed afterward. Do not leave \"They will clean it when they need the room\" as the operating standard."
+      ]
+    },
+    {
+      "title": "Do Not Confirm the Room Ready Immediately After a Session",
+      "paragraphs": [
+        "A client leaving the room does not mean the room is ready for another client. The complete sequence is: Client Leaves → Post-Massage Routine → Pre-Massage Routine → Ready Confirmation."
+      ]
+    },
+    {
+      "title": "Zura Spa Post-Massage Checklist",
+      "paragraphs": [
+        "After every massage, confirm:"
+      ],
+      "list": [
+        "Client has left with all belongings.",
+        "Used sheets removed.",
+        "Used towels removed.",
+        "Used robes/headrest covers removed where applicable.",
+        "Used linen placed in the correct laundry container.",
+        "Laundry sent for washing.",
+        "Massage oil/products removed and organised.",
+        "Product containers wiped clean.",
+        "Massage gun switched off and cleaned.",
+        "Massage gun attachments cleaned.",
+        "Waste removed.",
+        "Massage bed cleaned.",
+        "Headrest/face cradle cleaned.",
+        "Frequently touched surfaces cleaned.",
+        "Floor swept/cleaned.",
+        "Oil or water removed from floor.",
+        "Bathroom cleaned where used.",
+        "Room checked for forgotten belongings.",
+        "Air refreshed.",
+        "Equipment returned to the correct place.",
+        "Supplies checked and shortages reported.",
+        "Hands washed.",
+        "Therapist freshen-up routine completed before the next client."
+      ]
+    },
+    {
+      "title": "The Zura Spa Post-Massage Standard",
+      "paragraphs": [
+        "The correct flow is: Client Leaves → Remove Used Items → Laundry → Clean Equipment → Clear Products & Waste → Clean Bed & Surfaces → Clean Floor/Bathroom → Check Belongings → Restore Order → Freshen Therapist → Begin Next Preparation.",
+        "The standard is simple: no evidence of the previous session should remain for the next client. Every client deserves to walk into a room that feels completely fresh, clean, and prepared specifically for them."
+      ],
+      "closing": "A treatment room is not ready for the next client simply because the previous client has left. The previous session must first be properly closed."
+    }
+  ]
 }

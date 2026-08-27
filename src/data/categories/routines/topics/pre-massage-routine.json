@@ -1,9 +1,300 @@
 {
   "id": "pre-massage-routine",
   "title": "Pre-Massage Routine",
-  "summary": "How to prepare the room, tools, and yourself before a session begins.",
+  "summary": "How to prepare the room and yourself so the client enters a space that is already clean, calm, and ready.",
   "type": "routine",
   "order": 5,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Pre-Massage Routine is the preparation standard that must be completed before the client enters the treatment room.",
+    "The quality of a massage experience begins before the first touch. A properly prepared room and a properly prepared therapist immediately communicate cleanliness, comfort, order, professionalism, and readiness.",
+    "When the client enters the room, they should not see preparation taking place. The room should communicate: \"Everything has been prepared for your comfort.\""
+  ],
+  "guidelines": [
+    {
+      "title": "For the spa, the routine ensures",
+      "list": [
+        "Every treatment room meets the same Zura Spa standard.",
+        "Therapists are fully prepared before receiving clients.",
+        "Delays and unnecessary movement during the session are reduced.",
+        "Hygiene and presentation standards are maintained consistently.",
+        "Clients experience a smooth transition from reception into treatment."
+      ]
+    },
+    {
+      "title": "For the client",
+      "paragraphs": [
+        "The environment should immediately help them begin to relax. They should enter a space that already feels:"
+      ],
+      "list": [
+        "Clean.",
+        "Fresh.",
+        "Calm.",
+        "Comfortable.",
+        "Private.",
+        "Organised.",
+        "Ready specifically for them."
+      ]
+    },
+    {
+      "title": "The Pre-Massage Standard",
+      "paragraphs": [
+        "Before confirming \"Ready\" to reception, two things must be completely prepared: the room and the therapist. Neither one is considered ready without the other.",
+        "A beautiful room with an unprepared therapist is not ready. A well-groomed therapist standing inside an untidy room is also not ready.",
+        "Only confirm readiness when both therapist and environment meet the required standard."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Room preparation",
+      "body": "The treatment room must be properly cleaned and arranged before the client arrives. The client should never enter a room that carries visible evidence of the previous session. The room should feel intentional rather than merely cleaned. The massage bed is the central part of the treatment environment and should immediately communicate cleanliness and comfort.",
+      "examples": [
+        "Floor is swept and cleaned, with no hair, tissue, wrappers, dirt, or wet or slippery areas remaining.",
+        "Waste bin is emptied where necessary and surfaces are clean.",
+        "Previous client's items, used towels, and treatment materials have been completely removed.",
+        "Furniture, products, towels, and treatment materials are organised in their designated positions.",
+        "Client footwear/slippers are available and the wardrobe/storage area is ready.",
+        "No personal staff belongings, unnecessary equipment, or clutter is visible.",
+        "Fresh linen is used, the bed is properly laid, towels are clean and neatly arranged, and the headrest is clean and properly positioned.",
+        "Draping materials and pillow or support materials are available where required. Nothing used by the previous client remains on the bed."
+      ]
+    },
+    {
+      "title": "Create the right atmosphere",
+      "body": "The room should have the approved dim, relaxing lighting before the client arrives. Lighting should be soft, calm, comfortable, and bright enough for safe movement. Avoid harsh overhead lighting unless temporarily required for cleaning or preparation. Once preparation is complete, return the room to its relaxation setting. The room should smell clean and pleasant. The fragrance should be subtle. A relaxing room should smell fresh, not heavily perfumed. The AC should be switched on early enough for the room to become comfortably cool before the client enters. Do not wait until the client is already inside before attempting to cool the room. Remain attentive to the client's temperature preference during the session. Where applicable, approved relaxation music should be ready at a low, soothing volume, doors should close properly, and unnecessary external noise should be reduced.",
+      "examples": [
+        "No body odour or stale smell remains from the previous session.",
+        "No strong chemical cleaning smell remains.",
+        "The room has been properly refreshed, with approved fragrance used appropriately where applicable."
+      ]
+    },
+    {
+      "title": "Prepare client items",
+      "body": "Before the client arrives, ensure all items required for their preparation are available. Do not begin looking for these items after the client enters. The approved welcome treat should already be available and neatly presented. It should not be open, damaged, handled unnecessarily, or left casually around the room. The treat is a small detail, but premium service is often communicated through attention to small details.",
+      "examples": [
+        "Fresh towel.",
+        "Robe where applicable.",
+        "Clean slippers/footwear.",
+        "Disposable items where required.",
+        "Appropriate treatment products.",
+        "Client treats."
+      ]
+    },
+    {
+      "title": "Prepare treatment products",
+      "body": "Before confirming readiness, ensure everything required for the selected service is available. Where the client's preferences are already known, ensure the appropriate products have been selected beforehand. The therapist should not leave the client during the session because a basic treatment item was forgotten.",
+      "examples": [
+        "Massage oil.",
+        "Cream.",
+        "Lotion.",
+        "Aromatherapy products.",
+        "Hot towels.",
+        "Other approved treatment materials."
+      ]
+    },
+    {
+      "title": "Review client information",
+      "body": "Before receiving the client, the therapist should already know the relevant information communicated by reception. Where the client is returning, review available preferences so the experience feels personalised. The client should not feel that every visit starts from zero.",
+      "examples": [
+        "Client's name.",
+        "Selected treatment.",
+        "Session duration.",
+        "New or returning client.",
+        "Massage pressure preference.",
+        "Areas requiring attention.",
+        "Known preferences.",
+        "Approved add-ons.",
+        "Any relevant requests."
+      ]
+    },
+    {
+      "title": "Therapist freshen-up routine",
+      "body": "Before receiving a client, the therapist must complete the approved freshen-up routine. This should be completed after the previous session and before confirming readiness for the next one. A therapist who has just completed a physically demanding session should not immediately receive another client without first freshening up.",
+      "examples": [
+        "Hands are properly washed.",
+        "Body is fresh.",
+        "Face is clean and presentable.",
+        "Breath is fresh.",
+        "Uniform is clean and properly arranged.",
+        "Hair is neat.",
+        "Nails and hands are clean.",
+        "No strong body odour is present.",
+        "Excessive sweat has been addressed.",
+        "Any necessary personal refreshment has been completed."
+      ]
+    },
+    {
+      "title": "Therapist appearance",
+      "body": "Before the client enters, the therapist should inspect themselves. The therapist is part of the visual presentation of the spa and must be in full approved uniform, neat, clean, properly groomed, and professionally presented.",
+      "examples": [
+        "Avoid wrinkled or untidy uniform.",
+        "Avoid dirty footwear.",
+        "Avoid untidy hair.",
+        "Avoid strong perfume.",
+        "Avoid excessive jewellery.",
+        "Avoid visible food or chewing gum.",
+        "Avoid carrying personal belongings."
+      ]
+    },
+    {
+      "title": "Therapist physical readiness",
+      "body": "Being present in the room is not the same as being ready. The therapist should be physically fit and composed enough to deliver the session properly. Once the massage begins, unnecessary interruptions should be avoided.",
+      "examples": [
+        "Catch your breath after the previous session.",
+        "Hydrate where necessary.",
+        "Stretch briefly if required.",
+        "Use the restroom beforehand.",
+        "Ensure you are not hungry to the point of distraction.",
+        "Resolve any immediate personal need that could interrupt the session."
+      ]
+    },
+    {
+      "title": "Therapist mental readiness",
+      "body": "The therapist should mentally reset before receiving the next client. Do not carry frustration from another client, staff disagreements, personal problems, irritation, or tired or defeated body language. Take a moment to compose yourself. The incoming client deserves a fresh experience, regardless of what happened during the previous session. The therapist should be mentally prepared to receive the client with warmth, energy, confidence, patience, and focus."
+    },
+    {
+      "title": "Final room check",
+      "body": "Before notifying reception that you are ready, stand at the entrance and look at the room as though you are the client entering for the first time. If anything is incomplete, you are not ready yet.",
+      "examples": [
+        "Bed: is it properly laid and inviting?",
+        "Floor: is it completely clean?",
+        "Air: does the room smell fresh?",
+        "Temperature: is the AC on and the temperature comfortable?",
+        "Lighting: is the lighting in the correct relaxing setting?",
+        "Arrangement: is everything organised?",
+        "Client items: are the towel, robe, footwear, and treat available?",
+        "Products: are all treatment materials ready?",
+        "Therapist: are you clean, composed, informed, and ready?"
+      ]
+    },
+    {
+      "title": "Confirm readiness to reception",
+      "body": "Only after the complete pre-massage routine has been carried out should the therapist confirm readiness. The response should be clear. Once this confirmation is given, reception should be able to bring the client immediately. \"Ready\" must mean completely ready. Do not confirm readiness and then begin changing clothes, cleaning the room, making the bed, looking for oil, going to the restroom, freshening up, or leaving the treatment area.",
+      "examples": [
+        "Ready.",
+        "You can bring the client."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Not to Do During Pre-Massage Preparation"
+    },
+    {
+      "title": "Do Not Reuse Used Materials",
+      "paragraphs": [
+        "Hygiene is non-negotiable. Never reuse:"
+      ],
+      "list": [
+        "Towels.",
+        "Linen.",
+        "Disposable items.",
+        "Anything intended for single-client use."
+      ]
+    },
+    {
+      "title": "Do Not Prepare the Room in Front of the Client",
+      "paragraphs": [
+        "Preparation should happen before the client arrives. The client should not enter and see the therapist:"
+      ],
+      "list": [
+        "Making the bed.",
+        "Sweeping.",
+        "Mopping.",
+        "Searching for towels.",
+        "Arranging products.",
+        "Turning on the AC for the first time.",
+        "Removing items from the previous session."
+      ]
+    },
+    {
+      "title": "Do Not Leave Evidence of the Previous Client",
+      "paragraphs": [
+        "Every client should feel as though the room has been prepared fresh for them. There should be no:"
+      ],
+      "list": [
+        "Used towels.",
+        "Empty water bottles.",
+        "Tissue.",
+        "Used treatment products.",
+        "Personal belongings.",
+        "Hair on the floor or bed.",
+        "Strong lingering odour."
+      ]
+    },
+    {
+      "title": "Do Not Over-Scent the Room",
+      "paragraphs": [
+        "Some clients may be sensitive to scents. Cleanliness should create freshness first; fragrance should only complement it. Do not attempt to create freshness by using excessive perfume, air freshener, essential oils, or strong fragrances."
+      ]
+    },
+    {
+      "title": "Do Not Confirm Readiness While Still Freshening Up",
+      "paragraphs": [
+        "Reception relies on the therapist's confirmation. If you say \"Ready,\" you must be able to receive the client immediately."
+      ]
+    },
+    {
+      "title": "Do Not Wait for Reception to Remind You to Prepare",
+      "paragraphs": [
+        "Therapists should remain aware of their assigned clients and expected session times. Preparation should be proactive. The therapist should not begin getting ready only when told \"Your client is downstairs.\""
+      ]
+    },
+    {
+      "title": "Do Not Bring Personal Problems Into the Room",
+      "paragraphs": [
+        "Whatever occurred before the session should not change the energy with which the next client is received. Reset before every client. Avoid entering the session angry, complaining, withdrawn, distracted, or visibly unhappy."
+      ]
+    },
+    {
+      "title": "Do Not Allow Staff Conversations to Disturb the Environment",
+      "paragraphs": [
+        "The relaxation environment should already be active before the massage starts. Once the room has been prepared:"
+      ],
+      "list": [
+        "Avoid shouting between rooms.",
+        "Avoid loud laughter near treatment rooms.",
+        "Avoid unnecessary staff conversations around the client area."
+      ]
+    },
+    {
+      "title": "Zura Spa Pre-Massage Readiness Check",
+      "paragraphs": [
+        "Before saying \"Ready,\" the therapist should mentally confirm every applicable item. Only then should reception receive the message: \"You can bring the client.\""
+      ],
+      "list": [
+        "Floor cleaned.",
+        "Room properly arranged.",
+        "Fresh linen used.",
+        "Massage bed properly laid.",
+        "Fresh towel/robe available.",
+        "Client footwear available.",
+        "Treat prepared.",
+        "Required massage products available.",
+        "Room smells fresh.",
+        "AC switched on.",
+        "Temperature comfortable.",
+        "Lighting properly dimmed.",
+        "Ambience/music set where applicable.",
+        "Client information reviewed.",
+        "Freshen-up routine completed.",
+        "Uniform and appearance checked.",
+        "Hands washed.",
+        "Breath fresh.",
+        "Therapist physically ready.",
+        "Therapist mentally composed.",
+        "Personal phone and distractions put away.",
+        "Therapist fully ready to receive the client."
+      ]
+    },
+    {
+      "title": "The Zura Spa Pre-Massage Standard",
+      "paragraphs": [
+        "The ideal preparation flow is: Room Cleaning → Room Arrangement → Bed Preparation → Atmosphere Setting → Client Items → Treatment Products → Client Information Review → Therapist Freshen-Up → Personal Presentation → Mental Reset → Final Check → Ready Confirmation.",
+        "The objective is simple: nothing should need to be prepared once the client enters. When the client walks through the door, both the room and therapist should already be waiting for them.",
+        "The client should enter and immediately feel: \"This space is ready for me.\" \"My therapist was expecting me.\" \"I can relax now.\""
+      ],
+      "closing": "Preparation is part of the treatment. Before the therapist touches the client, the environment should already have begun the work of helping them relax."
+    }
+  ]
 }

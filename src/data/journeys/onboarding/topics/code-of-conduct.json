@@ -1,33 +1,156 @@
 {
   "id": "code-of-conduct",
   "title": "Code of Conduct",
-  "summary": "Resignation, firing, leave, and choosing work days.",
+  "summary": "Code of conduct, resignation, termination, leave, and work schedule.",
   "type": "article",
   "order": 6,
   "sections": [
     {
-      "title": "Resignation",
+      "title": "Code of Conduct, Resignation, Termination, Leave & Work Schedule"
+    },
+    {
+      "title": "1. Code of Conduct",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "Every staff member is expected to understand and comply with Zura Spa's Code of Conduct, SOPs, workplace standards and reasonable instructions.",
+        "The Code of Conduct exists to protect:"
+      ],
+      "list": [
+        "Clients.",
+        "Staff.",
+        "The company.",
+        "The spa environment.",
+        "Professional standards.",
+        "Confidentiality and privacy.",
+        "Safety and order."
+      ],
+      "closing": "Staff are expected to conduct themselves with professionalism, discipline, honesty, accountability and respect at all times."
+    },
+    {
+      "title": "Breach of Code of Conduct",
+      "paragraphs": [
+        "Any staff member who deliberately or repeatedly flaunts, disregards or violates Zura Spa's standards or Code of Conduct may be subject to disciplinary action, including termination.",
+        "Serious breaches may result in immediate escalation and termination in accordance with the applicable employment arrangement and relevant law."
       ]
     },
     {
-      "title": "Firing",
+      "title": "2. Work Days & Availability",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "Therapists choose their preferred working days and number of working days based on the available work schedules.",
+        "Once a therapist's working days have been agreed and recorded, those days become the therapist's expected work schedule.",
+        "Staff are responsible for:"
+      ],
+      "list": [
+        "Knowing their agreed working days.",
+        "Resuming on their scheduled days.",
+        "Being available during their agreed working periods.",
+        "Communicating any circumstances that may affect their availability.",
+        "Following the approved schedule."
       ]
     },
     {
-      "title": "Leave",
+      "title": "3. Changing Work Days or Off Days",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "A staff member may request to change their working days or off days.",
+        "However, changes must be communicated ahead of time and approved before they take effect.",
+        "Staff must not independently change their schedule and assume that the change has been accepted.",
+        "The proper process is: Request → Communication → Approval → Schedule Change.",
+        "An unapproved change to working or off days may be treated as an attendance or conduct issue."
       ]
     },
     {
-      "title": "Choose Work Days",
+      "title": "4. Absence From Work",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "If a staff member is unable to report to work on a scheduled day, the absence must be communicated through the appropriate company communication channel as early as reasonably possible.",
+        "Staff must not simply fail to show up without communication.",
+        "Absence communication should clearly state:"
+      ],
+      "list": [
+        "That the staff member will be absent.",
+        "The reason for the absence where appropriate.",
+        "The affected workday.",
+        "Any relevant information required by the company."
+      ],
+      "closing": "Communication of an absence does not automatically mean the absence is approved or paid."
+    },
+    {
+      "title": "5. Leave & Time Off",
+      "paragraphs": [
+        "Zura Spa does not operate a general paid leave arrangement under this work schedule.",
+        "Days not worked are not paid.",
+        "Where a staff member needs time away from work, they must communicate this ahead of time and obtain the necessary approval where applicable.",
+        "An approved absence does not create an entitlement to payment for the day(s) not worked.",
+        "Repeated or unauthorized absence may result in disciplinary action."
       ]
+    },
+    {
+      "title": "6. Resignation",
+      "paragraphs": [
+        "A staff member who wishes to resign from Zura Spa must provide one month's notice before their intended final working date.",
+        "The notice should be formally communicated through the appropriate company channel.",
+        "During the notice period, the staff member is expected to:"
+      ],
+      "list": [
+        "Continue performing their assigned responsibilities.",
+        "Maintain the required standards.",
+        "Observe their agreed work schedule.",
+        "Complete outstanding responsibilities.",
+        "Cooperate with any handover process required by the company.",
+        "Maintain confidentiality and professional conduct."
+      ],
+      "closing": "Failure to provide the required notice may be handled according to the applicable employment/engagement agreement and relevant law."
+    },
+    {
+      "title": "7. Termination / Firing",
+      "paragraphs": [
+        "Zura Spa may terminate a staff member's engagement where the staff member seriously breaches the Code of Conduct, SOPs, workplace standards or other applicable requirements.",
+        "Conduct that may lead to termination includes, but is not limited to:"
+      ],
+      "list": [
+        "Serious or repeated disregard of company standards.",
+        "Serious breaches of the Code of Conduct.",
+        "Theft or dishonesty.",
+        "Serious confidentiality or privacy breaches.",
+        "Sexual misconduct or offering unauthorized sexual services.",
+        "Serious client-safety violations.",
+        "Violence, threats or intimidation.",
+        "Serious harassment.",
+        "Deliberate insubordination.",
+        "Repeated unauthorized absence.",
+        "Serious misconduct.",
+        "Deliberate actions that significantly damage the safety, reputation or operation of Zura Spa."
+      ],
+      "closing": "Where a staff member's conduct demonstrates that they are unwilling or unable to comply with the standards required by Zura Spa, their engagement may be terminated in accordance with the applicable agreement and relevant law."
+    },
+    {
+      "title": "8. Accountability for Attendance",
+      "paragraphs": [
+        "Attendance is the responsibility of each staff member. Staff are expected to:"
+      ],
+      "list": [
+        "Know their schedule.",
+        "Resume on time.",
+        "Sign in through the approved application.",
+        "Sign out through the approved application.",
+        "Communicate absences.",
+        "Communicate schedule changes ahead of time.",
+        "Obtain approval before changing agreed working or off days."
+      ],
+      "closing": "Not communicating an absence is different from communicating an absence. Communication allows the company to manage operations. It does not automatically excuse the absence."
+    },
+    {
+      "title": "9. Core Principle",
+      "paragraphs": [
+        "Zura Spa operates on a culture of clear communication, accountability and responsibility.",
+        "Staff are expected to communicate before problems occur whenever reasonably possible."
+      ],
+      "list": [
+        "If you cannot come to work, communicate.",
+        "If you need to change your schedule, communicate and get approval.",
+        "If you need to resign, give one month's notice.",
+        "If you choose to work a schedule, honour it.",
+        "If you work with Zura Spa, uphold the Code of Conduct."
+      ],
+      "closing": "Note: Because employment/contract rules can vary by jurisdiction and worker classification, the final version of the leave, deductions, resignation and termination provisions should be checked against the applicable Nigerian employment law and the staff member's contract before being issued as a binding policy."
     }
   ]
 }

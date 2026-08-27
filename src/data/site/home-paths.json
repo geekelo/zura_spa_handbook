@@ -10,7 +10,7 @@
   {
     "id": "onboarding",
     "title": "Onboarding",
-    "description": "Know your staff form, SOPs, obligations, standards, kit, conduct, and signing.",
+    "description": "Know your staff form, SOPs, obligations, kit, conduct, and signing.",
     "icon": "grad",
     "tone": "lavender",
     "to": "/onboarding"
