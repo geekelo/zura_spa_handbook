@@ -1,9 +1,412 @@
 {
   "id": "massage-end-routine",
   "title": "Massage End Routine",
-  "summary": "How to finish the massage cleanly and leave the client at ease.",
+  "summary": "The structured process followed during the final moments of a massage and immediately after the session to bring the experience to a calm, professional conclusion.",
   "type": "routine",
   "order": 12,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Zura Spa Massage End Routine is the structured process followed during the final moments of a massage and immediately after the session.",
+    "It ensures that the massage is brought to a calm, professional and intentional conclusion, the client's privacy and comfort are protected, feedback is received appropriately, and the room is properly restored for the next session.",
+    "At Zura Spa, the massage does not end simply because the therapist's hands stop moving.",
+    "The session is complete only when the client has been properly transitioned out of the massage, given privacy to dress, attended to appropriately, and the treatment room has been reset."
+  ],
+  "guidelines": [
+    {
+      "title": "Relevance of the Massage End Routine",
+      "paragraphs": [
+        "The Massage End Routine matters because how a session ends shapes the client's final impression of Zura Spa."
+      ]
+    },
+    {
+      "title": "Client Comfort",
+      "paragraphs": [
+        "A client who has been deeply relaxed should not suddenly feel rushed back into activity. The end routine allows the client to transition gradually from the massage experience."
+      ]
+    },
+    {
+      "title": "Client Safety",
+      "paragraphs": [
+        "After a long or deeply relaxing massage, some clients may temporarily feel very relaxed, sleepy, light-headed, slow to move, or slightly disoriented.",
+        "Allowing the client a moment before sitting or standing helps provide a safer transition."
+      ]
+    },
+    {
+      "title": "Client Privacy",
+      "paragraphs": [
+        "The client must be properly covered and given privacy before changing back into their clothes.",
+        "The therapist should leave the room rather than remaining unnecessarily while the client dresses."
+      ]
+    },
+    {
+      "title": "Professional Closure",
+      "paragraphs": [
+        "A massage should have a recognizable beginning, proper flow and proper ending.",
+        "A professional ending communicates: \"Your session has been completed properly, and you are still being cared for.\""
+      ]
+    },
+    {
+      "title": "Client Feedback",
+      "paragraphs": [
+        "The end of the session creates an appropriate opportunity to understand how the client feels, whether they enjoyed the massage, whether the pressure was suitable, whether there were areas they particularly appreciated, and whether there is anything Zura Spa should improve."
+      ]
+    },
+    {
+      "title": "Client Relationship",
+      "paragraphs": [
+        "The final interaction is often what the client remembers as they leave.",
+        "A warm and professional ending can strengthen trust, satisfaction, client retention, referrals and willingness to return."
+      ]
+    },
+    {
+      "title": "Operational Readiness",
+      "paragraphs": [
+        "The routine ensures that used materials are removed, massage products are properly handled, equipment is cleaned, the treatment room is restored, any issue from the session is reported, and the room is ready for another client."
+      ]
+    },
+    {
+      "title": "The Therapist's Mindset",
+      "paragraphs": [
+        "The therapist should approach the end of every massage with the mindset: \"My responsibility does not end when the massage ends. I must complete the client's experience properly.\""
+      ]
+    },
+    {
+      "title": "Calm",
+      "paragraphs": [
+        "Do not suddenly become hurried because the massage time is over. The atmosphere should remain peaceful until the client has properly transitioned."
+      ]
+    },
+    {
+      "title": "Patient",
+      "paragraphs": [
+        "Allow the client reasonable time to adjust, dress and gather themselves."
+      ]
+    },
+    {
+      "title": "Attentive",
+      "paragraphs": [
+        "Observe whether the client appears comfortable, needs additional time, has difficulty getting up, wants to give feedback, or requires assistance or clarification."
+      ]
+    },
+    {
+      "title": "Respectful",
+      "paragraphs": [
+        "The same privacy, dignity and professional boundaries maintained throughout the massage must continue until the client leaves."
+      ]
+    },
+    {
+      "title": "Professional",
+      "paragraphs": [
+        "Do not allow the end of the massage to become an informal period where professional standards are relaxed."
+      ]
+    },
+    {
+      "title": "Grateful",
+      "paragraphs": [
+        "The therapist should recognize that the client trusted Zura Spa with their time, money and personal comfort."
+      ]
+    },
+    {
+      "title": "Accountable",
+      "paragraphs": [
+        "The therapist remains responsible for properly concluding the session, handling feedback appropriately, cleaning the room, returning materials and reporting relevant concerns."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Step 1 — Gradually Reduce the Massage Intensity",
+      "body": "As the massage approaches its end, the therapist should gradually bring the session to a close. The massage should feel completed, not interrupted.",
+      "examples": [
+        "Avoid going directly from strong or active techniques to suddenly removing both hands.",
+        "Reduce the intensity gradually.",
+        "Slow the massage rhythm.",
+        "Use calmer finishing movements.",
+        "Allow the client's body to recognize that the session is ending."
+      ]
+    },
+    {
+      "title": "Step 2 — Complete the Final Massage Movements",
+      "body": "Finish the approved massage sequence properly. Where two therapists are working together, both therapists should bring the massage to an end in a coordinated manner.",
+      "examples": [
+        "The area being worked on has been properly completed.",
+        "Excessive oil has not been left unnecessarily on the client.",
+        "Towels and coverings are properly positioned.",
+        "The client is comfortable.",
+        "One therapist should not stop several minutes before the other without an appropriate reason."
+      ]
+    },
+    {
+      "title": "Step 3 — Inform the Client That the Session Has Ended",
+      "body": "The therapist should calmly inform the client and explain that the therapists will step outside while the client gets dressed.",
+      "examples": [
+        "Hello Sir/Ma, we have come to the end of your session.",
+        "We will step outside now so you can change into your clothes. Please take your time.",
+        "The therapist should not simply disappear without informing the client that the massage has ended."
+      ]
+    },
+    {
+      "title": "Step 4 — Ensure the Client Is Properly Covered",
+      "body": "Before leaving the room, cover the client appropriately and ensure the client's dignity remains protected even though the massage has finished.",
+      "examples": [
+        "Ensure private areas remain properly covered.",
+        "Arrange the towel or sheet neatly.",
+        "Ensure the client is comfortable."
+      ]
+    },
+    {
+      "title": "Step 5 — Allow the Client a Moment to Adjust",
+      "body": "Do not immediately ask the client to jump off the massage bed. Allow a short period for the client to relax, become fully alert, adjust their breathing and prepare themselves to sit up.",
+      "examples": [
+        "Please take your time getting up."
+      ]
+    },
+    {
+      "title": "Step 6 — Give Simple Instructions Where Necessary",
+      "body": "If the client appears deeply relaxed, gently advise them to move slowly, sit up carefully, remain seated briefly if necessary, and stand only when comfortable.",
+      "examples": [
+        "The therapist should not physically rush or pull the client up unnecessarily."
+      ]
+    },
+    {
+      "title": "Step 7 — Step Out and Give the Client Privacy",
+      "body": "The therapist should leave the room while the client changes.",
+      "examples": [
+        "Ensure the client's clothes and belongings are accessible.",
+        "Ensure shoes are properly positioned.",
+        "Ensure the floor is dry and safe.",
+        "Ensure the client knows that the therapist is stepping outside.",
+        "Leave and close the door appropriately."
+      ]
+    },
+    {
+      "title": "Step 8 — Wait Appropriately Outside",
+      "body": "The therapist should remain available without repeatedly knocking or disturbing the client. Allow reasonable time.",
+      "examples": [
+        "Do not rush the client.",
+        "Do not call through the door unnecessarily.",
+        "Do not continually ask whether they are finished.",
+        "Do not discuss the client's session loudly outside the room."
+      ]
+    },
+    {
+      "title": "Step 9 — Knock Before Re-Entering",
+      "body": "If it becomes necessary to re-enter, knock first, wait for confirmation, and enter only after the client indicates that they are ready.",
+      "examples": [
+        "Never assume the client has finished changing."
+      ]
+    },
+    {
+      "title": "Step 10 — Check How the Client Feels",
+      "body": "Once the client is properly dressed and ready, the therapist may briefly ask how the client feels or how the session was.",
+      "examples": [
+        "How are you feeling?",
+        "How was your session?",
+        "The purpose is to check the client's experience and create room for feedback."
+      ]
+    },
+    {
+      "title": "Step 11 — Receive Feedback Professionally",
+      "body": "If feedback is positive, respond graciously. If feedback contains a complaint, listen completely, avoid interruption, remain calm, acknowledge what the client has said, apologize appropriately where necessary, and inform the supervisor or appropriate person when required.",
+      "examples": [
+        "Thank you very much Sir/Ma. We're glad you enjoyed your session.",
+        "Do not debate the client's experience."
+      ]
+    },
+    {
+      "title": "Step 12 — Do Not Solicit Inappropriate Personal Arrangements",
+      "body": "The therapist should not use the relaxed post-massage moment to request the client's personal number unnecessarily, arrange private massage services, ask for gifts or tips, discuss personal financial needs, promote themselves outside Zura Spa, or make inappropriate propositions.",
+      "examples": [
+        "The client relationship remains a Zura Spa professional relationship."
+      ]
+    },
+    {
+      "title": "Step 13 — Guide the Client Out Appropriately",
+      "body": "When the client is ready, ensure they have all belongings, check for phones, wallets, watches, jewelry, keys and bags, ensure shoes are properly worn, open the door appropriately, and escort or direct the client according to Zura Spa's Client Departure Routine.",
+      "examples": [
+        "Where necessary, hand the client back to the receptionist/front desk."
+      ]
+    },
+    {
+      "title": "Step 14 — Thank the Client",
+      "body": "Close warmly without becoming excessive.",
+      "examples": [
+        "Thank you for visiting Zura Spa, Sir/Ma. We hope you enjoyed your session."
+      ]
+    },
+    {
+      "title": "Step 15 — Report Important Client Feedback",
+      "body": "After the client has left, important information should be communicated appropriately and documented according to the appropriate Zura Spa reporting routine.",
+      "examples": [
+        "Complaints.",
+        "Pain reported during the massage.",
+        "Unusual client requests.",
+        "Client dissatisfaction.",
+        "Equipment issues.",
+        "Service concerns.",
+        "Significant client feedback.",
+        "Any incident requiring management attention."
+      ]
+    },
+    {
+      "title": "Step 16 — Remove Used Materials",
+      "body": "Begin the Post-Massage Routine. Remove used bed sheets, used towels, used wipes, used disposable materials, and empty containers or other waste.",
+      "examples": [
+        "Used materials should not remain scattered around the treatment room."
+      ]
+    },
+    {
+      "title": "Step 17 — Remove and Clean Massage Products",
+      "body": "Ensure that massage oil is properly closed and stored, any oil spills are cleaned, oil is removed from surfaces where necessary, the floor is not slippery, and massage containers are returned properly."
+    },
+    {
+      "title": "Step 18 — Clean Massage Equipment",
+      "body": "Where equipment was used, clean and sanitize it according to the appropriate routine.",
+      "examples": [
+        "Massage gun.",
+        "Massage tools.",
+        "Supports.",
+        "Reusable equipment.",
+        "Frequently touched surfaces.",
+        "Equipment should never be passed directly to another client without being properly cleaned."
+      ]
+    },
+    {
+      "title": "Step 19 — Wash Hands",
+      "body": "After handling used towels, sheets, cleaning materials, massage equipment and waste, the therapist should properly wash their hands.",
+      "examples": [
+        "Post-session hygiene is as important as pre-session hygiene."
+      ]
+    },
+    {
+      "title": "Step 20 — Prepare Used Linen for Washing",
+      "body": "Used sheets and towels should be placed in the designated area for washing.",
+      "examples": [
+        "They should not be thrown on the floor.",
+        "They should not be mixed with clean linen.",
+        "They should not be left on the massage bed.",
+        "They should not be stored improperly."
+      ]
+    },
+    {
+      "title": "Step 21 — Clean and Reset the Room",
+      "body": "The therapist should restore the room so it is ready for the next client.",
+      "examples": [
+        "Bed is cleaned.",
+        "Fresh sheets are laid where appropriate.",
+        "Fresh towels are available.",
+        "Floor is clean and dry.",
+        "Oil stains are removed.",
+        "Equipment is cleaned and returned.",
+        "Waste bin is handled appropriately.",
+        "Lighting is appropriate.",
+        "Air conditioning remains appropriate.",
+        "The room smells fresh.",
+        "Client belongings have not been left behind."
+      ]
+    },
+    {
+      "title": "Step 22 — Final Room Check",
+      "body": "Before leaving the treatment room, pause and look around. Only when the room is properly restored should the Massage End Routine be considered complete.",
+      "examples": [
+        "If another client entered this room now, is it ready?",
+        "Check the bed, floor, towels, oil, equipment, lighting, smell, waste and client belongings."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Procedure Summary",
+      "list": [
+        "Reduce massage intensity gradually.",
+        "Complete the final movements.",
+        "Inform the client that the session has ended.",
+        "Cover the client properly.",
+        "Allow the client time to adjust.",
+        "Advise the client to get up gradually where necessary.",
+        "Make clothes and belongings accessible.",
+        "Step outside for privacy.",
+        "Allow the client to dress without rushing them.",
+        "Knock before re-entering.",
+        "Ask how the client feels.",
+        "Receive feedback professionally.",
+        "Ensure all belongings are collected.",
+        "Thank and appropriately hand over/escort the client.",
+        "Report relevant feedback or incidents.",
+        "Remove used sheets, towels and waste.",
+        "Remove and properly store massage oil.",
+        "Clean massage equipment.",
+        "Wash hands.",
+        "Send used linen for washing.",
+        "Clean and reset the room.",
+        "Perform a final readiness check."
+      ]
+    },
+    {
+      "title": "What the Therapist Should Not Do",
+      "list": [
+        "Suddenly stop the massage without properly concluding it.",
+        "Immediately tell the client to get up.",
+        "Pull or rush a deeply relaxed client from the bed.",
+        "Leave the client improperly covered.",
+        "Compromise the client's privacy.",
+        "Remain unnecessarily in the room while the client changes.",
+        "Re-enter the room without knocking.",
+        "Rush the client to dress.",
+        "Begin loudly cleaning while the client is still trying to relax.",
+        "Drag sheets from underneath the client while they are still on the bed.",
+        "Begin discussing the next client before the current client has left.",
+        "Make the client feel that their time has suddenly become an inconvenience.",
+        "Ask inappropriate personal questions.",
+        "Ask for tips.",
+        "Pressure the client to give positive feedback.",
+        "Argue when feedback is negative.",
+        "Become defensive.",
+        "Tell the client that they are wrong about how they felt.",
+        "Blame the co-therapist.",
+        "Blame reception or management in front of the client.",
+        "Discuss another client's information.",
+        "Discuss the current client's information unnecessarily.",
+        "Make medical claims about the massage.",
+        "Guarantee that pain, injury or a medical condition has been cured.",
+        "Exchange personal contact information for unauthorized private services.",
+        "Make inappropriate jokes or propositions.",
+        "Leave used towels or sheets on the floor.",
+        "Mix dirty and clean linen.",
+        "Leave massage oil open.",
+        "Leave spilled oil on surfaces or floors.",
+        "Leave equipment dirty.",
+        "Leave massage guns or tools uncleaned.",
+        "Leave the room untidy.",
+        "Forget to check for client belongings.",
+        "Ignore a complaint or unusual incident that should be reported.",
+        "Consider the session finished while post-session responsibilities remain undone."
+      ]
+    },
+    {
+      "title": "Four-Hands Massage Ending",
+      "paragraphs": [
+        "Where two therapists are involved, the ending should also be synchronized.",
+        "Both therapists should understand when the massage is concluding, gradually reduce intensity together, avoid one therapist suddenly stopping while the other continues, finish their movements in a coordinated way, ensure the client is properly covered, leave the room together where appropriate, and avoid discussing performance issues while the client is present.",
+        "Afterwards, both therapists should participate appropriately in room reset, equipment cleaning, linen handling and reporting.",
+        "One therapist should not automatically leave all post-massage responsibilities to the other."
+      ]
+    },
+    {
+      "title": "The End-of-Session Mindset",
+      "paragraphs": [
+        "A Zura Spa therapist should remember: \"I am not just finishing a massage. I am completing the client's experience.\"",
+        "The client should leave feeling relaxed, respected, unhurried, appreciated, comfortable and properly cared for.",
+        "The therapist should leave the room knowing: the massage was properly completed, the client was given privacy, feedback was received appropriately, the client left with their belongings, relevant issues were reported, the room was properly cleaned, and the next session can begin without unnecessary delay."
+      ]
+    },
+    {
+      "title": "Zura Spa Massage End Standard",
+      "paragraphs": [
+        "SLOW → CLOSE → COVER → ALLOW → PRIVACY → CHECK → LISTEN → THANK → GUIDE → REPORT → CLEAN → RESET",
+        "Slow the massage down. Complete the final movement. Inform the client. Cover the client. Allow them to adjust. Give them privacy to dress. Check how they feel. Receive feedback. Thank them. Ensure belongings are collected. Guide the client out. Report important information. Clean yourself, equipment and room. Reset for the next session.",
+        "At Zura Spa, the massage does not end at the last touch. It ends when the client has been properly cared for, the session has been professionally closed, and the room has been restored.",
+        "START WITH CARE. MASSAGE WITH EXCELLENCE. END WITH CARE."
+      ]
+    }
+  ]
 }

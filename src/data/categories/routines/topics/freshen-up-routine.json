@@ -1,9 +1,208 @@
 {
   "id": "freshen-up-routine",
-  "title": "Freshen-Up Routine",
-  "summary": "How to refresh the client, room, or yourself during the visit.",
+  "title": "Therapist Freshen-Up Routine",
+  "summary": "How to receive every client feeling and appearing clean, fresh, hygienic, and professionally prepared.",
   "type": "routine",
   "order": 6,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Freshen-Up Routine ensures that every therapist receives each client feeling and appearing clean, fresh, hygienic, confident, and professionally prepared.",
+    "Massage requires close physical proximity between therapist and client. Because of this, personal hygiene is not simply a grooming preference — it is an important part of the client's comfort and the Zura Spa service standard.",
+    "A therapist may have completed several sessions during the day, perspired, eaten, used the restroom, or simply been active for several hours. The incoming client should never experience the physical effects of the therapist's previous activities or previous session.",
+    "Every client deserves a fresh therapist experience. The standard is: the client should be able to relax around the therapist without becoming conscious of body odour, sweat, breath, or poor personal hygiene."
+  ],
+  "guidelines": [
+    {
+      "title": "When the Freshen-Up Routine Must Be Done",
+      "paragraphs": [
+        "A therapist should freshen up:"
+      ],
+      "list": [
+        "Before the first client of the day.",
+        "Between clients.",
+        "After any session that caused significant sweating.",
+        "After eating foods that may affect the breath.",
+        "After using the restroom where necessary.",
+        "After prolonged physical activity.",
+        "Anytime the therapist notices sweat or body odour.",
+        "Anytime a supervisor determines that freshening up is necessary."
+      ],
+      "closing": "Freshening up should be completed before the therapist confirms readiness to receive the next client."
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Bathing — when required",
+      "body": "A full bath or shower is not necessarily required between every single client, but it becomes necessary when basic freshening up is no longer sufficient. When in doubt: if wiping, deodorant, and changing are not enough to make you completely fresh, take a shower. A therapist should never avoid bathing simply because another client is waiting. It is better to properly prepare than to compromise the client's experience.",
+      "examples": [
+        "Bathe when there has been significant sweating.",
+        "Bathe when the previous massage was physically demanding and left the therapist sweaty.",
+        "Bathe when there is noticeable body odour.",
+        "Bathe when the therapist has been working for several hours and no longer feels fresh.",
+        "Bathe when the therapist has been outside in heat or humid conditions.",
+        "Bathe when clothing or skin feels sticky or uncomfortable.",
+        "Bathe after any situation where personal cleanliness has been compromised.",
+        "Bathe when a supervisor instructs the therapist to freshen up properly before receiving another client."
+      ]
+    },
+    {
+      "title": "Clean the underarms",
+      "body": "Between sessions, the underarm area should be checked and refreshed. Where a full bath is not necessary: use an appropriate clean body wipe, thoroughly clean both underarms, allow the area to dry where necessary, and apply deodorant or approved body spray afterward. Do not simply apply perfume or body spray over sweat. Freshness begins with cleaning — fragrance comes afterward."
+    },
+    {
+      "title": "Intimate hygiene",
+      "body": "Personal intimate hygiene must also be maintained throughout the workday. Where necessary, use suitable personal wipes to clean the external intimate area after using the restroom, excessive sweating, or whenever freshening up is required. Clean intimate hygiene is particularly important because therapists work in close proximity to clients and should remain completely fresh throughout the day. Where wiping is insufficient, take a proper shower.",
+      "examples": [
+        "Use wipes designed and appropriate for personal hygiene.",
+        "Clean externally only.",
+        "Dispose of used wipes immediately and appropriately.",
+        "Wash your hands thoroughly afterward.",
+        "Never use strong perfume or body spray directly on intimate areas."
+      ]
+    },
+    {
+      "title": "Body odour check",
+      "body": "Before receiving the next client, consciously assess yourself. Do not assume that because you cannot immediately smell yourself, the client will not notice. Where possible, therapists should also be comfortable receiving respectful hygiene corrections from supervisors. Hygiene correction is about protecting the client experience and Zura Spa standard, not embarrassing the therapist.",
+      "examples": [
+        "Check underarms.",
+        "Check clothing.",
+        "Check general body smell.",
+        "Check feet where relevant.",
+        "Check hair/scalp where relevant.",
+        "Check any area affected by sweating."
+      ]
+    },
+    {
+      "title": "Use deodorant / body spray",
+      "body": "After cleaning and drying the body, apply the approved deodorant or body spray. Use it appropriately on the body and, where suitable, lightly around the outside of the uniform/clothing. The objective is to smell clean and fresh — not heavily perfumed. Avoid excessive spraying. The treatment room should not become dominated by the therapist's fragrance, particularly because some clients may be sensitive to strong scents. Do not use fragrance to cover sweat or body odour. The order should always be: Clean → Dry → Deodorise → Light Fragrance."
+    },
+    {
+      "title": "Oral hygiene",
+      "body": "Fresh breath is extremely important because therapists may need to speak to clients at close range. Before receiving clients: brush your teeth properly, clean your tongue, and rinse your mouth thoroughly. Where brushing is not immediately necessary or practical between sessions, use mouthwash and rinse thoroughly according to the product instructions. After eating, drinking strongly flavoured beverages, or noticing any change in breath, freshen your mouth before receiving another client."
+    },
+    {
+      "title": "Use a mint or sweet",
+      "body": "After brushing or using mouthwash, a therapist may take a breath mint, lick/suck an appropriate sweet, or use mint chewing gum briefly before the client arrives. This can help maintain pleasant breath immediately before meeting the client. Chewing gum must never continue into the session. If chewing gum is used, dispose of it completely before receiving the client or beginning the session. Do not hide gum in the side of the mouth, chew during consultation, chew while speaking with the client, or chew while massaging. Visible or audible gum chewing during a client interaction is unprofessional."
+    },
+    {
+      "title": "Wash your hands",
+      "body": "Hands must be thoroughly washed after freshening up, after using the restroom, before touching the client, after handling waste or used materials, and between clients. Hands are one of the primary points of contact between therapist and client and must meet a high hygiene standard.",
+      "examples": [
+        "Hands are clean.",
+        "Fingernails are clean.",
+        "No strong food smell remains on the hands.",
+        "No unnecessary residue is present."
+      ]
+    },
+    {
+      "title": "Check your uniform",
+      "body": "Freshening up is incomplete if the therapist's body is clean but the uniform is dirty, damp, or smells of sweat. Before receiving the client, check underarm areas, collar, front and back of clothing, any visible stains, sweat patches, and the general smell of the uniform. If the uniform is noticeably sweaty, stained, or no longer fresh, change it. Therapists should have access to an appropriate backup uniform where required."
+    },
+    {
+      "title": "Check hair and face",
+      "body": "Before returning to the treatment area: ensure hair is neat and properly secured where necessary, wipe excessive sweat from the face, ensure the face looks clean and refreshed, and correct any untidy appearance. Avoid looking as though you have just completed strenuous physical activity. The incoming client should see a therapist who appears fresh and prepared."
+    },
+    {
+      "title": "Final freshness check",
+      "body": "Before telling reception \"Ready,\" the therapist should quickly check the following. If the answer to any important area is no, complete the necessary freshening up before receiving the client.",
+      "examples": [
+        "Body: do I feel clean and fresh?",
+        "Underarms: have I cleaned and deodorised properly?",
+        "Intimate hygiene: am I properly clean and comfortable?",
+        "Breath: is my mouth fresh?",
+        "Uniform: is it clean, dry, and presentable?",
+        "Hands: have I washed them properly?",
+        "Hair & face: do I look refreshed?",
+        "Fragrance: do I smell pleasant without being overpowering?"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Not to Do"
+    },
+    {
+      "title": "Do Not Cover Sweat With Perfume",
+      "paragraphs": [
+        "Body spray on top of sweat does not equal cleanliness. Clean the area first."
+      ]
+    },
+    {
+      "title": "Do Not Avoid Bathing When Bathing Is Needed",
+      "paragraphs": [
+        "Wipes are useful for light freshening up. They are not a substitute for bathing when the therapist is heavily sweaty or has noticeable body odour."
+      ]
+    },
+    {
+      "title": "Do Not Overuse Fragrance",
+      "paragraphs": [
+        "A therapist should smell fresh when close to the client, not fill the entire room with perfume. Strong fragrance can interfere with relaxation and may be uncomfortable for sensitive clients."
+      ]
+    },
+    {
+      "title": "Do Not Spray Fragrance Directly on Intimate Areas",
+      "paragraphs": [
+        "Use appropriate hygiene methods for those areas. Fragrance products should not replace proper washing or cleaning."
+      ]
+    },
+    {
+      "title": "Do Not Receive a Client With Food Breath",
+      "paragraphs": [
+        "After eating, particularly strongly scented foods, freshen your mouth before meeting the next client."
+      ]
+    },
+    {
+      "title": "Do Not Chew Gum During a Session",
+      "paragraphs": [
+        "Gum should be completely disposed of before the client is received."
+      ]
+    },
+    {
+      "title": "Do Not Freshen Up in Front of the Client",
+      "paragraphs": [
+        "Personal preparation should be completed privately before the therapist receives the client. The client should not see the therapist:"
+      ],
+      "list": [
+        "Applying deodorant.",
+        "Cleaning their underarms.",
+        "Brushing their teeth.",
+        "Using wipes.",
+        "Changing uniform.",
+        "Spraying themselves excessively."
+      ]
+    },
+    {
+      "title": "Zura Spa Freshen-Up Check",
+      "paragraphs": [
+        "Before receiving every client, mentally confirm every applicable item. Only after this routine is complete should the therapist confirm: \"Ready to receive the client.\""
+      ],
+      "list": [
+        "Bathed where necessary.",
+        "Body clean and fresh.",
+        "Underarms cleaned.",
+        "Intimate hygiene attended to where necessary.",
+        "Deodorant/body spray applied appropriately.",
+        "No noticeable body odour.",
+        "Teeth brushed or mouth properly refreshed.",
+        "Mouthwash used where necessary.",
+        "Breath fresh.",
+        "Mint/sweet used where necessary.",
+        "Chewing gum completely discarded.",
+        "Hands thoroughly washed.",
+        "Nails clean.",
+        "Uniform clean and dry.",
+        "Face refreshed.",
+        "Hair neat.",
+        "Overall appearance checked."
+      ]
+    },
+    {
+      "title": "The Zura Spa Freshness Standard",
+      "paragraphs": [
+        "The routine should follow this simple principle: Clean First → Freshen → Groom → Check → Receive.",
+        "The client should never be able to tell that the therapist has just completed another massage, been sweating, eaten a meal, or had a demanding day.",
+        "Every new session deserves a reset."
+      ],
+      "closing": "At Zura Spa, freshness is part of professionalism. Every client should meet a therapist who looks, feels, and smells ready to give them a fresh experience."
+    }
+  ]
 }

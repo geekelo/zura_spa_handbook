@@ -1,9 +1,387 @@
 {
   "id": "massage-start-routine",
   "title": "Massage Start Routine",
-  "summary": "How to begin the massage with calm, consent, and the right setup.",
+  "summary": "The structured process followed immediately before and at the beginning of every massage session to prepare therapist, client, room, hygiene, positioning and massage setup.",
   "type": "routine",
   "order": 11,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Zura Spa Massage Start Routine is the structured process followed immediately before and at the beginning of every massage session.",
+    "It ensures that the therapist, client, room, hygiene, positioning and massage setup are properly prepared before the massage begins.",
+    "At Zura Spa, the beginning of the session should immediately communicate: Professionalism. Cleanliness. Calmness. Confidence. Respect. Care. Client comfort.",
+    "A massage should never feel like it started abruptly. The client should feel that the experience was properly prepared and intentionally begun."
+  ],
+  "guidelines": [
+    {
+      "title": "Relevance of the Massage Start Routine",
+      "paragraphs": [
+        "The Massage Start Routine is important because the first few minutes of a session establish the client's confidence in both the therapist and Zura Spa."
+      ]
+    },
+    {
+      "title": "Client Comfort",
+      "paragraphs": [
+        "The therapist ensures that the client is properly positioned, appropriately covered and physically comfortable before the massage begins."
+      ]
+    },
+    {
+      "title": "Client Hygiene",
+      "paragraphs": [
+        "Cleaning the client's hands and feet before the massage helps maintain a clean treatment environment and improves the overall hygiene of the session."
+      ]
+    },
+    {
+      "title": "Therapist Hygiene",
+      "paragraphs": [
+        "The therapist washing their hands immediately before beginning reassures the client and reduces contamination between surfaces, equipment and the client."
+      ]
+    },
+    {
+      "title": "Client Safety",
+      "paragraphs": [
+        "The routine provides an opportunity to confirm whether the client has pain, injuries, sensitive areas, muscle tension, areas that should receive lighter pressure, or areas that require additional attention."
+      ]
+    },
+    {
+      "title": "Professional First Impression",
+      "paragraphs": [
+        "The client immediately observes whether the therapist appears prepared, clean, organized and confident.",
+        "A properly executed start routine communicates: \"This therapist knows what they are doing.\""
+      ]
+    },
+    {
+      "title": "Client Trust",
+      "paragraphs": [
+        "Massage requires the client to relax physically and psychologically.",
+        "The therapist's behaviour at the beginning should make the client feel respected, safe, comfortable and properly attended to."
+      ]
+    },
+    {
+      "title": "Smooth Massage Flow",
+      "paragraphs": [
+        "Proper preparation prevents unnecessary interruptions such as looking for oil, looking for towels, leaving the room repeatedly, adjusting the bed unnecessarily, or searching for equipment."
+      ]
+    },
+    {
+      "title": "Consistency",
+      "paragraphs": [
+        "Following the same procedure ensures that every client receives the expected Zura Spa standard, regardless of which therapist is attending to them."
+      ]
+    },
+    {
+      "title": "Mindset of the Therapist",
+      "paragraphs": [
+        "Before entering the massage session, the therapist should have the mindset: \"My client is my responsibility during this session. I will ensure that they are comfortable, respected, properly attended to and professionally cared for.\""
+      ]
+    },
+    {
+      "title": "Calm",
+      "paragraphs": [
+        "Do not carry rushing, frustration, arguments or workplace pressure into the massage room. The client's environment should feel peaceful."
+      ]
+    },
+    {
+      "title": "Prepared",
+      "paragraphs": [
+        "Everything required for the session should already be available before the client is received."
+      ]
+    },
+    {
+      "title": "Confident",
+      "paragraphs": [
+        "The therapist should know what to do and move through the routine naturally without appearing confused."
+      ]
+    },
+    {
+      "title": "Hygienic",
+      "paragraphs": [
+        "Cleanliness is part of professionalism. The therapist should pay attention to personal hygiene, clean hands, clean uniform, fresh breath, clean nails, clean massage equipment and clean treatment space."
+      ]
+    },
+    {
+      "title": "Attentive",
+      "paragraphs": [
+        "The therapist should observe the client's body language, comfort, responses and instructions."
+      ]
+    },
+    {
+      "title": "Respectful",
+      "paragraphs": [
+        "The therapist must respect personal boundaries, privacy, dignity, preferences, client belongings and client communication."
+      ]
+    },
+    {
+      "title": "Intentional",
+      "paragraphs": [
+        "Every action should have a reason. The therapist should not move unnecessarily or perform random actions during the beginning of the massage."
+      ]
+    },
+    {
+      "title": "Client-Focused",
+      "paragraphs": [
+        "The goal is not simply \"Start the massage.\" The goal is \"Prepare the client properly so that they can fully relax and receive the massage.\""
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Step 1 — Confirm Room Readiness",
+      "body": "Before receiving the client, the therapist should ensure that the Pre-Massage Routine has been completed. The therapist should not wait until the client is on the bed before beginning to prepare the room.",
+      "examples": [
+        "The massage room is clean.",
+        "The massage bed has been properly laid.",
+        "Fresh sheets are available.",
+        "Towels are properly arranged.",
+        "Massage oil and required products are available.",
+        "The floor is clean and dry.",
+        "Lighting is appropriate.",
+        "Air conditioning is comfortable.",
+        "The room smells fresh.",
+        "Required massage equipment is ready.",
+        "Client treats or refreshments, where applicable, are available.",
+        "Unnecessary items have been removed."
+      ]
+    },
+    {
+      "title": "Step 2 — Confirm Therapist Readiness",
+      "body": "Before beginning the session, the therapist should ensure that they are properly prepared. Where the Freshen-Up Routine has not been completed, it should be completed before beginning the session.",
+      "examples": [
+        "Uniform is clean.",
+        "Hair is properly arranged.",
+        "Nails are clean and appropriately trimmed.",
+        "Hands are clean.",
+        "Breath is fresh.",
+        "Body odour is controlled.",
+        "No jewelry or accessories will scratch or inconvenience the client.",
+        "Phone is silent and away from the massage area.",
+        "The therapist is mentally ready for the session."
+      ]
+    },
+    {
+      "title": "Step 3 — Confirm the Massage Service",
+      "body": "Before the massage begins, confirm the service the client is receiving. If the client has already communicated preferences, pain points or pressure preferences, the therapist should be aware of them.",
+      "examples": [
+        "Zura Massage.",
+        "Lunez Massage.",
+        "Couple Massage.",
+        "4-Hands Massage.",
+        "Other approved service.",
+        "The therapist should not make the client repeatedly explain information that has already been properly handed over."
+      ]
+    },
+    {
+      "title": "Step 4 — Excuse the Client to Change",
+      "body": "Where changing is required, politely explain what the client should do, show the client where to keep belongings, ensure privacy, leave the room while the client changes, and allow sufficient time.",
+      "examples": [
+        "Please make yourself comfortable. We will give you a moment to change and get settled."
+      ]
+    },
+    {
+      "title": "Step 5 — Knock Before Re-Entering",
+      "body": "The therapist should never simply walk back into the room. This protects the client's privacy and dignity.",
+      "examples": [
+        "Knock.",
+        "Wait briefly.",
+        "Confirm that the client is ready.",
+        "Re-enter professionally."
+      ]
+    },
+    {
+      "title": "Step 6 — Ensure Client Belongings Are Properly Kept",
+      "body": "Before beginning the massage, ensure that the client's phone, wallet, clothes, shoes, keys, bag and other personal belongings are properly kept.",
+      "examples": [
+        "Where possible, belongings should remain in the client's sight or in the designated safe area.",
+        "Shoes should be neatly placed rather than left scattered around the treatment room."
+      ]
+    },
+    {
+      "title": "Step 7 — Position the Client Comfortably",
+      "body": "The therapist should ensure that the client is properly positioned before beginning. The therapist should never assume that the client is comfortable simply because the client is lying down.",
+      "examples": [
+        "Ensure the client is lying properly.",
+        "Ensure the head and neck are comfortable.",
+        "Adjust the face opening or head support where necessary.",
+        "Ensure arms are comfortably positioned.",
+        "Ensure legs are properly positioned.",
+        "Ensure towels and coverings are arranged correctly.",
+        "Ensure no part of the body is awkwardly twisted.",
+        "Confirm that the client's breathing is unrestricted.",
+        "Are you comfortable?"
+      ]
+    },
+    {
+      "title": "Step 8 — Ensure Proper Draping and Privacy",
+      "body": "Before beginning, ensure the client's body is appropriately covered, expose only the area being worked on, maintain dignity throughout the session, and do not unnecessarily expose the client.",
+      "examples": [
+        "The client's privacy should be protected at all times."
+      ]
+    },
+    {
+      "title": "Step 9 — Ask About Pain or Areas of Concern",
+      "body": "Before beginning the massage, confirm whether the client has any pain, injury, muscle tension, stiffness, tender area, sensitive body part, or area they would like the therapist to focus on.",
+      "examples": [
+        "Do you have any pain or particular area you would like us to pay attention to today?",
+        "The therapist should listen carefully.",
+        "If a client reports pain, the therapist should remember the location and adjust technique and pressure accordingly."
+      ]
+    },
+    {
+      "title": "Step 10 — Clean the Client's Hands and Feet",
+      "body": "Before beginning the massage, the therapist should clean the client's hands and feet using the approved cleaning method. Used wipes or cleaning materials should be disposed of immediately and properly.",
+      "examples": [
+        "This should be done gently, respectfully, thoroughly and without making the client uncomfortable.",
+        "Pay attention to palms, fingers, soles and toes.",
+        "The purpose is to maintain hygiene before the therapist begins working around the body.",
+        "Used wipes or cleaning materials should not be left on the massage bed, floor or treatment table."
+      ]
+    },
+    {
+      "title": "Step 11 — Therapist Washes Hands",
+      "body": "After cleaning the client's hands and feet, the therapist should excuse themselves briefly and wash their hands properly before beginning the massage. This should happen immediately before the first massage contact.",
+      "examples": [
+        "The therapist should return promptly and quietly.",
+        "Hands should be clean, dry and warm where possible.",
+        "The therapist should not begin touching the client's body with hands that were used to clean the client's feet, touch shoes, handle dirty wipes, touch the floor, or handle unrelated surfaces."
+      ]
+    },
+    {
+      "title": "Step 12 — Prepare the Massage Product",
+      "body": "The therapist should prepare the massage oil or product appropriately. Where appropriate, warm the product slightly between the hands before applying it.",
+      "examples": [
+        "Avoid pouring excessive oil directly on the client.",
+        "Avoid using too much oil.",
+        "Avoid allowing oil to drip onto the floor.",
+        "Avoid allowing oil to stain unnecessary areas.",
+        "Cold oil should not suddenly shock the client."
+      ]
+    },
+    {
+      "title": "Step 13 — Begin From the Feet",
+      "body": "The Zura Massage Start Routine begins from the feet, unless the approved service or specific condition requires otherwise.",
+      "examples": [
+        "Establish gentle contact first.",
+        "Start calmly.",
+        "Avoid sudden deep pressure.",
+        "Allow the client to become accustomed to the therapist's touch.",
+        "Gradually establish rhythm.",
+        "The first touch should communicate: Control. Warmth. Professionalism. Confidence."
+      ]
+    },
+    {
+      "title": "Step 14 — Establish Pressure",
+      "body": "The therapist should not immediately assume the client's preferred pressure. Pressure should be gradually introduced.",
+      "examples": [
+        "Is the pressure comfortable for you?",
+        "Once the client confirms, the therapist should remember and maintain the appropriate pressure.",
+        "The therapist should still monitor muscle response, body tension, movement, facial expression, breathing and verbal feedback.",
+        "A client's preference may change when moving from one body area to another."
+      ]
+    },
+    {
+      "title": "Step 15 — Establish Massage Rhythm",
+      "body": "The therapist should settle into a controlled and relaxing rhythm. The client should begin to feel that the massage is continuous and controlled.",
+      "examples": [
+        "Avoid sudden changes in speed.",
+        "Avoid jerky movements.",
+        "Avoid repeatedly stopping.",
+        "Avoid random hand movements."
+      ]
+    },
+    {
+      "title": "Step 16 — For 4-Hands Massage, Synchronize With Co-Therapist",
+      "body": "Where two therapists are working together, the client should experience one coordinated massage, not two therapists independently doing different things.",
+      "examples": [
+        "Before beginning, both therapists should understand who is leading, which side each therapist is working on, how movements will be synchronized, and when positions will change.",
+        "During the massage: match rhythm where appropriate, match pressure as closely as possible, avoid competing, avoid crossing unnecessarily, support the co-therapist, maintain continuous contact when the other therapist needs to reposition, and communicate discreetly."
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Procedure Summary",
+      "list": [
+        "Prepare the room.",
+        "Prepare yourself.",
+        "Confirm the massage service.",
+        "Excuse the client to change.",
+        "Knock and re-enter.",
+        "Arrange client belongings properly.",
+        "Position the client comfortably.",
+        "Ensure proper draping.",
+        "Ask about pain and areas requiring attention.",
+        "Clean the client's hands and feet.",
+        "Dispose of cleaning materials.",
+        "Wash your hands.",
+        "Return and prepare massage oil.",
+        "Begin massage from the feet.",
+        "Confirm pressure.",
+        "Establish a calm rhythm.",
+        "Synchronize with co-therapist where applicable.",
+        "Continue into the full massage routine."
+      ]
+    },
+    {
+      "title": "What the Therapist Should Not Do",
+      "list": [
+        "Begin the massage before the room is ready.",
+        "Begin while still looking for supplies.",
+        "Begin without confirming the service.",
+        "Walk into the room without knocking after the client has changed.",
+        "Leave the client's belongings scattered around.",
+        "Allow the client's shoes to remain improperly placed.",
+        "Begin massage without ensuring the client is comfortable.",
+        "Ignore awkward positioning.",
+        "Force the client into an uncomfortable position.",
+        "Ignore complaints about neck, head, arm or leg positioning.",
+        "Expose the client unnecessarily.",
+        "Compromise the client's dignity.",
+        "Begin touching the client without appropriate communication.",
+        "Fail to ask about pain or areas of concern.",
+        "Ignore pain information already provided.",
+        "Begin with excessive pressure.",
+        "Assume that every client wants deep pressure.",
+        "Continue using pressure the client has said is uncomfortable.",
+        "Clean the client's feet and immediately begin massage without washing hands.",
+        "Touch the client's body with dirty hands.",
+        "Use the same wipe for inappropriate areas.",
+        "Leave used wipes in the massage area.",
+        "Use excessive oil.",
+        "Pour cold oil abruptly onto the client.",
+        "Allow oil to drip on the floor.",
+        "Start the massage abruptly.",
+        "Make the first movements rough or rushed.",
+        "Use a phone during the start routine.",
+        "Engage in unrelated conversations.",
+        "Discuss internal staff matters in front of the client.",
+        "Discuss personal problems with the client.",
+        "Make inappropriate jokes.",
+        "Make comments about the client's body.",
+        "Make the client uncomfortable through staring or unnecessary observation.",
+        "Rush because the therapist is behind schedule.",
+        "Allow personal frustration to affect the session.",
+        "Leave the room repeatedly for items that should have been prepared.",
+        "Compete with a co-therapist.",
+        "Correct or embarrass a co-therapist openly in front of the client.",
+        "Allow disagreement between therapists to become obvious.",
+        "Begin a 4-hands massage without understanding who is leading.",
+        "Ignore Zura Spa routines because the therapist personally prefers another method."
+      ]
+    },
+    {
+      "title": "The First Few Minutes Matter",
+      "paragraphs": [
+        "The first few minutes determine how easily the client will relax.",
+        "A properly executed Massage Start Routine tells the client: \"You are clean, comfortable, respected and properly attended to. You can relax.\"",
+        "A careless beginning creates the opposite feeling.",
+        "The therapist should therefore remember: Prepare before the client is ready. Position before you touch. Clean before you massage. Wash your hands before you begin. Ask before assuming. Start gently before increasing pressure. Synchronize before working together."
+      ]
+    },
+    {
+      "title": "Zura Spa Massage Start Standard",
+      "paragraphs": [
+        "PREPARE → CONFIRM → PRIVACY → POSITION → CHECK → CLEAN → WASH → BEGIN → PRESSURE → SYNC → RELAX",
+        "Prepare the room. Prepare yourself. Confirm the service. Give the client privacy. Position the client comfortably. Check pain points and preferences. Clean the client's hands and feet. Wash your hands. Begin from the feet. Confirm pressure. Synchronize with your co-therapist. Help the client relax.",
+        "At Zura Spa, the massage does not begin when oil touches the client. The massage experience begins from how professionally the therapist prepares the client for that first touch."
+      ]
+    }
+  ]
 }

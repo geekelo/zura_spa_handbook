@@ -1,9 +1,328 @@
 {
   "id": "assessment-routine",
   "title": "Assessment Routine",
-  "summary": "How to assess the client, the session, or daily practice to Zura standard.",
+  "summary": "The structured practical process through which therapists learn, practise, demonstrate, assess and master Zura Spa routines and massage skills.",
   "type": "routine",
   "order": 10,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Zura Spa Assessment Routine is the structured practical process through which therapists learn, practise, demonstrate, assess and master Zura Spa routines and massage skills.",
+    "Assessment is not merely to determine whether a therapist can perform massage strokes. It evaluates whether the therapist can deliver the complete Zura Spa experience—technical skill, client comfort, communication, observation, coordination with a co-therapist, professionalism and proper movement within the massage room.",
+    "The goal is competence through repeated supervised practice until the expected standard becomes natural and consistent.",
+    "The Assessment Routine ensures that therapists do not practise directly on paying clients without first demonstrating sufficient competence.",
+    "Assessment should therefore be treated as part of the therapist's professional development, not merely as a test."
+  ],
+  "guidelines": [
+    {
+      "title": "Relevance of the Assessment Routine",
+      "paragraphs": [
+        "It is relevant because it helps therapists:"
+      ],
+      "list": [
+        "Learn and correctly practise established Zura Spa routines.",
+        "Develop and improve massage techniques.",
+        "Understand how different muscles and body areas respond to touch and pressure.",
+        "Learn to identify pain points, muscle tension, knots, stiffness and stress areas.",
+        "Learn how to adjust pressure according to what the body and client require.",
+        "Develop proper hand placement, body positioning, movement and massage rhythm.",
+        "Learn how to move professionally around the massage room without distracting the client.",
+        "Practise appropriate communication with the client.",
+        "Understand when to speak, what to ask and when silence is more appropriate.",
+        "Maintain the client's dignity, comfort and personal boundaries throughout a session.",
+        "Develop proper coordination during a 4-hands massage.",
+        "Learn to synchronize with a co-therapist rather than working independently.",
+        "Learn how to support a co-therapist when necessary.",
+        "Ensure that no part of the massage becomes uncomfortable because therapists are competing for space or working against each other's movements.",
+        "Build confidence through repetition.",
+        "Identify weaknesses before they become problems with actual clients.",
+        "Establish a uniform Zura Spa standard across therapists.",
+        "Determine when a skill has moved from learning → practice → competence → mastery."
+      ]
+    },
+    {
+      "title": "Assessment Mindset",
+      "paragraphs": [
+        "During assessment, the therapist should maintain a learning, observant and professional mindset."
+      ]
+    },
+    {
+      "title": "1. Be teachable",
+      "paragraphs": [
+        "The purpose of assessment is improvement.",
+        "A therapist should be willing to receive correction without becoming defensive, embarrassed or argumentative.",
+        "Correction should immediately lead to another attempt at performing the skill correctly."
+      ]
+    },
+    {
+      "title": "2. Client comfort comes before technique",
+      "paragraphs": [
+        "A technically impressive massage is unsuccessful if the person receiving it is uncomfortable.",
+        "The therapist must continually consider: Is the client comfortable? Is the pressure appropriate? Is the client's body properly positioned? Is the client relaxed? Am I respecting the client's boundaries?"
+      ]
+    },
+    {
+      "title": "3. Feel before you work",
+      "paragraphs": [
+        "The therapist should not simply perform memorized movements. Hands should observe the body.",
+        "The therapist should learn to recognize tight muscles, stiffness, knots, tender areas, pain points, stress accumulation, uneven muscle tension, areas requiring lighter pressure, and areas that can tolerate deeper pressure.",
+        "The therapist should then adapt the massage accordingly."
+      ]
+    },
+    {
+      "title": "4. Pressure must be intentional",
+      "paragraphs": [
+        "Pressure should never be based simply on how strong the therapist is.",
+        "The correct pressure is the pressure that is appropriate for the client and the area being worked on.",
+        "Pressure should be: controlled → progressive → monitored → adjusted."
+      ]
+    },
+    {
+      "title": "5. Move calmly and purposefully",
+      "paragraphs": [
+        "The therapist should learn to move around the bed without making the client conscious of unnecessary movement.",
+        "Movement should be quiet, controlled, professional, deliberate and unhurried.",
+        "The client should experience a continuous massage rather than becoming aware of therapists walking around, changing positions or struggling for space."
+      ]
+    },
+    {
+      "title": "6. Communicate without disturbing relaxation",
+      "paragraphs": [
+        "Communication should serve a purpose. Examples include checking pressure, pain, comfort, positioning and specific sensitive areas.",
+        "The therapist should not turn the massage into unnecessary conversation."
+      ]
+    },
+    {
+      "title": "7. Work as one team",
+      "paragraphs": [
+        "During a 4-hands massage, the client should ideally experience one coordinated massage delivered by two therapists, rather than two separate massages happening simultaneously.",
+        "The mindset should therefore be: Observe your co-therapist. Match the rhythm. Support where necessary. Give space when necessary. Never compete."
+      ]
+    },
+    {
+      "title": "8. Mastery requires repetition",
+      "paragraphs": [
+        "Being shown something once does not mean it has been mastered.",
+        "The therapist should be willing to repeatedly practise the same movement until positioning is correct, pressure is controlled, movement becomes smooth, timing becomes natural, client handling becomes professional, and coordination becomes automatic."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "1. Assessment Preparation",
+      "body": "Before assessment begins, confirm the routine or massage skill being assessed, prepare the massage room properly, and ensure therapists are fully ready.",
+      "examples": [
+        "Confirm the routine or massage skill being assessed.",
+        "Prepare the massage room properly.",
+        "Ensure the massage bed is properly laid.",
+        "Ensure towels, oils and required materials are available.",
+        "Ensure therapists are properly dressed and groomed.",
+        "Observe the Freshen-Up Routine where necessary.",
+        "Wash and sanitize hands.",
+        "Remove anything that could scratch or inconvenience the client/model.",
+        "Ensure fingernails are appropriately maintained.",
+        "Confirm whether the assessment is: individual massage technique, full massage routine, 2-hands massage, 4-hands massage, client interaction, specific body-area technique, or complete session simulation.",
+        "The assessor should explain the particular skills being observed."
+      ]
+    },
+    {
+      "title": "2. Client/Model Reception and Positioning",
+      "body": "The therapist should practise how to handle the person receiving the massage as though dealing with a real client.",
+      "examples": [
+        "Greeting appropriately.",
+        "Confirming comfort.",
+        "Confirming the massage being performed.",
+        "Asking whether there are existing pain areas or areas requiring attention.",
+        "Allowing appropriate privacy when positioning or changing is required.",
+        "Ensuring the person is properly positioned.",
+        "Ensuring pillows, towels or supports are properly placed.",
+        "Confirming that the person is comfortable before beginning."
+      ]
+    },
+    {
+      "title": "3. Initial Body Assessment",
+      "body": "Before immediately applying strong massage techniques, the therapist should observe and feel the body.",
+      "examples": [
+        "Look out for pain points, muscle tension, knots, stiffness, stress areas, uneven tension, tenderness and areas that appear particularly sensitive.",
+        "The therapist should learn to use touch to understand what different areas of the body require.",
+        "Where necessary, ask: \"Is this area painful?\" or \"Is the pressure comfortable?\""
+      ]
+    },
+    {
+      "title": "4. Beginning the Massage",
+      "body": "The therapist should begin according to the prescribed Zura Spa Massage Start Routine.",
+      "examples": [
+        "Correct starting point.",
+        "Hand placement.",
+        "Proper pressure.",
+        "Smooth introduction of touch.",
+        "Therapist posture.",
+        "Client comfort.",
+        "Appropriate massage rhythm.",
+        "Avoid suddenly applying deep pressure before preparing the muscles."
+      ]
+    },
+    {
+      "title": "5. Pressure Assessment",
+      "body": "During the practical, the assessor should observe whether the therapist can maintain appropriate pressure. The therapist must understand that deeper does not automatically mean better.",
+      "examples": [
+        "Light pressure — for sensitive areas or initial warming.",
+        "Medium pressure — for general massage work.",
+        "Deeper pressure — where appropriate for tension and muscle knots.",
+        "Pressure should be adjusted based on client feedback, body response, area being massaged, existing pain and muscle tension.",
+        "The therapist must never ignore visible discomfort simply because the client has not verbally complained."
+      ]
+    },
+    {
+      "title": "6. Massage Technique Assessment",
+      "body": "The assessor observes hand positioning, stroke quality, direction of movement, consistency, pressure control, rhythm, transition between techniques, coverage of the body area, therapist posture, use of body weight, control of oil, and ability to maintain continuous contact where appropriate.",
+      "examples": [
+        "The therapist should not simply rush through techniques.",
+        "Each movement should have a purpose."
+      ]
+    },
+    {
+      "title": "7. Pain Point and Tension Assessment",
+      "body": "When a therapist discovers tension or a pain point, the therapist should demonstrate an ability to recognize the area, reduce speed, adjust pressure, work gradually, observe the client's reaction, confirm comfort where necessary, avoid aggressively attacking the area, and know when to stop or reduce pressure.",
+      "examples": [
+        "The therapist should understand the difference between therapeutic pressure and unnecessary pain."
+      ]
+    },
+    {
+      "title": "8. Movement Around the Massage Room",
+      "body": "Therapists are assessed on how they move during a massage. The therapist should appear composed and in control of the environment.",
+      "examples": [
+        "Moving quietly.",
+        "Avoiding unnecessary walking.",
+        "Avoiding bumping into the bed.",
+        "Avoiding leaning heavily against the bed.",
+        "Keeping equipment organised.",
+        "Moving to the next position smoothly.",
+        "Avoiding repeatedly crossing unnecessarily in front of another therapist.",
+        "Maintaining professional posture."
+      ]
+    },
+    {
+      "title": "9. Client Communication Assessment",
+      "body": "The therapist should demonstrate appropriate communication throughout the assessment. Communication should be brief, respectful, calm and purposeful.",
+      "examples": [
+        "Confirming pressure.",
+        "Checking painful areas.",
+        "Confirming comfort.",
+        "Giving simple instructions when the client needs to turn or reposition.",
+        "Once comfort has been established, unnecessary conversation should be avoided so the person can relax."
+      ]
+    },
+    {
+      "title": "10. Co-Therapist Synchronization Assessment",
+      "body": "For 4-hands massage, synchronization is specifically assessed. The client should not feel confusion between both therapists.",
+      "examples": [
+        "Starting movements together where appropriate.",
+        "Maintaining similar rhythm.",
+        "Matching pressure as much as reasonably possible.",
+        "Observing each other's movements.",
+        "Understanding who is leading a particular sequence.",
+        "Supporting instead of interrupting.",
+        "Moving positions smoothly.",
+        "Avoiding both therapists trying to occupy the same space.",
+        "Maintaining continuous massage when the other therapist needs to reposition.",
+        "Covering for the co-therapist where required.",
+        "Communicating discreetly when coordination is necessary."
+      ]
+    },
+    {
+      "title": "11. Supporting the Co-Therapist",
+      "body": "A therapist should learn to notice when the other therapist requires assistance. Support should happen naturally without making the client aware that something has gone wrong.",
+      "examples": [
+        "Maintaining contact while the other therapist changes position.",
+        "Providing oil or required materials.",
+        "Taking over an area temporarily.",
+        "Giving the co-therapist sufficient working space.",
+        "Adjusting rhythm to restore synchronization.",
+        "Helping with positioning when appropriate."
+      ]
+    },
+    {
+      "title": "12. Client Relaxation Assessment",
+      "body": "Throughout the assessment, therapists should continually consider whether their actions are helping the person relax. The aim is to help the client progressively become more comfortable and relaxed—not simply to complete all massage steps.",
+      "examples": [
+        "Calm breathing.",
+        "Reduced body tension.",
+        "Comfortable positioning.",
+        "Minimal unnecessary movement from the client.",
+        "No repeated complaints about pressure.",
+        "Smooth transitions.",
+        "Quiet and controlled room movement."
+      ]
+    },
+    {
+      "title": "13. Completion of Assessment",
+      "body": "At the end of the assessment, complete the massage appropriately, give appropriate notice that it has ended, allow time to compose, observe proper departure/post-massage routines where being assessed, and clean and reset the massage space. The assessor then gives feedback."
+    },
+    {
+      "title": "14. Feedback and Correction",
+      "body": "Feedback should identify what was done correctly, what requires improvement, what must not happen with an actual client, and what needs to be practised again.",
+      "examples": [
+        "Where possible, the therapist should immediately repeat an incorrectly performed technique after correction.",
+        "The purpose of feedback is correction followed by practice, not merely pointing out mistakes."
+      ]
+    },
+    {
+      "title": "15. Repeat Until Mastered",
+      "body": "Skills that are not yet satisfactory should be practised again. A therapist should only be considered to have mastered a routine when the therapist can perform it correctly, consistently, confidently, safely, without excessive prompting, while maintaining client comfort and professionalism."
+    }
+  ],
+  "notes": [
+    {
+      "title": "Things Therapists Should Not Do During Assessment",
+      "list": [
+        "Treat assessment casually because the person receiving the massage is not a paying client.",
+        "Laugh, play or joke excessively during the practical.",
+        "Argue with the assessor when corrected.",
+        "Become defensive about feedback.",
+        "Continue an incorrect technique after being corrected.",
+        "Rush through the massage simply to complete the assessment.",
+        "Use excessive pressure to demonstrate strength.",
+        "Assume that painful pressure means an effective massage.",
+        "Ignore signs of discomfort.",
+        "Massage aggressively over a painful or sensitive area.",
+        "Perform techniques they have not been taught simply to impress the assessor.",
+        "Experiment recklessly on the person being assessed.",
+        "Use poor body posture that could injure themselves or affect massage quality.",
+        "Allow long fingernails, jewelry or anything else to scratch the client/model.",
+        "Use excessive oil.",
+        "Allow oil to drip unnecessarily on the client, bed or floor.",
+        "Leave the client uncovered unnecessarily.",
+        "Expose areas of the client's body that are not being worked on.",
+        "Touch inappropriate areas.",
+        "Disregard client boundaries.",
+        "Make inappropriate comments about the person's body.",
+        "Discuss the person's body, pain or physical condition disrespectfully with another therapist.",
+        "Engage in unrelated conversations during the massage.",
+        "Use phones during assessment.",
+        "Allow phones to interrupt the practical.",
+        "Make unnecessary noise.",
+        "Walk around the room unnecessarily.",
+        "Constantly remove both hands from the client without reason.",
+        "Abandon the massage to get materials that should have been prepared beforehand.",
+        "Fight for space with a co-therapist.",
+        "Compete with a co-therapist.",
+        "Attempt to apply stronger pressure than the other therapist.",
+        "Work at a completely different rhythm from the co-therapist without reason.",
+        "Correct or embarrass the co-therapist openly in front of the client/model.",
+        "Blame the co-therapist when coordination fails.",
+        "Leave the co-therapist unsupported during transitions.",
+        "Speak across the client unnecessarily.",
+        "Allow disagreement between therapists to become obvious.",
+        "Ignore established Zura Spa routines because they personally prefer another method.",
+        "Assume that completing one successful assessment means a skill has been permanently mastered."
+      ]
+    },
+    {
+      "title": "Core Assessment Standard",
+      "paragraphs": [
+        "A Zura Spa therapist should leave assessment able to demonstrate:",
+        "Observe the body → identify what it needs → apply the appropriate technique and pressure → communicate respectfully → move professionally → coordinate with the co-therapist → maintain client comfort → complete the massage smoothly.",
+        "That is the standard the Assessment Routine is designed to develop."
+      ]
+    }
+  ]
 }

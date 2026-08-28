@@ -1,9 +1,151 @@
 {
   "id": "mid-session-routine",
   "title": "Mid-Session Routine",
-  "summary": "How to check in, adjust, and stay present during a session.",
+  "summary": "How to complete the dorsal massage, check comfort, turn the client, freshen up, and continue into the frontal part of the session.",
   "type": "routine",
   "order": 8,
-  "relevance": [],
-  "procedure": []
+  "relevance": [
+    "The Mid-Session Routine is a standard Zura Spa procedure carried out halfway through the massage, after the therapist has completed the dorsal (back) part and before the client turns to the frontal (front) part.",
+    "It is designed to ensure client comfort, proper communication, hygiene, professionalism, and a smooth transition into the second half of the session."
+  ],
+  "guidelines": [
+    {
+      "title": "Relevance of the Mid-Session Routine"
+    },
+    {
+      "title": "Client Comfort",
+      "paragraphs": [
+        "The therapist confirms how the client is feeling and whether any pain, tension, or discomfort remains."
+      ]
+    },
+    {
+      "title": "Quality of Service",
+      "paragraphs": [
+        "It provides an opportunity to confirm that the dorsal part of the massage has been properly completed before moving forward."
+      ]
+    },
+    {
+      "title": "Communication",
+      "paragraphs": [
+        "The client is given an opportunity to communicate any concerns or areas that may require additional attention."
+      ]
+    },
+    {
+      "title": "Hygiene & Freshness",
+      "paragraphs": [
+        "The therapist uses the transition period to refresh with deodorant and a sweet, helping maintain good fragrance and fresh breath."
+      ]
+    },
+    {
+      "title": "Professionalism",
+      "paragraphs": [
+        "A well-executed routine demonstrates that the therapist is attentive, hygienic, respectful, and committed to Zura Spa's service standards."
+      ]
+    },
+    {
+      "title": "Consistency",
+      "paragraphs": [
+        "Every client should experience the same professional mid-session procedure, regardless of the therapist attending to them."
+      ]
+    }
+  ],
+  "procedure": [
+    {
+      "title": "Complete the dorsal massage",
+      "body": "Ensure that the dorsal part of the body has been properly massaged and all relevant areas have received adequate attention."
+    },
+    {
+      "title": "Check the client's comfort",
+      "body": "Ask the client how they feel and whether they still experience pain or discomfort. Listen carefully to the response and give additional attention where reasonably required.",
+      "examples": [
+        "How are you feeling so far?",
+        "How is your back feeling now?",
+        "Do you still feel any discomfort?",
+        "Is there any area you would like me to give more attention to?"
+      ]
+    },
+    {
+      "title": "Confirm before the turn",
+      "body": "Once the dorsal massage is complete and the client is comfortable, inform them before lifting the massage towel.",
+      "examples": [
+        "Alright, we're good to continue. I’ll lift the towel now so you can comfortably turn over to your front."
+      ]
+    },
+    {
+      "title": "Allow the client to turn",
+      "body": "Give the client sufficient time and space to turn comfortably while maintaining proper draping and privacy."
+    },
+    {
+      "title": "Carry out the freshen-up",
+      "body": "After the client has turned and is properly covered, freshen up discreetly and efficiently before continuing.",
+      "examples": [
+        "Apply deodorant.",
+        "Take a sweet for fresh breath.",
+        "Ensure personal presentation is fresh and professional.",
+        "Prepare to continue the massage."
+      ]
+    },
+    {
+      "title": "Reconfirm comfort",
+      "body": "Ensure the client is properly positioned and comfortable before proceeding.",
+      "examples": [
+        "Are you comfortable in this position?"
+      ]
+    },
+    {
+      "title": "Continue the massage",
+      "body": "Resume the frontal massage smoothly, maintaining the same standard of care, rhythm, professionalism, and attention."
+    }
+  ],
+  "notes": [
+    {
+      "title": "What the Therapist Should Do",
+      "list": [
+        "Complete the dorsal massage properly before initiating the routine.",
+        "Check how the client is feeling.",
+        "Ask if any pain or discomfort remains.",
+        "Listen carefully to the client's response.",
+        "Give additional attention where reasonably required.",
+        "Inform the client before lifting the towel.",
+        "Maintain proper draping and privacy.",
+        "Give the client enough time to turn.",
+        "Freshen up discreetly and efficiently.",
+        "Use deodorant appropriately—not excessively.",
+        "Maintain fresh breath.",
+        "Ensure hands are clean before continuing.",
+        "Confirm that the client is comfortable in the new position.",
+        "Resume the massage calmly and professionally.",
+        "Maintain a pleasant and respectful attitude throughout."
+      ]
+    },
+    {
+      "title": "What the Therapist Should Not Do",
+      "list": [
+        "Rush through the dorsal massage simply because it is time to turn.",
+        "Assume the client is comfortable without asking.",
+        "Ignore a client who reports continued pain or discomfort.",
+        "Lift the towel without informing the client first.",
+        "Expose the client unnecessarily.",
+        "Leave the client waiting or uncovered during the transition.",
+        "Rush the client while they are turning.",
+        "Engage in unnecessary or prolonged conversation.",
+        "Make inappropriate comments about the client's body.",
+        "Apply excessive deodorant or strong fragrance.",
+        "Freshen up carelessly or in a way that disrupts the client's relaxation.",
+        "Eat food during the routine.",
+        "Continue the massage without confirming that the client is properly positioned and comfortable.",
+        "Allow personal hygiene to negatively affect the client's experience.",
+        "Treat the routine as optional."
+      ]
+    },
+    {
+      "title": "The Zura Mid-Session Standard",
+      "paragraphs": [
+        "COMPLETE → CHECK → COMMUNICATE → TURN → REFRESH → REPOSITION → CONTINUE",
+        "The Mid-Session Routine is not merely a change of position. It is an important part of the Zura Spa experience.",
+        "Every therapist is expected to carry it out consistently, respectfully, hygienically, and professionally, ensuring that the client transitions into the second half of the massage feeling comfortable, cared for, and confident in the service they are receiving."
+      ],
+      "closing": "At Zura Spa, every detail matters—from the first touch to the final moment of relaxation."
+    }
+  ]
 }
