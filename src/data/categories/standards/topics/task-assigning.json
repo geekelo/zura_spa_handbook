@@ -1,0 +1,163 @@
+{
+  "id": "task-assigning",
+  "title": "Task Assigning Standard",
+  "summary": "Task assignment clearly allocates responsibilities so everyone knows what needs to be done, who owns it, when it should be completed, and the expected standard.",
+  "type": "article",
+  "order": 23,
+  "sections": [
+    {
+      "title": "The Standard",
+      "paragraphs": [
+        "Task Assignment is the process of clearly allocating responsibilities to therapists and team members based on the needs of the spa, their roles, schedules, and operational priorities. Effective task assignment ensures that everyone understands what needs to be done, who is responsible, when it should be completed, and the expected standard."
+      ]
+    },
+    {
+      "title": "1. Relevance of Task Assigning",
+      "paragraphs": [
+        "Proper task assignment helps Zura Spa maintain order, accountability, efficiency, and teamwork."
+      ],
+      "items": [
+        {
+          "label": "Clarity",
+          "body": "Everyone knows their responsibility and what is expected."
+        },
+        {
+          "label": "Accountability",
+          "body": "Tasks have clear ownership, making follow-up easier."
+        },
+        {
+          "label": "Efficiency",
+          "body": "Work is distributed appropriately instead of being left to a few people."
+        },
+        {
+          "label": "Teamwork",
+          "body": "Staff understand how their individual tasks contribute to the overall operation."
+        },
+        {
+          "label": "Consistency",
+          "body": "Important routines and standards are less likely to be forgotten."
+        },
+        {
+          "label": "Fairness",
+          "body": "Tasks can be distributed reasonably rather than being repeatedly given to the same individuals."
+        },
+        {
+          "label": "Client Experience",
+          "body": "When operational tasks are completed properly, therapists can focus better on delivering quality service."
+        },
+        {
+          "label": "Problem Prevention",
+          "body": "Clear assignments reduce confusion, duplication, and the assumption that \"someone else will handle it.\""
+        }
+      ]
+    },
+    {
+      "title": "2. Therapist's Mindset Towards Assigned Tasks",
+      "paragraphs": [
+        "A therapist should approach an assigned task with the mindset: \"If I have been assigned this responsibility, I own it until it is completed or properly handed over.\""
+      ],
+      "list": [
+        "Receive assignments with a positive and responsible attitude.",
+        "Understand the task before beginning.",
+        "Ask for clarification when instructions are unclear.",
+        "Complete tasks according to the required standard, not merely to say they are done.",
+        "Manage their time properly.",
+        "Take initiative when they notice something that requires attention.",
+        "Communicate early if they cannot complete a task.",
+        "Avoid waiting to be repeatedly reminded.",
+        "Understand that tasks are part of teamwork, not punishment.",
+        "Be willing to support the team when operational needs change.",
+        "Accept reasonable correction or follow-up professionally."
+      ],
+      "closing": "Don't wait to be chased. Don't assume someone else will do it. Don't do the minimum just to tick a box. Take ownership."
+    },
+    {
+      "title": "3. What Leaders Should Do",
+      "paragraphs": [
+        "Leaders and supervisors should understand that good task assignment is also good leadership."
+      ]
+    },
+    {
+      "title": "Give Clear Instructions",
+      "paragraphs": [
+        "Explain exactly what needs to be done, rather than giving vague directions.",
+        "Instead of: \"Please sort out the room.\"",
+        "Say: \"Please reset Room 2, replace the used towels, restock the required supplies, and have it ready before the next session.\""
+      ]
+    },
+    {
+      "title": "Set Clear Expectations",
+      "paragraphs": [
+        "Where necessary, communicate the expected quality, deadline, and priority."
+      ]
+    },
+    {
+      "title": "Assign According to Role and Capacity",
+      "paragraphs": [
+        "Consider the therapist's responsibilities, schedule, workload, ability, and current operational demands."
+      ]
+    },
+    {
+      "title": "Distribute Tasks Fairly",
+      "paragraphs": [
+        "Avoid repeatedly assigning undesirable tasks to the same individuals without a valid operational reason."
+      ]
+    },
+    {
+      "title": "Follow Up",
+      "paragraphs": [
+        "Check whether important tasks have been completed without creating unnecessary micromanagement."
+      ]
+    },
+    {
+      "title": "Provide Support",
+      "paragraphs": [
+        "If a therapist genuinely needs clarification, resources, or assistance, leadership should provide appropriate support."
+      ]
+    },
+    {
+      "title": "Give Feedback",
+      "paragraphs": [
+        "Recognize good execution and address poor execution promptly and professionally."
+      ]
+    },
+    {
+      "title": "Lead by Example",
+      "paragraphs": [
+        "Leaders should demonstrate the same accountability, punctuality, discipline, and willingness to contribute that they expect from the team."
+      ]
+    },
+    {
+      "title": "4. What Leaders Should Not Do",
+      "list": [
+        "Give unclear or contradictory instructions.",
+        "Assign tasks without considering operational priorities.",
+        "Constantly overload one person without reason.",
+        "Use task assignments as a form of personal punishment.",
+        "Show favoritism when distributing responsibilities.",
+        "Publicly embarrass a therapist over a task.",
+        "Assume that a therapist understands an unclear instruction.",
+        "Change instructions repeatedly without communicating the change.",
+        "Assign a task and then provide no reasonable opportunity or resources to complete it.",
+        "Expect staff to guess priorities.",
+        "Micromanage every small action unnecessarily.",
+        "Ignore completed work and only point out mistakes.",
+        "Allow poor performance to continue without addressing it.",
+        "Blame staff for failures caused by unclear instructions.",
+        "Use anger, threats, or humiliation as a management method.",
+        "Assign responsibility and then take away the person's ability to complete it.",
+        "Make promises about tasks or schedules that leadership cannot reasonably keep."
+      ]
+    },
+    {
+      "title": "5. The Zura Task Assignment Standard",
+      "paragraphs": [
+        "ASSIGN → CLARIFY → CONFIRM → EXECUTE → FOLLOW UP → ACCOUNT",
+        "A leader should ensure the task is clear. The therapist should understand and execute it. The leader should follow up appropriately. The therapist should take accountability for the outcome.",
+        "At Zura Spa, task assignment should never be about simply keeping staff busy. Every task should contribute to the smooth operation, cleanliness, teamwork, service quality, and overall standard of the spa.",
+        "LEADERS: GIVE CLARITY. THERAPISTS: TAKE OWNERSHIP. TOGETHER: GET THE JOB DONE."
+      ]
+    }
+  ],
+  "remember": "Leaders give clarity. Therapists take ownership. Together, get the job done."
+}
