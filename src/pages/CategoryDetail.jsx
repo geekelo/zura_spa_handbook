@@ -2,6 +2,8 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import {
   getCategory,
   getJourney,
+  getJourneyGroupTopics,
+  getJourneyTopic,
   getJourneyTopics,
   getTopics,
 } from '../data'
@@ -16,6 +18,41 @@ export function CategoryDetail() {
 
 export function JourneyDetail({ journeyId }) {
   return <TopicIndex journeyId={journeyId} />
+}
+
+export function JourneyGroupDetail({ journeyId }) {
+  const { articleId: groupId } = useParams()
+  const journey = getJourney(journeyId)
+  const group = getJourneyTopic(journeyId, groupId)
+  const items = getJourneyGroupTopics(journeyId, groupId)
+
+  if (!journey || !group || group.type !== 'group' || !items?.length) {
+    return <Navigate to={`/${journeyId}`} replace />
+  }
+
+  return (
+    <div className="page category-detail-page">
+      <PageHeader title={group.title} backTo={`/${journeyId}`} />
+
+      <p className="lead-copy">{group.summary}</p>
+
+      <div className="stack">
+        {items.map((item) => (
+          <Link
+            key={item.id}
+            to={`/${journeyId}/${groupId}/${item.id}`}
+            className="result-row"
+          >
+            <div>
+              <strong>{item.title}</strong>
+              <small>{item.summary}</small>
+            </div>
+            <Icon name="chevron" size={18} />
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 function TopicIndex({ journeyId }) {

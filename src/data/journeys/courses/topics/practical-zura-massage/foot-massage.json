@@ -1,0 +1,65 @@
+{
+  "id": "foot-massage",
+  "title": "Foot and Ankle Region Massage",
+  "summary": "Purpose, anatomy, timing, and the standard for completing a proper Zura foot and ankle region massage.",
+  "type": "article",
+  "order": 1,
+  "videoUrl": "https://drive.google.com/file/d/10a9eHyTO05mcKLl0qlLGEU83AYT5WpFq/preview",
+  "videoTitle": "Foot and Ankle Region Massage",
+  "sections": [
+    {
+      "title": "Purpose of Foot and Ankle Region Massage",
+      "paragraphs": [
+        "Foot and ankle region massage helps release tension held in the feet and ankles, supports relaxation through the whole body, and prepares the client for a deeper wellness experience.",
+        "During foot and ankle region massage, watch carefully for tension, pain points, and stress areas. These areas tell you where the client needs more care and where you should spend extra time."
+      ]
+    },
+    {
+      "title": "Foot and Ankle Region Anatomy — What to Watch",
+      "paragraphs": [
+        "Know the main parts of the foot and ankle region so you can locate tension, pain points, and stress areas with confidence. Use the labelled diagrams below during practice."
+      ],
+      "images": [
+        {
+          "src": "assets/courses/foot-outer-structure.jpg",
+          "alt": "Outer structure of the foot and ankle region from top, medial, lateral, sole, and front views",
+          "caption": "Outer structure of the foot and ankle region — toes, ball, sole, arch, heel, instep, and ankle"
+        },
+        {
+          "src": "assets/courses/foot-bones.jpg",
+          "alt": "Foot and ankle region bones labelled including phalanges, metatarsals, and tarsal bones",
+          "caption": "Foot and ankle region bones — phalanges, metatarsals, and tarsal bones"
+        },
+        {
+          "src": "assets/courses/foot-muscles.jpg",
+          "alt": "Foot and ankle region muscles from dorsal, plantar, and medial views",
+          "caption": "Foot and ankle region muscles — dorsal, plantar, and medial views"
+        }
+      ]
+    },
+    {
+      "title": "Timing Standard",
+      "paragraphs": [
+        "Follow the approved timing unless a pain area clearly needs more care."
+      ],
+      "list": [
+        "Four hands: 5 minutes for the foot and ankle region.",
+        "Two hands: 8 minutes per foot and ankle region.",
+        "Spend extra time on pain areas — do not rush past tension or tender spots."
+      ]
+    },
+    {
+      "title": "You Are Not Done Until It Is Done",
+      "paragraphs": [
+        "A foot and ankle region massage is complete only when the foot and ankle region shows clear improvement — not when the clock runs out."
+      ],
+      "list": [
+        "The foot and ankle region feels soft.",
+        "The foot and ankle region looks reddish (healthy circulation response).",
+        "The foot and ankle region is flexible.",
+        "The foot and ankle region feels better for the client."
+      ],
+      "closing": "If the foot and ankle region is still tight, pale, stiff, or uncomfortable, continue working — especially on the pain and stress areas — until the standard is met."
+    }
+  ]
+}

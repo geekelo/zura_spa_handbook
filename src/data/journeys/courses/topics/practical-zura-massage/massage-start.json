@@ -1,0 +1,53 @@
+{
+  "id": "massage-start",
+  "title": "Massage Start",
+  "summary": "How the client is positioned at the start of massage, when they turn, and after mid-session — with head placement for the massage pillow.",
+  "type": "article",
+  "order": 0,
+  "videos": [
+    {
+      "title": "Massage Start",
+      "videoUrl": "https://drive.google.com/file/d/1mE-bJK7rNADVDo5WzQGcE0M0fhToUyY1/preview"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Client Positions",
+      "paragraphs": [
+        "Know these four positions and use the correct one at each stage of the session."
+      ],
+      "list": [
+        "Supine / dorsal position = lying on the back, face upward.",
+        "Prone / ventral position = lying on the stomach / front, face downward.",
+        "Left lateral position = lying on the left side.",
+        "Right lateral position = lying on the right side."
+      ],
+      "images": [
+        {
+          "src": "assets/courses/massage-start-positions.jpg",
+          "alt": "Massage table positions: supine, prone, left lateral, and right lateral",
+          "caption": "Client positions — supine, prone, left lateral, and right lateral"
+        }
+      ]
+    },
+    {
+      "title": "When to Use Each Position",
+      "paragraphs": [
+        "Follow this sequence during a Zura Massage session:"
+      ],
+      "list": [
+        "Start of massage: client lies prone (on the stomach / front).",
+        "When they turn: client moves to lateral (left or right side).",
+        "After mid-session: client lies dorsal / supine (on the back)."
+      ]
+    },
+    {
+      "title": "Head Placement",
+      "paragraphs": [
+        "The head should be faced down or tilted to the side, depending on the type of massage pillow.",
+        "Use the face cradle when the client is prone and the pillow type allows the head to face down. If the pillow requires it, tilt the head gently to the side for comfort and clear breathing.",
+        "Always check that the neck is comfortable, the airway is clear, and the client can breathe easily before you begin."
+      ]
+    }
+  ]
+}

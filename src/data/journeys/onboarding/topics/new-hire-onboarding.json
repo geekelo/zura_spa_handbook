@@ -1,9 +1,9 @@
 {
-  "id": "onboarding",
+  "id": "new-hire-onboarding",
   "title": "New Hire Onboarding",
   "summary": "Core modules for your first two weeks.",
   "type": "article",
-  "order": 1,
+  "order": 0,
   "steps": [
     {
       "title": "Brand immersion",

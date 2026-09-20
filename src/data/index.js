@@ -27,12 +27,26 @@ const journeyTopicModules = import.meta.glob('./journeys/*/topics/*.json', {
   import: 'default',
 })
 
+const journeyNestedTopicModules = import.meta.glob(
+  './journeys/*/topics/*/*.json',
+  {
+    eager: true,
+    import: 'default',
+  },
+)
+
 function categoryIdFromPath(path) {
   return path.match(/\/categories\/([^/]+)\//)?.[1]
 }
 
 function journeyIdFromPath(path) {
   return path.match(/\/journeys\/([^/]+)\//)?.[1]
+}
+
+function journeyNestedFromPath(path) {
+  const match = path.match(/\/journeys\/([^/]+)\/topics\/([^/]+)\/([^/]+)\.json$/)
+  if (!match) return null
+  return { journeyId: match[1], groupId: match[2], file: match[3] }
 }
 
 function byOrder(a, b) {
@@ -72,6 +86,7 @@ export const journeys = Object.entries(journeyModules)
   .sort(byOrder)
 
 const topicsByJourney = {}
+const nestedTopicsByJourney = {}
 
 for (const [path, data] of Object.entries(journeyTopicModules)) {
   const journeyId = journeyIdFromPath(path)
@@ -82,6 +97,23 @@ for (const [path, data] of Object.entries(journeyTopicModules)) {
 
 for (const list of Object.values(topicsByJourney)) {
   list.sort(byOrder)
+}
+
+for (const [path, data] of Object.entries(journeyNestedTopicModules)) {
+  const parts = journeyNestedFromPath(path)
+  if (!parts) continue
+  const { journeyId, groupId } = parts
+  if (!nestedTopicsByJourney[journeyId]) nestedTopicsByJourney[journeyId] = {}
+  if (!nestedTopicsByJourney[journeyId][groupId]) {
+    nestedTopicsByJourney[journeyId][groupId] = []
+  }
+  nestedTopicsByJourney[journeyId][groupId].push(data)
+}
+
+for (const groups of Object.values(nestedTopicsByJourney)) {
+  for (const list of Object.values(groups)) {
+    list.sort(byOrder)
+  }
 }
 
 export { moreResources, updates, pages, homePaths }
@@ -108,6 +140,16 @@ export function getJourneyTopics(journeyId) {
 
 export function getJourneyTopic(journeyId, topicId) {
   return getJourneyTopics(journeyId)?.find((item) => item.id === topicId)
+}
+
+export function getJourneyGroupTopics(journeyId, groupId) {
+  return nestedTopicsByJourney[journeyId]?.[groupId]
+}
+
+export function getJourneyGroupTopic(journeyId, groupId, topicId) {
+  return getJourneyGroupTopics(journeyId, groupId)?.find(
+    (item) => item.id === topicId,
+  )
 }
 
 /** @deprecated Use getTopics */
@@ -212,9 +254,19 @@ export function searchHandbook(query) {
     }
 
     for (const topic of getJourneyTopics(journey.id) || []) {
+      const sectionMatch = topic.sections?.some(
+        (section) =>
+          section.title?.toLowerCase().includes(q) ||
+          section.paragraphs?.some((paragraph) =>
+            paragraph.toLowerCase().includes(q),
+          ) ||
+          section.list?.some((item) => item.toLowerCase().includes(q)),
+      )
+
       if (
         topic.title.toLowerCase().includes(q) ||
-        topic.summary?.toLowerCase().includes(q)
+        topic.summary?.toLowerCase().includes(q) ||
+        sectionMatch
       ) {
         results.push({
           type: topic.type,
@@ -223,6 +275,31 @@ export function searchHandbook(query) {
           description: topic.summary,
           to: `/${journey.id}/${topic.id}`,
         })
+      }
+
+      for (const nested of getJourneyGroupTopics(journey.id, topic.id) || []) {
+        const nestedSectionMatch = nested.sections?.some(
+          (section) =>
+            section.title?.toLowerCase().includes(q) ||
+            section.paragraphs?.some((paragraph) =>
+              paragraph.toLowerCase().includes(q),
+            ) ||
+            section.list?.some((item) => item.toLowerCase().includes(q)),
+        )
+
+        if (
+          nested.title.toLowerCase().includes(q) ||
+          nested.summary?.toLowerCase().includes(q) ||
+          nestedSectionMatch
+        ) {
+          results.push({
+            type: nested.type,
+            id: `${topic.id}/${nested.id}`,
+            title: nested.title,
+            description: nested.summary || topic.title,
+            to: `/${journey.id}/${topic.id}/${nested.id}`,
+          })
+        }
       }
     }
   }

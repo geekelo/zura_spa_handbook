@@ -1,0 +1,90 @@
+{
+  "id": "course-outline",
+  "title": "Course Outline",
+  "summary": "Stage 3 training covering Zura Spa identity, basic anatomy, physiology, and client psychology for deeper professional competence.",
+  "type": "article",
+  "order": 0,
+  "sections": [
+    {
+      "title": "About This Course",
+      "paragraphs": [
+        "The Stage 3: Zura Wellness Professional Course deepens the therapist's understanding of Zura Spa identity, the body, how massage affects wellness, and the psychological side of client care.",
+        "Each module includes focused topics and a clear learning outcome so therapists know what they are expected to understand and demonstrate."
+      ]
+    },
+    {
+      "title": "Module 1: Introduction to Zura Spa and the Zura Wellness Professional",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "What is Zura Spa?",
+        "The vision and mission of Zura Spa.",
+        "History of Zura Massage.",
+        "Who is a Zura Wellness Professional?",
+        "Difference between a regular massage therapist and a Zura Wellness Professional.",
+        "The importance of passion, care, and professionalism.",
+        "Understanding the Zura Spa standard.",
+        "Why client experience matters."
+      ],
+      "closing": "Learning Outcome: At the end of this module, the therapist should understand the identity, values, and service expectations of Zura Spa."
+    },
+    {
+      "title": "Module 2: Basic Anatomy for Massage Therapists",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Introduction to the human body.",
+        "Major body systems every therapist should understand.",
+        "The skeletal system.",
+        "The muscular system.",
+        "Common muscles involved in massage.",
+        "Joints and movement.",
+        "Common areas of muscle tension.",
+        "The back, neck, shoulders, arms, legs, and feet.",
+        "Pressure points and sensitive areas.",
+        "Areas to avoid or handle carefully."
+      ],
+      "closing": "Learning Outcome: The therapist should understand the basic body structure and know how massage affects different parts of the body."
+    },
+    {
+      "title": "Module 3: Basic Physiology for Massage Therapists",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "What physiology means.",
+        "How the body responds to touch.",
+        "Blood circulation and massage.",
+        "The nervous system and relaxation.",
+        "Muscle tension and release.",
+        "Stress and its effect on the body.",
+        "Pain, discomfort, and body sensitivity.",
+        "Breathing and relaxation response.",
+        "Fatigue and body recovery.",
+        "Why hydration after massage is important."
+      ],
+      "closing": "Learning Outcome: The therapist should understand how massage supports relaxation, circulation, muscle relief, and general wellness."
+    },
+    {
+      "title": "Module 4: Client Psychology and Spa Psychotherapy Basics",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Understanding why clients come to a spa.",
+        "Stress, anxiety, tiredness, and emotional pressure.",
+        "How environment affects relaxation.",
+        "The role of calm communication.",
+        "How to make clients feel safe and respected.",
+        "Reading client mood professionally.",
+        "Managing shy, quiet, talkative, angry, or emotional clients.",
+        "How to listen without overstepping boundaries.",
+        "Comfort, trust, and reassurance.",
+        "Knowing when to escalate client concerns."
+      ],
+      "closing": "Learning Outcome: The therapist should understand that clients are not only bringing their bodies for massage; they may also be bringing stress, tension, emotions, and expectations."
+    }
+  ]
+}

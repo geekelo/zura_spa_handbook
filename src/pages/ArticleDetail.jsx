@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { pages } from '../data'
+import { resolveMediaSrc } from '../data/media'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
@@ -61,8 +62,80 @@ function ContentSection({ section }) {
           ))}
         </ul>
       ) : null}
+      {section.images?.length ? (
+        <div className="topic-media-grid">
+          {section.images.map((image) => (
+            <figure key={image.src} className="topic-figure">
+              <img
+                src={resolveMediaSrc(image.src)}
+                alt={image.alt || ''}
+                loading="lazy"
+              />
+              {image.caption ? <figcaption>{image.caption}</figcaption> : null}
+            </figure>
+          ))}
+        </div>
+      ) : null}
       {section.closing ? <p>{section.closing}</p> : null}
     </section>
+  )
+}
+
+function TopicVideo({ videoUrl, videoSrc, title }) {
+  if (videoSrc) {
+    return (
+      <div className="topic-video">
+        <video controls playsInline preload="metadata" title={title}>
+          <source src={videoSrc} />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    )
+  }
+
+  if (!videoUrl) return null
+
+  return (
+    <div className="topic-video">
+      <iframe
+        title={title || 'Course video'}
+        src={videoUrl}
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  )
+}
+
+function TopicVideos({ article }) {
+  const videos = article.videos?.length
+    ? article.videos
+    : article.videoUrl || article.videoSrc
+      ? [
+          {
+            videoUrl: article.videoUrl,
+            videoSrc: article.videoSrc,
+            title: article.videoTitle || article.title,
+          },
+        ]
+      : []
+
+  if (!videos.length) return null
+
+  return (
+    <div className="topic-videos">
+      {videos.map((video, index) => (
+        <div key={video.videoUrl || video.videoSrc || index} className="topic-video-block">
+          {video.title ? <h3 className="topic-video-label">{video.title}</h3> : null}
+          <TopicVideo
+            videoUrl={video.videoUrl}
+            videoSrc={video.videoSrc}
+            title={video.title || article.title}
+          />
+        </div>
+      ))}
+    </div>
   )
 }
 
@@ -113,6 +186,8 @@ export default function ArticleDetail({
           </div>
         </div>
       </section>
+
+      <TopicVideos article={article} />
 
       <LockedContent locked={locked}>
       {article.summary ? (

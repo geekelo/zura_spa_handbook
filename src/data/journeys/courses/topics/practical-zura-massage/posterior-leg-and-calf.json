@@ -1,0 +1,75 @@
+{
+  "id": "posterior-leg-and-calf",
+  "title": "Posterior Leg and Calf Region Massage",
+  "summary": "Massage of the posterior leg and calf region from the knee to the ankle — with focus on tension points, knots, stress areas, and pain points.",
+  "type": "article",
+  "order": 2,
+  "videos": [
+    {
+      "title": "Video 1 — Calf Massage",
+      "videoUrl": "https://drive.google.com/file/d/1iYCPn7xQGJgCxs49cKJu-gz0w0geDLaP/preview"
+    },
+    {
+      "title": "Video 2 — Stretching",
+      "videoUrl": "https://drive.google.com/file/d/1ioU0Drw-aB1Kl1vg64pzVidAKaLZLUGA/preview"
+    }
+  ],
+  "sections": [
+    {
+      "title": "About This Region",
+      "paragraphs": [
+        "The posterior leg and calf region runs from the knee to the ankle along the back of the leg. It includes the calf muscles and the structures that connect down toward the heel.",
+        "This area often holds deep muscle tension. Work carefully and thoroughly so the client leaves with real relief, not just a quick pass over the surface."
+      ]
+    },
+    {
+      "title": "What to Find and Release",
+      "paragraphs": [
+        "As you massage, actively search for and release:"
+      ],
+      "list": [
+        "Muscle tension points",
+        "Muscle knots",
+        "Stress areas",
+        "Pain points"
+      ],
+      "closing": "Spend extra time wherever you find tightness, knots, or discomfort. Do not rush past these areas."
+    },
+    {
+      "title": "Anatomy — Knee to Ankle",
+      "paragraphs": [
+        "Use the labelled diagram below to locate the main muscles of the posterior leg and calf while you practise."
+      ],
+      "images": [
+        {
+          "src": "assets/courses/posterior-leg-and-calf.jpg",
+          "alt": "Lower limb anatomy showing posterior leg and calf region from knee to ankle",
+          "caption": "Lower limb anatomy — posterior leg and calf region, knee to ankle"
+        }
+      ]
+    },
+    {
+      "title": "Timing Standard",
+      "paragraphs": [
+        "Follow the approved timing unless tension, knots, or pain areas clearly need more care."
+      ],
+      "list": [
+        "Four hands: 10 minutes for each leg.",
+        "Two hands: 13 minutes for each leg.",
+        "Spend extra time on muscle tension points, knots, stress areas, and pain points."
+      ]
+    },
+    {
+      "title": "You Are Not Done Until It Is Done",
+      "paragraphs": [
+        "A posterior leg and calf region massage is complete only when the leg shows clear improvement — not when the clock runs out."
+      ],
+      "list": [
+        "The leg feels soft.",
+        "The client feels relief.",
+        "Tension has been released."
+      ],
+      "closing": "If the leg is still tight, knotted, or the client still feels tension, continue working — especially on tension points, knots, stress areas, and pain points — until the standard is met."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "course-outline",
+  "title": "Course Outline",
+  "summary": "Stage 2 training covering therapist mindset, appearance, massage room tools, room readiness, client courtesy, and the pre-massage routine.",
+  "type": "article",
+  "order": 0,
+  "sections": [
+    {
+      "title": "About This Course",
+      "paragraphs": [
+        "The Stage 2: Zura Wellness Professional Course builds on foundational training and deepens the therapist's practical competence across mindset, appearance, massage room readiness, client courtesy, and the pre-massage routine.",
+        "Each module includes focused topics and a clear learning outcome so therapists know what they are expected to understand and demonstrate."
+      ]
+    },
+    {
+      "title": "Module 1: Therapist Mindset and Professional Attitude",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "The mindset of a Zura Wellness Professional.",
+        "Passion over money.",
+        "Service before entitlement.",
+        "Humility and willingness to learn.",
+        "Accepting correction without offense.",
+        "Emotional control.",
+        "Patience with clients and colleagues.",
+        "Avoiding gossip and negative energy.",
+        "Taking responsibility.",
+        "Growth mindset and continuous improvement."
+      ],
+      "closing": "Learning Outcome: The therapist should develop the right attitude for long-term professional growth."
+    },
+    {
+      "title": "Module 2: Therapist Appearance and Personal Presentation",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Importance of appearance in spa service.",
+        "Clean and professional uniform.",
+        "Hair presentation and neatness.",
+        "Personal hygiene.",
+        "Fresh breath and body smell.",
+        "Clean hands and nails.",
+        "Simple and appropriate grooming.",
+        "Avoiding distracting appearance.",
+        "Dressing before and after work.",
+        "How appearance affects client trust."
+      ],
+      "closing": "Learning Outcome: The therapist should understand that appearance is part of professionalism and client confidence."
+    },
+    {
+      "title": "Module 3: Items and Tools in the Massage Room",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Massage bed.",
+        "Towels.",
+        "Oils and creams.",
+        "Massage gun.",
+        "Music and sound control.",
+        "Lighting.",
+        "Air freshener or fragrance.",
+        "Waste bin.",
+        "Client robe or covering items.",
+        "Cleaning supplies.",
+        "Massage chair, where available.",
+        "Room checklist before every session.",
+        "Tool handling and maintenance.",
+        "Reporting damaged or missing items."
+      ],
+      "closing": "Learning Outcome: The therapist should know every item in the massage room, its purpose, how to arrange it, and how to maintain it."
+    },
+    {
+      "title": "Module 4: Massage Room Preparation and Room Readiness",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "What room readiness means.",
+        "How to prepare the room before a client enters.",
+        "Bed arrangement.",
+        "Towel folding and placement.",
+        "Room smell and freshness.",
+        "Lighting and music.",
+        "Temperature and comfort.",
+        "Tool readiness.",
+        "Cleanliness and orderliness.",
+        "Final room check before session begins."
+      ],
+      "closing": "Learning Outcome: The therapist should be able to prepare a clean, calm, and professional massage room before every session."
+    },
+    {
+      "title": "Module 5: Courtesy Before, During, and After Massage Sessions",
+      "paragraphs": [
+        "Before the Session: Welcoming the client; speaking calmly and respectfully; confirming client comfort; explaining the session briefly; asking about pressure preference; asking about areas of pain, discomfort, or sensitivity; maintaining professional boundaries.",
+        "During the Session: Checking comfort without disturbing relaxation; adjusting pressure when necessary; avoiding unnecessary conversation; being calm and focused; respecting silence; watching client body language; maintaining professional conduct.",
+        "After the Session: Allowing client time to settle; speaking politely after the session; asking for feedback; giving simple aftercare advice; thanking the client; resetting the room immediately; reporting observations where necessary."
+      ],
+      "closing": "Learning Outcome: The therapist should know how to treat clients with courtesy from beginning to end."
+    },
+    {
+      "title": "Module 6: Pre-Massage Routine",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Personal preparation before session.",
+        "Checking personal hygiene and appearance.",
+        "Washing or sanitizing hands.",
+        "Preparing the massage room.",
+        "Checking oils, towels, tools, and bed.",
+        "Confirming client preference.",
+        "Creating a calm atmosphere.",
+        "Explaining what the client should expect.",
+        "Ensuring client privacy and comfort.",
+        "Starting the session professionally."
+      ],
+      "closing": "Learning Outcome: The therapist should follow a consistent routine before every massage session."
+    }
+  ]
+}

@@ -54,6 +54,18 @@ export default function App() {
               path="onboarding/:articleId"
               element={<TopicPage journeyId="onboarding" />}
             />
+            <Route
+              path="courses"
+              element={<JourneyDetail journeyId="courses" />}
+            />
+            <Route
+              path="courses/:articleId"
+              element={<TopicPage journeyId="courses" />}
+            />
+            <Route
+              path="courses/:articleId/:nestedId"
+              element={<TopicPage journeyId="courses" />}
+            />
             <Route path="updates" element={<Updates />} />
             <Route path="more" element={<More />} />
             <Route path="login" element={<Login />} />

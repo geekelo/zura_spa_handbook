@@ -2,6 +2,8 @@ import { Navigate, useParams } from 'react-router-dom'
 import {
   getCategory,
   getJourney,
+  getJourneyGroupTopic,
+  getJourneyGroupTopics,
   getJourneyTopic,
   getJourneyTopics,
   getTopic,
@@ -11,19 +13,50 @@ import ArticleDetail from './ArticleDetail'
 import { FormTopic } from './FormTopic'
 import { SignTopic } from './SignTopic'
 import { EmploymentLetter } from './EmploymentLetter'
+import { JourneyGroupDetail } from './CategoryDetail'
 
 export function TopicPage({ journeyId }) {
-  const { categoryId, articleId } = useParams()
-  const article = journeyId
-    ? getJourneyTopic(journeyId, articleId)
-    : getTopic(categoryId, articleId)
-  const parent = journeyId ? getJourney(journeyId) : getCategory(categoryId)
+  const { categoryId, articleId, nestedId } = useParams()
 
-  if (!parent || !article) {
-    return <Navigate to={journeyId ? `/${journeyId}` : '/categories'} replace />
+  if (journeyId && !nestedId) {
+    const group = getJourneyTopic(journeyId, articleId)
+    if (group?.type === 'group') {
+      return <JourneyGroupDetail journeyId={journeyId} />
+    }
   }
 
-  const backTo = journeyId ? `/${journeyId}` : `/categories/${categoryId}`
+  const article = journeyId
+    ? nestedId
+      ? getJourneyGroupTopic(journeyId, articleId, nestedId)
+      : getJourneyTopic(journeyId, articleId)
+    : getTopic(categoryId, articleId)
+
+  const parent = journeyId
+    ? nestedId
+      ? getJourneyTopic(journeyId, articleId)
+      : getJourney(journeyId)
+    : getCategory(categoryId)
+
+  if (!parent || !article) {
+    return (
+      <Navigate
+        to={
+          journeyId
+            ? nestedId
+              ? `/${journeyId}/${articleId}`
+              : `/${journeyId}`
+            : '/categories'
+        }
+        replace
+      />
+    )
+  }
+
+  const backTo = journeyId
+    ? nestedId
+      ? `/${journeyId}/${articleId}`
+      : `/${journeyId}`
+    : `/categories/${categoryId}`
   const locked = journeyId !== 'apply'
 
   if (article.type === 'form') {
@@ -39,8 +72,18 @@ export function TopicPage({ journeyId }) {
   }
 
   const related = (
-    (journeyId ? getJourneyTopics(journeyId) : getTopics(categoryId)) || []
+    (journeyId
+      ? nestedId
+        ? getJourneyGroupTopics(journeyId, articleId)
+        : getJourneyTopics(journeyId)
+      : getTopics(categoryId)) || []
   ).filter((item) => item.id !== article.id)
+
+  const relatedBase = journeyId
+    ? nestedId
+      ? `/${journeyId}/${articleId}`
+      : `/${journeyId}`
+    : backTo
 
   return (
     <ArticleDetail
@@ -48,7 +91,7 @@ export function TopicPage({ journeyId }) {
       article={article}
       related={related}
       backTo={backTo}
-      relatedBase={backTo}
+      relatedBase={relatedBase}
       locked={locked}
     />
   )
