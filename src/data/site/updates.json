@@ -1,23 +1,261 @@
 [
   {
-    "id": "u1",
-    "date": "Aug 10, 2026",
-    "title": "Late arrival protocol refreshed",
-    "body": "Updated guidance for late clients under Issues / Scenarios.",
-    "to": "/categories/scenarios/client-arrives-late"
+    "id": "sep-zura-massage",
+    "date": "Sep 26, 2026",
+    "title": "Zura Massage",
+    "body": "New About Zura Spa article covering the signature Zura Massage standard.",
+    "to": "/categories/about/zura-massage"
   },
   {
-    "id": "u2",
-    "date": "Aug 4, 2026",
-    "title": "Check-in procedure clarity",
-    "body": "Added allergy review reminder to the guest check-in flow.",
-    "to": "/categories/procedures/check-in"
+    "id": "sep-lunez-massage",
+    "date": "Sep 26, 2026",
+    "title": "The Lunez Massage (Designed by Zura Spa)",
+    "body": "New About Zura Spa article on the Lunez Massage standard, boundaries, and service flow.",
+    "to": "/categories/about/the-lunez-massage"
   },
   {
-    "id": "u3",
-    "date": "Jul 28, 2026",
-    "title": "Onboarding course live",
-    "body": "New hire onboarding modules are now available in Onboarding.",
+    "id": "sep-daily-staff-recitation",
+    "date": "Sep 26, 2026",
+    "title": "Zura Spa Daily Staff Recitation",
+    "body": "Added under D and R as a standalone recitation article.",
+    "to": "/d-and-r/daily-staff-recitation"
+  },
+  {
+    "id": "sep-wellness-declaration",
+    "date": "Sep 26, 2026",
+    "title": "Zura Wellness Professional Declaration",
+    "body": "Added under D and R as a standalone declaration article.",
+    "to": "/d-and-r/wellness-professional-declaration"
+  },
+  {
+    "id": "sep-age-neutral",
+    "date": "Sep 24, 2026",
+    "title": "Age Does Not Determine Respect, Voice, or Professional Value",
+    "body": "New Standards article on the age-neutral workplace mindset.",
+    "to": "/categories/standards/age-neutral-mindset"
+  },
+  {
+    "id": "sep-massage-start",
+    "date": "Sep 20, 2026",
+    "title": "Massage Start",
+    "body": "New Practical: Zura Massage Course topic on client positions and session start.",
+    "to": "/courses/practical-zura-massage/massage-start"
+  },
+  {
+    "id": "sep-foot-massage",
+    "date": "Sep 20, 2026",
+    "title": "Foot and Ankle Region Massage",
+    "body": "New Practical: Zura Massage Course topic with anatomy, timing, and video.",
+    "to": "/courses/practical-zura-massage/foot-massage"
+  },
+  {
+    "id": "sep-posterior-leg",
+    "date": "Sep 20, 2026",
+    "title": "Posterior Leg and Calf Region Massage",
+    "body": "New Practical: Zura Massage Course topic covering knee-to-ankle calf work.",
+    "to": "/courses/practical-zura-massage/posterior-leg-and-calf"
+  },
+  {
+    "id": "sep-practical-course",
+    "date": "Sep 20, 2026",
+    "title": "Practical: Zura Massage Course",
+    "body": "New course added under Courses with a Course Outline.",
+    "to": "/courses/practical-zura-massage"
+  },
+  {
+    "id": "sep-stage-1",
+    "date": "Sep 20, 2026",
+    "title": "Stage 1: Zura Wellness Professional Course",
+    "body": "Course outline updated and moved under Courses.",
+    "to": "/courses/zura-wellness-professional"
+  },
+  {
+    "id": "sep-stage-2",
+    "date": "Sep 20, 2026",
+    "title": "Stage 2: Zura Wellness Professional Course",
+    "body": "Course outline updated and moved under Courses.",
+    "to": "/courses/zura-wellness-professional-intermediate"
+  },
+  {
+    "id": "sep-stage-3",
+    "date": "Sep 20, 2026",
+    "title": "Stage 3: Zura Wellness Professional Course",
+    "body": "Course outline updated and moved under Courses.",
+    "to": "/courses/zura-wellness-professional-advanced"
+  },
+  {
+    "id": "sep-stage-4",
+    "date": "Sep 20, 2026",
+    "title": "Stage 4: Zura Wellness Professional Course",
+    "body": "Course outline updated and moved under Courses.",
+    "to": "/courses/zura-wellness-professional-stage-4"
+  },
+  {
+    "id": "sep-new-hire-onboarding",
+    "date": "Sep 20, 2026",
+    "title": "New Hire Onboarding",
+    "body": "Moved into the Onboarding journey.",
     "to": "/onboarding/new-hire-onboarding"
+  },
+  {
+    "id": "sep-morning-d-and-r",
+    "date": "Sep 20, 2026",
+    "title": "Morning D and R Routine",
+    "body": "Routine updated to match the Professional Declaration language.",
+    "to": "/categories/routines/morning-d-and-r-routine"
+  },
+  {
+    "id": "sep-history-zura-massage",
+    "date": "Sep 20, 2026",
+    "title": "History of Zura Massage",
+    "body": "About article updated.",
+    "to": "/categories/about/history-of-zura-massage"
+  },
+  {
+    "id": "sep-organogram",
+    "date": "Sep 20, 2026",
+    "title": "Zura Spa Organogram",
+    "body": "About article updated.",
+    "to": "/categories/about/zura-spa-organogram"
+  },
+  {
+    "id": "sep-appearance",
+    "date": "Sep 20, 2026",
+    "title": "Appearance Standard",
+    "body": "Standards article updated.",
+    "to": "/categories/standards/appearance-standard"
+  },
+  {
+    "id": "sep-client-communication",
+    "date": "Sep 14, 2026",
+    "title": "Client Communication",
+    "body": "New Standards article.",
+    "to": "/categories/standards/client-communication"
+  },
+  {
+    "id": "sep-colleague-communication",
+    "date": "Sep 14, 2026",
+    "title": "Colleague Communication",
+    "body": "New Standards article.",
+    "to": "/categories/standards/colleague-communication"
+  },
+  {
+    "id": "sep-escalation",
+    "date": "Sep 14, 2026",
+    "title": "Escalation",
+    "body": "New Standards article.",
+    "to": "/categories/standards/escalation"
+  },
+  {
+    "id": "sep-massage-task-update",
+    "date": "Sep 14, 2026",
+    "title": "Massage Task & Update",
+    "body": "New Standards article.",
+    "to": "/categories/standards/massage-task-update"
+  },
+  {
+    "id": "sep-mode-of-address",
+    "date": "Sep 14, 2026",
+    "title": "Mode of Address",
+    "body": "New Standards article.",
+    "to": "/categories/standards/mode-of-address"
+  },
+  {
+    "id": "sep-accountability",
+    "date": "Sep 14, 2026",
+    "title": "Accountability & Responsibility",
+    "body": "New Standards article.",
+    "to": "/categories/standards/accountability-responsibility"
+  },
+  {
+    "id": "sep-borrowing",
+    "date": "Sep 14, 2026",
+    "title": "Borrowing & Ownership",
+    "body": "New Standards article.",
+    "to": "/categories/standards/borrowing-ownership"
+  },
+  {
+    "id": "sep-confrontation",
+    "date": "Sep 14, 2026",
+    "title": "Confrontation",
+    "body": "New Standards article.",
+    "to": "/categories/standards/confrontation"
+  },
+  {
+    "id": "sep-discussion",
+    "date": "Sep 14, 2026",
+    "title": "Discussion",
+    "body": "New Standards article.",
+    "to": "/categories/standards/discussion"
+  },
+  {
+    "id": "sep-ex-team",
+    "date": "Sep 14, 2026",
+    "title": "Ex-Team Members",
+    "body": "New Standards article.",
+    "to": "/categories/standards/ex-team-members"
+  },
+  {
+    "id": "sep-giving-reports",
+    "date": "Sep 14, 2026",
+    "title": "Giving Reports",
+    "body": "New Standards article.",
+    "to": "/categories/standards/giving-reports"
+  },
+  {
+    "id": "sep-lateness",
+    "date": "Sep 14, 2026",
+    "title": "Lateness & Punctuality",
+    "body": "New Standards article.",
+    "to": "/categories/standards/lateness-punctuality"
+  },
+  {
+    "id": "sep-lunez-request",
+    "date": "Sep 14, 2026",
+    "title": "Requests for Lunez Massage During a Session",
+    "body": "New Standards article.",
+    "to": "/categories/standards/lunez-massage-request"
+  },
+  {
+    "id": "sep-orderliness",
+    "date": "Sep 14, 2026",
+    "title": "Orderliness",
+    "body": "New Standards article.",
+    "to": "/categories/standards/orderliness"
+  },
+  {
+    "id": "sep-receiving-tips",
+    "date": "Sep 14, 2026",
+    "title": "Receiving Tips",
+    "body": "New Standards article.",
+    "to": "/categories/standards/receiving-tips"
+  },
+  {
+    "id": "sep-sleepovers",
+    "date": "Sep 14, 2026",
+    "title": "Sleepovers",
+    "body": "New Standards article.",
+    "to": "/categories/standards/sleepovers"
+  },
+  {
+    "id": "sep-task-assigning",
+    "date": "Sep 14, 2026",
+    "title": "Task Assigning",
+    "body": "New Standards article.",
+    "to": "/categories/standards/task-assigning"
+  },
+  {
+    "id": "sep-walking",
+    "date": "Sep 14, 2026",
+    "title": "Walking",
+    "body": "New Standards article.",
+    "to": "/categories/standards/walking"
+  },
+  {
+    "id": "sep-we-are-a-team",
+    "date": "Sep 14, 2026",
+    "title": "We Are a Team",
+    "body": "New Standards article.",
+    "to": "/categories/standards/we-are-a-team"
   }
 ]
