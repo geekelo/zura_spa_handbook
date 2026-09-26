@@ -2,14 +2,20 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import {
   authenticate,
   clearSession,
+  grantAssessmentAccess,
+  readAssessmentAccess,
   readSession,
   remainingSessionMs,
 } from './session'
+import { assessments } from '../data'
 
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
   const [session, setSession] = useState(() => readSession())
+  const [assessmentUnlocked, setAssessmentUnlocked] = useState(() =>
+    readAssessmentAccess(),
+  )
 
   useEffect(() => {
     const remaining = remainingSessionMs(session)
@@ -32,6 +38,7 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     function syncSession() {
       setSession(readSession())
+      setAssessmentUnlocked(readAssessmentAccess())
     }
 
     window.addEventListener('storage', syncSession)
@@ -42,10 +49,16 @@ export function AuthProvider({ children }) {
     }
   }, [])
 
+  const isAdmin =
+    session?.role === 'admin' || session?.username === 'admin'
+  const hasAssessmentAccess = isAdmin || assessmentUnlocked
+
   const value = useMemo(
     () => ({
       session,
       isLoggedIn: Boolean(session),
+      isAdmin,
+      hasAssessmentAccess,
       login(username, password) {
         const next = authenticate(username, password)
         if (!next) return false
@@ -56,8 +69,15 @@ export function AuthProvider({ children }) {
         clearSession()
         setSession(null)
       },
+      unlockAssessments(code) {
+        const expected = assessments.accessCode?.trim()
+        if (!expected || code.trim() !== expected) return false
+        grantAssessmentAccess()
+        setAssessmentUnlocked(true)
+        return true
+      },
     }),
-    [session],
+    [session, isAdmin, hasAssessmentAccess],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

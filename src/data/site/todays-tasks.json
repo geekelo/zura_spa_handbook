@@ -22,7 +22,7 @@
           "id": "assessment-of-the-day",
           "title": "Assessment of the Day",
           "description": "Download, complete, and submit today's Lunez Massage assessment.",
-          "to": "/todays-tasks/assessment-of-the-day"
+          "to": "/assessments/lunez-massage/knowledge-application"
         }
       ]
     }

@@ -2,6 +2,7 @@ import accounts from '../data/accounts.json'
 
 export const SESSION_KEY = 'zura-spa-session'
 export const SESSION_MS = 60 * 60 * 1000
+export const ASSESSMENT_ACCESS_KEY = 'zura-spa-assessment-access'
 
 export function readSession() {
   try {
@@ -30,6 +31,7 @@ export function saveSession(account) {
   const session = {
     username: account.username,
     name: account.name || account.username,
+    role: account.role || 'staff',
     loggedInAt: Date.now(),
   }
   localStorage.setItem(SESSION_KEY, JSON.stringify(session))
@@ -52,4 +54,20 @@ export function authenticate(username, password) {
 export function remainingSessionMs(session = readSession()) {
   if (!session) return 0
   return Math.max(0, SESSION_MS - (Date.now() - session.loggedInAt))
+}
+
+export function readAssessmentAccess() {
+  try {
+    return localStorage.getItem(ASSESSMENT_ACCESS_KEY) === 'granted'
+  } catch {
+    return false
+  }
+}
+
+export function grantAssessmentAccess() {
+  localStorage.setItem(ASSESSMENT_ACCESS_KEY, 'granted')
+}
+
+export function clearAssessmentAccess() {
+  localStorage.removeItem(ASSESSMENT_ACCESS_KEY)
 }

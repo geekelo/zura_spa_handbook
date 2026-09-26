@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
+import { AssessmentGate } from '../components/AssessmentGate'
 import { useAuth } from '../auth/AuthContext'
 import { saveForm, readForm } from '../data/forms'
 import './FormTopic.css'
@@ -54,9 +55,16 @@ function ScriptEmbed({ src, title }) {
   )
 }
 
-export function FormTopic({ topic, backTo, locked = false }) {
-  const { isLoggedIn } = useAuth()
-  const canLoadEmbed = !locked || isLoggedIn
+export function FormTopic({
+  topic,
+  backTo,
+  locked = false,
+  requireAssessmentAccess = false,
+}) {
+  const { isLoggedIn, hasAssessmentAccess } = useAuth()
+  const canLoadEmbed = requireAssessmentAccess
+    ? hasAssessmentAccess
+    : !locked || isLoggedIn
   const existing = readForm(topic.id)
   const [values, setValues] = useState(() => {
     const start = {}
@@ -90,105 +98,118 @@ export function FormTopic({ topic, backTo, locked = false }) {
     </div>
   ) : null
 
+  const body = (
+    <>
+      {topic.summary && requireAssessmentAccess ? (
+        <p className="lead-copy">{topic.summary}</p>
+      ) : null}
+      {topic.sections?.length ? (
+        <div className="topic-body">
+          {topic.sections.map((section, index) => (
+            <ContentSection key={section.title || index} section={section} />
+          ))}
+        </div>
+      ) : null}
+
+      {topic.documentUrl || topic.documentDownloadUrl ? (
+        <div className="document-actions">
+          {topic.documentUrl ? (
+            <a
+              href={topic.documentUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="document-actions__link"
+            >
+              {topic.documentLabel || 'Open the assessment'}
+            </a>
+          ) : null}
+          {topic.documentDownloadUrl ? (
+            <a
+              href={topic.documentDownloadUrl}
+              className="document-actions__link document-actions__link--secondary"
+            >
+              {topic.documentDownloadLabel || 'Download'}
+            </a>
+          ) : null}
+        </div>
+      ) : null}
+
+      {embed}
+
+      {!embed ? (
+        <>
+          {saved ? <p className="form-success">{topic.successMessage}</p> : null}
+
+          <form className="staff-form" onSubmit={handleSubmit}>
+            {(topic.fields || []).map((field) => (
+              <label key={field.name}>
+                {field.label}
+                {field.type === 'textarea' ? (
+                  <textarea
+                    name={field.name}
+                    required={field.required}
+                    value={values[field.name]}
+                    onChange={(event) =>
+                      setValues((current) => ({
+                        ...current,
+                        [field.name]: event.target.value,
+                      }))
+                    }
+                  />
+                ) : field.type === 'select' ? (
+                  <select
+                    name={field.name}
+                    required={field.required}
+                    value={values[field.name]}
+                    onChange={(event) =>
+                      setValues((current) => ({
+                        ...current,
+                        [field.name]: event.target.value,
+                      }))
+                    }
+                  >
+                    <option value="">Select</option>
+                    {(field.options || []).map((option) => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                ) : (
+                  <input
+                    type={field.type}
+                    name={field.name}
+                    required={field.required}
+                    value={values[field.name]}
+                    onChange={(event) =>
+                      setValues((current) => ({
+                        ...current,
+                        [field.name]: event.target.value,
+                      }))
+                    }
+                  />
+                )}
+              </label>
+            ))}
+            <button type="submit">{topic.submitLabel || 'Submit'}</button>
+          </form>
+        </>
+      ) : null}
+    </>
+  )
+
   return (
     <div className="page form-page">
       <PageHeader title={topic.title} backTo={backTo} />
-      {topic.summary ? <p className="lead-copy">{topic.summary}</p> : null}
+      {topic.summary && !requireAssessmentAccess ? (
+        <p className="lead-copy">{topic.summary}</p>
+      ) : null}
 
-      <LockedContent locked={locked}>
-        {topic.sections?.length ? (
-          <div className="topic-body">
-            {topic.sections.map((section, index) => (
-              <ContentSection key={section.title || index} section={section} />
-            ))}
-          </div>
-        ) : null}
-
-        {topic.documentUrl || topic.documentDownloadUrl ? (
-          <div className="document-actions">
-            {topic.documentUrl ? (
-              <a
-                href={topic.documentUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="document-actions__link"
-              >
-                {topic.documentLabel || 'Open the assessment'}
-              </a>
-            ) : null}
-            {topic.documentDownloadUrl ? (
-              <a
-                href={topic.documentDownloadUrl}
-                className="document-actions__link document-actions__link--secondary"
-              >
-                {topic.documentDownloadLabel || 'Download'}
-              </a>
-            ) : null}
-          </div>
-        ) : null}
-
-        {embed}
-
-        {!embed ? (
-          <>
-            {saved ? <p className="form-success">{topic.successMessage}</p> : null}
-
-            <form className="staff-form" onSubmit={handleSubmit}>
-              {(topic.fields || []).map((field) => (
-                <label key={field.name}>
-                  {field.label}
-                  {field.type === 'textarea' ? (
-                    <textarea
-                      name={field.name}
-                      required={field.required}
-                      value={values[field.name]}
-                      onChange={(event) =>
-                        setValues((current) => ({
-                          ...current,
-                          [field.name]: event.target.value,
-                        }))
-                      }
-                    />
-                  ) : field.type === 'select' ? (
-                    <select
-                      name={field.name}
-                      required={field.required}
-                      value={values[field.name]}
-                      onChange={(event) =>
-                        setValues((current) => ({
-                          ...current,
-                          [field.name]: event.target.value,
-                        }))
-                      }
-                    >
-                      <option value="">Select</option>
-                      {(field.options || []).map((option) => (
-                        <option key={option} value={option}>
-                          {option}
-                        </option>
-                      ))}
-                    </select>
-                  ) : (
-                    <input
-                      type={field.type}
-                      name={field.name}
-                      required={field.required}
-                      value={values[field.name]}
-                      onChange={(event) =>
-                        setValues((current) => ({
-                          ...current,
-                          [field.name]: event.target.value,
-                        }))
-                      }
-                    />
-                  )}
-                </label>
-              ))}
-              <button type="submit">{topic.submitLabel || 'Submit'}</button>
-            </form>
-          </>
-        ) : null}
-      </LockedContent>
+      {requireAssessmentAccess ? (
+        <AssessmentGate>{body}</AssessmentGate>
+      ) : (
+        <LockedContent locked={locked}>{body}</LockedContent>
+      )}
     </div>
   )
 }

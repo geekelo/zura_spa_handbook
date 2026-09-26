@@ -1,7 +1,7 @@
 .locked-content {
   position: relative;
   isolation: isolate;
-  max-height: min(70vh, 22rem);
+  max-height: min(78vh, 28rem);
   overflow: hidden;
   border-radius: 1.1rem;
 }
@@ -55,4 +55,54 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+.locked-content__hint {
+  font-size: 0.82rem !important;
+  font-weight: 400 !important;
+  color: var(--ink-soft) !important;
+}
+
+.access-code-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  width: min(100%, 16.5rem);
+}
+
+.access-code-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: left;
+}
+
+.access-code-form input {
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.access-code-form button {
+  min-height: 2.6rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
+}
+
+.access-code-form .login-error {
+  margin: 0;
+  color: var(--tag-ink);
+  font-size: 0.82rem;
+  line-height: 1.35;
 }

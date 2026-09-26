@@ -2,17 +2,19 @@
   {
     "username": "admin",
     "password": "ZuraAdmin1",
-    "name": "Administrator"
+    "name": "Administrator",
+    "role": "admin"
   },
   {
     "username": "staff",
     "password": "ZuraStaff1",
-    "name": "Team Member"
+    "name": "Team Member",
+    "role": "staff"
   },
   {
     "username": "newbie",
     "password": "ZuraNewbie1",
-    "name": "Newbie"
+    "name": "Newbie",
+    "role": "newbie"
   }
-
 ]

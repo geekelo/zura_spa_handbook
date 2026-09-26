@@ -14,10 +14,10 @@
     "to": "/todays-tasks"
   },
   {
-    "id": "help",
-    "title": "Need Help?",
-    "description": "Contact HR or get support.",
-    "icon": "headset",
-    "to": "/more"
+    "id": "assessments",
+    "title": "Assessments",
+    "description": "Assessment categories for the team.",
+    "icon": "clipboard",
+    "to": "/assessments"
   }
 ]
