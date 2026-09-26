@@ -8,7 +8,7 @@
   },
   {
     "id": "popular",
-    "title": "Popular Topics",
+    "title": "Today's Tasks",
     "description": "Most viewed and helpful.",
     "icon": "star",
     "to": "/categories/scenarios"
