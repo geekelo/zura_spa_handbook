@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Icon } from './Icons'
+import {
+  clearDeferredPrompt,
+  subscribeInstallPrompt,
+} from '../pwa/installPrompt'
 import './InstallAppButton.css'
 
 function isIos() {
@@ -17,25 +21,23 @@ function isStandalone() {
 
 export function InstallAppButton() {
   const [installEvent, setInstallEvent] = useState(null)
-  const [showIosHelp, setShowIosHelp] = useState(false)
+  const [showHelp, setShowHelp] = useState(false)
   const [installed, setInstalled] = useState(() => isStandalone())
+  const [busy, setBusy] = useState(false)
+  const ios = isIos()
 
   useEffect(() => {
-    function handlePrompt(event) {
-      event.preventDefault()
-      setInstallEvent(event)
-    }
+    const unsubscribe = subscribeInstallPrompt(setInstallEvent)
 
     function handleInstalled() {
       setInstalled(true)
-      setInstallEvent(null)
-      setShowIosHelp(false)
+      setShowHelp(false)
+      clearDeferredPrompt()
     }
 
-    window.addEventListener('beforeinstallprompt', handlePrompt)
     window.addEventListener('appinstalled', handleInstalled)
     return () => {
-      window.removeEventListener('beforeinstallprompt', handlePrompt)
+      unsubscribe()
       window.removeEventListener('appinstalled', handleInstalled)
     }
   }, [])
@@ -55,17 +57,26 @@ export function InstallAppButton() {
   }
 
   async function handleInstall() {
+    if (busy) return
+
     if (installEvent) {
-      installEvent.prompt()
-      const result = await installEvent.userChoice
-      if (result.outcome === 'accepted') {
-        setInstalled(true)
+      setBusy(true)
+      try {
+        await installEvent.prompt()
+        const result = await installEvent.userChoice
+        if (result.outcome === 'accepted') {
+          setInstalled(true)
+        }
+        clearDeferredPrompt()
+      } catch {
+        setShowHelp(true)
+      } finally {
+        setBusy(false)
       }
-      setInstallEvent(null)
       return
     }
 
-    setShowIosHelp(true)
+    setShowHelp(true)
   }
 
   return (
@@ -77,21 +88,22 @@ export function InstallAppButton() {
         <strong>Save as an app</strong>
         <small>Add the handbook to your home screen for quick access.</small>
       </span>
-      <button type="button" onClick={handleInstall}>
-        Download
+      <button type="button" onClick={handleInstall} disabled={busy}>
+        {busy ? 'Opening…' : 'Download'}
       </button>
-      {showIosHelp ? (
+      {showHelp || ios ? (
         <div className="install-help">
-          {isIos() ? (
+          {ios ? (
             <p>
               On iPhone or iPad, tap the <strong>Share</strong> button, then
-              choose <strong>Add to Home Screen</strong>.
+              choose <strong>Add to Home Screen</strong>. Safari cannot install
+              the app from this Download button.
             </p>
           ) : (
             <p>
-              Open this site in Chrome or Safari, then use the browser menu and
-              choose <strong>Add to Home screen</strong> or{' '}
-              <strong>Install app</strong>.
+              If no install popup appears, open this site in Chrome, tap the
+              browser menu, then choose <strong>Install app</strong> or{' '}
+              <strong>Add to Home screen</strong>.
             </p>
           )}
         </div>

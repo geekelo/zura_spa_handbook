@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zura-handbook-v2'
+const CACHE_NAME = 'zura-handbook-v3'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(self.skipWaiting())
