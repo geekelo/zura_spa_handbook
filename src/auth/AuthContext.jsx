@@ -3,18 +3,18 @@ import {
   authenticate,
   clearSession,
   grantAssessmentAccess,
-  readAssessmentAccess,
   readSession,
+  readUnlockedAssessments,
   remainingSessionMs,
 } from './session'
-import { assessments } from '../data'
+import { getAssessmentAccessCode } from '../data'
 
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
   const [session, setSession] = useState(() => readSession())
-  const [assessmentUnlocked, setAssessmentUnlocked] = useState(() =>
-    readAssessmentAccess(),
+  const [unlockedKeys, setUnlockedKeys] = useState(() =>
+    readUnlockedAssessments(),
   )
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     function syncSession() {
       setSession(readSession())
-      setAssessmentUnlocked(readAssessmentAccess())
+      setUnlockedKeys(readUnlockedAssessments())
     }
 
     window.addEventListener('storage', syncSession)
@@ -51,14 +51,15 @@ export function AuthProvider({ children }) {
 
   const isAdmin =
     session?.role === 'admin' || session?.username === 'admin'
-  const hasAssessmentAccess = isAdmin || assessmentUnlocked
 
   const value = useMemo(
     () => ({
       session,
       isLoggedIn: Boolean(session),
       isAdmin,
-      hasAssessmentAccess,
+      hasAssessmentAccess(accessKey) {
+        return isAdmin || unlockedKeys.includes(accessKey)
+      },
       login(username, password) {
         const next = authenticate(username, password)
         if (!next) return false
@@ -69,15 +70,17 @@ export function AuthProvider({ children }) {
         clearSession()
         setSession(null)
       },
-      unlockAssessments(code) {
-        const expected = assessments.accessCode?.trim()
+      restoreAssessmentAccess() {
+        setUnlockedKeys(readUnlockedAssessments())
+      },
+      unlockAssessments(code, accessKey) {
+        const expected = getAssessmentAccessCode(accessKey)
         if (!expected || code.trim() !== expected) return false
-        grantAssessmentAccess()
-        setAssessmentUnlocked(true)
+        setUnlockedKeys(grantAssessmentAccess(accessKey))
         return true
       },
     }),
-    [session, isAdmin, hasAssessmentAccess],
+    [session, isAdmin, unlockedKeys],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

@@ -8,6 +8,7 @@ import pages from './site/pages.json'
 import homePaths from './site/home-paths.json'
 import todaysTasks from './site/todays-tasks.json'
 import assessments from './site/assessments.json'
+import assessmentCodes from './site/assessment-codes.json'
 
 const categoryModules = import.meta.glob('./categories/*/category.json', {
   eager: true,
@@ -118,7 +119,17 @@ for (const groups of Object.values(nestedTopicsByJourney)) {
   }
 }
 
-export { moreResources, updates, pages, homePaths, todaysTasks, assessments }
+export { moreResources, updates, pages, homePaths, todaysTasks, assessments, assessmentCodes }
+
+export function assessmentAccessKey(categoryId, assessmentId) {
+  return `${categoryId}/${assessmentId}`
+}
+
+export function getAssessmentAccessCode(accessKey) {
+  const entry = assessmentCodes.assessments?.find((item) => item.id === accessKey)
+  const code = entry?.accessCode || assessmentCodes.defaultAccessCode
+  return code?.trim() || ''
+}
 
 export function getAssessmentCategory(categoryId) {
   return assessments.categories?.find((item) => item.id === categoryId)

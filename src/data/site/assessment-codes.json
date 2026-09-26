@@ -1,0 +1,12 @@
+{
+  "defaultAccessCode": "2456aa",
+  "assessments": [
+    {
+      "id": "lunez-massage/knowledge-application",
+      "categoryId": "lunez-massage",
+      "assessmentId": "knowledge-application",
+      "title": "Lunez Massage Knowledge & Application Assessment",
+      "accessCode": "2456uu"
+    }
+  ]
+}

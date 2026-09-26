@@ -56,18 +56,54 @@ export function remainingSessionMs(session = readSession()) {
   return Math.max(0, SESSION_MS - (Date.now() - session.loggedInAt))
 }
 
-export function readAssessmentAccess() {
+function storageRead(store) {
   try {
-    return localStorage.getItem(ASSESSMENT_ACCESS_KEY) === 'granted'
+    return store.getItem(ASSESSMENT_ACCESS_KEY)
   } catch {
-    return false
+    return null
   }
 }
 
-export function grantAssessmentAccess() {
-  localStorage.setItem(ASSESSMENT_ACCESS_KEY, 'granted')
+function storageWrite(store, value) {
+  try {
+    if (value == null) store.removeItem(ASSESSMENT_ACCESS_KEY)
+    else store.setItem(ASSESSMENT_ACCESS_KEY, value)
+  } catch {
+    // Private mode or quota can block storage; in-memory unlock still applies.
+  }
+}
+
+function parseUnlockedKeys(raw) {
+  if (!raw) return []
+  if (raw === 'granted') return ['lunez-massage/knowledge-application']
+  try {
+    const parsed = JSON.parse(raw)
+    return Array.isArray(parsed) ? parsed.filter(Boolean) : []
+  } catch {
+    return []
+  }
+}
+
+export function readUnlockedAssessments() {
+  const fromLocal = parseUnlockedKeys(storageRead(localStorage))
+  const fromSession = parseUnlockedKeys(storageRead(sessionStorage))
+  return [...new Set([...fromLocal, ...fromSession])]
+}
+
+export function isAssessmentAccessGranted(accessKey) {
+  return Boolean(accessKey) && readUnlockedAssessments().includes(accessKey)
+}
+
+export function grantAssessmentAccess(accessKey) {
+  if (!accessKey) return readUnlockedAssessments()
+  const next = [...new Set([...readUnlockedAssessments(), accessKey])]
+  const raw = JSON.stringify(next)
+  storageWrite(localStorage, raw)
+  storageWrite(sessionStorage, raw)
+  return next
 }
 
 export function clearAssessmentAccess() {
-  localStorage.removeItem(ASSESSMENT_ACCESS_KEY)
+  storageWrite(localStorage, null)
+  storageWrite(sessionStorage, null)
 }

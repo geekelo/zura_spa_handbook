@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { assessments, getAssessment, getAssessmentCategory } from '../data'
+import { assessments, assessmentAccessKey, getAssessment, getAssessmentCategory } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import { FormTopic } from './FormTopic'
@@ -71,11 +71,14 @@ export function AssessmentDetail() {
     return <Navigate to="/assessments" replace />
   }
 
+  const accessKey = assessmentAccessKey(categoryId, assessment.id)
+
   if (assessment.type === 'fillable-assessment') {
     return (
       <LunezAssessment
         topic={assessment}
         backTo={`/assessments/${categoryId}`}
+        accessKey={accessKey}
       />
     )
   }
@@ -85,6 +88,7 @@ export function AssessmentDetail() {
       topic={assessment}
       backTo={`/assessments/${categoryId}`}
       requireAssessmentAccess
+      accessKey={accessKey}
     />
   )
 }

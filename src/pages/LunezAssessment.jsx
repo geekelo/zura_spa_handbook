@@ -166,7 +166,7 @@ function ScriptEmbed({ src, title }) {
   )
 }
 
-export function LunezAssessment({ topic, backTo }) {
+export function LunezAssessment({ topic, backTo, accessKey }) {
   const existing = readForm(topic.id)
   const [values, setValues] = useState(() => ({
     ...emptyValues(),
@@ -179,6 +179,13 @@ export function LunezAssessment({ topic, backTo }) {
     setValues((current) => ({ ...current, [name]: value }))
 
   const html = useMemo(() => buildAssessmentHtml(values), [values])
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      saveForm(topic.id, values)
+    }, 400)
+    return () => window.clearTimeout(timer)
+  }, [topic.id, values])
 
   function handleSave(event) {
     event?.preventDefault()
@@ -200,7 +207,7 @@ export function LunezAssessment({ topic, backTo }) {
     <div className="page employment-letter-page lunez-assessment-page">
       <PageHeader title={topic.title} backTo={backTo} />
 
-      <AssessmentGate>
+      <AssessmentGate accessKey={accessKey}>
         <p className="lead-copy">
           50 applied assessment questions. Kindly drop your answer and give
           your reasons, then download and upload the completed file.

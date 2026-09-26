@@ -60,10 +60,11 @@ export function FormTopic({
   backTo,
   locked = false,
   requireAssessmentAccess = false,
+  accessKey,
 }) {
   const { isLoggedIn, hasAssessmentAccess } = useAuth()
   const canLoadEmbed = requireAssessmentAccess
-    ? hasAssessmentAccess
+    ? hasAssessmentAccess(accessKey)
     : !locked || isLoggedIn
   const existing = readForm(topic.id)
   const [values, setValues] = useState(() => {
@@ -206,7 +207,7 @@ export function FormTopic({
       ) : null}
 
       {requireAssessmentAccess ? (
-        <AssessmentGate>{body}</AssessmentGate>
+        <AssessmentGate accessKey={accessKey}>{body}</AssessmentGate>
       ) : (
         <LockedContent locked={locked}>{body}</LockedContent>
       )}

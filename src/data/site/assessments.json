@@ -1,7 +1,6 @@
 {
   "title": "Assessments",
   "lead": "Browse assessment categories. Open an assessment to complete it. Content is available to admin accounts, or with an access code.",
-  "accessCode": "2456uu",
   "categories": [
     {
       "id": "lunez-massage",

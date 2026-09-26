@@ -1,20 +1,32 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
+import { isAssessmentAccessGranted } from '../auth/session'
 import './LockedContent.css'
 
-export function AssessmentGate({ children }) {
-  const { hasAssessmentAccess, isLoggedIn, isAdmin, unlockAssessments } =
-    useAuth()
+export function AssessmentGate({ accessKey, children }) {
+  const {
+    hasAssessmentAccess,
+    isLoggedIn,
+    isAdmin,
+    unlockAssessments,
+    restoreAssessmentAccess,
+  } = useAuth()
   const location = useLocation()
   const [code, setCode] = useState('')
   const [error, setError] = useState('')
 
-  if (hasAssessmentAccess) return children
+  useEffect(() => {
+    restoreAssessmentAccess()
+  }, [restoreAssessmentAccess])
+
+  if (hasAssessmentAccess(accessKey) || isAssessmentAccessGranted(accessKey)) {
+    return children
+  }
 
   function handleSubmit(event) {
     event.preventDefault()
-    const ok = unlockAssessments(code)
+    const ok = unlockAssessments(code, accessKey)
     if (!ok) {
       setError('That access code is not valid.')
     }
