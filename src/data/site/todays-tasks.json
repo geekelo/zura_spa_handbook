@@ -23,12 +23,6 @@
           "title": "Lunez Massage Assessment 1",
           "description": "Complete Assessment 1, download the PDF, and submit.",
           "to": "/assessments/lunez-massage/assessment-1"
-        },
-        {
-          "id": "assessment-2",
-          "title": "Lunez Massage Assessment 2",
-          "description": "Complete Assessment 2, download the PDF, and submit.",
-          "to": "/assessments/lunez-massage/assessment-2"
         }
       ]
     }
