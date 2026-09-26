@@ -21,8 +21,8 @@
         {
           "id": "assessment-of-the-day",
           "title": "Assessment of the Day",
-          "description": "Complete today's practical assessment using the Assessment Routine.",
-          "to": "/categories/routines/assessment-routine"
+          "description": "Download, complete, and submit today's Lunez Massage assessment.",
+          "to": "/todays-tasks/assessment-of-the-day"
         }
       ]
     }

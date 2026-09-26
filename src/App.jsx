@@ -14,6 +14,7 @@ import { CategoryDetail, JourneyDetail } from './pages/CategoryDetail'
 import { TopicPage } from './pages/TopicPage'
 import { Updates } from './pages/Updates'
 import { TodaysTasks } from './pages/TodaysTasks'
+import { AssessmentOfTheDay } from './pages/AssessmentOfTheDay'
 import { More } from './pages/More'
 import { Login } from './pages/Login'
 import './App.css'
@@ -76,6 +77,10 @@ export default function App() {
               element={<TopicPage journeyId="d-and-r" />}
             />
             <Route path="todays-tasks" element={<TodaysTasks />} />
+            <Route
+              path="todays-tasks/assessment-of-the-day"
+              element={<AssessmentOfTheDay />}
+            />
             <Route path="updates" element={<Updates />} />
             <Route path="more" element={<More />} />
             <Route path="login" element={<Login />} />

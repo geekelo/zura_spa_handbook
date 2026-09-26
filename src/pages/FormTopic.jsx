@@ -96,16 +96,41 @@ export function FormTopic({ topic, backTo, locked = false }) {
       {topic.summary ? <p className="lead-copy">{topic.summary}</p> : null}
 
       <LockedContent locked={locked}>
-        {embed || (
-          <>
-            {topic.sections?.length ? (
-              <div className="topic-body">
-                {topic.sections.map((section, index) => (
-                  <ContentSection key={section.title || index} section={section} />
-                ))}
-              </div>
-            ) : null}
+        {topic.sections?.length ? (
+          <div className="topic-body">
+            {topic.sections.map((section, index) => (
+              <ContentSection key={section.title || index} section={section} />
+            ))}
+          </div>
+        ) : null}
 
+        {topic.documentUrl || topic.documentDownloadUrl ? (
+          <div className="document-actions">
+            {topic.documentUrl ? (
+              <a
+                href={topic.documentUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="document-actions__link"
+              >
+                {topic.documentLabel || 'Open the assessment'}
+              </a>
+            ) : null}
+            {topic.documentDownloadUrl ? (
+              <a
+                href={topic.documentDownloadUrl}
+                className="document-actions__link document-actions__link--secondary"
+              >
+                {topic.documentDownloadLabel || 'Download'}
+              </a>
+            ) : null}
+          </div>
+        ) : null}
+
+        {embed}
+
+        {!embed ? (
+          <>
             {saved ? <p className="form-success">{topic.successMessage}</p> : null}
 
             <form className="staff-form" onSubmit={handleSubmit}>
@@ -162,7 +187,7 @@ export function FormTopic({ topic, backTo, locked = false }) {
               <button type="submit">{topic.submitLabel || 'Submit'}</button>
             </form>
           </>
-        )}
+        ) : null}
       </LockedContent>
     </div>
   )
