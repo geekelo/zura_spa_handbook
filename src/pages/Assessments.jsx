@@ -3,6 +3,7 @@ import { assessments, getAssessment, getAssessmentCategory } from '../data'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import { FormTopic } from './FormTopic'
+import { LunezAssessment } from './LunezAssessment'
 import './Updates.css'
 import './Home.css'
 import './Categories.css'
@@ -68,6 +69,15 @@ export function AssessmentDetail() {
 
   if (!assessment) {
     return <Navigate to="/assessments" replace />
+  }
+
+  if (assessment.type === 'fillable-assessment') {
+    return (
+      <LunezAssessment
+        topic={assessment}
+        backTo={`/assessments/${categoryId}`}
+      />
+    )
   }
 
   return (

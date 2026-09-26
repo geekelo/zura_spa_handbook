@@ -1,7 +1,7 @@
 {
   "title": "Assessments",
   "lead": "Browse assessment categories. Open an assessment to complete it. Content is available to admin accounts, or with an access code.",
-  "accessCode": "ZuraAssess1",
+  "accessCode": "2456uu",
   "categories": [
     {
       "id": "lunez-massage",
@@ -11,27 +11,10 @@
         {
           "id": "knowledge-application",
           "title": "Lunez Massage Knowledge & Application Assessment",
-          "summary": "Download the assessment, fill in your answers, and upload the completed file.",
-          "type": "form",
-          "documentUrl": "https://docs.google.com/document/d/1Q0EZzHUXDUjjK7oy5BcvNLmvJc1nfB4gXnUu47OnvtM/edit?usp=sharing",
-          "documentLabel": "Open the assessment",
-          "documentDownloadUrl": "https://docs.google.com/document/d/1Q0EZzHUXDUjjK7oy5BcvNLmvJc1nfB4gXnUu47OnvtM/export?format=docx",
-          "documentDownloadLabel": "Download the assessment",
-          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=428",
-          "embedTitle": "Assessment submission",
-          "sections": [
-            {
-              "title": "Instructions",
-              "paragraphs": [
-                "Therapists should download the assessment, fill in their answers, and upload the completed file to this form."
-              ],
-              "list": [
-                "Download or open the Lunez Massage Knowledge & Application Assessment.",
-                "Fill in your answers.",
-                "Upload the completed assessment in the submission form below."
-              ]
-            }
-          ]
+          "summary": "50 applied questions. Fill in your answer and reason, then download and submit.",
+          "type": "fillable-assessment",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
         }
       ]
     }

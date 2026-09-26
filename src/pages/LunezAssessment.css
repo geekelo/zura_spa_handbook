@@ -1,0 +1,50 @@
+.lunez-assessment-page .assessment-question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.lunez-assessment-page .assessment-question:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.lunez-assessment-page .assessment-question p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.lunez-assessment-page .assessment-question label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.lunez-assessment-page .assessment-question textarea {
+  width: 100%;
+  min-height: 4.6rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 400;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.lunez-assessment-page .document-actions button {
+  border: 0;
+  cursor: pointer;
+}
+
+.lunez-assessment-page .document-actions__link--secondary {
+  border: 1px solid var(--line);
+}
