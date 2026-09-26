@@ -9,9 +9,9 @@
   {
     "id": "popular",
     "title": "Today's Tasks",
-    "description": "Most viewed and helpful.",
+    "description": "Standards, assessments, and action points for today.",
     "icon": "star",
-    "to": "/categories/scenarios"
+    "to": "/todays-tasks"
   },
   {
     "id": "help",

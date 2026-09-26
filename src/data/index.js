@@ -6,6 +6,7 @@ import moreResources from './site/more-resources.json'
 import updates from './site/updates.json'
 import pages from './site/pages.json'
 import homePaths from './site/home-paths.json'
+import todaysTasks from './site/todays-tasks.json'
 
 const categoryModules = import.meta.glob('./categories/*/category.json', {
   eager: true,
@@ -116,7 +117,7 @@ for (const groups of Object.values(nestedTopicsByJourney)) {
   }
 }
 
-export { moreResources, updates, pages, homePaths }
+export { moreResources, updates, pages, homePaths, todaysTasks }
 
 export function getCategory(id) {
   return categories.find((item) => item.id === id)

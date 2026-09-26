@@ -1,0 +1,30 @@
+{
+  "title": "Today's Tasks",
+  "lead": "Complete these action points for today.",
+  "groups": [
+    {
+      "id": "standards",
+      "title": "Go through the following standards",
+      "items": [
+        {
+          "id": "lunez-massage",
+          "title": "The Lunez Massage (Designed by Zura Spa)",
+          "description": "Read and apply the Lunez Massage standard.",
+          "to": "/categories/about/the-lunez-massage"
+        }
+      ]
+    },
+    {
+      "id": "assessments",
+      "title": "Take the following assessments",
+      "items": [
+        {
+          "id": "assessment-of-the-day",
+          "title": "Assessment of the Day",
+          "description": "Complete today's practical assessment using the Assessment Routine.",
+          "to": "/categories/routines/assessment-routine"
+        }
+      ]
+    }
+  ]
+}

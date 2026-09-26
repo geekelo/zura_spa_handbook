@@ -13,6 +13,7 @@ import { Categories } from './pages/Categories'
 import { CategoryDetail, JourneyDetail } from './pages/CategoryDetail'
 import { TopicPage } from './pages/TopicPage'
 import { Updates } from './pages/Updates'
+import { TodaysTasks } from './pages/TodaysTasks'
 import { More } from './pages/More'
 import { Login } from './pages/Login'
 import './App.css'
@@ -74,6 +75,7 @@ export default function App() {
               path="d-and-r/:articleId"
               element={<TopicPage journeyId="d-and-r" />}
             />
+            <Route path="todays-tasks" element={<TodaysTasks />} />
             <Route path="updates" element={<Updates />} />
             <Route path="more" element={<More />} />
             <Route path="login" element={<Login />} />
