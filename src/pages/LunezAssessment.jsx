@@ -39,6 +39,11 @@ function blank(value) {
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
 
+function optionAnswerText(option, index) {
+  const letter = OPTION_LETTERS[index] || String(index + 1)
+  return `${letter}. ${option}`
+}
+
 function optionListHtml(options) {
   if (!options?.length) return ''
   const items = options
@@ -246,21 +251,38 @@ export function LunezAssessment({ topic, backTo }) {
                 </p>
                 {question.options?.length ? (
                   <ol className="assessment-options">
-                    {question.options.map((option, index) => (
-                      <li key={`${question.id}-${index}`}>
-                        <span>{OPTION_LETTERS[index] || index + 1}.</span> {option}
-                      </li>
-                    ))}
+                    {question.options.map((option, index) => {
+                      const answerText = optionAnswerText(option, index)
+                      const selected =
+                        values[`q${question.id}Answer`] === answerText
+                      return (
+                        <li key={`${question.id}-${index}`}>
+                          <button
+                            type="button"
+                            className={
+                              selected
+                                ? 'assessment-option assessment-option--selected'
+                                : 'assessment-option'
+                            }
+                            onClick={() =>
+                              setField(`q${question.id}Answer`, answerText)
+                            }
+                          >
+                            <span>{OPTION_LETTERS[index] || index + 1}.</span>{' '}
+                            {option}
+                          </button>
+                        </li>
+                      )
+                    })}
                   </ol>
                 ) : null}
                 <label>
                   Answer
                   <textarea
                     value={values[`q${question.id}Answer`]}
-                    onChange={(event) =>
-                      setField(`q${question.id}Answer`, event.target.value)
-                    }
-                    placeholder="Write the letter of your chosen option (A, B, C or D)"
+                    readOnly
+                    tabIndex={-1}
+                    placeholder="Tap an option above to fill this answer"
                     required
                   />
                 </label>

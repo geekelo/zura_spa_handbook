@@ -29,19 +29,40 @@
 
 .lunez-assessment-page .assessment-options li {
   margin: 0;
+}
+
+.lunez-assessment-page .assessment-option {
+  display: block;
+  width: 100%;
+  margin: 0;
   padding: 0.55rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: 0.75rem;
   background: #fff;
+  font: inherit;
   font-size: 0.88rem;
   font-weight: 400;
   line-height: 1.45;
   color: var(--ink);
+  text-align: left;
+  cursor: pointer;
 }
 
-.lunez-assessment-page .assessment-options li span {
+.lunez-assessment-page .assessment-option span {
   font-weight: 700;
   margin-right: 0.25rem;
+}
+
+.lunez-assessment-page .assessment-option--selected {
+  border-color: var(--accent, #6d2c40);
+  background: color-mix(in srgb, var(--accent, #6d2c40) 10%, #fff);
+}
+
+.lunez-assessment-page .assessment-question textarea[readonly] {
+  background: #f7f4f2;
+  color: var(--ink);
+  resize: none;
+  cursor: default;
 }
 
 .lunez-assessment-page .assessment-question label {
