@@ -87,9 +87,9 @@
   resize: vertical;
 }
 
-.lunez-assessment-page .document-actions button {
-  border: 0;
-  cursor: pointer;
+.lunez-assessment-page .document-actions button:disabled {
+  opacity: 0.65;
+  cursor: wait;
 }
 
 .lunez-assessment-page .document-actions__link--secondary {

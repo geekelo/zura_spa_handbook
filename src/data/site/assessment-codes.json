@@ -2,11 +2,18 @@
   "defaultAccessCode": "2456aa",
   "assessments": [
     {
-      "id": "lunez-massage/knowledge-application",
+      "id": "lunez-massage/assessment-1",
       "categoryId": "lunez-massage",
-      "assessmentId": "knowledge-application",
-      "title": "Lunez Massage Knowledge & Application Assessment",
+      "assessmentId": "assessment-1",
+      "title": "Lunez Massage Assessment 1",
       "accessCode": "2456uu"
+    },
+    {
+      "id": "lunez-massage/assessment-2",
+      "categoryId": "lunez-massage",
+      "assessmentId": "assessment-2",
+      "title": "Lunez Massage Assessment 2",
+      "accessCode": "2457uu"
     }
   ]
 }

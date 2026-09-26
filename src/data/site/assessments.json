@@ -8,12 +8,20 @@
       "description": "Knowledge and application assessments for Lunez Massage.",
       "assessments": [
         {
-          "id": "knowledge-application",
-          "title": "Lunez Massage Knowledge & Application Assessment",
-          "summary": "50 applied questions. Fill in your answer and reason, then download and submit.",
+          "id": "assessment-1",
+          "title": "Lunez Massage Assessment 1",
+          "summary": "Sections A–D. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
-          "embedTitle": "Assessment submission"
+          "embedTitle": "Assessment 1 submission"
+        },
+        {
+          "id": "assessment-2",
+          "title": "Lunez Massage Assessment 2",
+          "summary": "Sections E–I. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment 2 submission"
         }
       ]
     }

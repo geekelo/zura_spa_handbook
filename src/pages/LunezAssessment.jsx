@@ -3,140 +3,40 @@ import logo from '../assets/zura-logo.png'
 import { PageHeader } from '../components/PageHeader'
 import { AssessmentGate } from '../components/AssessmentGate'
 import { saveForm, readForm } from '../data/forms'
-import questionsBySection from '../data/site/lunez-assessment-questions.json'
+import assessment1Questions from '../data/site/lunez-assessment-1-questions.json'
+import assessment2Questions from '../data/site/lunez-assessment-2-questions.json'
+import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
 import './LunezAssessment.css'
 
-function allQuestions() {
+const QUESTION_SETS = {
+  'assessment-1': assessment1Questions,
+  'assessment-2': assessment2Questions,
+}
+
+const OPTION_LETTERS = ['A', 'B', 'C', 'D']
+
+function allQuestions(questionsBySection) {
   return questionsBySection.flatMap((section) => section.questions)
 }
 
-function emptyValues() {
+function emptyValues(questionsBySection) {
   const start = {
     realName: '',
     workName: '',
     date: new Date().toISOString().slice(0, 10),
   }
-  for (const question of allQuestions()) {
+  for (const question of allQuestions(questionsBySection)) {
     start[`q${question.id}Answer`] = ''
     start[`q${question.id}Reason`] = ''
   }
   return start
 }
 
-function escapeHtml(value) {
-  return String(value || '')
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-}
-
-function blank(value) {
-  return value?.trim() ? escapeHtml(value.trim()) : '_______________________________'
-}
-
-const OPTION_LETTERS = ['A', 'B', 'C', 'D']
-
 function optionAnswerText(option, index) {
   const letter = OPTION_LETTERS[index] || String(index + 1)
   return `${letter}. ${option}`
-}
-
-function optionListHtml(options) {
-  if (!options?.length) return ''
-  const items = options
-    .map(
-      (option, index) =>
-        `<li><strong>${OPTION_LETTERS[index] || index + 1}.</strong> ${escapeHtml(option)}</li>`,
-    )
-    .join('')
-  return `<ol class="opts">${items}</ol>`
-}
-
-function buildAssessmentHtml(values) {
-  const name = blank(values.realName)
-  const workName = blank(values.workName)
-  const date = blank(values.date)
-
-  const sectionsHtml = questionsBySection
-    .map((section) => {
-      const items = section.questions
-        .map((question) => {
-          const answer = blank(values[`q${question.id}Answer`])
-          const reason = blank(values[`q${question.id}Reason`])
-          return `<article class="q">
-  <h3>${question.id}. ${escapeHtml(question.prompt)}</h3>
-  ${optionListHtml(question.options)}
-  <p><strong>Answer:</strong> ${answer}</p>
-  <p><strong>Reason:</strong> ${reason}</p>
-</article>`
-        })
-        .join('\n')
-      return `<section>
-  <h2>${escapeHtml(section.title)}</h2>
-  ${items}
-</section>`
-    })
-    .join('\n')
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Lunez Massage Assessment — ${name}</title>
-  <style>
-    @page { margin: 16mm; }
-    body {
-      margin: 0;
-      color: #1f1220;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 12.5px;
-      line-height: 1.5;
-      background: #fff;
-    }
-    .sheet { max-width: 760px; margin: 0 auto; padding: 8px 0; }
-    .brand { text-align: center; border-bottom: 2px solid #6d2c40; padding-bottom: 14px; margin-bottom: 16px; }
-    .brand img { width: 72px; height: auto; margin-bottom: 8px; }
-    .brand h1 { margin: 0; font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; color: #6d2c40; }
-    .brand p { margin: 6px 0 0; font-size: 12px; color: #7a5a62; }
-    .meta p { margin: 0 0 6px; }
-    h2 { margin: 22px 0 10px; font-size: 14px; color: #6d2c40; letter-spacing: 0.04em; }
-    .q { margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid #eadfd8; }
-    .q h3 { margin: 0 0 8px; font-size: 13px; }
-    .opts { margin: 0 0 10px; padding-left: 1.2em; }
-    .opts li { margin: 0 0 4px; }
-    .q p { margin: 0 0 6px; white-space: pre-wrap; }
-  </style>
-</head>
-<body>
-  <div class="sheet">
-    <div class="brand">
-      <img src="${logo}" alt="Zura Spa" />
-      <h1>Zura Spa</h1>
-      <p>Lunez Massage Knowledge &amp; Application Assessment</p>
-    </div>
-    <div class="meta">
-      <p><strong>Your real name:</strong> ${name}</p>
-      <p><strong>Your work name:</strong> ${workName}</p>
-      <p><strong>Date:</strong> ${date}</p>
-    </div>
-    <p>Purpose: To assess and reinforce whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.</p>
-    ${sectionsHtml}
-  </div>
-</body>
-</html>`
-}
-
-function downloadBlob(filename, html) {
-  const blob = new Blob([html], { type: 'text/html;charset=utf-8' })
-  const url = URL.createObjectURL(blob)
-  const link = document.createElement('a')
-  link.href = url
-  link.download = filename
-  link.click()
-  URL.revokeObjectURL(url)
 }
 
 function ScriptEmbed({ src, title }) {
@@ -167,18 +67,31 @@ function ScriptEmbed({ src, title }) {
 }
 
 export function LunezAssessment({ topic, backTo, accessKey }) {
-  const existing = readForm(topic.id)
+  const questionsBySection = QUESTION_SETS[topic.id] || assessment1Questions
+  const questionCount = useMemo(
+    () => allQuestions(questionsBySection).length,
+    [questionsBySection],
+  )
   const [values, setValues] = useState(() => ({
-    ...emptyValues(),
-    ...existing,
-    date: existing?.date || new Date().toISOString().slice(0, 10),
+    ...emptyValues(questionsBySection),
+    ...readForm(topic.id),
+    date: readForm(topic.id)?.date || new Date().toISOString().slice(0, 10),
   }))
   const [status, setStatus] = useState('')
+  const [downloading, setDownloading] = useState(false)
+
+  useEffect(() => {
+    const existing = readForm(topic.id)
+    setValues({
+      ...emptyValues(questionsBySection),
+      ...existing,
+      date: existing?.date || new Date().toISOString().slice(0, 10),
+    })
+    setStatus('')
+  }, [topic.id, questionsBySection])
 
   const setField = (name, value) =>
     setValues((current) => ({ ...current, [name]: value }))
-
-  const html = useMemo(() => buildAssessmentHtml(values), [values])
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -193,14 +106,28 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
     setStatus('Your answers have been saved on this device.')
   }
 
-  function handleDownload() {
+  async function handleDownload() {
     saveForm(topic.id, values)
-    const slug = (values.workName || values.realName || 'therapist')
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-    downloadBlob(`zura-lunez-assessment-${slug || 'therapist'}.html`, html)
-    setStatus('Downloaded. Upload the file in the submission form below.')
+    setDownloading(true)
+    setStatus('Preparing your PDF...')
+    try {
+      const slug = (values.workName || values.realName || 'therapist')
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+      await downloadAssessmentPdf({
+        logoSrc: logo,
+        title: topic.title,
+        values,
+        questionsBySection,
+        filename: `zura-lunez-${topic.id}-${slug || 'therapist'}.pdf`,
+      })
+      setStatus('PDF downloaded. Upload the file in the submission form below.')
+    } catch {
+      setStatus('The PDF could not be created. Please try again.')
+    } finally {
+      setDownloading(false)
+    }
   }
 
   return (
@@ -209,8 +136,8 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
 
       <AssessmentGate accessKey={accessKey}>
         <p className="lead-copy">
-          50 applied assessment questions. Kindly drop your answer and give
-          your reasons, then download and upload the completed file.
+          {questionCount} applied assessment questions. Tap an option to fill
+          your answer, type your reason, then download a PDF and upload it.
         </p>
 
         <form className="el-card" onSubmit={handleSave}>
@@ -311,8 +238,8 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
         <div className="el-card">
           <h2>Save and download</h2>
           <p className="lead-copy">
-            Save your answers, download the completed assessment, then upload
-            it in the submission form below.
+            Save your answers, download the completed assessment as a PDF, then
+            upload it in the submission form below.
           </p>
           {status ? <p className="form-success">{status}</p> : null}
           <div className="document-actions">
@@ -323,8 +250,9 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
               type="button"
               className="document-actions__link document-actions__link--secondary"
               onClick={handleDownload}
+              disabled={downloading}
             >
-              Download assessment
+              {downloading ? 'Preparing PDF...' : 'Download PDF'}
             </button>
           </div>
         </div>
@@ -332,7 +260,7 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
         <div className="el-card">
           <h2>Submit</h2>
           <p className="lead-copy">
-            Upload your downloaded assessment using this form.
+            Upload your downloaded PDF using this form.
           </p>
           <ScriptEmbed
             src={topic.embedScript}

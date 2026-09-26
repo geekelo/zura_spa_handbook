@@ -19,10 +19,16 @@
       "title": "Take the following assessments",
       "items": [
         {
-          "id": "assessment-of-the-day",
-          "title": "Assessment of the Day",
-          "description": "Download, complete, and submit today's Lunez Massage assessment.",
-          "to": "/assessments/lunez-massage/knowledge-application"
+          "id": "assessment-1",
+          "title": "Lunez Massage Assessment 1",
+          "description": "Complete Assessment 1, download the PDF, and submit.",
+          "to": "/assessments/lunez-massage/assessment-1"
+        },
+        {
+          "id": "assessment-2",
+          "title": "Lunez Massage Assessment 2",
+          "description": "Complete Assessment 2, download the PDF, and submit.",
+          "to": "/assessments/lunez-massage/assessment-2"
         }
       ]
     }

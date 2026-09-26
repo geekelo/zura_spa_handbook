@@ -75,10 +75,19 @@ function storageWrite(store, value) {
 
 function parseUnlockedKeys(raw) {
   if (!raw) return []
-  if (raw === 'granted') return ['lunez-massage/knowledge-application']
+  if (raw === 'granted') {
+    return ['lunez-massage/assessment-1', 'lunez-massage/assessment-2']
+  }
   try {
     const parsed = JSON.parse(raw)
-    return Array.isArray(parsed) ? parsed.filter(Boolean) : []
+    if (!Array.isArray(parsed)) return []
+    return parsed
+      .filter(Boolean)
+      .map((key) =>
+        key === 'lunez-massage/knowledge-application'
+          ? 'lunez-massage/assessment-1'
+          : key,
+      )
   } catch {
     return []
   }

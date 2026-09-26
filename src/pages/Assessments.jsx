@@ -65,6 +65,14 @@ export function AssessmentCategory() {
 
 export function AssessmentDetail() {
   const { categoryId, assessmentId } = useParams()
+
+  if (
+    categoryId === 'lunez-massage' &&
+    assessmentId === 'knowledge-application'
+  ) {
+    return <Navigate to="/assessments/lunez-massage/assessment-1" replace />
+  }
+
   const assessment = getAssessment(categoryId, assessmentId)
 
   if (!assessment) {

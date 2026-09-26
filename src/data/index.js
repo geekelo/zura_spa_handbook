@@ -143,7 +143,7 @@ export function getAssessment(categoryId, assessmentId) {
 
 export const assessmentOfTheDay = getAssessment(
   'lunez-massage',
-  'knowledge-application',
+  'assessment-1',
 )
 
 export function getCategory(id) {
