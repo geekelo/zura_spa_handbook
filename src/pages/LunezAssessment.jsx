@@ -37,6 +37,19 @@ function blank(value) {
   return value?.trim() ? escapeHtml(value.trim()) : '_______________________________'
 }
 
+const OPTION_LETTERS = ['A', 'B', 'C', 'D']
+
+function optionListHtml(options) {
+  if (!options?.length) return ''
+  const items = options
+    .map(
+      (option, index) =>
+        `<li><strong>${OPTION_LETTERS[index] || index + 1}.</strong> ${escapeHtml(option)}</li>`,
+    )
+    .join('')
+  return `<ol class="opts">${items}</ol>`
+}
+
 function buildAssessmentHtml(values) {
   const name = blank(values.realName)
   const workName = blank(values.workName)
@@ -50,6 +63,7 @@ function buildAssessmentHtml(values) {
           const reason = blank(values[`q${question.id}Reason`])
           return `<article class="q">
   <h3>${question.id}. ${escapeHtml(question.prompt)}</h3>
+  ${optionListHtml(question.options)}
   <p><strong>Answer:</strong> ${answer}</p>
   <p><strong>Reason:</strong> ${reason}</p>
 </article>`
@@ -86,6 +100,8 @@ function buildAssessmentHtml(values) {
     h2 { margin: 22px 0 10px; font-size: 14px; color: #6d2c40; letter-spacing: 0.04em; }
     .q { margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid #eadfd8; }
     .q h3 { margin: 0 0 8px; font-size: 13px; }
+    .opts { margin: 0 0 10px; padding-left: 1.2em; }
+    .opts li { margin: 0 0 4px; }
     .q p { margin: 0 0 6px; white-space: pre-wrap; }
   </style>
 </head>
@@ -228,6 +244,15 @@ export function LunezAssessment({ topic, backTo }) {
                     {question.id}. {question.prompt}
                   </strong>
                 </p>
+                {question.options?.length ? (
+                  <ol className="assessment-options">
+                    {question.options.map((option, index) => (
+                      <li key={`${question.id}-${index}`}>
+                        <span>{OPTION_LETTERS[index] || index + 1}.</span> {option}
+                      </li>
+                    ))}
+                  </ol>
+                ) : null}
                 <label>
                   Answer
                   <textarea
@@ -235,6 +260,7 @@ export function LunezAssessment({ topic, backTo }) {
                     onChange={(event) =>
                       setField(`q${question.id}Answer`, event.target.value)
                     }
+                    placeholder="Write the letter of your chosen option (A, B, C or D)"
                     required
                   />
                 </label>
