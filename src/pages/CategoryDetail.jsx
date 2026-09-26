@@ -61,7 +61,7 @@ function TopicIndex({ journeyId }) {
   const items = journeyId
     ? getJourneyTopics(journeyId)
     : getTopics(categoryId)
-  const backTo = journeyId ? '/' : '/categories'
+  const backTo = journeyId ? parent?.backTo || '/' : '/categories'
 
   if (!parent || !items) {
     return <Navigate to={journeyId ? '/' : '/categories'} replace />

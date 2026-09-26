@@ -1,10 +1,10 @@
 [
   {
-    "id": "recent",
-    "title": "Recently Updated",
-    "description": "Latest handbook updates.",
-    "icon": "clock",
-    "to": "/updates"
+    "id": "d-and-r",
+    "title": "D and R",
+    "description": "Daily Staff Recitation and Wellness Professional Declaration.",
+    "icon": "lotus",
+    "to": "/d-and-r"
   },
   {
     "id": "popular",
