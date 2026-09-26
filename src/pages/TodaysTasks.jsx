@@ -5,6 +5,7 @@ import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
 import './Updates.css'
 import './Home.css'
+import './Categories.css'
 
 export function TodaysTasks() {
   return (
