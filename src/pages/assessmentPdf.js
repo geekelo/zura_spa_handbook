@@ -43,6 +43,7 @@ async function logoPayload(src) {
 export async function downloadAssessmentPdf({
   logoSrc,
   title,
+  purpose,
   values,
   questionsBySection,
   filename,
@@ -103,7 +104,8 @@ export async function downloadAssessmentPdf({
   write(`Your work name: ${filled(values.workName)}`, { size: 11, style: 'bold' })
   write(`Date: ${filled(values.date)}`, { size: 11, style: 'bold', gap: 4 })
   write(
-    'Purpose: To assess whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.',
+    purpose ||
+      'Purpose: To assess professional understanding and application of Zura Spa standards.',
     { size: 10, color: MUTED, gap: 6 },
   )
 

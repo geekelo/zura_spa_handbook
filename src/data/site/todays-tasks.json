@@ -7,10 +7,10 @@
       "title": "Go through the following standards",
       "items": [
         {
-          "id": "lunez-massage",
-          "title": "The Lunez Massage (Designed by Zura Spa)",
-          "description": "Read and apply the Lunez Massage standard.",
-          "to": "/categories/about/the-lunez-massage"
+          "id": "problem-solving-mindset",
+          "title": "Problem-Solving Mindset Standard",
+          "description": "Read and apply the Problem-Solving Mindset standard.",
+          "to": "/categories/standards/problem-solving-mindset"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "title": "Take the following assessments",
       "items": [
         {
-          "id": "assessment-1",
-          "title": "Lunez Massage Assessment 1",
-          "description": "Complete Assessment 1, download the PDF, and submit.",
-          "to": "/assessments/lunez-massage/assessment-1"
+          "id": "assessment-of-the-day",
+          "title": "Assessment of the Day",
+          "description": "Complete the Problem-Solving Mindset Applied Assessment, download the PDF, and submit.",
+          "to": "/assessments/problem-solving-mindset/applied-assessment"
         }
       ]
     }

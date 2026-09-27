@@ -12,6 +12,8 @@
           "title": "Lunez Massage Assessment 1",
           "summary": "Sections A–D. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
+          "questionsId": "lunez-assessment-1",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment 1 submission"
         },
@@ -20,8 +22,27 @@
           "title": "Lunez Massage Assessment 2",
           "summary": "Sections E–I. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
+          "questionsId": "lunez-assessment-2",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment 2 submission"
+        }
+      ]
+    },
+    {
+      "id": "problem-solving-mindset",
+      "title": "Problem-Solving Mindset",
+      "description": "Knowledge and application assessments for the Problem-Solving Mindset standard.",
+      "assessments": [
+        {
+          "id": "applied-assessment",
+          "title": "Problem-Solving Mindset Applied Assessment",
+          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "problem-solving-mindset",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply a problem-solving mindset: staying calm, checking facts, acting within authority, communicating, escalating when needed, protecting the client experience, and learning from problems.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
         }
       ]
     }

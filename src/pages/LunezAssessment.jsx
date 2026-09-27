@@ -5,14 +5,16 @@ import { AssessmentGate } from '../components/AssessmentGate'
 import { saveForm, readForm } from '../data/forms'
 import assessment1Questions from '../data/site/lunez-assessment-1-questions.json'
 import assessment2Questions from '../data/site/lunez-assessment-2-questions.json'
+import problemSolvingQuestions from '../data/site/problem-solving-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
 import './LunezAssessment.css'
 
 const QUESTION_SETS = {
-  'assessment-1': assessment1Questions,
-  'assessment-2': assessment2Questions,
+  'lunez-assessment-1': assessment1Questions,
+  'lunez-assessment-2': assessment2Questions,
+  'problem-solving-mindset': problemSolvingQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
@@ -67,47 +69,48 @@ function ScriptEmbed({ src, title }) {
 }
 
 export function LunezAssessment({ topic, backTo, accessKey }) {
-  const questionsBySection = QUESTION_SETS[topic.id] || assessment1Questions
+  const formId = accessKey || topic.id
+  const questionsBySection = QUESTION_SETS[topic.questionsId] || []
   const questionCount = useMemo(
     () => allQuestions(questionsBySection).length,
     [questionsBySection],
   )
   const [values, setValues] = useState(() => ({
     ...emptyValues(questionsBySection),
-    ...readForm(topic.id),
-    date: readForm(topic.id)?.date || new Date().toISOString().slice(0, 10),
+    ...readForm(formId),
+    date: readForm(formId)?.date || new Date().toISOString().slice(0, 10),
   }))
   const [status, setStatus] = useState('')
   const [downloading, setDownloading] = useState(false)
 
   useEffect(() => {
-    const existing = readForm(topic.id)
+    const existing = readForm(formId)
     setValues({
       ...emptyValues(questionsBySection),
       ...existing,
       date: existing?.date || new Date().toISOString().slice(0, 10),
     })
     setStatus('')
-  }, [topic.id, questionsBySection])
+  }, [formId, questionsBySection])
 
   const setField = (name, value) =>
     setValues((current) => ({ ...current, [name]: value }))
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
-      saveForm(topic.id, values)
+      saveForm(formId, values)
     }, 400)
     return () => window.clearTimeout(timer)
-  }, [topic.id, values])
+  }, [formId, values])
 
   function handleSave(event) {
     event?.preventDefault()
-    saveForm(topic.id, values)
+    saveForm(formId, values)
     setStatus('Your answers have been saved on this device.')
   }
 
   async function handleDownload() {
-    saveForm(topic.id, values)
+    saveForm(formId, values)
     setDownloading(true)
     setStatus('Preparing your PDF...')
     try {
@@ -115,12 +118,16 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
         .trim()
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
+      const fileKey = (accessKey || topic.id).replaceAll('/', '-')
       await downloadAssessmentPdf({
         logoSrc: logo,
         title: topic.title,
+        purpose: topic.pdfPurpose
+          ? `Purpose: ${topic.pdfPurpose}`
+          : undefined,
         values,
         questionsBySection,
-        filename: `zura-lunez-${topic.id}-${slug || 'therapist'}.pdf`,
+        filename: `zura-${fileKey}-${slug || 'therapist'}.pdf`,
       })
       setStatus('PDF downloaded. Upload the file in the submission form below.')
     } catch {

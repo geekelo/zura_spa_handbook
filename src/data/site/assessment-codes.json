@@ -14,6 +14,13 @@
       "assessmentId": "assessment-2",
       "title": "Lunez Massage Assessment 2",
       "accessCode": "2457uu"
+    },
+    {
+      "id": "problem-solving-mindset/applied-assessment",
+      "categoryId": "problem-solving-mindset",
+      "assessmentId": "applied-assessment",
+      "title": "Problem-Solving Mindset Applied Assessment",
+      "accessCode": "136uu"
     }
   ]
 }
