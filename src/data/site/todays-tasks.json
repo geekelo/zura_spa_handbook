@@ -7,10 +7,10 @@
       "title": "Go through the following standards",
       "items": [
         {
-          "id": "problem-solving-mindset",
-          "title": "Problem-Solving Mindset Standard",
-          "description": "Read and apply the Problem-Solving Mindset standard.",
-          "to": "/categories/standards/problem-solving-mindset"
+          "id": "appearance-standard",
+          "title": "Appearance Standard",
+          "description": "Read and apply the Appearance Standard.",
+          "to": "/categories/standards/appearance-standard"
         }
       ]
     },
@@ -21,8 +21,8 @@
         {
           "id": "assessment-of-the-day",
           "title": "Assessment of the Day",
-          "description": "Complete the Problem-Solving Mindset Applied Assessment, download the PDF, and submit.",
-          "to": "/assessments/problem-solving-mindset/applied-assessment"
+          "description": "Complete the Appearance Standard Applied Assessment, download the PDF, and submit.",
+          "to": "/assessments/appearance-standard/applied-assessment"
         }
       ]
     }

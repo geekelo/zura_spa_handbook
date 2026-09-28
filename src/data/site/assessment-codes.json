@@ -21,6 +21,13 @@
       "assessmentId": "applied-assessment",
       "title": "Problem-Solving Mindset Applied Assessment",
       "accessCode": "136uu"
+    },
+    {
+      "id": "appearance-standard/applied-assessment",
+      "categoryId": "appearance-standard",
+      "assessmentId": "applied-assessment",
+      "title": "Appearance Standard Applied Assessment",
+      "accessCode": "146uu"
     }
   ]
 }

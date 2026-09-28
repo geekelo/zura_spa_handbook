@@ -142,7 +142,7 @@ export function getAssessment(categoryId, assessmentId) {
 }
 
 export const assessmentOfTheDay = getAssessment(
-  'problem-solving-mindset',
+  'appearance-standard',
   'applied-assessment',
 )
 

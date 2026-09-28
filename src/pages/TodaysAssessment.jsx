@@ -6,15 +6,17 @@ import { saveForm, readForm } from '../data/forms'
 import assessment1Questions from '../data/site/lunez-assessment-1-questions.json'
 import assessment2Questions from '../data/site/lunez-assessment-2-questions.json'
 import problemSolvingQuestions from '../data/site/problem-solving-assessment-questions.json'
+import appearanceQuestions from '../data/site/appearance-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
-import './LunezAssessment.css'
+import './TodaysAssessment.css'
 
 const QUESTION_SETS = {
   'lunez-assessment-1': assessment1Questions,
   'lunez-assessment-2': assessment2Questions,
   'problem-solving-mindset': problemSolvingQuestions,
+  'appearance-standard': appearanceQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
@@ -68,7 +70,7 @@ function ScriptEmbed({ src, title }) {
   )
 }
 
-export function LunezAssessment({ topic, backTo, accessKey }) {
+export function TodaysAssessment({ topic, backTo, accessKey }) {
   const formId = accessKey || topic.id
   const questionsBySection = QUESTION_SETS[topic.questionsId] || []
   const questionCount = useMemo(
@@ -122,9 +124,7 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
       await downloadAssessmentPdf({
         logoSrc: logo,
         title: topic.title,
-        purpose: topic.pdfPurpose
-          ? `Purpose: ${topic.pdfPurpose}`
-          : undefined,
+        purpose: topic.pdfPurpose ? `Purpose: ${topic.pdfPurpose}` : undefined,
         values,
         questionsBySection,
         filename: `zura-${fileKey}-${slug || 'therapist'}.pdf`,
@@ -138,7 +138,7 @@ export function LunezAssessment({ topic, backTo, accessKey }) {
   }
 
   return (
-    <div className="page employment-letter-page lunez-assessment-page">
+    <div className="page employment-letter-page todays-assessment-page">
       <PageHeader title={topic.title} backTo={backTo} />
 
       <AssessmentGate accessKey={accessKey}>

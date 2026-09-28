@@ -3,7 +3,7 @@ import { assessments, assessmentAccessKey, getAssessment, getAssessmentCategory 
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import { FormTopic } from './FormTopic'
-import { LunezAssessment } from './LunezAssessment'
+import { TodaysAssessment } from './TodaysAssessment'
 import './Updates.css'
 import './Home.css'
 import './Categories.css'
@@ -83,7 +83,7 @@ export function AssessmentDetail() {
 
   if (assessment.type === 'fillable-assessment') {
     return (
-      <LunezAssessment
+      <TodaysAssessment
         topic={assessment}
         backTo={`/assessments/${categoryId}`}
         accessKey={accessKey}

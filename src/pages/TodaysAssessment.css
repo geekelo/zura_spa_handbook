@@ -1,4 +1,4 @@
-.lunez-assessment-page .assessment-question {
+.todays-assessment-page .assessment-question {
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
@@ -6,19 +6,19 @@
   border-top: 1px solid var(--line);
 }
 
-.lunez-assessment-page .assessment-question:first-of-type {
+.todays-assessment-page .assessment-question:first-of-type {
   border-top: 0;
   padding-top: 0;
 }
 
-.lunez-assessment-page .assessment-question p {
+.todays-assessment-page .assessment-question p {
   margin: 0;
   font-size: 0.92rem;
   line-height: 1.5;
   color: var(--ink);
 }
 
-.lunez-assessment-page .assessment-options {
+.todays-assessment-page .assessment-options {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -27,11 +27,11 @@
   gap: 0.4rem;
 }
 
-.lunez-assessment-page .assessment-options li {
+.todays-assessment-page .assessment-options li {
   margin: 0;
 }
 
-.lunez-assessment-page .assessment-option {
+.todays-assessment-page .assessment-option {
   display: block;
   width: 100%;
   margin: 0;
@@ -48,24 +48,24 @@
   cursor: pointer;
 }
 
-.lunez-assessment-page .assessment-option span {
+.todays-assessment-page .assessment-option span {
   font-weight: 700;
   margin-right: 0.25rem;
 }
 
-.lunez-assessment-page .assessment-option--selected {
+.todays-assessment-page .assessment-option--selected {
   border-color: var(--accent, #6d2c40);
   background: color-mix(in srgb, var(--accent, #6d2c40) 10%, #fff);
 }
 
-.lunez-assessment-page .assessment-question textarea[readonly] {
+.todays-assessment-page .assessment-question textarea[readonly] {
   background: #f7f4f2;
   color: var(--ink);
   resize: none;
   cursor: default;
 }
 
-.lunez-assessment-page .assessment-question label {
+.todays-assessment-page .assessment-question label {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -74,7 +74,7 @@
   color: var(--ink);
 }
 
-.lunez-assessment-page .assessment-question textarea {
+.todays-assessment-page .assessment-question textarea {
   width: 100%;
   min-height: 4.6rem;
   padding: 0.65rem 0.85rem;
@@ -87,11 +87,16 @@
   resize: vertical;
 }
 
-.lunez-assessment-page .document-actions button:disabled {
+.todays-assessment-page .document-actions button {
+  border: 0;
+  cursor: pointer;
+}
+
+.todays-assessment-page .document-actions button:disabled {
   opacity: 0.65;
   cursor: wait;
 }
 
-.lunez-assessment-page .document-actions__link--secondary {
+.todays-assessment-page .document-actions__link--secondary {
   border: 1px solid var(--line);
 }

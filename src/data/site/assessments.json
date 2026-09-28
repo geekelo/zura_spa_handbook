@@ -45,6 +45,23 @@
           "embedTitle": "Assessment submission"
         }
       ]
+    },
+    {
+      "id": "appearance-standard",
+      "title": "Appearance Standard",
+      "description": "Knowledge and application assessments for the Appearance Standard.",
+      "assessments": [
+        {
+          "id": "applied-assessment",
+          "title": "Appearance Standard Applied Assessment",
+          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "appearance-standard",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply the Appearance Standard: cleanliness, uniform, hair, hygiene, breath, hands, nails, footwear, accessories, client-ready presentation, and willingness to correct issues immediately.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
+        }
+      ]
     }
   ]
 }
