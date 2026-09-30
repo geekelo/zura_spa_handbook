@@ -85,3 +85,37 @@
 .category-card:nth-child(4) { animation-delay: 160ms; }
 .category-card:nth-child(5) { animation-delay: 200ms; }
 .category-card:nth-child(6) { animation-delay: 240ms; }
+
+.module-card__badge {
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.tone-mauve .module-card__badge {
+  background: var(--pastel-mauve);
+}
+.tone-rose .module-card__badge {
+  background: var(--pastel-rose);
+}
+.tone-apricot .module-card__badge {
+  background: var(--pastel-apricot);
+}
+.tone-lavender .module-card__badge {
+  background: var(--pastel-lavender);
+}
+.tone-mint .module-card__badge {
+  background: var(--pastel-mint);
+}
+.tone-blush .module-card__badge {
+  background: var(--pastel-blush);
+}
+.tone-sand .module-card__badge {
+  background: var(--pastel-sand);
+}

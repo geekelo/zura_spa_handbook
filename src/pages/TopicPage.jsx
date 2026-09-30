@@ -2,8 +2,8 @@ import { Navigate, useParams } from 'react-router-dom'
 import {
   getCategory,
   getJourney,
-  getJourneyGroupTopic,
-  getJourneyGroupTopics,
+  getCourseGroupItems,
+  resolveJourneyGroupTopic,
   getJourneyTopic,
   getJourneyTopics,
   getTopic,
@@ -27,7 +27,7 @@ export function TopicPage({ journeyId }) {
 
   const article = journeyId
     ? nestedId
-      ? getJourneyGroupTopic(journeyId, articleId, nestedId)
+      ? resolveJourneyGroupTopic(journeyId, articleId, nestedId)
       : getJourneyTopic(journeyId, articleId)
     : getTopic(categoryId, articleId)
 
@@ -54,7 +54,9 @@ export function TopicPage({ journeyId }) {
 
   const backTo = journeyId
     ? nestedId
-      ? `/${journeyId}/${articleId}`
+      ? article.module
+        ? `/${journeyId}/${articleId}/module-${article.module}`
+        : `/${journeyId}/${articleId}`
       : `/${journeyId}`
     : `/categories/${categoryId}`
   const locked = journeyId !== 'apply'
@@ -74,7 +76,7 @@ export function TopicPage({ journeyId }) {
   const related = (
     (journeyId
       ? nestedId
-        ? getJourneyGroupTopics(journeyId, articleId)
+        ? getCourseGroupItems(journeyId, articleId)
         : getJourneyTopics(journeyId)
       : getTopics(categoryId)) || []
   ).filter((item) => item.id !== article.id)

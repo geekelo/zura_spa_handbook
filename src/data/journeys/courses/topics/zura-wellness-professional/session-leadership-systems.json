@@ -3,7 +3,8 @@
   "title": "Zura Spa Session Leadership Systems",
   "summary": "How two therapists work as one unit: Senior–Junior versus Driver–Passenger. Session authority comes from appointment, not tenure — and must never become ego, status, or personal worth.",
   "type": "article",
-  "order": 26,
+  "module": 5,
+  "order": 5,
   "sections": [
     {
       "title": "Senior–Junior vs Driver–Passenger",
@@ -12,6 +13,12 @@
         "For clarity, in this discussion “senior” means more tenured or more experienced within Zura Spa, not older in biological age, while “junior” means newer or less experienced within Zura Spa.",
         "The earlier Senior–Junior system created authority from tenure and experience. The Driver–Passenger system creates authority from a specific appointment for that particular session.",
         "Neither system is automatically good or bad. Each produces useful outcomes when properly understood and undesirable outcomes when therapists attach ego, status, superiority, inferiority, or personal worth to the role."
+      ],
+      "links": [
+        {
+          "label": "Read the Driver–Passenger Session Standard",
+          "to": "/categories/standards/driver-passenger-session-standard"
+        }
       ]
     },
     {

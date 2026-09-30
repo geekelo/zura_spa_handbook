@@ -180,6 +180,89 @@ export function getJourneyGroupTopic(journeyId, groupId, topicId) {
   )
 }
 
+function isCourseModuleSection(section) {
+  return /^Module\s+\d+/i.test(section?.title || '')
+}
+
+function courseModuleSummary(section) {
+  const closing = section.closing?.replace(/^Learning Outcome:\s*/i, '').trim()
+  if (closing) return closing
+  const paragraphs = (section.paragraphs || []).filter(
+    (paragraph) => paragraph && paragraph !== 'Topics:',
+  )
+  if (paragraphs[0]) return paragraphs[0]
+  return section.list?.[0] || ''
+}
+
+export function getCourseGroupItems(journeyId, groupId) {
+  const nested = getJourneyGroupTopics(journeyId, groupId) || []
+  const outline = nested.find((item) => item.id === 'course-outline')
+  const extra = nested.filter((item) => item.id !== 'course-outline')
+  if (!outline) return nested
+
+  const intro = (outline.sections || []).filter(
+    (section) => !isCourseModuleSection(section),
+  )
+  const moduleSections = (outline.sections || []).filter(isCourseModuleSection)
+  const items = []
+  const moduleReadings = extra.filter((item) => item.module)
+  const looseLessons = extra.filter((item) => !item.module)
+
+  if (intro.length) {
+    items.push({
+      id: 'course-outline',
+      title: 'Course Overview',
+      summary: outline.summary,
+      type: 'article',
+      order: 0,
+      kind: 'overview',
+      sections: intro,
+      remember: outline.remember,
+    })
+  }
+
+  moduleSections.forEach((section, index) => {
+    const number = section.title.match(/Module\s+(\d+)/i)?.[1] || String(index + 1)
+    const moduleNumber = Number(number)
+    const attached = moduleReadings.filter((item) => Number(item.module) === moduleNumber)
+    const readings = attached.length
+      ? [
+          {
+            title: 'Module readings',
+            links: attached.map((item) => ({
+              label: item.title,
+              to: `/${journeyId}/${groupId}/${item.id}`,
+            })),
+          },
+        ]
+      : []
+    items.push({
+      id: `module-${number}`,
+      title: section.title,
+      summary: courseModuleSummary(section),
+      type: 'article',
+      order: moduleNumber,
+      kind: 'module',
+      moduleNumber,
+      sections: [section, ...readings],
+      remember: outline.remember,
+    })
+  })
+
+  return [
+    ...items,
+    ...looseLessons.map((item) => ({ ...item, kind: item.kind || 'lesson' })),
+    ...moduleReadings.map((item) => ({ ...item, kind: 'module-reading' })),
+  ]
+}
+
+export function resolveJourneyGroupTopic(journeyId, groupId, topicId) {
+  return (
+    getCourseGroupItems(journeyId, groupId).find((item) => item.id === topicId) ||
+    getJourneyGroupTopic(journeyId, groupId, topicId)
+  )
+}
+
 /** @deprecated Use getTopics */
 export const getArticles = getTopics
 /** @deprecated Use getTopic */
@@ -305,7 +388,7 @@ export function searchHandbook(query) {
         })
       }
 
-      for (const nested of getJourneyGroupTopics(journey.id, topic.id) || []) {
+      for (const nested of getCourseGroupItems(journey.id, topic.id) || []) {
         const nestedSectionMatch = nested.sections?.some(
           (section) =>
             section.title?.toLowerCase().includes(q) ||
