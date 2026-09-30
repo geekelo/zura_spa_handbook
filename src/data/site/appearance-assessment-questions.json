@@ -24,16 +24,6 @@
       },
       {
         "id": 3,
-        "prompt": "A client has not yet received a single massage movement, but has already formed an impression of the therapist. What does this show?",
-        "options": [
-          "First impressions do not matter in spa work.",
-          "Before the massage begins, a clean, fresh, neat, properly dressed therapist already communicates professionalism.",
-          "The client should ignore the therapist until the massage starts.",
-          "Only the last minute of the session counts."
-        ]
-      },
-      {
-        "id": 4,
         "prompt": "A therapist thinks, “This is only about how I personally look.” What may the client think instead?",
         "options": [
           "“This is how Zura Spa operates.” One therapist’s appearance can strengthen or weaken the whole brand.",
@@ -43,7 +33,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 4,
         "prompt": "Which mindset matches the Appearance Standard?",
         "options": [
           "Groom properly only when expecting many clients or when management is present.",
@@ -58,7 +48,7 @@
     "title": "SECTION B — UNIFORM, HAIR AND HYGIENE",
     "questions": [
       {
-        "id": 6,
+        "id": 5,
         "prompt": "The approved uniform is stained and smells of sweat, but the therapist has a client waiting. What should they do?",
         "options": [
           "Attend the client anyway because the massage will hide it.",
@@ -68,17 +58,7 @@
         ]
       },
       {
-        "id": 7,
-        "prompt": "What should the uniform communicate?",
-        "options": [
-          "That the therapist picked up whatever clothing was available.",
-          "That it is clean, fresh, properly fitted, neatly presented, free from obvious stains, unpleasant odour, excessive wrinkles, visible tears, worn correctly, and complete.",
-          "That damaged uniforms never need reporting.",
-          "That wrinkles are a personal style choice with no standard."
-        ]
-      },
-      {
-        "id": 8,
+        "id": 6,
         "prompt": "Long hair keeps falling onto the client and into the oil during massage. What is the issue?",
         "options": [
           "Nothing. Hair is always allowed on the client.",
@@ -88,7 +68,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 7,
         "prompt": "A therapist did not bathe and uses heavy body spray to cover body odour. What is wrong with this?",
         "options": [
           "Nothing. Fragrance replaces bathing.",
@@ -98,17 +78,7 @@
         ]
       },
       {
-        "id": 10,
-        "prompt": "What is the objective for body odour and fragrance in the treatment room?",
-        "options": [
-          "Smell strongly of perfume so the client remembers you.",
-          "Smell fresh and neutral. The room should not smell of sweat, dirty clothing, shoes, food, cigarettes, or excessive perfume.",
-          "Ignore foot odour because shoes hide it.",
-          "Freshen up only after the last client of the day."
-        ]
-      },
-      {
-        "id": 11,
+        "id": 8,
         "prompt": "A therapist becomes excessively sweaty mid-shift and still has another client. What is the responsible action?",
         "options": [
           "Attend the next client immediately without freshening up.",
@@ -123,7 +93,7 @@
     "title": "SECTION C — BREATH, HANDS, ACCESSORIES AND FOOTWEAR",
     "questions": [
       {
-        "id": 12,
+        "id": 9,
         "prompt": "Why is fresh breath part of the Appearance Standard?",
         "options": [
           "Because therapists never speak to clients.",
@@ -133,7 +103,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": 10,
         "prompt": "A therapist chews gum visibly throughout a professional massage session. What should guide them instead?",
         "options": [
           "Chewing gum should not become distracting. The therapist should never be chewing gum visibly throughout a professional massage session.",
@@ -143,7 +113,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": 11,
         "prompt": "Before massage, the therapist should personally ask: “Are my hands safe and comfortable for this client’s skin?” What does that include?",
         "options": [
           "Hands that are dirty as long as oil is applied.",
@@ -153,7 +123,7 @@
         ]
       },
       {
-        "id": 15,
+        "id": 12,
         "prompt": "Which accessories should be removed before massage?",
         "options": [
           "None. Accessories always improve the service.",
@@ -163,23 +133,13 @@
         ]
       },
       {
-        "id": 16,
+        "id": 13,
         "prompt": "A therapist wears dirty, noisy shoes that slap on the treatment-room floor. Why is this a problem?",
         "options": [
           "Footwear has no standard.",
           "Footwear should be clean, suitable, safe, quiet enough not to disturb relaxation, and free from offensive odour. Noisy footwear disrupts a relaxing environment.",
           "Louder shoes help clients stay awake.",
           "Dirty shoes show the therapist has been working hard."
-        ]
-      },
-      {
-        "id": 17,
-        "prompt": "Where makeup is worn, what is the objective?",
-        "options": [
-          "A particular beauty style required by Zura Spa.",
-          "Clean, presentable, and professional — appropriate for the spa environment. The therapist should appear awake, alert, and ready for work.",
-          "Heavy makeup so the client notices fashion first.",
-          "No facial cleanliness is needed if makeup is used."
         ]
       }
     ]
@@ -188,7 +148,7 @@
     "title": "SECTION D — CHECKS, TEAM AND CORRECTION",
     "questions": [
       {
-        "id": 18,
+        "id": 14,
         "prompt": "Before becoming available for clients, what should every therapist do?",
         "options": [
           "Skip checks if they feel busy.",
@@ -198,7 +158,7 @@
         ]
       },
       {
-        "id": 19,
+        "id": 15,
         "prompt": "What is the final mirror-check question?",
         "options": [
           "“Will management see me today?”",
@@ -208,7 +168,7 @@
         ]
       },
       {
-        "id": 20,
+        "id": 16,
         "prompt": "A colleague has a stain they may not have noticed. What is the better team response?",
         "options": [
           "Allow them to attend the client unaware, then gossip later.",
@@ -218,7 +178,7 @@
         ]
       },
       {
-        "id": 21,
+        "id": 17,
         "prompt": "During 4-hands massage, one therapist has poor hygiene. Why does this matter to the other therapist?",
         "options": [
           "It does not. Only one therapist is judged.",
@@ -228,7 +188,7 @@
         ]
       },
       {
-        "id": 22,
+        "id": 18,
         "prompt": "A supervisor says, “Your uniform has become stained. Please change before taking another client.” What is the professional response?",
         "options": [
           "Respond defensively and attend the client anyway.",
@@ -243,7 +203,7 @@
     "title": "SECTION E — ACCOUNTABILITY AND THE STANDARD",
     "questions": [
       {
-        "id": 23,
+        "id": 19,
         "prompt": "When does an appearance issue become more than an accident?",
         "options": [
           "The first time a uniform wrinkles slightly.",
@@ -253,17 +213,7 @@
         ]
       },
       {
-        "id": 24,
-        "prompt": "How can poor appearance affect clients and the team?",
-        "options": [
-          "It has no effect if the massage technique is excellent.",
-          "Clients may question hygiene and professionalism; the team may face damaged brand reputation, unequal standards, weaker discipline, extra work, and unfair client allocation.",
-          "It only affects the therapist’s social life outside work.",
-          "It improves consistency because everyone looks different."
-        ]
-      },
-      {
-        "id": 25,
+        "id": 20,
         "prompt": "Which sequence matches the Zura Spa Appearance Standard?",
         "options": [
           "SKIP CHECKS → COVER WITH PERFUME → ATTEND ANYWAY",

@@ -142,7 +142,7 @@ export function getAssessment(categoryId, assessmentId) {
 }
 
 export const assessmentOfTheDay = getAssessment(
-  'appearance-standard',
+  'driver-passenger-session-standard',
   'applied-assessment',
 )
 

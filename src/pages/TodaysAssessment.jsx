@@ -7,6 +7,7 @@ import assessment1Questions from '../data/site/lunez-assessment-1-questions.json
 import assessment2Questions from '../data/site/lunez-assessment-2-questions.json'
 import problemSolvingQuestions from '../data/site/problem-solving-assessment-questions.json'
 import appearanceQuestions from '../data/site/appearance-assessment-questions.json'
+import driverPassengerQuestions from '../data/site/driver-passenger-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -17,6 +18,7 @@ const QUESTION_SETS = {
   'lunez-assessment-2': assessment2Questions,
   'problem-solving-mindset': problemSolvingQuestions,
   'appearance-standard': appearanceQuestions,
+  'driver-passenger-session-standard': driverPassengerQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

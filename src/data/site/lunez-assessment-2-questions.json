@@ -76,56 +76,6 @@
           "Never. The client should find out at the end.",
           "Only if the client is a first-time visitor from another spa."
         ]
-      },
-      {
-        "id": 8,
-        "prompt": "A first-time client asks, “Will I definitely come during Lunez?” What should the therapist tell him?",
-        "options": [
-          "“Yes. Lunez guarantees it.”",
-          "“Only if you tip extra.”",
-          "“No, sir. It may create sensual sensations and some clients may experience release, but it isn’t guaranteed.”",
-          "“I personally promise you will.”"
-        ]
-      },
-      {
-        "id": 9,
-        "prompt": "A client repeatedly tells the therapist to “hurry up and finish me.” What principle should guide the therapist?",
-        "options": [
-          "The client’s excitement does not cancel the standard. Continue the approved massage rhythm.",
-          "Always obey immediately.",
-          "Argue with the client until they stop talking.",
-          "Skip hygiene and draping to save time."
-        ]
-      },
-      {
-        "id": 10,
-        "prompt": "At the end of the session, the client says, “I really want to release. Just give me another five minutes.” What should the therapist do?",
-        "options": [
-          "Keep extending unofficially.",
-          "End the approved session. If the client wants more, another Lunez service can be arranged as a new authorized session.",
-          "Offer oral sex to finish quickly.",
-          "Tell the client they failed."
-        ]
-      },
-      {
-        "id": 11,
-        "prompt": "Why should therapists briefly step out before restarting an authorized additional Lunez session?",
-        "options": [
-          "To drink water, stretch, reset mentally, wash or prepare as required, and allow the client to relax so the next service feels like a new session.",
-          "To hide from the client.",
-          "To discuss the client’s body with other staff for entertainment.",
-          "To check personal messages."
-        ]
-      },
-      {
-        "id": 12,
-        "prompt": "After returning for an additional Lunez session, why would it be inappropriate for a therapist to say, “This time we must make sure you come”?",
-        "options": [
-          "Because it sounds too polite.",
-          "Because it assumes responsibility for creating orgasm and misrepresents the purpose of Lunez.",
-          "Because additional sessions are never allowed.",
-          "Because the client should say it first."
-        ]
       }
     ]
   },
@@ -133,7 +83,7 @@
     "title": "SECTION G — CONSENT & BOUNDARIES",
     "questions": [
       {
-        "id": 13,
+        "id": 8,
         "prompt": "A client initially consented to Lunez but later says, “Please stop touching that area.” What should happen immediately?",
         "options": [
           "Continue because he already consented at the start.",
@@ -143,7 +93,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": 9,
         "prompt": "What does active consent mean during a Lunez session?",
         "options": [
           "Consent is given once at booking and never needs checking again.",
@@ -153,7 +103,7 @@
         ]
       },
       {
-        "id": 15,
+        "id": 10,
         "prompt": "During Lunez, a client reaches toward the therapist's breast. What should the therapist do?",
         "options": [
           "Allow it because Lunez is intimate.",
@@ -163,7 +113,7 @@
         ]
       },
       {
-        "id": 16,
+        "id": 11,
         "prompt": "The client continues attempting to sexually touch the therapist after being clearly told to stop. What should the therapist do next?",
         "options": [
           "Stop, step away, leave safely, report, and escalate.",
@@ -173,7 +123,7 @@
         ]
       },
       {
-        "id": 17,
+        "id": 12,
         "prompt": "Give three examples of activities that clearly fall outside the standard Lunez service.",
         "options": [
           "Inner-thigh massage, waist massage, and draping.",
@@ -183,7 +133,7 @@
         ]
       },
       {
-        "id": 18,
+        "id": 13,
         "prompt": "Explain the statement: “The client pays for the approved service, not access to the therapist.”",
         "options": [
           "Payment buys the approved Lunez service only. It does not buy the therapist’s body, sexual access, or permission to ignore boundaries.",
@@ -198,7 +148,7 @@
     "title": "SECTION H — HYGIENE, SAFETY & HEALTH CONCERNS",
     "questions": [
       {
-        "id": 19,
+        "id": 14,
         "prompt": "During preparation for Lunez, the therapist notices an open sore in an area that would normally be massaged. What should the therapist do?",
         "options": [
           "Massage around it firmly so it heals faster.",
@@ -208,7 +158,7 @@
         ]
       },
       {
-        "id": 20,
+        "id": 15,
         "prompt": "A client reports severe unexplained genital pain and visible swelling. How should this affect the therapist's decision to proceed with Lunez?",
         "options": [
           "The therapist should not simply proceed. Pause, modify, stop, escalate, or advise appropriate health assessment.",
@@ -218,7 +168,7 @@
         ]
       },
       {
-        "id": 21,
+        "id": 16,
         "prompt": "A client says, “I have painful urination and fever, but please massage deeply around my prostate area.” What should the therapist do?",
         "options": [
           "Do as asked because the client consented.",
@@ -228,7 +178,7 @@
         ]
       },
       {
-        "id": 22,
+        "id": 17,
         "prompt": "Why are hygiene procedures particularly important during Lunez Massage?",
         "options": [
           "Because Lunez involves intimate regions and may involve bodily fluids, so handwashing, linen, clean-up, barriers, equipment, and room reset must be strict.",
@@ -243,7 +193,7 @@
     "title": "SECTION I — PROFESSIONAL JUDGMENT & ACCOUNTABILITY",
     "questions": [
       {
-        "id": 23,
+        "id": 18,
         "prompt": "Two therapists complete Lunez. During the session, the client repeatedly asked for prohibited sexual activity. They refused but decide not to report it because “nothing eventually happened.” What is wrong with this decision?",
         "options": [
           "Nothing. Refusal is enough.",
@@ -253,7 +203,7 @@
         ]
       },
       {
-        "id": 24,
+        "id": 19,
         "prompt": "Describe the behaviour of a therapist who demonstrates strong professional understanding while performing Lunez.",
         "options": [
           "Structured, calm, professional, controlled, boundaried, hygienic, timed, and complete, with consent and client comfort protected.",
@@ -263,23 +213,13 @@
         ]
       },
       {
-        "id": 25,
+        "id": 20,
         "prompt": "After Lunez, a therapist says, “The client never became erect, so I clearly performed badly.” What factors should actually be used to assess the therapist's performance?",
         "options": [
           "Whether ejaculation occurred, and how quickly.",
           "Whether the Lunez standard, technique, timing, communication, boundaries, hygiene, and dignity of client and therapist were followed.",
           "Whether the client asked for the therapist’s number.",
           "Whether the massage hurt."
-        ]
-      },
-      {
-        "id": 26,
-        "prompt": "In your own words, summarize the complete Zura Lunez Massage mindset. Your answer should include the therapist's understanding of: Purpose, Relaxation, Client expectations, Ejaculation, Consent, Timing, Professional boundaries, Hygiene, Client dignity, and Therapist dignity.",
-        "options": [
-          "Lunez exists to guarantee orgasm, and boundaries can wait until after release.",
-          "Lunez is massage for relaxation, pelvic comfort, and wellbeing. Sensual response may occur but is not the standard of success. Orgasm is possible, not promised. Time, consent, hygiene, professionalism, safety, and boundaries always apply. The client pays for the approved service, not access to the therapist.",
-          "Lunez is a medical treatment for prostate disease and infection.",
-          "Lunez has no structure; the therapist should follow only the client’s sexual requests."
         ]
       }
     ]

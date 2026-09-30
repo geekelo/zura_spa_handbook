@@ -24,16 +24,6 @@
       },
       {
         "id": 3,
-        "prompt": "Why is a problem-solving mindset part of professional competence at Zura Spa?",
-        "options": [
-          "Because a therapist who massages well but responds poorly when something goes wrong can still damage the client experience.",
-          "Because it replaces the need for escalation.",
-          "Because it allows therapists to ignore accountability.",
-          "Because it means management never needs to be involved."
-        ]
-      },
-      {
-        "id": 4,
         "prompt": "A therapist notices a small issue and immediately starts arguing about who is to blame. What standard is being broken?",
         "options": [
           "Problems should never be noticed early.",
@@ -43,7 +33,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 4,
         "prompt": "Which statement best matches the Zura Spa standard?",
         "options": [
           "You must control every problem personally.",
@@ -58,7 +48,7 @@
     "title": "SECTION B — POOR RESPONSES vs GOOD RESPONSES",
     "questions": [
       {
-        "id": 6,
+        "id": 5,
         "prompt": "The towels are running low. Which response shows a problem-solving mindset?",
         "options": [
           "“There is no towel. Nobody is doing anything.”",
@@ -68,7 +58,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 6,
         "prompt": "A therapist sees that a room is not ready and says, “It is not my job,” then does nothing, including no communication. What is wrong with this?",
         "options": [
           "Nothing. Only housekeepers may speak about rooms.",
@@ -78,17 +68,7 @@
         ]
       },
       {
-        "id": 8,
-        "prompt": "A therapist becomes loud and insulting as soon as a scheduling mix-up appears. Why is this a poor response?",
-        "options": [
-          "Anger as the first response usually makes the problem harder to solve.",
-          "Loudness is required so management notices.",
-          "Insults are acceptable if the therapist is stressed.",
-          "The client should hear every internal disagreement."
-        ]
-      },
-      {
-        "id": 9,
+        "id": 7,
         "prompt": "Rather than reporting a broken massage gun through the proper channel, a therapist tells several colleagues about how “nobody maintains anything.” What is happening?",
         "options": [
           "Correct escalation.",
@@ -98,7 +78,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 8,
         "prompt": "A therapist hides a client complaint because they are afraid of accountability. What is likely to happen?",
         "options": [
           "The problem disappears.",
@@ -113,7 +93,7 @@
     "title": "SECTION C — PROCEDURE & JUDGMENT",
     "questions": [
       {
-        "id": 11,
+        "id": 9,
         "prompt": "The massage room is not ready and the client is waiting. What is the first practical question?",
         "options": [
           "“Who failed to clean it?”",
@@ -123,17 +103,7 @@
         ]
       },
       {
-        "id": 12,
-        "prompt": "Before acting, what should a therapist check?",
-        "options": [
-          "Only who they dislike on the team.",
-          "What actually happened, who is involved, what has already been done, what is still required, and whether the client is affected.",
-          "Only rumours from other rooms.",
-          "Nothing. Assumptions are faster."
-        ]
-      },
-      {
-        "id": 13,
+        "id": 10,
         "prompt": "How should urgency be decided?",
         "options": [
           "By who shouts the loudest.",
@@ -143,7 +113,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": 11,
         "prompt": "A small spill is on the floor in a space you can safely clean, and it is within your responsibility. What should you do?",
         "options": [
           "Wait for instructions for every basic situation.",
@@ -153,7 +123,7 @@
         ]
       },
       {
-        "id": 15,
+        "id": 12,
         "prompt": "Which report is more useful when the preferred room is still being cleaned?",
         "options": [
           "“The room isn’t ready.”",
@@ -163,7 +133,7 @@
         ]
       },
       {
-        "id": 16,
+        "id": 13,
         "prompt": "When should a therapist escalate?",
         "options": [
           "Never. Escalation means you failed.",
@@ -178,7 +148,7 @@
     "title": "SECTION D — CLIENT, TEAM & AUTHORITY",
     "questions": [
       {
-        "id": 17,
+        "id": 14,
         "prompt": "A problem occurs during a client’s session. How should the therapist protect the client experience?",
         "options": [
           "Discuss internal blame in front of the client.",
@@ -188,7 +158,7 @@
         ]
       },
       {
-        "id": 18,
+        "id": 15,
         "prompt": "A client asks for a discount because of a delay. What should the therapist not do?",
         "options": [
           "Stay calm and escalate money, refunds, or discounts to the appropriate person.",
@@ -198,27 +168,7 @@
         ]
       },
       {
-        "id": 19,
-        "prompt": "Why will Zura Spa not tolerate a pattern of poor problem-solving?",
-        "options": [
-          "Because unexpected problems must never happen.",
-          "Unexpected problems will happen, but ignoring problems, constant complaining without solutions, hiding issues, acting outside authority, and letting internal issues affect clients cannot become acceptable.",
-          "Because therapists must solve every issue alone.",
-          "Because management wants no reports at all."
-        ]
-      },
-      {
-        "id": 20,
-        "prompt": "How does a poor problem-solving mindset affect the team?",
-        "options": [
-          "It only affects the individual therapist.",
-          "It can create extra work for others, frustration, blame culture, damaged trust, bigger conflicts, slower operations, and unnecessary burden on management.",
-          "It improves honesty because people hide fewer mistakes.",
-          "It has no effect if the massage technique is good."
-        ]
-      },
-      {
-        "id": 21,
+        "id": 16,
         "prompt": "A colleague made a mistake preparing a room. What is the healthiest team approach?",
         "options": [
           "Humiliate them in front of others so it never happens again.",
@@ -233,7 +183,7 @@
     "title": "SECTION E — ACCOUNTABILITY & THE STANDARD",
     "questions": [
       {
-        "id": 22,
+        "id": 17,
         "prompt": "Does a solution-focused mindset mean mistakes should be ignored?",
         "options": [
           "Yes. Accountability is unprofessional.",
@@ -243,7 +193,7 @@
         ]
       },
       {
-        "id": 23,
+        "id": 18,
         "prompt": "A therapist reports a problem and immediately walks away even though their involvement is still needed. What is missing?",
         "options": [
           "Nothing. Reporting is always enough.",
@@ -253,7 +203,7 @@
         ]
       },
       {
-        "id": 24,
+        "id": 19,
         "prompt": "After a problem is handled, what should the therapist still do?",
         "options": [
           "Forget it so nobody feels accountable.",
@@ -263,7 +213,7 @@
         ]
       },
       {
-        "id": 25,
+        "id": 20,
         "prompt": "Which sequence matches the Zura Spa problem-solving standard?",
         "options": [
           "BLAME → GOSSIP → HIDE → REPEAT",

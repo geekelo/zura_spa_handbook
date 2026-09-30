@@ -31,26 +31,6 @@
           "That inner-thigh massage is optional.",
           "That ejaculation is the measure of whether Lunez succeeded or failed."
         ]
-      },
-      {
-        "id": 4,
-        "prompt": "What does Zura Spa mean when it refers to massage of the “prostate area” during Lunez?",
-        "options": [
-          "Internal or penetrative prostate massage.",
-          "Massage around the external perineal and pelvic region associated with the area surrounding the prostate.",
-          "A medical procedure to treat prostate problems.",
-          "Massage of the lower back only."
-        ]
-      },
-      {
-        "id": 5,
-        "prompt": "What distinguishes Lunez Massage from sexual activity?",
-        "options": [
-          "Lunez is a timed, professional, boundaried massage service. Sexual activity, role-play, reciprocal touching, and guaranteed orgasm are not part of it.",
-          "Lunez includes oral sex if the client requests it.",
-          "Lunez becomes sexual activity once the client is aroused.",
-          "There is no distinction if the client has paid extra."
-        ]
       }
     ]
   },
@@ -58,7 +38,7 @@
     "title": "SECTION B — DURATION & TIME MANAGEMENT",
     "questions": [
       {
-        "id": 6,
+        "id": 4,
         "prompt": "What is the standard duration of a Lunez Massage?",
         "options": [
           "5 minutes.",
@@ -68,7 +48,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 5,
         "prompt": "A Lunez session reaches 20 minutes. The client has not ejaculated and says, “Just continue until I finish.” What should the therapist do?",
         "options": [
           "Continue indefinitely until ejaculation occurs.",
@@ -78,7 +58,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 6,
         "prompt": "Why is Lunez intentionally time-bound?",
         "options": [
           "Because therapists get tired after 10 minutes.",
@@ -88,7 +68,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 7,
         "prompt": "Under what circumstances may a Lunez experience reasonably extend toward approximately 20–25 minutes?",
         "options": [
           "When extra time is used for closing pelvic work, waist massage, relaxation, or approved stretching.",
@@ -98,7 +78,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 8,
         "prompt": "A therapist intentionally continues Lunez for 40 minutes because she believes stopping before ejaculation will disappoint the client. What is wrong with this approach?",
         "options": [
           "Nothing is wrong if the client is happy.",
@@ -113,7 +93,7 @@
     "title": "SECTION C — BENEFITS & WELLNESS CLAIMS",
     "questions": [
       {
-        "id": 11,
+        "id": 9,
         "prompt": "Mention three appropriate wellness benefits Zura Spa may associate with Lunez Massage.",
         "options": [
           "Deep relaxation, pelvic-floor / perineal comfort, and support for local circulation and tissue comfort.",
@@ -123,7 +103,7 @@
         ]
       },
       {
-        "id": 12,
+        "id": 10,
         "prompt": "How should a therapist professionally explain the possible circulation benefit of Lunez Massage?",
         "options": [
           "“Lunez treats circulatory disease.”",
@@ -133,7 +113,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": 11,
         "prompt": "What potential benefits may come from massage around the external perineal region?",
         "options": [
           "A feeling of pelvic relaxation, reduced muscular tension, greater pelvic awareness, and comfort around surrounding soft tissues.",
@@ -143,7 +123,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": 12,
         "prompt": "A client asks, “Will Lunez cure my prostate problem?” How should the therapist respond?",
         "options": [
           "“Yes. Lunez treats prostate disease.”",
@@ -153,7 +133,7 @@
         ]
       },
       {
-        "id": 15,
+        "id": 13,
         "prompt": "Give one example of a health claim a therapist must NOT promise as a benefit of Lunez Massage.",
         "options": [
           "That Lunez may help the client feel more relaxed.",
@@ -163,7 +143,7 @@
         ]
       },
       {
-        "id": 16,
+        "id": 14,
         "prompt": "Why is massage of the inner thighs important within the Lunez structure?",
         "options": [
           "It is only used if the client asks for it.",
@@ -173,17 +153,7 @@
         ]
       },
       {
-        "id": 17,
-        "prompt": "How may Lunez contribute to greater pelvic and body awareness?",
-        "options": [
-          "By helping the client notice tension, sensitivity, the difference between tightness and relaxation, and how breathing affects pelvic comfort.",
-          "By diagnosing medical disease.",
-          "By guaranteeing orgasm.",
-          "By encouraging the client to touch the therapist."
-        ]
-      },
-      {
-        "id": 18,
+        "id": 15,
         "prompt": "A client reports persistent severe pelvic pain that has continued for several weeks. How should the therapist handle the situation?",
         "options": [
           "Massage more deeply until the pain disappears.",
@@ -198,7 +168,7 @@
     "title": "SECTION D — STANDARD FLOW & TECHNIQUE",
     "questions": [
       {
-        "id": 19,
+        "id": 16,
         "prompt": "State the general sequence or flow of a standard Lunez Massage.",
         "options": [
           "Genital stimulation first, then thighs if time remains.",
@@ -208,7 +178,7 @@
         ]
       },
       {
-        "id": 20,
+        "id": 17,
         "prompt": "Why should therapists not immediately begin Lunez with continuous genital stimulation?",
         "options": [
           "Because oil is not needed at the start.",
@@ -218,7 +188,7 @@
         ]
       },
       {
-        "id": 21,
+        "id": 18,
         "prompt": "During a four-hands Lunez session, one therapist works slowly around the thighs while the second immediately focuses on the genital area using a completely different rhythm. What is wrong with this?",
         "options": [
           "Nothing, as long as both are busy.",
@@ -228,7 +198,7 @@
         ]
       },
       {
-        "id": 22,
+        "id": 19,
         "prompt": "A client becomes impatient, so the therapist skips most of the thigh and pelvic work and focuses entirely on genital stimulation. What should have guided the therapist instead?",
         "options": [
           "The approved Lunez flow, controlled pacing, and the Zura standard — not the client’s impatience.",
@@ -238,17 +208,7 @@
         ]
       },
       {
-        "id": 23,
-        "prompt": "Explain what controlled pacing means during Lunez Massage.",
-        "options": [
-          "Rushing genital stimulation as soon as the client is erect.",
-          "Letting the client dictate speed at every moment.",
-          "The therapist controls the rhythm and moves naturally between thighs, pelvic, perineal, waist/hip, and genital work.",
-          "Stopping the massage every 30 seconds to talk."
-        ]
-      },
-      {
-        "id": 24,
+        "id": 20,
         "prompt": "A client becomes highly aroused very early in the session. How should the therapist respond?",
         "options": [
           "Abandon the structure and rush to ejaculation.",

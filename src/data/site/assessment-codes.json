@@ -23,11 +23,11 @@
       "accessCode": "136uu"
     },
     {
-      "id": "appearance-standard/applied-assessment",
-      "categoryId": "appearance-standard",
+      "id": "driver-passenger-session-standard/applied-assessment",
+      "categoryId": "driver-passenger-session-standard",
       "assessmentId": "applied-assessment",
-      "title": "Appearance Standard Applied Assessment",
-      "accessCode": "146uu"
+      "title": "Driver–Passenger Session Standard Applied Assessment",
+      "accessCode": "156uu"
     }
   ]
 }
