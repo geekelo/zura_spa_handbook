@@ -113,13 +113,16 @@
         "When four-hand Zura Massage is used.",
         "Matching pressure, pace, and timing with a partner.",
         "Silent coordination and clear lead/follow roles.",
-        "Senior–Junior vs Driver–Passenger session leadership systems.",
-        "How to lead as Driver and support as Passenger without ego or status.",
-        "Preserving skill transfer without permanent hierarchy.",
         "Avoiding collision, uneven work, or broken flow.",
         "Practising synchronized start, turn, and close."
       ],
-      "closing": "Learning Outcome: The therapist should coordinate with a partner to deliver a smooth four-hand Zura Massage."
+      "links": [
+        {
+          "label": "Read the Session Leadership Systems standard",
+          "to": "/categories/standards/session-leadership-systems"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist should coordinate with a partner to deliver a smooth four-hand Zura Massage, using Driver–Passenger roles as taught in the Session Leadership Systems standard."
     },
     {
       "title": "Module 7 — Supervised Practice & Assessment",

@@ -100,6 +100,15 @@ function ContentSection({ section }) {
           ))}
         </div>
       ) : null}
+      {section.links?.length ? (
+        <p className="topic-links">
+          {section.links.map((link) => (
+            <Link key={link.to} to={link.to} className="topic-inline-link">
+              {link.label}
+            </Link>
+          ))}
+        </p>
+      ) : null}
       {section.closing ? <p>{section.closing}</p> : null}
     </section>
   )

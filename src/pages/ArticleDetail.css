@@ -170,8 +170,17 @@
   margin: 0 0 0.75rem;
 }
 
-.topic-section p:last-child {
-  margin-bottom: 0;
+.topic-section .topic-links {
+  margin: 0.35rem 0 0.85rem;
+}
+
+.topic-section .topic-inline-link {
+  display: inline-block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--accent, #6d2c40);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .topic-section ul {
