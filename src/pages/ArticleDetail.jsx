@@ -62,6 +62,30 @@ function ContentSection({ section }) {
           ))}
         </ul>
       ) : null}
+      {section.table?.length ? (
+        <div className="topic-table-wrap">
+          <table className="topic-table">
+            {section.tableHeaders?.length ? (
+              <thead>
+                <tr>
+                  {section.tableHeaders.map((header) => (
+                    <th key={header}>{header}</th>
+                  ))}
+                </tr>
+              </thead>
+            ) : null}
+            <tbody>
+              {section.table.map((row, index) => (
+                <tr key={row[0] || index}>
+                  {row.map((cell, cellIndex) => (
+                    <td key={`${index}-${cellIndex}`}>{cell}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : null}
       {section.images?.length ? (
         <div className="topic-media-grid">
           {section.images.map((image) => (
