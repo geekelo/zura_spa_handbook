@@ -1,24 +1,35 @@
 {
   "id": "zura-massage",
   "title": "Zura Massage",
-  "summary": "Zura Spa's signature holistic massage — firm, intentional pressure combining Swedish, deep tissue, Thai, stretching, and Zura techniques into one complete experience.",
+  "summary": "Zura Spa's signature holistic massage — firm pressure combining Swedish, deep tissue, Thai, and other Zura techniques, with an optional 5-minute massage chair and 2-minute mind relaxation game before the table session.",
   "type": "article",
   "order": 9,
   "sections": [
     {
       "title": "The Standard",
       "paragraphs": [
-        "Zura Massage is Zura Spa's signature holistic massage experience designed to promote deep muscular relaxation, relieve stress, improve physical comfort, and leave the client feeling mentally and physically restored.",
-        "The massage uses firm, intentional pressure and combines selected techniques from: Swedish massage; deep tissue massage; Thai massage; stretching and mobility techniques; and other approved Zura Spa massage techniques.",
-        "The techniques are combined into one structured experience rather than delivered as separate massage styles.",
+        "Zura Massage is a holistic massage designed to promote deep muscular relaxation and relieve stress. It is Zura Spa's signature holistic and therapeutic body massage, and it also aims to improve physical comfort and leave the client feeling mentally and physically restored.",
+        "The massage uses firm pressure, combining techniques from Swedish, deep tissue massage, Thai massage and other Zura techniques for a balanced and effective experience. Stretching and mobility techniques may also be used. The techniques are combined into one structured experience rather than delivered as separate massage styles.",
+        "The session can begin with an optional 5-minute massage chair session and an optional 2-minute mind relaxation game to help the client fully unwind before the massage begins.",
         "Zura Massage is not simply a collection of techniques. It is a complete Zura experience.",
         "The therapist's responsibility is to understand the client's body, identify areas requiring attention, apply appropriate pressure, maintain rhythm and flow, communicate professionally, and create an experience that is both effective and deeply relaxing."
       ]
     },
     {
+      "title": "Approved Service Prices",
+      "paragraphs": [
+        "Do not use old “Full Body” language with clients. Use the approved service names and prices:"
+      ],
+      "list": [
+        "Zura Massage: ₦35,000 — holistic and therapeutic body massage.",
+        "Lunez Massage: ₦25,000 — therapeutic massage of the genitals.",
+        "Combo session: ₦45,000 — Zura Massage + Lunez Massage."
+      ]
+    },
+    {
       "title": "1. What Is Zura Massage?",
       "paragraphs": [
-        "Zura Massage is a full-body holistic massage developed around three major objectives."
+        "Zura Massage is a holistic massage designed to promote deep muscular relaxation and relieve stress."
       ],
       "items": [
         {
@@ -31,7 +42,7 @@
         },
         {
           "label": "Improve physical comfort",
-          "body": "Work intentionally on tense, tired, stiff or uncomfortable areas while maintaining an enjoyable whole-body massage."
+          "body": "Work intentionally on tense, tired, stiff or uncomfortable areas while maintaining an enjoyable body massage."
         }
       ],
       "closing": "The objective is not merely \"Massage every part of the body.\" The objective is: \"Understand what this client's body needs today and provide an intentional Zura Massage experience around those needs.\""
@@ -91,7 +102,7 @@
     {
       "title": "8. Optional Pre-Massage Experience",
       "paragraphs": [
-        "Before the massage begins, the client may be offered: optional massage chair session — approximately 5 minutes; and/or optional mind relaxation game — approximately 2 minutes.",
+        "The session can begin with an optional 5-minute massage chair session and an optional 2-minute mind relaxation game to help the client fully unwind before the massage begins.",
         "These are intended to help the client transition psychologically and physically from their activities before arriving at Zura into a calmer massage state.",
         "They are optional. The client should not be pressured to participate."
       ]
@@ -246,7 +257,7 @@
     {
       "title": "28. Massage Start Routine",
       "paragraphs": [
-        "The established Zura Massage Start Routine should be followed. This includes appropriate: room preparation; therapist preparation; service confirmation; client privacy; draping; client positioning; pain / tension inquiry; hygiene procedure; pressure confirmation; and massage commencement.",
+        "The established Zura Massage Start Routine should be followed. This includes appropriate: optional 5-minute massage chair session; optional 2-minute mind relaxation game; room preparation; therapist preparation; service confirmation; client privacy; draping; client positioning; pain / tension inquiry; hygiene procedure; pressure confirmation; and massage commencement.",
         "The start of the massage establishes the client's confidence in the therapist."
       ]
     },

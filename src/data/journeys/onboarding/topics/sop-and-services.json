@@ -17,12 +17,26 @@
       "title": "1. Zura Spa Services",
       "paragraphs": [
         "Zura Spa provides professional massage and wellness services in a safe, respectful and non-sexual environment.",
-        "Zura Spa may offer different massage services according to the current service menu and therapist training."
+        "Zura Spa may offer different massage services according to the current service menu and therapist training. Do not use old “Full Body” language with clients. Use Zura Massage, Lunez Massage, or Combo session."
+      ]
+    },
+    {
+      "title": "Approved Service Prices",
+      "paragraphs": [
+        "Approved Zura Spa service prices:"
+      ],
+      "list": [
+        "Zura Massage: ₦35,000 — holistic and therapeutic body massage.",
+        "Lunez Massage: ₦25,000 — therapeutic massage of the genitals.",
+        "Combo session: ₦45,000 — Zura Massage + Lunez Massage."
       ]
     },
     {
       "title": "Zura Massage",
       "paragraphs": [
+        "Zura Massage is a holistic massage designed to promote deep muscular relaxation and relieve stress. It is Zura Spa's holistic and therapeutic body massage. The approved price is ₦35,000.",
+        "The massage uses firm pressure, combining techniques from Swedish, deep tissue massage, Thai massage and other Zura techniques for a balanced and effective experience.",
+        "The session can begin with an optional 5-minute massage chair session and an optional 2-minute mind relaxation game to help the client fully unwind before the massage begins.",
         "The minimum duration for a Zura Massage is 2 hours.",
         "Therapists must not reduce the required minimum duration without authorization.",
         "The service must be delivered according to the approved Zura Spa service procedure.",
@@ -32,9 +46,18 @@
     {
       "title": "Lunez Massage",
       "paragraphs": [
+        "Lunez Massage is the therapeutic massage of the genitals. The approved price is ₦25,000.",
         "The maximum duration for a Lunez Massage is 20 minutes.",
         "Therapists must follow the approved Lunez Massage procedure.",
         "Any request outside the approved duration or service procedure must be escalated appropriately."
+      ]
+    },
+    {
+      "title": "Combo Session",
+      "paragraphs": [
+        "A Combo session is Zura Massage + Lunez Massage. The approved price is ₦45,000.",
+        "If a client is already receiving Zura Massage and requests Lunez, quote the Combo session at ₦45,000. Do not add ₦25,000 on top of ₦35,000.",
+        "A standalone Lunez Massage remains ₦25,000. A standalone Zura Massage remains ₦35,000."
       ]
     },
     {

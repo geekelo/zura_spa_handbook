@@ -149,7 +149,7 @@
           "Consent is given once at booking and never needs checking again.",
           "Consent remains active throughout. If the client says stop, stop. If discomfort appears, pause and clarify. If consent is unclear, do not assume.",
           "Consent means the client may touch the therapist.",
-          "Consent is only required for Full Body Massage, not Lunez."
+          "Consent is only required for Zura Massage, not Lunez."
         ]
       },
       {
@@ -232,7 +232,7 @@
         "prompt": "Why are hygiene procedures particularly important during Lunez Massage?",
         "options": [
           "Because Lunez involves intimate regions and may involve bodily fluids, so handwashing, linen, clean-up, barriers, equipment, and room reset must be strict.",
-          "Because hygiene is only for Full Body Massage.",
+          "Because hygiene is only for Zura Massage.",
           "Because perfume can replace cleaning.",
           "Because clients prefer therapists not to wash their hands."
         ]

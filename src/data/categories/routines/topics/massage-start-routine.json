@@ -62,6 +62,13 @@
       ]
     },
     {
+      "title": "Optional Pre-Massage Unwind",
+      "paragraphs": [
+        "The session can begin with an optional 5-minute massage chair session and an optional 2-minute mind relaxation game to help the client fully unwind before the massage begins.",
+        "These are optional. The client should not be pressured to participate. Where used, they form part of the Zura Massage experience, not random waiting time."
+      ]
+    },
+    {
       "title": "Consistency",
       "paragraphs": [
         "Following the same procedure ensures that every client receives the expected Zura Spa standard, regardless of which therapist is attending to them."
@@ -162,6 +169,7 @@
       "examples": [
         "Zura Massage.",
         "Lunez Massage.",
+        "Combo session (Zura Massage + Lunez Massage).",
         "Couple Massage.",
         "4-Hands Massage.",
         "Other approved service.",
@@ -302,6 +310,7 @@
         "Prepare the room.",
         "Prepare yourself.",
         "Confirm the massage service.",
+        "Offer the optional 5-minute massage chair session and optional 2-minute mind relaxation game.",
         "Excuse the client to change.",
         "Knock and re-enter.",
         "Arrange client belongings properly.",
@@ -378,8 +387,8 @@
     {
       "title": "Zura Spa Massage Start Standard",
       "paragraphs": [
-        "PREPARE → CONFIRM → PRIVACY → POSITION → CHECK → CLEAN → WASH → BEGIN → PRESSURE → SYNC → RELAX",
-        "Prepare the room. Prepare yourself. Confirm the service. Give the client privacy. Position the client comfortably. Check pain points and preferences. Clean the client's hands and feet. Wash your hands. Begin from the feet. Confirm pressure. Synchronize with your co-therapist. Help the client relax.",
+        "PREPARE → CONFIRM → UNWIND → PRIVACY → POSITION → CHECK → CLEAN → WASH → BEGIN → PRESSURE → SYNC → RELAX",
+        "Prepare the room. Prepare yourself. Confirm the service. Offer the optional 5-minute massage chair session and optional 2-minute mind relaxation game. Give the client privacy. Position the client comfortably. Check pain points and preferences. Clean the client's hands and feet. Wash your hands. Begin from the feet. Confirm pressure. Synchronize with your co-therapist. Help the client relax.",
         "At Zura Spa, the massage does not begin when oil touches the client. The massage experience begins from how professionally the therapist prepares the client for that first touch."
       ]
     }
