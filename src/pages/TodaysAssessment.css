@@ -100,3 +100,10 @@
 .todays-assessment-page .document-actions__link--secondary {
   border: 1px solid var(--line);
 }
+
+.todays-assessment-page .topic-inline-link {
+  font-weight: 700;
+  color: var(--accent, #6d2c40);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}

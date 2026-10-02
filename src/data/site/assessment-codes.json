@@ -35,6 +35,13 @@
       "assessmentId": "applied-assessment",
       "title": "Mode of Address Standard Applied Assessment",
       "accessCode": "167uu"
+    },
+    {
+      "id": "poverty-mindset/applied-assessment",
+      "categoryId": "poverty-mindset",
+      "assessmentId": "applied-assessment",
+      "title": "Poverty Mindset Applied Assessment",
+      "accessCode": "177uu"
     }
   ]
 }

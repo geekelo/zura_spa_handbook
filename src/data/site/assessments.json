@@ -96,6 +96,25 @@
           "embedTitle": "Assessment submission"
         }
       ]
+    },
+    {
+      "id": "poverty-mindset",
+      "title": "Poverty Mindset",
+      "description": "Knowledge and application assessments for the Poverty Mindset issue.",
+      "assessments": [
+        {
+          "id": "applied-assessment",
+          "title": "Poverty Mindset Applied Assessment",
+          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "poverty-mindset",
+          "articleTo": "/categories/scenarios/poverty-mindset",
+          "articleLabel": "Read the Poverty Mindset issue",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist can distinguish lack from scarcity identity, respond when a client says “poverty mindset,” correct service errors without absorbing a humiliating label, refuse harsh personal judgment professionally, and interrupt jealousy, envy, gossip, inferiority, and need-driven service.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../assets/zura-logo.png'
 import { PageHeader } from '../components/PageHeader'
 import { AssessmentGate } from '../components/AssessmentGate'
@@ -9,6 +10,7 @@ import problemSolvingQuestions from '../data/site/problem-solving-assessment-que
 import appearanceQuestions from '../data/site/appearance-assessment-questions.json'
 import driverPassengerQuestions from '../data/site/driver-passenger-assessment-questions.json'
 import modeOfAddressQuestions from '../data/site/mode-of-address-assessment-questions.json'
+import povertyMindsetQuestions from '../data/site/poverty-mindset-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -21,6 +23,7 @@ const QUESTION_SETS = {
   'appearance-standard': appearanceQuestions,
   'driver-passenger-session-standard': driverPassengerQuestions,
   'mode-of-address': modeOfAddressQuestions,
+  'poverty-mindset': povertyMindsetQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
@@ -149,6 +152,14 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
         <p className="lead-copy">
           {questionCount} applied assessment questions. Tap an option to fill
           your answer, type your reason, then download a PDF and upload it.
+          {topic.articleTo ? (
+            <>
+              {' '}
+              <Link to={topic.articleTo} className="topic-inline-link">
+                {topic.articleLabel || 'Read the related article'}
+              </Link>
+            </>
+          ) : null}
         </p>
 
         <form className="el-card" onSubmit={handleSave}>
