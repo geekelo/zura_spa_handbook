@@ -142,7 +142,7 @@ export function getAssessment(categoryId, assessmentId) {
 }
 
 export const assessmentOfTheDay = getAssessment(
-  'driver-passenger-session-standard',
+  'mode-of-address',
   'applied-assessment',
 )
 

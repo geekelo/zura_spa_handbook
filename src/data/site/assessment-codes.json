@@ -27,7 +27,14 @@
       "categoryId": "driver-passenger-session-standard",
       "assessmentId": "applied-assessment",
       "title": "Driver–Passenger Session Standard Applied Assessment",
-      "accessCode": "156uu"
+      "accessCode": "157uu"
+    },
+    {
+      "id": "mode-of-address/applied-assessment",
+      "categoryId": "mode-of-address",
+      "assessmentId": "applied-assessment",
+      "title": "Mode of Address Standard Applied Assessment",
+      "accessCode": "167uu"
     }
   ]
 }

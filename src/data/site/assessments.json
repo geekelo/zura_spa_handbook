@@ -79,6 +79,23 @@
           "embedTitle": "Assessment submission"
         }
       ]
+    },
+    {
+      "id": "mode-of-address",
+      "title": "Mode of Address Standard",
+      "description": "Knowledge and application assessments for the Mode of Address standard.",
+      "assessments": [
+        {
+          "id": "applied-assessment",
+          "title": "Mode of Address Standard Applied Assessment",
+          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "mode-of-address",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply the Mode of Address Standard: professional identity, leadership titles without superiority, Client + name internally, respectful direct address, tone matching the word, friendship without carelessness, correction without humiliation, and consistent dignity for every person.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
+        }
+      ]
     }
   ]
 }

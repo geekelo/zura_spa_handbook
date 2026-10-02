@@ -7,10 +7,10 @@
       "title": "Go through the following standards",
       "items": [
         {
-          "id": "driver-passenger-session-standard",
-          "title": "Driver–Passenger Session Standard",
-          "description": "Read and apply the Driver–Passenger session leadership standard.",
-          "to": "/categories/standards/driver-passenger-session-standard"
+          "id": "mode-of-address",
+          "title": "Mode of Address Standard",
+          "description": "Read and apply the Mode of Address standard.",
+          "to": "/categories/standards/mode-of-address"
         }
       ]
     },
@@ -21,8 +21,8 @@
         {
           "id": "assessment-of-the-day",
           "title": "Assessment of the Day",
-          "description": "Complete the Driver–Passenger Session Standard Applied Assessment, download the PDF, and submit.",
-          "to": "/assessments/driver-passenger-session-standard/applied-assessment"
+          "description": "Complete the Mode of Address Standard Applied Assessment, download the PDF, and submit.",
+          "to": "/assessments/mode-of-address/applied-assessment"
         }
       ]
     }
