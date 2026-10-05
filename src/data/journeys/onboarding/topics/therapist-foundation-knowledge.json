@@ -1,0 +1,458 @@
+{
+  "id": "therapist-foundation-knowledge",
+  "title": "Therapist Foundation Knowledge",
+  "summary": "Massage flow, client comfort and session standards — the complete Zura Spa session journey for newly onboarded therapists, before detailed practical technique.",
+  "type": "article",
+  "order": 7,
+  "sections": [
+    {
+      "title": "Massage Flow, Client Comfort & Session Standards",
+      "paragraphs": [
+        "This is foundation-level training so a newly onboarded therapist can first understand the complete journey before going into the detailed practical modules.",
+        "Practical Massage Technique & Sequence is the next logical handbook section, where each body area can be taught step-by-step with technique, pressure, timing, positioning, contraindications and common mistakes."
+      ],
+      "links": [
+        {
+          "label": "Open Practical: Zura Massage Course",
+          "to": "/courses/practical-zura-massage"
+        }
+      ]
+    },
+    {
+      "title": "Purpose of This Training",
+      "paragraphs": [
+        "At Zura Spa, learning how to massage is only one part of becoming an excellent therapist.",
+        "A therapist must understand what to do, the order in which to do it, why each step is important, how the client should feel throughout the process, and how to deliver the service with professionalism, courtesy and intentionality.",
+        "This foundation training teaches the standard flow of a Zura Spa massage session.",
+        "Practical training will subsequently teach the therapist how to improve pressure, hand movement, stretching, positioning and individual massage techniques.",
+        "The first objective is simple: Know where you are in the session, know what you have completed, and know what comes next."
+      ]
+    },
+    {
+      "title": "1. The Zura Spa Experience",
+      "paragraphs": [
+        "Zura Spa is intentional about the experience every client receives.",
+        "Our objective is not simply to manipulate muscles. We want clients to feel sufficiently comfortable and respected that they can completely relax.",
+        "A client's profession, wealth, age, appearance or social status should never determine the level of respect they receive.",
+        "A client should never feel that they have to impress a therapist, announce who they are, display their status or behave in a particular way in order to receive excellent treatment.",
+        "Whether a client arrives formally dressed, casually dressed, tired, playful, quiet or simply wants to sleep throughout the session, the standard of service remains the same.",
+        "Every client is treated with dignity.",
+        "Our service philosophy is built around three principles:"
+      ],
+      "items": [
+        {
+          "label": "C — Client Comfort",
+          "body": "The client should feel physically, mentally and emotionally comfortable throughout the experience."
+        },
+        {
+          "label": "I — Intentionality",
+          "body": "Nothing in the massage experience should feel careless or accidental. From the way we speak, position the client, handle towels, apply pressure and use equipment to the way we leave the room, our actions should have a purpose."
+        },
+        {
+          "label": "C — Courtesy",
+          "body": "Excellent service requires excellent manners. How we ask a client to move, how we explain procedures and how we respond to requests are all part of the massage experience."
+        }
+      ],
+      "closing": "These principles should influence the entire session."
+    },
+    {
+      "title": "2. The Client Takeover",
+      "paragraphs": [
+        "When a therapist takes over a client from Front Desk or another team member, the therapist becomes responsible for the client's experience inside the treatment room.",
+        "The client should receive clear and courteous instructions.",
+        "Do not assume the client already knows the process. Providing clear instructions reduces uncertainty and makes the client more comfortable."
+      ],
+      "list": [
+        "What will happen next.",
+        "How they should position themselves.",
+        "Where appropriate, how they should lie on the massage bed.",
+        "Any clothing or preparation instructions required for the service.",
+        "What the therapist is about to do."
+      ]
+    },
+    {
+      "title": "3. Hygiene Is Part of the Experience",
+      "paragraphs": [
+        "Our hygiene procedures are both functional and psychological.",
+        "For example, when the client's hands or feet are cleaned, it demonstrates that hygiene is important to us.",
+        "Therapists must therefore maintain the same standard personally.",
+        "After cleaning a client's feet, handling used materials or completing any activity that may contaminate the hands, ensure your hands are appropriately cleaned before continuing with massage.",
+        "The client should never have reason to question the cleanliness of the therapist, linen, equipment or treatment area."
+      ]
+    },
+    {
+      "title": "4. Understanding Relaxation During Massage",
+      "paragraphs": [
+        "Therapists sometimes notice that after thoroughly working on one side of the body, the corresponding area on the opposite side already feels less tense. This can happen.",
+        "Massage can promote an overall relaxation response through the nervous system. As the client relaxes, muscle guarding and general tension may decrease beyond the exact area being worked on.",
+        "However, a relaxed muscle is not a reason to skip that part of the massage.",
+        "Both sides of the body must still receive proper attention.",
+        "The second side may sometimes require less time spent breaking down obvious tension, but it should still be professionally massaged.",
+        "Every client's body responds differently. Never assume that because one side has relaxed, the work on the corresponding side is unnecessary."
+      ]
+    },
+    {
+      "title": "5. Standard Posterior Massage Flow",
+      "paragraphs": [
+        "The sequence of the massage is important. A therapist should not randomly jump from one part of the body to another.",
+        "The standard posterior flow generally progresses upward through the body."
+      ],
+      "items": [
+        {
+          "label": "Feet",
+          "body": "Begin with the feet according to the approved Zura Spa foot-massage technique. Work deliberately rather than rushing through the area."
+        },
+        {
+          "label": "Calves",
+          "body": "Progress from the feet to the calves. Complete one calf properly before progressing according to the established sequence."
+        },
+        {
+          "label": "Back of the knee",
+          "body": "When transitioning from the calf toward the thigh, pay attention to the area around the back of the knee. This is a sensitive anatomical area containing important tendons, nerves and blood vessels. Do not apply aggressive or deep direct pressure into the centre of the back of the knee. Work carefully around the surrounding muscular structures using the approved technique."
+        },
+        {
+          "label": "Thighs",
+          "body": "Continue from the knee area into the thigh. Work each side systematically. Do not randomly alternate between unrelated areas of the body."
+        },
+        {
+          "label": "Gluteal area",
+          "body": "Proceed according to Zura Spa's approved professional draping, consent and massage procedure. Movements should generally support the natural muscular structure rather than aggressively flattening or pulling the tissue apart. Maintain professional boundaries and proper client coverage throughout."
+        },
+        {
+          "label": "Waist / lower back",
+          "body": "Continue into the waist and lower-back region. Work deliberately and monitor the client's comfort."
+        },
+        {
+          "label": "Back",
+          "body": "Proceed through the back using the techniques taught during practical training. Pay particular attention to areas where tension is identified."
+        },
+        {
+          "label": "Arms and hands",
+          "body": "When working on the upper limbs, include the elbow area, forearm where required, wrist, palm, fingers and shoulder. The hand should be treated as more than just the palm."
+        },
+        {
+          "label": "Shoulders",
+          "body": "Give appropriate attention to the shoulders, particularly when tension is present."
+        },
+        {
+          "label": "Head / scalp",
+          "body": "Complete the approved head or scalp massage where it forms part of the service."
+        }
+      ]
+    },
+    {
+      "title": "6. Do Not Work Like a Robot",
+      "paragraphs": [
+        "Zura Spa has a standard sequence, but therapists are not expected to behave mechanically.",
+        "There is room for professional creativity. A therapist may adjust rhythm, transitions or certain approved techniques where doing so improves the client's experience.",
+        "However, creativity must remain safe, professional, appropriate to the service, within Zura Spa procedures, and within the therapist's level of training.",
+        "A therapist should never introduce an unapproved technique simply because it feels creative.",
+        "Master the standard before attempting to personalise it."
+      ]
+    },
+    {
+      "title": "7. Using the Massage Gun",
+      "paragraphs": [
+        "A massage gun is a therapeutic tool. It should not simply be moved randomly around the client's body to create vibration.",
+        "Its purpose is to work systematically on appropriate muscular areas and, where necessary, assist in addressing muscular tension.",
+        "Think of it like ironing. You would not simply wave the iron rapidly and randomly across the material. You work through it systematically, section by section. The massage gun should be approached with the same mindset.",
+        "Work progressively through a muscular area. Move deliberately. Spend appropriate attention on areas of tension rather than rushing across the entire body.",
+        "If a client reports sharp pain, unusual numbness, dizziness or significant discomfort, stop immediately.",
+        "Where two therapists are working together and more than one approved device is available, both therapists may work simultaneously if appropriate. Where only one device is being used, therapists may alternate. Teamwork should improve the experience, not create confusion."
+      ],
+      "list": [
+        "Avoid bones.",
+        "Avoid joints.",
+        "Avoid the spine itself.",
+        "Avoid the front or back of the neck.",
+        "Avoid varicose veins.",
+        "Avoid wounds.",
+        "Avoid inflamed areas.",
+        "Avoid areas of unexplained swelling.",
+        "Avoid numb areas.",
+        "Avoid any location where massage-gun use is contraindicated."
+      ]
+    },
+    {
+      "title": "8. After Using the Massage Gun",
+      "paragraphs": [
+        "Massage-gun vibration can sometimes leave an area temporarily feeling highly stimulated or slightly numb.",
+        "Do not simply finish with the device and immediately abandon the area. Use your hands to reconnect the client with the area.",
+        "The objective is to transition the client from stronger mechanical stimulation back into relaxation.",
+        "This illustrates an important Zura Spa principle: a technically good massage should also feel good to receive.",
+        "The client should experience treatment and relaxation together."
+      ],
+      "list": [
+        "Gentle compressions.",
+        "Controlled squeezing.",
+        "Light rhythmic tapping where suitable.",
+        "Smooth hand contact.",
+        "Light feather-touch movements."
+      ]
+    },
+    {
+      "title": "9. Warm-Towel / Warm-Compress Routine",
+      "paragraphs": [
+        "The warm compress is used toward the appropriate stage of the massage to create warmth, comfort and relaxation after muscular work.",
+        "The towel should be comfortably warm — never dangerously hot. Always test the temperature before applying it to the client.",
+        "What feels tolerable to the therapist may be too hot for another person's skin. Never intentionally make a towel excessively hot and expect the client to “adjust” to it.",
+        "The feet and hands may be wrapped comfortably with the warm towel. Allow the warmth to settle before moving on.",
+        "Where appropriate, use controlled compression over the towel rather than aggressive pressure. Work progressively through the relevant body areas according to the established massage sequence.",
+        "As the water loses its warmth, replace it with fresh appropriately heated water. Do not continue using water that has become cold merely to complete the routine."
+      ]
+    },
+    {
+      "title": "10. Client Comfort Must Be Constantly Monitored",
+      "paragraphs": [
+        "Client comfort is not something checked only at the beginning of the session. Observe continuously.",
+        "Never assume silence automatically means comfort.",
+        "At suitable moments, discreetly confirm that pressure and temperature are comfortable."
+      ],
+      "list": [
+        "Breathing.",
+        "Body tension.",
+        "Flinching.",
+        "Facial expression.",
+        "Involuntary withdrawal.",
+        "Unusual stiffness.",
+        "Verbal feedback.",
+        "Changes in the client's behaviour."
+      ]
+    },
+    {
+      "title": "11. Stretching",
+      "paragraphs": [
+        "Zura Spa massage may include approved stretches involving areas such as legs, feet, waist, arms and shoulders.",
+        "Stretching adds another level to the experience when performed correctly. However, stretching requires practical training.",
+        "A new therapist who has not yet been signed off on a particular stretch should not attempt it independently.",
+        "It is better to perform the core massage sequence correctly than to perform an advanced technique incorrectly.",
+        "Practical sessions will teach the appropriate stretching procedures."
+      ]
+    },
+    {
+      "title": "12. The Mid-Session / Client Turnover Routine",
+      "paragraphs": [
+        "The point where the client changes position is an important part of the experience. It should never feel abrupt.",
+        "Once the posterior portion of the massage has been completed, bring that phase of the session to a gentle conclusion.",
+        "The client should be properly covered with the towel or sheet.",
+        "You may use gentle movements over the covering — such as soft strokes or light rhythmic touch — to create a sense of closure.",
+        "Then confirm the work completed. For example: “I am done with the back of your body, sir/ma. Is there any area you would like me to go over again before we continue?”",
+        "Give the client a moment to think. If the client is satisfied, proceed."
+      ]
+    },
+    {
+      "title": "13. How to Ask a Client to Turn",
+      "paragraphs": [
+        "The wording matters.",
+        "Avoid abrupt instructions such as “Turn over.” It may technically be polite when “please” is added, but it does not reflect the Zura Spa standard of intentional service.",
+        "A better approach is: “Please, can you help us turn over so we can continue? Thank you, sir/ma.”",
+        "The language communicates that you recognise the client is relaxed and may even be sleepy. You are asking for their cooperation rather than commanding them.",
+        "That small distinction changes the experience."
+      ]
+    },
+    {
+      "title": "14. Protect the Client's Privacy During Turnover",
+      "paragraphs": [
+        "The fact that a therapist has already seen part of a client's body while performing an authorised treatment does not give the therapist unlimited permission to view the client's body.",
+        "Privacy remains important throughout the session.",
+        "A client should never need to ask “Please cover me.” The therapist should already be managing the client's privacy.",
+        "Draping is not only about modesty. It communicates professionalism and respect."
+      ],
+      "list": [
+        "Maintain appropriate towel or sheet coverage.",
+        "Raise or position the covering appropriately.",
+        "Allow the client to turn underneath it as much as possible.",
+        "Avoid unnecessary viewing of the client's body.",
+        "Once the client has turned, immediately ensure that they are properly covered and positioned.",
+        "Check that the client's head, neck and limbs are comfortable before continuing."
+      ]
+    },
+    {
+      "title": "15. Client Positioning",
+      "paragraphs": [
+        "Pay attention to how the client is lying.",
+        "A client may remain silent even when the neck is twisted, the head is poorly positioned, the shoulder is uncomfortable, the back is strained, or a limb is awkwardly placed.",
+        "Poor positioning reduces the quality of the entire experience.",
+        "Before continuing, ensure the client appears properly aligned and comfortable. Ask when necessary."
+      ]
+    },
+    {
+      "title": "16. Communication Between Co-Therapists",
+      "paragraphs": [
+        "When two therapists are working together, they must operate as one team.",
+        "Do not allow the session to become a training argument in front of the client.",
+        "Where a small correction can be communicated discreetly without affecting the experience, do so professionally. Where the matter is not urgent, discuss it after the session.",
+        "However, anything affecting client safety, client dignity, professional boundaries or service quality should be corrected immediately.",
+        "Every therapist must also remain responsible for their own work. Do not assume “My partner will take care of it.” Do your part properly."
+      ]
+    },
+    {
+      "title": "17. Professional Boundaries",
+      "paragraphs": [
+        "Clients occasionally make unusual, suggestive or inappropriate requests. Therapists must remain calm and professional.",
+        "Never allow a client to pressure you into an activity that falls outside the service booked, company policy, your professional scope, your personal safety, or Zura Spa's approved treatment procedures.",
+        "A client must never touch a therapist sexually or engage the therapist in sexual activity.",
+        "If a request crosses professional boundaries, decline it politely and notify the appropriate supervisor or manager where required.",
+        "Therapists should never negotiate unapproved services privately with clients. When uncertain, stop and ask management.",
+        "Professional boundaries protect the therapist, the client and the business."
+      ]
+    },
+    {
+      "title": "18. Approved Service Upgrades",
+      "paragraphs": [
+        "Where another approved service may genuinely benefit the client, the therapist may recommend it according to company procedure.",
+        "However, recommendations must never feel manipulative. Do not interrupt a client's relaxation repeatedly to sell services.",
+        "Where an upgrade requires confirmation, approval or additional payment, follow the approved process through the appropriate supervisor or Front Desk.",
+        "Never independently alter the client's booked service without authorisation."
+      ]
+    },
+    {
+      "title": "19. Completing the Front-Side Massage",
+      "paragraphs": [
+        "After turnover, continue the approved anterior massage sequence according to the service booked.",
+        "Maintain the same principles used during the first half: systematic progression, controlled pressure, proper draping, client comfort, professional communication, equipment safety and intentional transitions.",
+        "Do not allow the second half of the massage to feel rushed simply because the first half took longer than expected.",
+        "Time management is part of therapist professionalism."
+      ]
+    },
+    {
+      "title": "20. Ending the Massage",
+      "paragraphs": [
+        "A massage should not suddenly stop. The body and mind should receive a clear signal that the session is concluding.",
+        "Finish with the approved relaxation sequence.",
+        "Where an attention cue is part of the approved routine, use it gently.",
+        "The objective is to bring the client gradually back to awareness without startling them."
+      ],
+      "list": [
+        "Light finishing strokes.",
+        "Gentle rhythmic touch.",
+        "Scalp or head work.",
+        "Warm compress.",
+        "Appropriate hand or foot finishing movements.",
+        "Other approved closing techniques."
+      ]
+    },
+    {
+      "title": "21. Final Client Check-In",
+      "paragraphs": [
+        "Before leaving the room, confirm that the client is comfortable and that the massage is complete.",
+        "For example: “I hope you enjoyed your session, sir/ma.”",
+        "Where appropriate: “We are done with your session now. We will step outside so you can get dressed comfortably.”",
+        "If operations permit the client to rest briefly: “You can relax for a few minutes before getting dressed. We will be outside.”",
+        "Do not promise five or ten minutes of additional room time when the room is required immediately for another booking.",
+        "Communication should reflect the actual operational situation."
+      ]
+    },
+    {
+      "title": "22. Post-Massage Routine",
+      "paragraphs": [
+        "The session is not complete until the operational handover has been done properly."
+      ],
+      "list": [
+        "Ensure the client's belongings and changing environment are organised.",
+        "Give the client privacy to dress.",
+        "Reset your working area according to hygiene procedures.",
+        "Communicate any necessary service information to Front Desk.",
+        "Properly record relevant client observations according to company procedure.",
+        "Report any incident, unusual request or concern to the appropriate supervisor."
+      ]
+    },
+    {
+      "title": "23. Tipping Procedure",
+      "paragraphs": [
+        "Therapists must never pressure a client for a tip. A tip is voluntary.",
+        "Do not ask questions designed to make a client feel obligated to give money.",
+        "Example internal record: “Client tipped ₦__ by cash/transfer.”",
+        "The amount is important because it creates accountability between the therapist, Front Desk and management.",
+        "Systems should be designed so that standards do not depend entirely on trust or memory."
+      ],
+      "list": [
+        "Direct transfers only to the approved tipping channel or account.",
+        "Never substitute an unauthorised personal account.",
+        "If cash is received, follow the approved cash-tip procedure.",
+        "Where required, count cash transparently and report the amount.",
+        "Record the tip in the appropriate communication or system.",
+        "Ensure Front Desk receives the correct information."
+      ]
+    },
+    {
+      "title": "24. Client Departure",
+      "paragraphs": [
+        "Front Desk may communicate differently depending on information received from the therapist.",
+        "For a normal departure, the focus may simply be thanking the client, asking whether they enjoyed the experience, reminding them of any complimentary service, assisting with departure, and wishing them a pleasant day or evening.",
+        "Where the client has tipped and the information has been properly communicated, Front Desk may also thank the client for appreciating the therapists.",
+        "This should feel natural — never like a request for additional money."
+      ]
+    },
+    {
+      "title": "25. Team Accountability",
+      "paragraphs": [
+        "Zura Spa operates with systems.",
+        "Good systems should not rely on the assumption that everyone will always remember everything or always make the correct decision.",
+        "This is why we document, communicate, confirm, record payments, record tips, follow handover procedures and maintain defined responsibilities.",
+        "You are responsible for completing your side of the process even when another therapist or team member is involved.",
+        "Do not leave your responsibility for somebody else to remember."
+      ]
+    },
+    {
+      "title": "26. What a New Therapist Should Know After This Training",
+      "paragraphs": [
+        "At the end of the foundation session, you may not yet have mastered every massage technique. That comes through supervised practical training.",
+        "However, you should understand the following."
+      ],
+      "items": [
+        {
+          "label": "Before the massage",
+          "body": "How to receive the client, communicate instructions and prepare professionally."
+        },
+        {
+          "label": "During the massage",
+          "body": "The general sequence of the treatment and the importance of working systematically."
+        },
+        {
+          "label": "Client care",
+          "body": "How comfort, courtesy, privacy, consent and intentionality influence the client's experience."
+        },
+        {
+          "label": "Equipment",
+          "body": "The basic principles for safe massage-gun and warm-compress use."
+        },
+        {
+          "label": "Turnover",
+          "body": "How to transition the client respectfully from one position to another."
+        },
+        {
+          "label": "Professional boundaries",
+          "body": "How to identify and respond appropriately to requests outside approved services."
+        },
+        {
+          "label": "Session completion",
+          "body": "How to properly conclude the massage rather than stopping abruptly."
+        },
+        {
+          "label": "After the massage",
+          "body": "How to complete the handover, tipping and Front Desk communication process."
+        }
+      ]
+    },
+    {
+      "title": "27. Know What to Do — Then Learn to Do It Excellently",
+      "paragraphs": [
+        "Foundation training teaches you what to do. Practical training teaches you how to do it exceptionally well.",
+        "The progression for every therapist is: Learn the sequence → Practise the technique → Understand the body → Improve your touch → Improve your timing → Improve your client awareness → Develop excellence.",
+        "Do not rush the process.",
+        "A therapist who knows many techniques but lacks professionalism is not an excellent Zura Spa therapist.",
+        "A therapist who is technically skilled but makes the client uncomfortable is not delivering the Zura Spa experience.",
+        "Our standard combines technical skill + client comfort + courtesy + intentionality + professionalism.",
+        "That combination is what turns an ordinary massage into the Zura Spa Experience."
+      ],
+      "links": [
+        {
+          "label": "Continue to Practical: Zura Massage Course",
+          "to": "/courses/practical-zura-massage"
+        }
+      ]
+    }
+  ],
+  "remember": "Know where you are in the session, know what you have completed, and know what comes next. Client Comfort, Intentionality and Courtesy should influence the entire session."
+}
