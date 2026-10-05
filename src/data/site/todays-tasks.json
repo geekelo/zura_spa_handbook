@@ -3,26 +3,14 @@
   "lead": "Complete these action points for today.",
   "groups": [
     {
-      "id": "standards",
-      "title": "Go through the following standards",
+      "id": "topic-of-the-day",
+      "title": "Topic of the day",
       "items": [
         {
-          "id": "mode-of-address",
-          "title": "Mode of Address Standard",
-          "description": "Read and apply the Mode of Address standard.",
-          "to": "/categories/standards/mode-of-address"
-        }
-      ]
-    },
-    {
-      "id": "assessments",
-      "title": "Take the following assessments",
-      "items": [
-        {
-          "id": "assessment-of-the-day",
-          "title": "Assessment of the Day",
-          "description": "Complete the Mode of Address Standard Applied Assessment, download the PDF, and submit.",
-          "to": "/assessments/mode-of-address/applied-assessment"
+          "id": "therapist-foundation-knowledge",
+          "title": "Therapist Foundation Knowledge",
+          "description": "Read massage flow, client comfort, and session standards for the complete Zura Spa session journey.",
+          "to": "/onboarding/therapist-foundation-knowledge"
         }
       ]
     }
