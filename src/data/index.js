@@ -142,7 +142,7 @@ export function getAssessment(categoryId, assessmentId) {
 }
 
 export const assessmentOfTheDay = getAssessment(
-  'mode-of-address',
+  'poverty-mindset',
   'applied-assessment',
 )
 

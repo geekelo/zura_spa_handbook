@@ -4,13 +4,31 @@
   "groups": [
     {
       "id": "topic-of-the-day",
-      "title": "Topic of the day",
+      "title": "Topics of the day",
       "items": [
         {
           "id": "therapist-foundation-knowledge",
           "title": "Therapist Foundation Knowledge",
           "description": "Read massage flow, client comfort, and session standards for the complete Zura Spa session journey.",
           "to": "/onboarding/therapist-foundation-knowledge"
+        },
+        {
+          "id": "poverty-mindset",
+          "title": "Poverty Mindset",
+          "description": "Read and apply the issue on scarcity, envy, jealousy, inferiority, and client service.",
+          "to": "/categories/scenarios/poverty-mindset"
+        }
+      ]
+    },
+    {
+      "id": "assessments",
+      "title": "Take the following assessments",
+      "items": [
+        {
+          "id": "assessment-of-the-day",
+          "title": "Assessment of the Day",
+          "description": "Complete the Poverty Mindset Applied Assessment, download the PDF, and submit.",
+          "to": "/assessments/poverty-mindset/applied-assessment"
         }
       ]
     }
