@@ -3,7 +3,7 @@
   "title": "Agree to All Terms",
   "summary": "Confirm that you have read and accept Zura Spa terms.",
   "type": "form",
-  "order": 7,
+  "order": 8,
   "embedScript": "https://surveymars.com/js/qembed.js?activity=dTJ7IBuhK&source=iframe&width=478",
   "embedTitle": "Agree to All Terms"
 }

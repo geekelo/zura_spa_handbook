@@ -3,6 +3,6 @@
   "title": "Sign Employment Letter",
   "summary": "Fill, sign, and download your Zura Spa employment letter.",
   "type": "employment-letter",
-  "order": 8,
+  "order": 9,
   "successMessage": "Your employment letter has been signed and saved on this device."
 }
