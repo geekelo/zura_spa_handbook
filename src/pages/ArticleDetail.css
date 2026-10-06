@@ -390,6 +390,16 @@
   transition: transform 160ms ease;
 }
 
+.related-row__icon {
+  color: var(--ink);
+  flex-shrink: 0;
+}
+
+.related-row > span:not(.related-row__icon) {
+  flex: 1;
+  min-width: 0;
+}
+
 .related-row:active {
   transform: scale(0.985);
 }

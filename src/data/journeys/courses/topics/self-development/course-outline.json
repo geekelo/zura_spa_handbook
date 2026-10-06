@@ -1,0 +1,211 @@
+{
+  "id": "course-outline",
+  "title": "Course Outline",
+  "summary": "Self Development training covering growth mindset, problem-solving, age-neutral respect, professional team identity, scarcity thinking, appearance, accountability, and healthy communication.",
+  "type": "article",
+  "order": 0,
+  "sections": [
+    {
+      "title": "About This Course",
+      "paragraphs": [
+        "The Self Development course is for every Zura Spa therapist who wants to grow as a person, not only as a pair of hands.",
+        "Technical skill without character still damages the client experience. This course trains the inner habits that show up as professionalism: how you think, how you receive correction, how you respond to lack or another person's success, and how you treat people when nobody is scoring your technique.",
+        "Each module has a clear learning outcome. Study the linked handbook article, then practise the mindset on the floor."
+      ]
+    },
+    {
+      "title": "Course Objective",
+      "paragraphs": [
+        "By completing this course, therapists should be able to:"
+      ],
+      "list": [
+        "Stay teachable and treat correction as information, not insult.",
+        "Respond to problems with calm action instead of blame or panic.",
+        "Treat colleagues by role and standard, not by age.",
+        "Keep work as a professional team — not friendship or family politics.",
+        "Refuse a scarcity identity: do not let lack, envy or need lower the service.",
+        "Hold appearance, accountability and communication as part of self-respect.",
+        "Notice unhelpful midsts quickly and correct them."
+      ]
+    },
+    {
+      "title": "Module 1 — Growth Mindset",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Skills can be developed through practice, feedback and repetition.",
+        "Correction is not a personal attack.",
+        "Listen → Understand → Practise → Correct → Improve.",
+        "Experience without learning is not growth.",
+        "Sharing knowledge without becoming superior."
+      ],
+      "links": [
+        {
+          "label": "Read the Growth Mindset Standard",
+          "to": "/categories/standards/growth-mindset"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist remains teachable and treats improvement as a professional duty."
+    },
+    {
+      "title": "Module 2 — Problem-Solving Mindset",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Stay calm and check facts before blame.",
+        "Act within authority; communicate; escalate when needed.",
+        "Protect the client experience while the problem is handled.",
+        "Notice → Pause → Understand → Prioritize → Act → Communicate → Escalate → Resolve → Learn."
+      ],
+      "links": [
+        {
+          "label": "Read the Problem-Solving Mindset Standard",
+          "to": "/categories/standards/problem-solving-mindset"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist can respond to floor problems without gossip, hiding issues, or acting outside authority."
+    },
+    {
+      "title": "Module 3 — The Everyone Is 20 Years Old Standard",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Age must not decide respect, voice, leadership or correction.",
+        "Remove age from the equation and see role, responsibility and competence.",
+        "Do not refuse correction because someone is younger or older.",
+        "Dignity is consistent — not a reward for tenure."
+      ],
+      "links": [
+        {
+          "label": "Read The Everyone is 20 years old standard",
+          "to": "/categories/standards/age-neutral-mindset"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist addresses colleagues by professional standard, not by who is older."
+    },
+    {
+      "title": "Module 4 — We Are Not Friends, We Are Not Family",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Personal closeness must never outrank the client, the team or the standard.",
+        "Friendship is not permission for disrespect or covering up.",
+        "Work is a professional team with duties, fairness and accountability.",
+        "Support without unhealthy dependence."
+      ],
+      "links": [
+        {
+          "label": "Read We Are Not Friends, We Are Not Family Standard",
+          "to": "/categories/standards/we-are-a-team"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist can be warm at work without turning the spa into a private clique or family drama."
+    },
+    {
+      "title": "Module 5 — Poverty Mindset and Scarcity",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Lack is a condition. Scarcity can become a mindset. Neither is your identity.",
+        "How to respond if a client says “poverty mindset” — random, directed at an error, or harsh judgment.",
+        "Jealousy, envy, badmouthing success, and need-driven service.",
+        "Responsible resource use is not poverty. Waste is not abundance.",
+        "Notice → Question → Correct → Learn → Improve → Serve professionally."
+      ],
+      "links": [
+        {
+          "label": "Read the Poverty Mindset issue",
+          "to": "/courses/self-development/poverty-mindset"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist does not identify with poverty, does not reflect scarcity in service, and drops associated midsts as soon as they notice them."
+    },
+    {
+      "title": "Module 6 — Appearance as Self-Respect",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Appearance is part of the service, not vanity.",
+        "Uniform, hygiene, breath, hands, nails, footwear.",
+        "Client-ready before the first client, not only when management is watching.",
+        "Accepting appearance correction immediately."
+      ],
+      "links": [
+        {
+          "label": "Read the Appearance Standard",
+          "to": "/categories/standards/appearance-standard"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist treats grooming as professional self-respect and part of client confidence."
+    },
+    {
+      "title": "Module 7 — Accountability and Self-Management",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Own assigned work, reports and updates.",
+        "Do not leave your responsibility for someone else to remember.",
+        "Mistakes plus correction equal growth; hiding issues equals concern.",
+        "Personal need does not decide how you treat a client."
+      ],
+      "links": [
+        {
+          "label": "Read Accountability & Responsibility",
+          "to": "/categories/standards/accountability-responsibility"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist can account for their work and does not use personal pressure as an excuse for a lower standard."
+    },
+    {
+      "title": "Module 8 — Communication, Confrontation and Discussion",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Speak so the client experience stays protected.",
+        "Address issues directly without humiliation.",
+        "Keep work discussions factual; keep personal conflict off the floor.",
+        "Escalate when safety, dignity or standards are at risk."
+      ],
+      "links": [
+        {
+          "label": "Read Colleague Communication",
+          "to": "/categories/standards/colleague-communication"
+        },
+        {
+          "label": "Read Confrontation",
+          "to": "/categories/standards/confrontation"
+        },
+        {
+          "label": "Read Discussion",
+          "to": "/categories/standards/discussion"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist can raise and receive hard topics professionally, without gossip or public training arguments."
+    },
+    {
+      "title": "How to Use This Course",
+      "paragraphs": [
+        "Read each module with the linked standard or issue.",
+        "After a session, ask: Which mindset showed up — growth, scarcity, envy, blame, or professionalism?",
+        "Practise one correction at a time. Self development is repetition, not a single motivational talk.",
+        "Revisit modules whenever a floor situation exposes an old habit."
+      ]
+    },
+    {
+      "title": "The Self Development Standard",
+      "paragraphs": [
+        "NOTICE → QUESTION → CORRECT → LEARN → IMPROVE → SERVE.",
+        "Technical skill without character is incomplete. Character without skill is incomplete. Zura Spa requires both."
+      ]
+    }
+  ],
+  "remember": "Self development is noticing unhelpful thinking quickly and choosing the Zura standard instead — with clients, colleagues and yourself."
+}

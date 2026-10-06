@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { pages } from '../data'
+import { pages, getRelatedAssessments } from '../data'
 import { resolveMediaSrc } from '../data/media'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
@@ -187,6 +187,7 @@ export default function ArticleDetail({
   const guidelines = article.guidelines || []
   const notes = article.notes || []
   const hasRoutineBody = isRoutine
+  const relatedAssessments = getRelatedAssessments(article.id)
   const pageTitle = isScenario
     ? pages.article.scenarioPageTitle
     : isRoutine
@@ -290,6 +291,26 @@ export default function ArticleDetail({
             <strong>{pages.article.rememberLabel}</strong> {article.remember}
           </p>
         </aside>
+      ) : null}
+
+      {relatedAssessments.length > 0 ? (
+        <section className="related-block related-block--assessments">
+          <h3 className="section-label">{pages.article.assessmentsHeading}</h3>
+          <div className="related-stack">
+            {relatedAssessments.map((item) => (
+              <Link key={item.to} to={item.to} className="related-row">
+                <span className="related-row__icon" aria-hidden="true">
+                  <Icon name="clipboard" size={20} />
+                </span>
+                <span>
+                  <strong>{item.title}</strong>
+                  <small>{item.summary}</small>
+                </span>
+                <Icon name="chevron" size={18} />
+              </Link>
+            ))}
+          </div>
+        </section>
       ) : null}
       </LockedContent>
 

@@ -141,6 +141,29 @@ export function getAssessment(categoryId, assessmentId) {
   )
 }
 
+export function getRelatedAssessments(articleId) {
+  if (!articleId) return []
+
+  const related = []
+  for (const category of assessments.categories || []) {
+    const categoryArticleIds = category.articleIds?.length
+      ? category.articleIds
+      : [category.id]
+    for (const assessment of category.assessments || []) {
+      const ids = assessment.articleIds?.length
+        ? assessment.articleIds
+        : categoryArticleIds
+      if (!ids.includes(articleId)) continue
+      related.push({
+        ...assessment,
+        categoryId: category.id,
+        to: `/assessments/${category.id}/${assessment.id}`,
+      })
+    }
+  }
+  return related
+}
+
 export const assessmentOfTheDay = getAssessment(
   'poverty-mindset',
   'applied-assessment',

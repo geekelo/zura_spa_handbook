@@ -1,5 +1,12 @@
 [
   {
+    "id": "oct-self-development",
+    "date": "Oct 6, 2026",
+    "title": "Self Development",
+    "body": "New course covering growth mindset, problem-solving, age-neutral respect, team identity, scarcity thinking, appearance, accountability, and professional communication.",
+    "to": "/courses/self-development"
+  },
+  {
     "id": "oct-therapist-foundation",
     "date": "Oct 5, 2026",
     "title": "Therapist Foundation Knowledge",
@@ -10,8 +17,8 @@
     "id": "oct-poverty-mindset",
     "date": "Oct 2, 2026",
     "title": "Poverty Mindset",
-    "body": "New Issues / Scenarios article on scarcity, envy, jealousy, inferiority, and how to respond if a client says “poverty mindset.”",
-    "to": "/categories/scenarios/poverty-mindset"
+    "body": "Poverty Mindset is now a Module 5 reading in the Self Development course.",
+    "to": "/courses/self-development/poverty-mindset"
   },
   {
     "id": "oct-driver-passenger-standard",

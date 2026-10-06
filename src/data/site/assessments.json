@@ -6,6 +6,7 @@
       "id": "lunez-massage",
       "title": "Lunez Massage",
       "description": "Knowledge and application assessments for Lunez Massage.",
+      "articleIds": ["the-lunez-massage", "lunez-massage-request"],
       "assessments": [
         {
           "id": "assessment-1",
@@ -13,6 +14,8 @@
           "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "lunez-assessment-1",
+          "articleTo": "/categories/about/the-lunez-massage",
+          "articleLabel": "Read The Lunez Massage",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment 1 submission"
@@ -23,6 +26,8 @@
           "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "lunez-assessment-2",
+          "articleTo": "/categories/about/the-lunez-massage",
+          "articleLabel": "Read The Lunez Massage",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands the purpose, technique, timing, benefits, client expectation management, consent, hygiene, boundaries, safety and professional mindset required for Lunez Massage.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment 2 submission"
@@ -40,6 +45,8 @@
           "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "problem-solving-mindset",
+          "articleTo": "/categories/standards/problem-solving-mindset",
+          "articleLabel": "Read the Problem-Solving Mindset Standard",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply a problem-solving mindset: staying calm, checking facts, acting within authority, communicating, escalating when needed, protecting the client experience, and learning from problems.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment submission"
@@ -57,6 +64,8 @@
           "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "appearance-standard",
+          "articleTo": "/categories/standards/appearance-standard",
+          "articleLabel": "Read the Appearance Standard",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply the Appearance Standard: cleanliness, uniform, hair, hygiene, breath, hands, nails, footwear, accessories, client-ready presentation, and willingness to correct issues immediately.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment submission"
@@ -74,6 +83,8 @@
           "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "driver-passenger-session-standard",
+          "articleTo": "/categories/standards/driver-passenger-session-standard",
+          "articleLabel": "Read the Driver–Passenger Session Standard",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply Driver–Passenger roles: leadership without superiority, active support without takeover, quality confirmation, communication, skill transfer, client safety, and session accountability.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment submission"
@@ -91,6 +102,8 @@
           "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "mode-of-address",
+          "articleTo": "/categories/standards/mode-of-address",
+          "articleLabel": "Read the Mode of Address Standard",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist understands and can apply the Mode of Address Standard: professional identity, leadership titles without superiority, Client + name internally, respectful direct address, tone matching the word, friendship without carelessness, correction without humiliation, and consistent dignity for every person.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Assessment submission"
@@ -108,7 +121,7 @@
           "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "poverty-mindset",
-          "articleTo": "/categories/scenarios/poverty-mindset",
+          "articleTo": "/courses/self-development/poverty-mindset",
           "articleLabel": "Read the Poverty Mindset issue",
           "pdfPurpose": "To assess whether a Zura Wellness Therapist can distinguish lack from scarcity identity, respond when a client says “poverty mindset,” correct service errors without absorbing a humiliating label, refuse harsh personal judgment professionally, and interrupt jealousy, envy, gossip, inferiority, and need-driven service.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
