@@ -19,5 +19,12 @@
     "description": "Assessment categories for the team.",
     "icon": "clipboard",
     "to": "/assessments"
+  },
+  {
+    "id": "pair-review",
+    "title": "Pair Review",
+    "description": "Submit a pair review after a shared session or practice.",
+    "icon": "repeat",
+    "to": "/pair-review"
   }
 ]

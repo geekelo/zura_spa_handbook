@@ -19,6 +19,7 @@ import {
   AssessmentDetail,
   Assessments,
 } from './pages/Assessments'
+import { PairReview } from './pages/PairReview'
 import { More } from './pages/More'
 import { Login } from './pages/Login'
 import './App.css'
@@ -90,6 +91,7 @@ export default function App() {
               path="assessments/:categoryId/:assessmentId"
               element={<AssessmentDetail />}
             />
+            <Route path="pair-review" element={<PairReview />} />
             <Route path="updates" element={<Updates />} />
             <Route path="more" element={<More />} />
             <Route path="login" element={<Login />} />
