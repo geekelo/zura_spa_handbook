@@ -128,6 +128,25 @@
           "embedTitle": "Assessment submission"
         }
       ]
+    },
+    {
+      "id": "teachability",
+      "title": "Teachability",
+      "description": "Knowledge and application assessments for Teachability: The Willingness to Learn.",
+      "assessments": [
+        {
+          "id": "applied-assessment",
+          "title": "Teachability Applied Assessment",
+          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teachability",
+          "articleTo": "/courses/self-development/teachability",
+          "articleLabel": "Read Teachability: The Willingness to Learn",
+          "pdfPurpose": "To assess whether a Zura Wellness Therapist can admit knowledge gaps honestly as a leader or non-leader, learn without ego, apply teachability in massage, communication and client service, evaluate information with discernment, and turn knowledge into action.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Assessment submission"
+        }
+      ]
     }
   ]
 }

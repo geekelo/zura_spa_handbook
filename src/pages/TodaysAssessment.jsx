@@ -11,6 +11,7 @@ import appearanceQuestions from '../data/site/appearance-assessment-questions.js
 import driverPassengerQuestions from '../data/site/driver-passenger-assessment-questions.json'
 import modeOfAddressQuestions from '../data/site/mode-of-address-assessment-questions.json'
 import povertyMindsetQuestions from '../data/site/poverty-mindset-assessment-questions.json'
+import teachabilityQuestions from '../data/site/teachability-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -24,6 +25,7 @@ const QUESTION_SETS = {
   'driver-passenger-session-standard': driverPassengerQuestions,
   'mode-of-address': modeOfAddressQuestions,
   'poverty-mindset': povertyMindsetQuestions,
+  'teachability': teachabilityQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

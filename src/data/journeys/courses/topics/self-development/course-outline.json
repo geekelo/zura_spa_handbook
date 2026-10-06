@@ -1,7 +1,7 @@
 {
   "id": "course-outline",
   "title": "Course Outline",
-  "summary": "Self Development training covering growth mindset, problem-solving, age-neutral respect, professional team identity, scarcity thinking, appearance, accountability, and healthy communication.",
+  "summary": "Self Development training covering teachability, growth mindset, problem-solving, age-neutral respect, professional team identity, scarcity thinking, appearance, accountability, and healthy communication.",
   "type": "article",
   "order": 0,
   "sections": [
@@ -189,6 +189,32 @@
         }
       ],
       "closing": "Learning Outcome: The therapist can raise and receive hard topics professionally, without gossip or public training arguments."
+    },
+    {
+      "title": "Module 9 — Teachability: The Willingness to Learn",
+      "paragraphs": [
+        "Topics:"
+      ],
+      "list": [
+        "Teachability as a life skill — leadership is only one application.",
+        "How we respond when we discover that we don't know.",
+        "Saying “I don't know” and “Let me find out.”",
+        "Ego that protects ignorance.",
+        "Think, reflect, and search — including information that challenges you.",
+        "Discernment: listen, investigate, decide, apply.",
+        "Willingness to change your mind.",
+        "Knowledge becoming action.",
+        "Permission to be a beginner.",
+        "The danger of “I already know.”",
+        "ADMIT → THINK → SEARCH → PROCESS → ACT → REFLECT."
+      ],
+      "links": [
+        {
+          "label": "Read Teachability: The Willingness to Learn",
+          "to": "/courses/self-development/teachability"
+        }
+      ],
+      "closing": "Learning Outcome: The therapist can admit knowledge gaps honestly, learn without swallowing everything uncritically, apply what they learn, and keep the cycle going."
     },
     {
       "title": "How to Use This Course",

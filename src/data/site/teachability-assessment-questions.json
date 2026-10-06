@@ -1,0 +1,277 @@
+[
+  {
+    "title": "SECTION A — ADMITTING YOU DON'T KNOW",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "A client asks, “Which oil is best for my eczema?” You have never been trained on that condition. What is the teachable response?",
+        "options": [
+          "Invent a confident medical answer so you do not look uninformed.",
+          "Say you don't know, do not guess a treatment, and find out through the approved channel or escalate. “I don't know. Let me find out” protects the client more than a fake expert answer.",
+          "Tell them eczema is not real.",
+          "Keep massaging in silence and hope they forget."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "You are Driver. The Passenger asks how to finish after the massage gun. You are unsure of the exact Zura finishing sequence. What should you do?",
+        "options": [
+          "Guess loudly so you still look like Driver.",
+          "Admit the gap, use what you do know safely, and find the approved standard after or during a discreet check. Leadership includes honesty, not pretending.",
+          "Tell the Passenger never to ask during a session.",
+          "Skip finishing so nobody notices the gap."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A new therapist is asked at Front Desk how long Lunez lasts. They are not sure. What should they not do?",
+        "options": [
+          "Say they will confirm with the approved service information.",
+          "Guess a time so the client books faster.",
+          "Ask a colleague or check the handbook, then answer.",
+          "Escalate if the answer affects price or policy."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A client says, “You therapists always know everything about the body.” You don't know a stretch they requested. How do you protect service without feeding ego?",
+        "options": [
+          "Attempt the stretch anyway so they keep believing the compliment.",
+          "Stay courteous, decline what you are not signed off to do, and offer the approved sequence or a trained colleague. Not knowing that stretch does not make you less valuable.",
+          "Argue that stretching is never useful.",
+          "Let them demonstrate on you."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "Someone knowing more than you about calves does not mean…",
+        "options": [
+          "They are a more valuable human being than you.",
+          "They currently know something you have not learned yet. You can learn without shrinking.",
+          "You should never massage calves again.",
+          "You must secretly compete until they fail."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION B — EGO, LEADERSHIP AND BEING TAUGHT",
+    "questions": [
+      {
+        "id": 6,
+        "prompt": "You are SM. A newer therapist shows you a safer way to drape during turnover that matches the standard. Your first instinct is embarrassment. What is teachability here?",
+        "options": [
+          "Dismiss them because leadership cannot be taught by juniors.",
+          "Say “I never knew that — teach me,” then apply the standard. Ego that protects ignorance sacrifices growth for appearance.",
+          "Use the old drape to prove rank.",
+          "Correct them publicly so the team sees who is SM."
+        ]
+      },
+      {
+        "id": 7,
+        "prompt": "You are Passenger and more experienced than the Driver. They miss a hip stretch. How do you teach without taking over?",
+        "options": [
+          "Command every movement for the rest of the session.",
+          "Suggest briefly: “Driver, we haven't done the hip stretch yet.” Guide; do not become the Driver. Urgent safety is immediate; technique growth can also wait for review.",
+          "Stay silent forever because they are Driver.",
+          "Tell the client the Driver is untrained."
+        ]
+      },
+      {
+        "id": 8,
+        "prompt": "A TG corrects your pressure. You answer, “I already know that,” and keep the same pressure. What failed?",
+        "options": [
+          "Nothing. Familiar words mean you have mastered it.",
+          "“I already know” can block deeper understanding. If you have not applied it, you have not finished learning. Knowledge must become action.",
+          "TGs should never correct tenured staff.",
+          "The client should decide all pressure forever."
+        ]
+      },
+      {
+        "id": 9,
+        "prompt": "You are not a leader. You need to ask how the tipping record is written. You fear looking like a beginner. What does the standard allow?",
+        "options": [
+          "Never ask; invent a WhatsApp format.",
+          "Ask the simple question. Every expert was a beginner. Pretending creates false records.",
+          "Skip recording because questions are shameful.",
+          "Use your personal account “just this once.”"
+        ]
+      },
+      {
+        "id": 10,
+        "prompt": "A colleague with less spa tenure explains a client-communication line that is clearly the Zura standard. You feel ranked. What should you protect?",
+        "options": [
+          "Your image of already knowing.",
+          "The client's experience. Being taught by someone less tenured does not reduce your worth. Refusing the standard does.",
+          "A debate about who joined first.",
+          "Silence until management repeats it."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION C — MASSAGE, TOOLS AND THE BODY",
+    "questions": [
+      {
+        "id": 11,
+        "prompt": "After working the right calf thoroughly, the left calf already feels softer. You consider skipping it to save time. What is the teachable professional choice?",
+        "options": [
+          "Skip it. Relaxation means the work is done.",
+          "Still massage the left side properly. A relaxed muscle is not a reason to skip. You may spend less time breaking down obvious tension, but both sides receive the service.",
+          "Tell the client their body is “already finished.”",
+          "Only Driver may skip sides."
+        ]
+      },
+      {
+        "id": 12,
+        "prompt": "You have seen a massage gun used on social media on the front of the neck. A client asks for that. You have not been signed off. What do you do?",
+        "options": [
+          "Copy the video to look current.",
+          "Do not introduce an unapproved or contraindicated use. Avoid neck, spine, joints, and listed risks. Search the Zura standard; do not perform creativity outside training.",
+          "Let the client hold the gun on their neck.",
+          "Use it for two seconds as a compromise."
+        ]
+      },
+      {
+        "id": 13,
+        "prompt": "You finish with the massage gun and immediately leave the area buzzing. A colleague later teaches finishing with hands. You recognise the topic but have never applied it. What question should you ask?",
+        "options": [
+          "“I already know that” and walk away.",
+          "“Is there something more I can learn from this?” Then apply: reconnect with compressions, contact, and a transition into relaxation.",
+          "“Guns don't need hands.”",
+          "“Only practical course students may finish.”"
+        ]
+      },
+      {
+        "id": 14,
+        "prompt": "You are about to use a stretch you have watched but never been signed off on. The client is sleepy and trusting. What is better?",
+        "options": [
+          "Try it; beginners should hide by looking advanced.",
+          "Perform the core sequence you are trained for. It is better to do the approved massage correctly than an advanced stretch incorrectly.",
+          "Ask the client to sign a waiver you invented.",
+          "Do the stretch only on the side facing away from the door."
+        ]
+      },
+      {
+        "id": 15,
+        "prompt": "A client reports sharp pain when you work the centre of the back of the knee. You were taught it is sensitive but kept going because “deep is better.” What did knowledge fail to become?",
+        "options": [
+          "A debate with the client.",
+          "Action. You knew the anatomy risk and did not apply it. Stop, adjust, and use the approved surrounding work. Know → think → apply.",
+          "Proof that pain means progress.",
+          "A reason to blame the Passenger."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION D — COMMUNICATION AND CLIENT SERVICE",
+    "questions": [
+      {
+        "id": 16,
+        "prompt": "You are about to say “Turn over.” You remember a better Zura line but feel awkward changing a habit. What should you do?",
+        "options": [
+          "Keep the old command; habits are identity.",
+          "Apply what you learned: ask for cooperation — “Please, can you help us turn over so we can continue? Thank you, sir/ma.” Knowledge without a new sentence is incomplete.",
+          "Say nothing and pull the sheet.",
+          "Only use the new line when the SM is watching."
+        ]
+      },
+      {
+        "id": 17,
+        "prompt": "A client asks for an unapproved intimate add-on mid-Zura session. You are unsure of the exact script. What is teachable and professional?",
+        "options": [
+          "Negotiate privately so you look experienced.",
+          "Stay calm, do not invent policy, decline what is outside the booked service, and ask management or use the approved Lunez-request procedure. “I don't know the exception — let me find out” beats a private deal.",
+          "Agree to keep the client happy.",
+          "Laugh it off and continue as if nothing was asked."
+        ]
+      },
+      {
+        "id": 18,
+        "prompt": "You want to recommend a Combo because you think it helps. You interrupt relaxation three times to sell. You later read that recommendations must not feel manipulative. What now?",
+        "options": [
+          "Keep selling; revenue is teachability.",
+          "Change the behaviour: one appropriate, authorised recommendation through the right channel — not repeated interruption. Changing your mind after better information is growth.",
+          "Never mention any approved upgrade again, even when asked.",
+          "Leave a price list on the client's face."
+        ]
+      },
+      {
+        "id": 19,
+        "prompt": "A client asks if the pressure is “hospital grade.” You don't know what they mean. What do you say?",
+        "options": [
+          "“Yes” so they relax.",
+          "Clarify what they need — lighter, firmer, more time on an area — rather than pretending you share a medical label. Then adjust within the Zura standard.",
+          "Increase pressure until they flinch.",
+          "Tell them the spa is not a hospital and stop talking."
+        ]
+      },
+      {
+        "id": 20,
+        "prompt": "You learned the warm-towel must be tested because your skin is not the client's. You still skip the test when you are late. What did you actually refuse?",
+        "options": [
+          "Nothing. Speed is courtesy.",
+          "Application. You knew and did not act. Teachability includes doing the check even when the clock is tight.",
+          "The entire compress routine forever.",
+          "Only leadership may test temperature."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION E — DISCERNMENT, CONFIRMATION AND THE CYCLE",
+    "questions": [
+      {
+        "id": 21,
+        "prompt": "A confident colleague says, “We never clean hands after feet — nobody has time.” It disagrees with hygiene training. What is mature learning?",
+        "options": [
+          "Believe them because they said it confidently.",
+          "Listen, think, check the Zura standard, then decide. Teachability is not swallowing everything. Someone said it → investigate → apply the real standard.",
+          "Argue in front of the client.",
+          "Copy them so you belong."
+        ]
+      },
+      {
+        "id": 22,
+        "prompt": "You only ask people who already massage exactly like you. A different approved sequence challenges you, so you ignore it. What are you doing?",
+        "options": [
+          "Processing knowledge.",
+          "Filtering for confirmation. Ask “What if I'm wrong?” and compare with the handbook, not only with your preference.",
+          "Protecting clients from all change.",
+          "Required Driver behaviour."
+        ]
+      },
+      {
+        "id": 23,
+        "prompt": "Assessment feedback shows you rush the second half of the massage. You have defended “I'm just thorough on the back” for months. What is the hard teachable step?",
+        "options": [
+          "Hold the old story because you said it publicly.",
+          "Say “I understand this differently now” and practise time management so the anterior work is not rushed. Refusing to change after you know better is the greater failure.",
+          "Blame the client for talking.",
+          "Skip posterior work next time instead."
+        ]
+      },
+      {
+        "id": 24,
+        "prompt": "You understood turnover privacy in training, then a client had to ask “Please cover me.” What part of the framework was missing?",
+        "options": [
+          "ADMIT only.",
+          "ACT and REFLECT. You knew; you did not apply; now observe the result and change the drape so they never need to ask.",
+          "SEARCH on social media mid-session.",
+          "PROCESS by explaining anatomy to them while uncovered."
+        ]
+      },
+      {
+        "id": 25,
+        "prompt": "Which sequence matches teachability on the spa floor?",
+        "options": [
+          "PRETEND → DEFEND → REPEAT THE HABIT",
+          "ADMIT → THINK → SEARCH → PROCESS → ACT → REFLECT — then learn again. Not knowing is temporary. Refusing to learn can become permanent.",
+          "I ALREADY KNOW → CLOSE THE MIND",
+          "BELIEVE EVERY SENTENCE → NEVER TEST IT"
+        ]
+      }
+    ]
+  }
+]

@@ -42,6 +42,13 @@
       "assessmentId": "applied-assessment",
       "title": "Poverty Mindset Applied Assessment",
       "accessCode": "177uu"
+    },
+    {
+      "id": "teachability/applied-assessment",
+      "categoryId": "teachability",
+      "assessmentId": "applied-assessment",
+      "title": "Teachability Applied Assessment",
+      "accessCode": "187uu"
     }
   ]
 }

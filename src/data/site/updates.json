@@ -1,5 +1,12 @@
 [
   {
+    "id": "oct-teachability",
+    "date": "Oct 6, 2026",
+    "title": "Teachability: The Willingness to Learn",
+    "body": "New Self Development module on how we respond when we discover that we don't know.",
+    "to": "/courses/self-development/teachability"
+  },
+  {
     "id": "oct-self-development",
     "date": "Oct 6, 2026",
     "title": "Self Development",
