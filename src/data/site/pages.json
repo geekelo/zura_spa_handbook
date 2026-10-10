@@ -63,6 +63,22 @@
     "routineTag": "Routine",
     "relevanceHeading": "Relevance",
     "procedureHeading": "Procedure",
-    "pendingCopy": "Content for this section will be added soon."
+    "pendingCopy": "Content for this section will be added soon.",
+    "sectionSummary": {
+      "label": "Section summary",
+      "prompt": "Record a short spoken summary of this section, then send it.",
+      "record": "Record",
+      "stop": "Stop",
+      "send": "Send",
+      "rerecord": "Re-record",
+      "sending": "Sending…",
+      "nameLabel": "Your work name",
+      "nameNeeded": "Add your work name before sending.",
+      "micDenied": "Allow microphone access to record a summary.",
+      "unsupported": "This device cannot record audio in the browser.",
+      "missingNumber": "A WhatsApp number has not been set for section summaries.",
+      "shared": "Share sheet opened. Choose WhatsApp and send the voice note.",
+      "opened": "WhatsApp opened. Attach the saved recording in that chat if it is not already there."
+    }
   }
 }

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import { pages, getRelatedAssessments } from '../data'
+import sectionSummaries from '../data/site/section-summaries.json'
 import { resolveMediaSrc } from '../data/media'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
+import { SectionSummaryTask } from '../components/SectionSummaryTask'
 import './ArticleDetail.css'
 
 function asList(value) {
@@ -39,7 +41,7 @@ function ProcedureList({ procedure }) {
   )
 }
 
-function ContentSection({ section }) {
+function ContentSection({ section, summaryTask }) {
   return (
     <section className="topic-section">
       {section.title ? <h3>{section.title}</h3> : null}
@@ -110,6 +112,13 @@ function ContentSection({ section }) {
         </p>
       ) : null}
       {section.closing ? <p>{section.closing}</p> : null}
+      {summaryTask ? (
+        <SectionSummaryTask
+          articleTitle={summaryTask.articleTitle}
+          sectionTitle={section.title || `Section ${summaryTask.sectionIndex + 1}`}
+          sectionIndex={summaryTask.sectionIndex}
+        />
+      ) : null}
     </section>
   )
 }
@@ -188,6 +197,9 @@ export default function ArticleDetail({
   const notes = article.notes || []
   const hasRoutineBody = isRoutine
   const relatedAssessments = getRelatedAssessments(article.id)
+  const showSectionSummaries = sectionSummaries.enabledCategoryIds?.includes(
+    category?.id,
+  )
   const pageTitle = isScenario
     ? pages.article.scenarioPageTitle
     : isRoutine
@@ -255,7 +267,15 @@ export default function ArticleDetail({
       ) : article.sections?.length ? (
         <div className="topic-body">
           {article.sections.map((section, index) => (
-            <ContentSection key={section.title || index} section={section} />
+            <ContentSection
+              key={section.title || index}
+              section={section}
+              summaryTask={
+                showSectionSummaries
+                  ? { articleTitle: article.title, sectionIndex: index }
+                  : null
+              }
+            />
           ))}
         </div>
       ) : article.steps?.length ? (
@@ -277,6 +297,13 @@ export default function ArticleDetail({
                 <div>
                   <strong>{step.title}</strong>
                   <p>{step.body}</p>
+                  {showSectionSummaries ? (
+                    <SectionSummaryTask
+                      articleTitle={article.title}
+                      sectionTitle={step.title}
+                      sectionIndex={index}
+                    />
+                  ) : null}
                 </div>
               </li>
             ))}

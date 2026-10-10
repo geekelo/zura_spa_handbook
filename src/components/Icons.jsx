@@ -169,6 +169,26 @@ export function Icon({ name, size = 22, className = '' }) {
           <path d="M5 20h14" />
         </svg>
       )
+    case 'mic':
+      return (
+        <svg {...props}>
+          <rect x="9" y="3" width="6" height="11" rx="3" />
+          <path d="M6 11a6 6 0 0 0 12 0M12 17v4" />
+        </svg>
+      )
+    case 'stop':
+      return (
+        <svg {...props}>
+          <rect x="7" y="7" width="10" height="10" rx="1.5" />
+        </svg>
+      )
+    case 'send':
+      return (
+        <svg {...props}>
+          <path d="M4 12 20 4l-8 16-1.5-6.5L4 12z" />
+          <path d="m10.5 13.5 9.5-9.5" />
+        </svg>
+      )
     default:
       return null
   }
