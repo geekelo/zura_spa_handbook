@@ -1,275 +1,215 @@
 [
   {
-    "title": "SECTION A — LACK, SCARCITY AND IDENTITY",
+    "title": "SECTION A — APPLIED PRACTICE",
     "questions": [
       {
         "id": 1,
-        "prompt": "A therapist says, “I am going through a hard month financially, so I obviously have a poverty mindset.” What is the Zura distinction?",
+        "prompt": "A client casually says “all these poverty mindset” about society, not about you. You freeze and try to prove you are not poor. What did you do?",
         "options": [
-          "Anyone without spare money automatically has a poverty mindset.",
-          "Lack is a condition. Poverty mindset is not defined simply by whether someone presently has money. A person can be in financial difficulty and still be professional, generous, and growth-minded. The concern is when prolonged lack produces scarcity thinking and behaviour.",
-          "Poverty mindset only applies to clients, never staff.",
-          "If you are broke this month, excellence is postponed until you are rich."
+          "Correctly defend your identity.",
+          "Personalize a statement that was not directed at you. Listen to context; contribute briefly if appropriate; do not turn the massage into a debate about your finances.",
+          "Escalate immediately as harassment.",
+          "Ask the client how much they earn."
         ]
       },
       {
         "id": 2,
-        "prompt": "What does Zura mean by “poverty is not a product of lack”?",
+        "prompt": "The client uses “poverty mindset” because you actually cut a corner in the service. What is the well-resolved path?",
         "options": [
-          "Lack never happens to professionals.",
-          "Poverty as a territory can form from a scarcity mindset after prolonged lack or down experiences — accepting lack as identity. Lack itself is not the identity.",
-          "Only people who have never lacked can serve wealthy clients.",
-          "Talking about money is always unprofessional."
+          "Argue that the label is always abusive.",
+          "Identify the reason, fix the issue, apologize, and make clear it was an error, not your identity.",
+          "Ignore the service error and only refuse the words.",
+          "Offer an unauthorized discount from fear."
         ]
       },
       {
         "id": 3,
-        "prompt": "Which pattern is the actual mindset concern, not the fact of having less money this month?",
+        "prompt": "The client harshly concludes you are poor as a personal judgment. What does the article require?",
         "options": [
-          "Saving for rent while still delivering the full Zura standard.",
-          "Unnecessary rationing, cutting corners from fear, envy, badmouthing success, treating clients as “people with money,” or letting need weaken boundaries and standards.",
-          "Asking leadership a factual question about product use.",
-          "Feeling tired after a long shift."
+          "Accept the label to keep the peace.",
+          "Vehemently refuse the label. Make it clear you are not poor, not part of poverty territory, and do not operate under that mindset. Stay professional. Escalate if disrespect continues.",
+          "Cry and overshare your bills.",
+          "Badmouth the client after the session."
         ]
       },
       {
         "id": 4,
-        "prompt": "A client is talking about society and casually says, “All these poverty mindset,” not about you or the service. What should you do?",
+        "prompt": "You ration oil below the standard because you fear lack of supplies. What is forming?",
         "options": [
-          "Go quiet and start proving you are not poor.",
-          "Join briefly and professionally: support that poverty mindset is not something to accommodate or build, then continue the service. Do not personalize a statement that was not directed at you.",
-          "Turn the massage into a debate about your salary.",
-          "Report the client immediately for insulting staff."
+          "Excellence.",
+          "Scarcity producing fear of using resources even when they are legitimately required, and cutting corners because of fear of lack.",
+          "Hygiene.",
+          "Leadership."
         ]
       },
       {
         "id": 5,
-        "prompt": "You unnecessarily limited something the client should normally receive. They say, “Why are you managing this like this? All these poverty mindset.” What comes first?",
+        "prompt": "A wealthy client books Combo. You feel smaller and become stiff. What is the right mindset line?",
         "options": [
-          "“I don't have poverty mindset!” before fixing anything.",
-          "Listen → identify → acknowledge → correct. Apologize, fix the service, and make clear you do not support that mindset — it was an error, not your identity. You can accept the correction without absorbing the label.",
-          "Argue about how much money you have.",
-          "Ignore the service issue because the wording was rude."
+          "“Their wealth proves I failed.”",
+          "“I can serve wealthy people without feeling inferior.” Someone else's wealth is not evidence of your inferiority.",
+          "“I should ask for extra money privately.”",
+          "“I should reduce my pressure to match my income.”"
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION B — LABELS, JUDGMENT AND SERVICE ERRORS",
-    "questions": [
+      },
       {
         "id": 6,
-        "prompt": "The client says directly, “You have a poverty mindset.” What is the professional first move?",
+        "prompt": "A colleague succeeds and you look for faults so you feel better. What question should you ask?",
         "options": [
-          "“Who are you calling poor?”",
-          "Ask what you did that gave that impression. Extract useful feedback about behaviour. Correct what is true. Do not automatically absorb the identity.",
-          "List your assets to win the argument.",
-          "Agree that you are poor so the client feels heard."
+          "“How do I expose them?”",
+          "“Can I acknowledge another person's success without needing to explain it away?”",
+          "“How do I gossip safely?”",
+          "“Why must their light dim?”"
         ]
       },
       {
         "id": 7,
-        "prompt": "The service issue is already corrected. The client continues: “That's how you people are. Poverty people.” How should you respond?",
+        "prompt": "Need tempts you to weaken a boundary with a client who tips well. What must you refuse?",
         "options": [
-          "Shout about how much money you have, or insult the client.",
-          "Stay calm, refuse the personal label firmly: you are not poor, not in poverty territory, and do not operate under that mindset. Take responsibility for any error. Escalate if disrespect continues. Self-respect is not aggression.",
-          "Accept the humiliation so you remain “professional.”",
-          "Walk out of the session without communication."
+          "Professional standards.",
+          "Allowing financial need to weaken professional boundaries. Do not allow personal need to reduce professional standards.",
+          "Escalation.",
+          "Hygiene."
         ]
       },
       {
         "id": 8,
-        "prompt": "Why separate THE BEHAVIOUR from THE IDENTITY when a client uses “poverty mindset”?",
+        "prompt": "You serve a client who appears to have less money with less care. What did you violate?",
         "options": [
-          "So you never have to change anything you did.",
-          "There may be useful information inside an uncomfortable sentence. Correct the action. Do not let a label become who you are.",
-          "Because clients are never allowed to comment on service.",
-          "Because identity always matches the worst thing someone said."
+          "Nothing if they booked a shorter service.",
+          "“I can serve people with less without treating them as less important.”",
+          "The Driver role.",
+          "The uniform rule only."
         ]
       },
       {
         "id": 9,
-        "prompt": "A client jokes, “Don't be doing poverty mindset. Pour plenty,” when you are using the correct product quantity. What is the trap?",
+        "prompt": "You badmouth a client in the staff area because of what they own. How does the article name this?",
         "options": [
-          "Waste product so you do not look poor.",
-          "Do not confuse abundance with waste. Keep the legitimate standard. If needed: “I'll make sure you have what is appropriate for the service.” Responsible use is not scarcity identity.",
-          "Refuse all oil for the rest of the session.",
-          "Ask the client to pour it themselves."
+          "Team bonding.",
+          "Badmouthing clients because of what they own, spend or request — a scarcity-produced behaviour.",
+          "Client education.",
+          "Quality control."
         ]
       },
       {
         "id": 10,
-        "prompt": "You were wrong on the service. You also refuse the identity “poverty-minded.” Can both be true?",
+        "prompt": "You notice jealousy rising after a colleague's compliment. What is the closing cycle?",
         "options": [
-          "No. If you apologize you must accept the whole label.",
-          "Yes. Admit the action was wrong without accepting a negative identity. The goal is to correct the client experience, not to win a status argument.",
-          "Yes, but only if management is in the room.",
-          "No. Never apologize if a client used a harsh word."
+          "Hide → Hoard → Gossip.",
+          "Notice → Question → Correct → Learn → Improve → Serve professionally.",
+          "Attack → Explain away → Repeat.",
+          "Identify with poverty as identity."
         ]
       }
     ]
   },
   {
-    "title": "SECTION C — JEALOUSY, GOSSIP AND OTHER PEOPLE'S SUCCESS",
+    "title": "SECTION B — FILL IN THE GAP",
     "questions": [
       {
         "id": 11,
-        "prompt": "A client arrives in designer clothes and an expensive car. You catch yourself thinking they are “showing off.” What sequence matches the standard?",
+        "prompt": "Complete: “Poverty is not a product of lack. It is a territory derived from a _____ developed from accepting lack after prolonged lack or down experiences.”",
         "options": [
-          "Joke about dirty money after they leave.",
-          "Notice → identify → stop comparison → return to your responsibility. Their possessions did not take your value. Serve the Zura standard.",
-          "Give extra-illegal favours so they like you.",
-          "Reduce pressure to “humble” them."
+          "uniform policy",
+          "scarcity mindset",
+          "massage technique",
+          "pricing list"
         ]
       },
       {
         "id": 12,
-        "prompt": "After a wealthy client leaves, staff start mocking the vehicle, accent, and spending. What should you do?",
+        "prompt": "Complete: “Lack is a condition. Scarcity can become a mindset. Neither should become your _____.\"",
         "options": [
-          "Join because it is entertaining.",
-          "Redirect: if there is something relevant to service or operations, report it. Otherwise do not discuss the client's personal life. Clients are not staff entertainment.",
-          "Post it in a staff group with photos.",
-          "Only mock if the client was rude."
+          "schedule",
+          "identity",
+          "uniform",
+          "handover"
         ]
       },
       {
         "id": 13,
-        "prompt": "Thr. B gets more tips and compliments. Thr. A starts saying, “Management just likes her” and “She's not even that good.” What is happening?",
+        "prompt": "Complete: “I do not need someone's light to become _____ before mine can shine.”",
         "options": [
-          "Healthy professional analysis.",
-          "An attempt to reduce someone else's value instead of improving. Use comparison as information: What can I learn? Raise genuine unfairness with facts. Otherwise grow.",
-          "Required competition under Driver–Passenger.",
-          "Proof that tips are always unfair."
+          "brighter",
+          "dim",
+          "public",
+          "expensive"
         ]
       },
       {
         "id": 14,
-        "prompt": "A client praises your co-therapist more and tips them more. You feel hurt. What question should you ask?",
+        "prompt": "Complete: “Someone else's success is not evidence of your _____.\"",
         "options": [
-          "“How do I make the client regret that?”",
-          "“Is there anything professionally useful I can learn?” If yes, learn. If no, release it. Another person's appreciation does not diminish you.",
-          "“How do I report the colleague for stealing my tip?”",
-          "“Should I slow down my work next time so they look worse?”"
+          "promotion",
+          "failure",
+          "technique",
+          "attendance"
         ]
       },
       {
         "id": 15,
-        "prompt": "Whenever success is mentioned, a therapist immediately finds a fault: “They probably know somebody.” What should they ask themselves?",
+        "prompt": "Complete the right-mindset list: “I can admire without worshipping. I can learn without _____.\"",
         "options": [
-          "Nothing. Reducing people is harmless.",
-          "“Can I acknowledge another person's success without explaining it away?” If not, there may be insecurity. You do not need someone's light to dim before yours can shine.",
-          "“How do I get the client to confirm the gossip?”",
-          "“Should I only do this about staff, not clients?”"
+          "working",
+          "envying",
+          "serving",
+          "reading"
         ]
       }
     ]
   },
   {
-    "title": "SECTION D — NEED, INFERIORITY AND BOUNDARIES",
+    "title": "SECTION C — ARTICLE READING CHECK",
     "questions": [
       {
         "id": 16,
-        "prompt": "Financial pressure makes you extra warm to clients you think will tip and flat with those you think will not. What failed?",
+        "prompt": "The opening says a person may be experiencing financial difficulty and still be…",
         "options": [
-          "Nothing. Need always decides service quality.",
-          "Personal need was allowed to control how you treat people. Separate need from professional responsibility. Tips are optional. The Zura standard is not.",
-          "You should only serve wealthy clients.",
-          "You should refuse all tips so you stay pure."
+          "unfit to serve.",
+          "confident, generous, professional, responsible, growth-minded, excellent in service, and respectful of other people's success.",
+          "required to hide from wealthy clients.",
+          "defined as poverty-minded automatically."
         ]
       },
       {
         "id": 17,
-        "prompt": "A wealthy client makes you nervous. You start ignoring boundaries you would keep with anyone else, thinking they can “change your life.” What is the correction?",
+        "prompt": "The Goal list includes which instruction?",
         "options": [
-          "Wealth creates human superiority, so boundaries drop.",
-          "Respect success without making yourself smaller. They are a client. You are a professional. Same dignity, same boundaries, same Zura standard.",
-          "Ask them for a job during the massage.",
-          "Tolerate harassment so they book again."
+          "Identify with poverty so you stay humble.",
+          "Do not identify with poverty. Do not reflect scarcity in service. Drop associated midsts as soon as you notice them.",
+          "Treat poorer-looking clients as less important.",
+          "Use need to justify extra-boundary service."
         ]
       },
       {
         "id": 18,
-        "prompt": "Scarcity can produce jealousy. What else can it produce toward a wealthy client?",
+        "prompt": "Seeing clients as “people who have money” rather than people you are professionally serving is listed as…",
         "options": [
-          "Nothing else.",
-          "Inferiority and excessive admiration: trying too hard, speaking differently, seeking personal favour. Both jealousy and worship are distortions. Stay grounded.",
-          "Automatic friendship after one session.",
-          "The right to discuss their bank account with colleagues."
+          "good sales thinking.",
+          "a behaviour scarcity can start producing.",
+          "required in Combo sessions.",
+          "the definition of respect."
         ]
       },
       {
         "id": 19,
-        "prompt": "A therapist treats a modest-spending client as less important than a high spender. Which mindset line is being broken?",
+        "prompt": "The right mindset includes: “When I notice jealousy, envy, inferiority or scarcity thinking, I…”",
         "options": [
-          "Only Manager may grade clients by spend.",
-          "I can serve people with less without treating them as less important. I can serve wealthy people without feeling inferior. Spend does not set human value in the room.",
-          "Modest clients should get a shorter massage automatically.",
-          "High spenders must be addressed as Manager."
+          "hide it and serve worse.",
+          "identify it quickly and correct it.",
+          "gossip until I feel better.",
+          "reduce the other person's achievement."
         ]
       },
       {
         "id": 20,
-        "prompt": "A colleague says excellence is “for other people” because they are used to poor conditions. What is the danger?",
+        "prompt": "The remember line says you should refuse harsh personal judgment…",
         "options": [
-          "None. Low standards feel honest.",
-          "Accepting low standards because poor conditions became familiar. Lack must not become identity or an excuse to stop being professional and better.",
-          "They should only improve after they get rich.",
-          "They should hide from assessments."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION E — NOTICE, CORRECT AND SERVE",
-    "questions": [
-      {
-        "id": 21,
-        "prompt": "You notice jealousy rising mid-session. What is the expected inner move?",
-        "options": [
-          "Hide it and let it leak as cold service.",
-          "Identify it quickly and correct it. Drop associated midsts as soon as you notice them. Return to the client in front of you.",
-          "Tell the client you are jealous so you are honest.",
-          "Ask the co-therapist to gossip after."
-        ]
-      },
-      {
-        "id": 22,
-        "prompt": "Is professional reporting of a real client concern the same as badmouthing their lifestyle?",
-        "options": [
-          "Yes. Any talk about a client is gossip.",
-          "No. Ask: is this necessary for service or operations? If yes, report it. If no, leave it. Reporting is not entertainment.",
-          "Yes, if you whisper.",
-          "No, but mocking spending is allowed if you also file a report."
-        ]
-      },
-      {
-        "id": 23,
-        "prompt": "A random “poverty mindset” comment was not about you, but you still felt stabbed. What mindset would have protected the session?",
-        "options": [
-          "Every client sentence is about me.",
-          "Everything a client says is not about me. I do not need to prove my financial status. I can join a healthy conversation without becoming defensive.",
-          "I must never speak at all.",
-          "I should end the massage early."
-        ]
-      },
-      {
-        "id": 24,
-        "prompt": "Which sequence matches the close of this issue?",
-        "options": [
-          "COMPARE → BADMOUTH → HOARD → SHRINK",
-          "NOTICE → QUESTION → CORRECT → LEARN → IMPROVE → SERVE PROFESSIONALLY",
-          "ARGUE WEALTH → IGNORE SERVICE → ESCALATE EVERY JOKE",
-          "ACCEPT THE LABEL → LOWER THE STANDARD"
-        ]
-      },
-      {
-        "id": 25,
-        "prompt": "Someone else's success, wealth, or opportunity — what is it not evidence of?",
-        "options": [
-          "That you must copy their lifestyle tonight.",
-          "Your failure, your inferiority, or the removal of your opportunity. Do not let temporary lack produce envy, badmouthing, insecurity, poor service, or reduced standards.",
-          "That they are always morally better.",
-          "That you should stop learning."
+          "by matching insult with insult.",
+          "firmly and professionally.",
+          "by leaving the spa without reporting.",
+          "by agreeing so the client calms down."
         ]
       }
     ]

@@ -1,220 +1,215 @@
 [
   {
-    "title": "SECTION A — ROLES, AUTHORITY AND MINDSET",
+    "title": "SECTION A — APPLIED PRACTICE",
     "questions": [
       {
         "id": 1,
-        "prompt": "A therapist is appointed Driver. They tell the Passenger, “I am Driver, so I am senior for this session. Do not suggest anything.” What is wrong with this?",
+        "prompt": "You are Driver and more experienced than your Passenger. You treat them as junior and ignore useful suggestions. What did you misunderstand?",
         "options": [
-          "Nothing. Driver is a professional ranking above Passenger.",
-          "Driver and Passenger are session roles, not seniority. The Driver coordinates; the Passenger still thinks, observes, and may suggest.",
-          "The Passenger must remain silent unless the client complains.",
-          "Only a more-experienced therapist may ever be Driver."
+          "A Driver is not “senior.” These are session roles, not professional rankings. Being Driver means primary responsibility for coordinating, not superiority.",
+          "Experience always equals the Driver title.",
+          "Passengers must remain silent.",
+          "The client should decide who is senior."
         ]
       },
       {
         "id": 2,
-        "prompt": "The Passenger is more experienced than the Driver. Mid-session they start giving continuous instructions, correcting every movement, and changing every decision. What has happened?",
+        "prompt": "You are Passenger and more skilled. You continually take over the session to “save” it. How does the standard classify this?",
         "options": [
-          "Correct mentorship. Experience automatically makes them Driver.",
-          "They are transferring skill the only way Zura allows: by taking over live.",
-          "Guidance has become takeover. They are guiding the Driver, not becoming the Driver. Many learning points belong in Therapist Review.",
-          "The Driver must surrender the session immediately because tenure always wins."
+          "Excellence.",
+          "A role-boundary concern. The Passenger gives guidance without taking over.",
+          "Required whenever you know more.",
+          "Proof the Driver title is fake."
         ]
       },
       {
         "id": 3,
-        "prompt": "A less-experienced Driver ignores a useful technique suggestion from an experienced Passenger because “I was appointed to lead.” What mindset is missing?",
+        "prompt": "During the established cleaning routine, who works which side?",
         "options": [
-          "The Driver should reject all Passenger input to prove authority.",
-          "The Driver should abandon the role and let the Passenger drive unofficially.",
-          "Leadership includes using the Passenger’s knowledge. Rejecting useful input simply because it comes from the Passenger is not strong driving.",
-          "Suggestions are only allowed after the session, never during it."
+          "Whoever is taller chooses.",
+          "Driver — right side of the client. Passenger — left side of the client.",
+          "Passenger — right. Driver — left.",
+          "Only the Driver cleans; the Passenger watches."
         ]
       },
       {
         "id": 4,
-        "prompt": "Two therapists start arguing about who is “in charge” while the client is on the table. What is the purpose of Driver–Passenger, and what is not?",
+        "prompt": "You want to swap sides only for variety. What is the real purpose of swapping?",
         "options": [
-          "The purpose is to decide who is professionally better.",
-          "The purpose is who controls whom.",
-          "The purpose is one coordinated massage: order, communication, skill transfer, and client experience — not a contest of superiority.",
-          "The purpose is for the Passenger to remain decorative while the Driver works alone."
+          "Entertainment.",
+          "Quality control: each therapist can feel and assess the work performed by the other.",
+          "To prove who is stronger.",
+          "To rest the Driver."
         ]
       },
       {
         "id": 5,
-        "prompt": "A Driver treats every Passenger suggestion as a challenge to their title. What does the standard say about this?",
+        "prompt": "You notice a better technique that is not urgent. Should you interrupt the flow now?",
         "options": [
-          "A Driver who cannot listen is not demonstrating strong leadership.",
-          "Listening removes the Driver’s authority, so they must refuse suggestions.",
-          "The Passenger should stop thinking so the Driver feels secure.",
-          "The Driver should announce they are Driver after every technique."
+          "Always interrupt immediately.",
+          "Ask: does this need to be corrected now, or can it be discussed during Therapist Review?",
+          "Never mention technique.",
+          "Tell the client first."
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION B — SESSION FLOW, QUALITY AND ROUTINES",
-    "questions": [
+      },
       {
         "id": 6,
-        "prompt": "During Client Takeover, both therapists talk over each other, each trying to lead the client into the room. What should have happened?",
+        "prompt": "The Driver refuses every suggestion and sacrifices client experience to prove authority. What is this?",
         "options": [
-          "Whoever is older should take over the greeting.",
-          "The Driver fully handles or initiates Takeover; the Passenger supports, observes, and assists without competing for the interaction.",
-          "The Passenger should always greet first so the Driver can watch.",
-          "Takeover is optional if the client has been before."
+          "Strong leadership.",
+          "A serious leadership concern. Client experience is more important than who is right.",
+          "Normal Driver privilege.",
+          "The Passenger's fault for suggesting."
         ]
       },
       {
         "id": 7,
-        "prompt": "During the hand and foot cleaning routine, where should each therapist work?",
+        "prompt": "As Passenger you see something that could seriously harm the client. You stay silent to “respect the Driver.” What did you fail?",
         "options": [
-          "Whoever finishes first chooses any side.",
-          "Driver — right side of the client. Passenger — left side of the client. Both clean together according to the approved routine.",
-          "Only the Driver cleans; the Passenger waits.",
-          "Sides are swapped randomly so neither role is visible."
+          "Nothing. Silence is support.",
+          "Client protection. Passenger identifies serious client concern and escalates. Noticing serious harm and remaining silent is an accountability concern.",
+          "The review form.",
+          "Your ranking."
         ]
       },
       {
         "id": 8,
-        "prompt": "The Driver says, “Calves are done,” and starts the next body part without checking with the Passenger, who still feels remaining tension. What rule was broken?",
+        "prompt": "Both therapists talk over the client during takeover. What should happen?",
         "options": [
-          "The Driver may never decide when to progress.",
-          "The Driver controls progression, but should not move on without reasonable confirmation from the Passenger. Both contribute to quality confirmation.",
-          "The Passenger must stay silent about remaining tension until Therapist Review.",
-          "Swapping sides is only for variety, so confirmation is unnecessary."
+          "Compete so the client sees energy.",
+          "The Driver should fully handle or initiate Client Takeover. The client should not feel two therapists are simultaneously trying to lead them.",
+          "The Passenger must greet first.",
+          "Skip takeover; it is insignificant."
         ]
       },
       {
         "id": 9,
-        "prompt": "Why does Zura swap sides during a two-therapist session?",
+        "prompt": "After the session, a useful Therapist Review must include which question from the article?",
         "options": [
-          "So therapists do not get bored.",
-          "So the Passenger can become Driver halfway through.",
-          "So each therapist can feel and assess the other’s work: remaining tension, side differences, pressure outcome, and whether more work is needed.",
-          "So the Driver can rest while the Passenger works alone."
+          "“Who is senior?”",
+          "“What did one therapist know or do that the other therapist can learn?”",
+          "“Who talked more?”",
+          "“Who should be demoted?”"
         ]
       },
       {
         "id": 10,
-        "prompt": "Warm compresses need replenishing. Both therapists are engaged, but one can step away with less disruption. Who should ordinarily handle setup, and why?",
+        "prompt": "You are an experienced Passenger and you withhold knowledge so the Driver looks weaker. How is this classified?",
         "options": [
-          "The Passenger must always do it because the role means errands.",
-          "The Driver must always leave, because they are in charge of equipment.",
-          "The person who can step away with the least disruption. Where practical, that is often the Passenger, so the Driver can keep session oversight — not because the Passenger is junior.",
-          "Neither should leave; skip the therapy rather than communicate."
+          "Smart politics.",
+          "A teamwork concern. Experience should be shared, not used as power.",
+          "Required humility.",
+          "Driver's problem only."
         ]
       }
     ]
   },
   {
-    "title": "SECTION C — COMMUNICATION, INITIATIVE AND LEARNING",
+    "title": "SECTION B — FILL IN THE GAP",
     "questions": [
       {
         "id": 11,
-        "prompt": "The Passenger feels remaining tension in a shoulder. Which communication matches the standard?",
+        "prompt": "Complete: “The Driver leads. The Passenger supports. Both think. Both communicate. Both protect the _____.\"",
         "options": [
-          "“No, that’s wrong. Let me lead.”",
-          "“You don’t know what you’re doing.”",
-          "“Driver, can we work this shoulder a little more? I’m still feeling tension here.”",
-          "Say nothing, then criticise the Driver after the client leaves."
+          "Driver's ego",
+          "client experience",
+          "senior ranking",
+          "clock only"
         ]
       },
       {
         "id": 12,
-        "prompt": "The Passenger wants to add a major hamstring stretch that would change the session sequence. What should they do first?",
+        "prompt": "Complete: “The purpose is never ‘Who controls whom?’ The purpose is: ‘How do two therapists work together so effectively that the client experiences _____?’”",
         "options": [
-          "Start the stretch immediately; initiative never needs communication.",
-          "Communicate with the Driver first, for example: “Driver, I think a hamstring stretch would help here. Should we add it?”",
-          "Wait helplessly for the Driver to notice every small preparation task as well.",
-          "Announce the stretch to the client without involving the Driver."
+          "two competing massages",
+          "one coordinated massage",
+          "the senior therapist only",
+          "a ranking contest"
         ]
       },
       {
         "id": 13,
-        "prompt": "An experienced Passenger corrects a slightly inefficient (but safe and comfortable) technique throughout the entire session while the client is on the table. What should they have asked themselves?",
+        "prompt": "Complete the closing cycle: “Lead → Support → Communicate → Assess → Confirm → Learn → Review → _____.\"",
         "options": [
-          "“How do I prove I know more than the Driver?”",
-          "“Does this need to be corrected now, or can it be discussed during Therapist Review?” The client session is not a classroom.",
-          "“Should I remain completely silent even if the client is in pain?”",
-          "“Should I withhold the better technique forever because I am not driving?”"
+          "Dominate",
+          "Improve",
+          "Rank",
+          "Rest"
         ]
       },
       {
         "id": 14,
-        "prompt": "A Passenger prepares oil and adjusts a stool without asking, then later changes treatment focus to another body area without telling the Driver. Which part was appropriate?",
+        "prompt": "Complete: “A Driver is not ‘senior.’ A Passenger is not ‘junior.’ These are session roles, not _____.\"",
         "options": [
-          "Both. All initiative is equal.",
-          "Neither. The Passenger may never act without permission.",
-          "Preparing materials and routine support may not need permission every time. Changing treatment focus or moving to another body area requires communication first. Initiative without chaos.",
-          "Changing body area is always Passenger-only; preparing oil always requires a meeting."
+          "professional rankings",
+          "massage techniques",
+          "cleaning duties",
+          "client preferences"
         ]
       },
       {
         "id": 15,
-        "prompt": "An experienced Passenger withholds a stretch they know would help because “I’m not driving, so it’s not my job to teach.” What concern is this?",
+        "prompt": "Complete: “The Driver leads but listens. The Passenger follows but _____.\"",
         "options": [
-          "Correct role-boundary behaviour.",
-          "Teamwork concern. Skill transfer should depend on who currently has useful knowledge, not on who is senior or who is driving.",
-          "Required humility. Passengers must never share technique.",
-          "Proof that Driver training has failed."
+          "obeys blindly",
+          "thinks",
+          "stays silent",
+          "competes"
         ]
       }
     ]
   },
   {
-    "title": "SECTION D — SAFETY, ACCOUNTABILITY AND CLOSE",
+    "title": "SECTION C — ARTICLE READING CHECK",
     "questions": [
       {
         "id": 16,
-        "prompt": "The client is pulling away and grimacing. The Driver continues the same pressure. The Passenger can speak. What should they do?",
+        "prompt": "According to the opening, the purpose of Driver and Passenger is not to establish…",
         "options": [
-          "Stay silent to protect the Driver’s ego.",
-          "Communicate immediately, for example: “Driver, the client appears uncomfortable. Can we reduce pressure?” Client safety and experience outrank protecting the Driver’s ego.",
-          "Escalate to management before saying anything to the Driver, even if a brief professional line would work.",
-          "Increase their own pressure to match the Driver so the session looks synchronized."
+          "order and coordination",
+          "superiority or inferiority between therapists",
+          "skill transfer",
+          "an excellent client experience"
         ]
       },
       {
         "id": 17,
-        "prompt": "The Driver refuses a suggestion about oil scent. The Passenger immediately escalates to leadership. Was that appropriate?",
+        "prompt": "The Driver should think which inner line?",
         "options": [
-          "Yes. Every refused suggestion must be escalated.",
-          "No. Escalation is for genuine risk to safety, dignity, serious service quality, boundaries, or standards — not every minor disagreement.",
-          "Yes, because the Passenger is always right about products.",
-          "No, because Passengers may never escalate even if the client is unsafe."
+          "“I control this person.”",
+          "“I have been given responsibility for coordinating this session. My role is to use both my ability and my Passenger's ability to create the best possible client experience.”",
+          "“The Passenger should remain silent.”",
+          "“I am professionally better.”"
         ]
       },
       {
         "id": 18,
-        "prompt": "Client feedback is poor. The Driver immediately says, “It was the Passenger’s fault.” What does primary session accountability require instead?",
+        "prompt": "The Passenger should think…",
         "options": [
-          "The Driver should first be able to answer what they observed, decided, communicated, and whether they used the Passenger — not dump blame. The Passenger still remains accountable for their own misconduct.",
-          "The Passenger is never accountable for anything they did.",
-          "The Driver has no accountability if they were less experienced.",
-          "Poor feedback always means the appointment of Driver was invalid."
+          "“I am passive until told.”",
+          "“I am not passive. My responsibility is to support the Driver, remain observant, contribute my knowledge appropriately, and help us deliver an excellent session.”",
+          "“I should take over if I am better.”",
+          "“I am junior today.”"
         ]
       },
       {
         "id": 19,
-        "prompt": "There is conflict between the Driver’s preferred technique and a safety concern. Using the session decision hierarchy, what sits above Driver coordination?",
+        "prompt": "The Driver does not simply announce that a body part is complete without…",
         "options": [
-          "Personal preference, then Passenger input, then the Driver.",
-          "Client safety; client dignity and boundaries; Zura Spa standard; client experience — all sit above Driver coordination.",
-          "Whoever has more years at Zura.",
-          "Whoever speaks more confidently."
+          "client applause",
+          "input from the Passenger",
+          "a photograph",
+          "management in the room"
         ]
       },
       {
         "id": 20,
-        "prompt": "Management wants everyone to rotate as Driver this week. One therapist has not practised Takeover, Turnover, End Routine, reporting, or observation as Passenger. What does eligibility require?",
+        "prompt": "The closing mindset says a strong Driver proves leadership by…",
         "options": [
-          "They should drive immediately so rotation is fair.",
-          "Passing time at Zura is enough.",
-          "Driver status comes from readiness, not tenure. They should complete appropriate Passenger sessions, Driver training, and Driver assessment first.",
-          "They may drive only if the Passenger agrees to secretly lead."
+          "dominating the Passenger",
+          "taking responsibility",
+          "talking more",
+          "never listening"
         ]
       }
     ]

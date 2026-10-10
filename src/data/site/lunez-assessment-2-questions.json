@@ -1,225 +1,215 @@
 [
   {
-    "title": "SECTION E — ERECTION, EJACULATION & PHYSIOLOGICAL RESPONSES",
+    "title": "SECTION A — APPLIED PRACTICE",
     "questions": [
       {
         "id": 1,
-        "prompt": "A client loses his erection halfway through Lunez. What should the therapist do?",
+        "prompt": "The client becomes flaccid mid-Lunez. You are tempted to work aggressively to restore the erection. What does the article require you to remember?",
         "options": [
-          "Panic and work aggressively to restore the erection.",
-          "Assume the massage has failed.",
-          "Remain calm, professional, and neutral, and continue the approved massage.",
-          "End the session immediately in embarrassment."
+          "Erection is a response, not an instruction. Loss of erection is normal and does not mean the massage failed. Do not suddenly work aggressively to restore it.",
+          "Flaccidity means you personally failed and must chase performance.",
+          "You should unofficially extend until erection returns.",
+          "You should treat erection as a command from the client."
         ]
       },
       {
         "id": 2,
-        "prompt": "What should a therapist understand about erection as a measure of massage quality?",
+        "prompt": "Ejaculation occurs. You panic and end everything abruptly, or you treat it as the only success. What is the standard?",
         "options": [
-          "Erection is a possible physiological response, not an instruction and not the measure of success or failure.",
-          "No erection always means the therapist is unskilled.",
-          "A strong erection means the therapist should become personally involved.",
-          "Erection means the client now owns the therapist’s time."
+          "The service must always end instantly.",
+          "If ejaculation occurs, it is a physiological response. If it does not, the massage has not automatically failed. Where it occurs, the service should not necessarily end abruptly.",
+          "No ejaculation means you must continue forever.",
+          "Ejaculation is the purpose of the service."
         ]
       },
       {
         "id": 3,
-        "prompt": "A client ejaculates after approximately 12 minutes of Lunez. What should happen next?",
+        "prompt": "The client asks you to go faster because they feel close to release. What must you not abandon?",
         "options": [
-          "Suddenly terminate the massage and leave.",
-          "Celebrate or comment as if it were a competition.",
-          "Clean the client appropriately, remain professional, and if time remains continue calming approved work such as inner thighs, pelvic region, perineal area, hips, and waist.",
-          "Immediately start a second unofficial Lunez without authorization."
+          "The service structure. Do not abandon it because the client becomes erect, appears close to ejaculation, asks to go faster, expresses impatience, or feels pressure to release.",
+          "The client's demand to make ejaculation the sole focus.",
+          "Romantic interpretation of the request.",
+          "An unofficial time extension until release."
         ]
       },
       {
         "id": 4,
-        "prompt": "Why should appropriate relaxation work continue after ejaculation when time remains?",
+        "prompt": "The client tries to touch you sexually. They persist after a calm redirect. What sequence does the article give?",
         "options": [
-          "To try to recreate sexual excitement immediately.",
-          "Because Lunez is more than the client’s sexual response; remaining time supports relaxation, pelvic comfort, and professional closure.",
-          "Because the therapist must force a second ejaculation.",
-          "Because the client is now allowed to touch the therapist."
+          "Laugh it off.",
+          "Stop → step away → leave safely → report → escalate.",
+          "Reciprocate to keep the booking.",
+          "Negotiate privately for extra pay."
         ]
       },
       {
         "id": 5,
-        "prompt": "A therapist thinks, “He ejaculated quickly, so he must personally be attracted to me.” What is wrong with this mindset?",
+        "prompt": "How should you explain disappointment when there is no ejaculation?",
         "options": [
-          "Nothing is wrong; it is usually true.",
-          "It is only wrong if the client is married.",
-          "It personalizes a bodily response to the service and blurs professional and emotional boundaries.",
-          "The therapist should ask the client on a date to confirm."
+          "Apologize as if you failed sexually.",
+          "Calmly: Lunez may create sensual sensations and some clients may experience release, but ejaculation or orgasm is not guaranteed. Example: “Sir, Lunez is a timed massage service. Release may happen, but it isn't guaranteed.”",
+          "Promise it next time for free.",
+          "Blame the client's body harshly."
         ]
       },
       {
         "id": 6,
-        "prompt": "A client says, “Why did I lose my erection? Something must be wrong.” How should the therapist respond?",
+        "prompt": "You think, “I am excellent because he came quickly.” How should therapist performance actually be evaluated?",
         "options": [
-          "“That’s okay, sir. Your body’s response can change during massage. Just relax.”",
-          "“It means I failed.”",
-          "“It means you need internal prostate massage.”",
-          "“I will now work aggressively until it returns.”"
+          "Did I follow the Lunez standard? Technique, time, communication, boundaries, and dignity — not “Did he come?”",
+          "How quickly ejaculation happened.",
+          "Whether compliments felt romantic.",
+          "Whether you hid fluids from the hygiene procedure."
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION F — MANAGING CLIENT EXPECTATIONS",
-    "questions": [
+      },
       {
         "id": 7,
-        "prompt": "When should therapists begin managing the client's expectations about ejaculation?",
+        "prompt": "There are bodily fluids. What must happen before the room is used again?",
         "options": [
-          "Only after the client becomes disappointed.",
-          "Before Lunez begins, so the client understands duration, possible sensations, and that ejaculation is not guaranteed.",
-          "Never. The client should find out at the end.",
-          "Only if the client is a first-time visitor from another spa."
+          "Quick wipe is enough if you are busy.",
+          "Materials contaminated with bodily fluids must be handled hygienically and disposed of or cleaned appropriately. Follow handwashing, linen-change, client clean-up, equipment sanitation, barrier practices, and room-reset.",
+          "Hide linens in a cupboard.",
+          "Skip reset if the next client is Combo."
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION G — CONSENT & BOUNDARIES",
-    "questions": [
+      },
       {
         "id": 8,
-        "prompt": "A client initially consented to Lunez but later says, “Please stop touching that area.” What should happen immediately?",
+        "prompt": "You see unexplained severe pelvic pain, sores, or suspected infection. What should you do?",
         "options": [
-          "Continue because he already consented at the start.",
-          "Stop. Consent can be withdrawn. Pause, clarify, and do not assume.",
-          "Touch more gently but continue the same area.",
-          "Ask the co-therapist to continue instead."
+          "Massage through it as wellness.",
+          "Stop, refer or escalate rather than massage through those situations. Lunez is not expected to diagnose or cure persistent pelvic, urinary, erectile, prostate or genital-health symptoms.",
+          "Increase genital focus.",
+          "Promise a medical outcome."
         ]
       },
       {
         "id": 9,
-        "prompt": "What does active consent mean during a Lunez session?",
+        "prompt": "The client interprets the session as romantic because of erection and compliments. What should you think?",
         "options": [
-          "Consent is given once at booking and never needs checking again.",
-          "Consent remains active throughout. If the client says stop, stop. If discomfort appears, pause and clarify. If consent is unclear, do not assume.",
-          "Consent means the client may touch the therapist.",
-          "Consent is only required for Zura Massage, not Lunez."
+          "“This is about me personally.”",
+          "“This is the client's bodily response to the service. It is not about me personally.” Do not interpret erection, ejaculation, compliments, excitement, or sexual comments as romantic connection.",
+          "“I should exchange numbers.”",
+          "“Reciprocal contact is now included.”"
         ]
       },
       {
         "id": 10,
-        "prompt": "During Lunez, a client reaches toward the therapist's breast. What should the therapist do?",
+        "prompt": "No ejaculation, service ends at the appropriate time. How does the article score this?",
         "options": [
-          "Allow it because Lunez is intimate.",
-          "Laugh and continue.",
-          "Redirect where appropriate and calmly state the boundary: sexual touching of the therapist is not part of Lunez.",
-          "Hold the client’s hand to be friendly."
+          "Therapist failure.",
+          "Successful boundary management.",
+          "A reason to unofficially extend.",
+          "Misrepresentation."
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title": "SECTION B — FILL IN THE GAP",
+    "questions": [
       {
         "id": 11,
-        "prompt": "The client continues attempting to sexually touch the therapist after being clearly told to stop. What should the therapist do next?",
+        "prompt": "Complete: “Orgasm is possible, not promised. Erection is a response, not an instruction. Loss of erection is normal and does not mean the massage failed. Ejaculation is a response, not the _____ of the service.”",
         "options": [
-          "Stop, step away, leave safely, report, and escalate.",
-          "Give a second chance silently.",
-          "Complete the session first, then complain later only if angry.",
-          "Negotiate what touching is allowed for extra pay."
+          "hygiene",
+          "purpose",
+          "price",
+          "duration"
         ]
       },
       {
         "id": 12,
-        "prompt": "Give three examples of activities that clearly fall outside the standard Lunez service.",
+        "prompt": "Complete: “The therapist should never psychologically assume responsibility for creating _____.\"",
         "options": [
-          "Inner-thigh massage, waist massage, and draping.",
-          "Oral sex, sexual intercourse, and reciprocal genital touching.",
-          "Handwashing, linen change, and room reset.",
-          "Confirming consent, checking comfort, and ending on time."
+          "relaxation",
+          "orgasm",
+          "clean linens",
+          "handovers"
         ]
       },
       {
         "id": 13,
-        "prompt": "Explain the statement: “The client pays for the approved service, not access to the therapist.”",
+        "prompt": "Complete: “A client pays for the approved service — not access to the _____.\"",
         "options": [
-          "Payment buys the approved Lunez service only. It does not buy the therapist’s body, sexual access, or permission to ignore boundaries.",
-          "Payment means the client can request anything.",
-          "Payment removes the need for consent.",
-          "Payment transfers the therapist’s personal number to the client."
+          "price list",
+          "therapist's body",
+          "waiting room",
+          "Combo discount"
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION H — HYGIENE, SAFETY & HEALTH CONCERNS",
-    "questions": [
+      },
       {
         "id": 14,
-        "prompt": "During preparation for Lunez, the therapist notices an open sore in an area that would normally be massaged. What should the therapist do?",
+        "prompt": "Complete: “If consent becomes unclear — do not _____.\"",
         "options": [
-          "Massage around it firmly so it heals faster.",
-          "Cover it with extra oil and continue.",
-          "Stop, do not massage through it, and escalate or refer rather than proceed as normal.",
-          "Ask the client to wash it after the session."
+          "pause",
+          "assume",
+          "report",
+          "wash hands"
         ]
       },
       {
         "id": 15,
-        "prompt": "A client reports severe unexplained genital pain and visible swelling. How should this affect the therapist's decision to proceed with Lunez?",
+        "prompt": "Complete: “Promising ejaculation = _____.\"",
         "options": [
-          "The therapist should not simply proceed. Pause, modify, stop, escalate, or advise appropriate health assessment.",
-          "Proceed with deeper pressure to reduce the swelling.",
-          "Proceed if the client insists, with no further thought.",
-          "Proceed but skip reporting."
-        ]
-      },
-      {
-        "id": 16,
-        "prompt": "A client says, “I have painful urination and fever, but please massage deeply around my prostate area.” What should the therapist do?",
-        "options": [
-          "Do as asked because the client consented.",
-          "Do not proceed as requested. This is outside safe Lunez practice and needs stop / refer / escalate, not deep massage.",
-          "Offer internal prostate massage instead.",
-          "Give medical advice and diagnose the cause."
-        ]
-      },
-      {
-        "id": 17,
-        "prompt": "Why are hygiene procedures particularly important during Lunez Massage?",
-        "options": [
-          "Because Lunez involves intimate regions and may involve bodily fluids, so handwashing, linen, clean-up, barriers, equipment, and room reset must be strict.",
-          "Because hygiene is only for Zura Massage.",
-          "Because perfume can replace cleaning.",
-          "Because clients prefer therapists not to wash their hands."
+          "good sales",
+          "misrepresentation",
+          "wellness education",
+          "required courtesy"
         ]
       }
     ]
   },
   {
-    "title": "SECTION I — PROFESSIONAL JUDGMENT & ACCOUNTABILITY",
+    "title": "SECTION C — ARTICLE READING CHECK",
     "questions": [
       {
-        "id": 18,
-        "prompt": "Two therapists complete Lunez. During the session, the client repeatedly asked for prohibited sexual activity. They refused but decide not to report it because “nothing eventually happened.” What is wrong with this decision?",
+        "id": 16,
+        "prompt": "Lunez does not automatically include which of the following (from the article list)?",
         "options": [
-          "Nothing. Refusal is enough.",
-          "They should have agreed to one prohibited request to keep the client.",
-          "Repeated prohibited requests are a boundary concern. Hiding it leaves leadership unaware and weakens safety and accountability.",
-          "They should have argued with the client in front of the next guest."
+          "Inner-thigh massage.",
+          "Oral sex, sexual intercourse, reciprocal genital touching, romantic kissing, penetrative sexual activity, or internal prostate procedures.",
+          "Controlled pacing.",
+          "Hygiene reset."
+        ]
+      },
+      {
+        "id": 17,
+        "prompt": "If the client says stop, the article's instruction is…",
+        "options": [
+          "finish the genital phase first.",
+          "stop.",
+          "negotiate.",
+          "ask them to explain later while you continue."
+        ]
+      },
+      {
+        "id": 18,
+        "prompt": "The example boundary line when a client attempts to touch the therapist sexually is…",
+        "options": [
+          "Silence.",
+          "“Sir, please allow me to perform the massage. Sexual touching of the therapist is not part of Lunez.”",
+          "“Only if you book Combo.”",
+          "“Let's switch roles.”"
         ]
       },
       {
         "id": 19,
-        "prompt": "Describe the behaviour of a therapist who demonstrates strong professional understanding while performing Lunez.",
+        "prompt": "Therapists should continue alternating with surrounding thigh, pelvic and perineal work rather than…",
         "options": [
-          "Structured, calm, professional, controlled, boundaried, hygienic, timed, and complete, with consent and client comfort protected.",
-          "Rushes to ejaculation and jokes about the client’s body.",
-          "Extends unofficially until release, then leaves without closing.",
-          "Allows reciprocal touching if the client is polite."
+          "maintaining structure.",
+          "making ejaculation the sole focus of the service.",
+          "watching time.",
+          "checking consent."
         ]
       },
       {
         "id": 20,
-        "prompt": "After Lunez, a therapist says, “The client never became erect, so I clearly performed badly.” What factors should actually be used to assess the therapist's performance?",
+        "prompt": "The Lunez Mindset closing says sensual response may occur, but it is not…",
         "options": [
-          "Whether ejaculation occurred, and how quickly.",
-          "Whether the Lunez standard, technique, timing, communication, boundaries, hygiene, and dignity of client and therapist were followed.",
-          "Whether the client asked for the therapist’s number.",
-          "Whether the massage hurt."
+          "possible.",
+          "the standard of success.",
+          "a reason for hygiene.",
+          "something to remain calm about."
         ]
       }
     ]

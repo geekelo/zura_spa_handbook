@@ -1,275 +1,215 @@
 [
   {
-    "title": "SECTION A — PROFESSIONAL IDENTITY AND TITLES",
+    "title": "SECTION A — APPLIED PRACTICE",
     "questions": [
       {
         "id": 1,
-        "prompt": "During a handover in front of Client Sam, Thr. Ada says, “Jane, Room 2 is ready — tell her to hurry.” Jane is the other therapist. What is the most professional repair, and why does first-name-only matter here?",
+        "prompt": "A colleague is your close friend. In front of a client you call them “babe” and tease them by first name only. What did you confuse?",
         "options": [
-          "Keep using first names. Clients enjoy seeing therapists as casual friends.",
-          "Address her as Therapist Jane or Thr. Jane. In front of clients, work-name-plus-title keeps a clear professional identity and shows the client a disciplined team, not a private chat.",
-          "Use a nickname so the client feels included in staff culture.",
-          "Say nothing; the client already knows who Jane is."
+          "Warmth with the Zura standard. Familiarity does not remove professionalism, and friendship does not permit disrespect.",
+          "Nothing. Friendship always overrides titles.",
+          "Leadership with friendship, so titles never apply.",
+          "Client privacy with tone."
         ]
       },
       {
         "id": 2,
-        "prompt": "A therapist is close friends with the Staff Manager after hours. On shift they refuse to use SM or SM + work name because “She’s my friend; titles are fake.” What is the Zura position?",
+        "prompt": "You need to tell another therapist that Client Sam is waiting. Which line matches the internal standard?",
         "options": [
-          "Friendship cancels leadership titles during work.",
-          "Titles are only for people you do not like.",
-          "Familiarity does not remove professionalism. While she is carrying out SM responsibility, the role should be recognized. Knowing someone personally is not permission to erase the role.",
-          "Use the title only if other therapists are watching."
+          "“That guy in Room 2 is waiting.”",
+          "“Client Sam is waiting in Room 2.”",
+          "“The tall man is waiting.”",
+          "“That customer is waiting.”"
         ]
       },
       {
         "id": 3,
-        "prompt": "After a correction, a therapist replies, “Okay o, Manager!” with a laugh and eye-roll. They later say, “I used the title, so it was respectful.” Was it?",
+        "prompt": "You say “Yes, Sir” with sarcastic volume and a dismissive face. Why is this still a failure?",
         "options": [
-          "Yes. Any use of a leadership word counts as respect.",
-          "No. Tone, facial expression, volume, and context can turn a title into mockery. A respectful word spoken sarcastically is still disrespect.",
-          "Yes, if the Manager is younger than the therapist.",
-          "Only wrong if a client heard it; among staff it is humour."
+          "The word is enough; tone is private.",
+          "A respectful title spoken disrespectfully is still disrespect. The word must match the tone.",
+          "Sarcasm is allowed if the title is correct.",
+          "Clients cannot hear facial expression."
         ]
       },
       {
         "id": 4,
-        "prompt": "A therapist shouts “YES SIR!” at a client who asked for lighter pressure, with an aggressive volume. They used an approved word. What failed?",
+        "prompt": "A Lead Therapist holds the LT role today. You want to make responsibilities clear without creating fear. What is appropriate?",
         "options": [
-          "Nothing. Sir is always enough.",
-          "The client should not request pressure changes.",
-          "The title must match the tone. Sir, Ma, or Madam can sound respectful or insulting depending on delivery. The word without respectful tone is not the standard.",
-          "Leaders may speak this way; therapists may not."
+          "“The LT will assess the routine.” or “LT Stacey” where helpful.",
+          "Never use roles; roles create superiority.",
+          "Call them “boss” sarcastically.",
+          "Address them as “that senior person.”"
         ]
       },
       {
         "id": 5,
-        "prompt": "A Lead Therapist asks to be called LT during assessments, not only “my guy.” A colleague ignores this because “We are all therapists.” What is being refused?",
+        "prompt": "You do not know the client's name and keep saying “that woman.” What should you do?",
         "options": [
-          "Unnecessary formality with no operational purpose.",
-          "A recognized leadership role that exists because responsibilities differ. Deliberately ignoring it because of friendship or sameness weakens coordination.",
-          "The colleague’s right to choose any name they like.",
-          "Proof that LT is superior as a human being."
+          "Keep describing appearance so you never ask.",
+          "Politely ask: “Please Sir/Ma, may I have your name?” then use it appropriately.",
+          "Invent a nickname.",
+          "Use ethnicity as the identifier."
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION B — CLIENTS: NAMES, DESCRIPTIONS AND DIRECT ADDRESS",
-    "questions": [
+      },
       {
         "id": 6,
-        "prompt": "A therapist tells the next room, “The Indian man in Room 2 wants more oil,” even though the booking name is Client Raj. Why is this more than a small wording habit?",
+        "prompt": "You need to correct a junior therapist's wording in public, in a humiliating tone. What is the standard?",
         "options": [
-          "It is faster than using a name, so it is professional.",
-          "Where the name is known, use Client + name. Appearance, nationality, or body descriptions can become offensive, confuse the team, and teach others to identify people as objects rather than clients.",
-          "Nationality is the most accurate identifier.",
-          "It is allowed if the client cannot hear."
+          "Public humiliation teaches faster.",
+          "Correction should not become humiliation. Respect remains even when correcting.",
+          "Leaders may belittle because leadership permits it.",
+          "Never correct anyone."
         ]
       },
       {
         "id": 7,
-        "prompt": "Nobody asked the waiting guest’s name. Staff keep saying “that woman.” What should happen, and what does the name actually do?",
+        "prompt": "You speak extra sweetly to a wealthy-looking client and casually to another. What did the article forbid?",
         "options": [
-          "Avoid asking; names create unwanted intimacy.",
-          "Politely ask, for example: “Please Sir/Ma, may I have your name?” Then use it. The name personalizes care, improves handovers, reduces physical descriptions, and helps the person feel recognized.",
-          "Guess a name so you do not have to ask.",
-          "Only reception may ever know names."
+          "Using Sir and Ma at all.",
+          "Speaking differently to someone simply because they appear wealthy, influential or important.",
+          "Using Client + Name internally.",
+          "Asking for a name."
         ]
       },
       {
         "id": 8,
-        "prompt": "A regular client says, “Just call me Babe, like last time.” What stays true even if they are familiar?",
+        "prompt": "In a handover you say, “Thr. Jane, Client Michael reported pain around his shoulder.” Why is this stronger than “Jane, the guy has shoulder issues”?",
         "options": [
-          "Repeated visits cancel professional address. Use pet names freely.",
-          "Familiarity does not automatically authorize pet names, romantic names, or sexualized names. Keep a respectful form (Mr./Ms./Sir/Ma/Madam or their professionally acceptable preference) unless there is an appropriate, professionally acceptable context.",
-          "The therapist should use Babe internally and Mr. only on paper.",
-          "Refuse all first names forever, even if they prefer a respectful first-name style."
+          "It is excessive formality for its own sake.",
+          "It maintains professional identity, names the client as a client, and keeps the handover clear.",
+          "Work names should never be used.",
+          "Pain should never be mentioned."
         ]
       },
       {
         "id": 9,
-        "prompt": "The client prefers “Ms. Grace” when spoken to. Internally, a therapist still says “that customer from yesterday.” Which pairing matches the standard?",
+        "prompt": "A therapist repeatedly mocks leaders with titles used as jokes. How does the article classify this?",
         "options": [
-          "Direct: any nickname. Internal: “the customer.”",
-          "Direct: Ms. Grace (or her known preference). Internal: Client Grace. Direct address and internal reference both stay respectful and specific.",
-          "Internal slang is fine if direct speech is polite.",
-          "Use Client Grace only in written reports, never speech."
+          "Harmless humour.",
+          "Repeated mocking of colleagues or leaders is a professional conduct concern.",
+          "Required bonding.",
+          "Only a problem if a client complains in writing."
         ]
       },
       {
         "id": 10,
-        "prompt": "Two guests wait: one clearly wealthy, one not. A therapist uses “Sir” warmly with the first and “that guy” with the second. What standard is broken besides manners?",
+        "prompt": "The client prefers a known title. You ignore it and use a different one because it is “more formal.” What should you do?",
         "options": [
-          "None. Important people deserve better titles.",
-          "Respect should not change because someone appears wealthy, influential, or important. Dignity is not a reward for status. Client + name and respectful direct address apply to both.",
-          "The second guest should be addressed only by room number.",
-          "Wealthy clients must be addressed as Manager."
+          "Keep your favourite title.",
+          "Where the client's preferred title is known, that preference should be respected.",
+          "Never use Mr. or Ms.",
+          "Only use first names with clients."
         ]
       }
     ]
   },
   {
-    "title": "SECTION C — COLLEAGUES, FRIENDSHIP AND WHAT CLIENTS HEAR",
+    "title": "SECTION B — FILL IN THE GAP",
     "questions": [
       {
         "id": 11,
-        "prompt": "Two friends shout each other’s first names aggressively across the corridor while a client is walking to the treatment room. They say it is “just how we talk.” What should they consider?",
+        "prompt": "Complete: “At Zura Spa, familiarity does not remove professionalism, friendship does not permit disrespect, and leadership does not permit anyone to _____.\"",
         "options": [
-          "Clients never notice staff-to-staff talk.",
-          "Clients hear how therapists speak to each other. Aggressive shouting, mockery, or careless names can make the spa look poorly managed. Comfort with a friend is not permission to be careless with words at work.",
-          "Shouting is required so the whole floor knows who is needed.",
-          "Only English insults count; local-language jokes are always safe."
+          "give feedback",
+          "belittle another person",
+          "use work names",
+          "ask for a client's name"
         ]
       },
       {
         "id": 12,
-        "prompt": "A therapist uses a humiliating nickname for a colleague “as a joke.” The colleague laughs along. New staff copy it. What is the cultural risk?",
+        "prompt": "Complete the Mode-of-Address Standard: “IDENTIFY → ADDRESS → RESPECT → _____.\"",
         "options": [
-          "Jokes never shape culture if people laugh.",
-          "New therapists learn culture by watching. If mockery is normalized, it spreads. Humiliating nicknames remain inconsistent with the standard even if the target pretends it is fine.",
-          "Copying proves the nickname is now official.",
-          "Only written nicknames are a problem."
+          "DOMINATE",
+          "MAINTAIN",
+          "RELAX",
+          "IMPRESS"
         ]
       },
       {
         "id": 13,
-        "prompt": "A therapist is angry after a missed towel. They call a junior “useless” in the linen room, then use “Thr. Tolu” politely in the meeting. What failed?",
+        "prompt": "Complete: “THE WORD MUST MATCH THE _____. A respectful title spoken disrespectfully is still disrespect.\"",
         "options": [
-          "Nothing, because the meeting was professional.",
-          "Respect should be consistent, not a performance for important people. Position does not determine dignity. Junior staff deserve respectful address even during frustration.",
-          "Juniors should expect harsh names until they are senior.",
-          "Anger always authorizes any mode of address."
+          "UNIFORM",
+          "TONE",
+          "RANK",
+          "PRICE"
         ]
       },
       {
         "id": 14,
-        "prompt": "A colleague needs help. Which request best matches professional colleague address without sounding cold?",
+        "prompt": "Complete: “The purpose is not excessive formality. It is to maintain a clear _____.\"",
         "options": [
-          "“You, come here now.”",
-          "“Therapist Jane, please can you assist me?” Warmth can sit inside a professional form. The standard is not stiffness; it is identity plus courtesy.",
-          "No request is allowed until a leader speaks.",
-          "First name only, because “please” already shows respect."
+          "social ranking",
+          "professional identity",
+          "friendship circle",
+          "sales script"
         ]
       },
       {
         "id": 15,
-        "prompt": "Staff form a clique: friends get first names and jokes; outsiders get clipped, cold titles used to freeze them out. Why is this still a mode-of-address problem?",
+        "prompt": "Complete: “We can be warm without becoming careless, familiar without becoming disrespectful, friendly without becoming inappropriate, and firm without becoming _____.\"",
         "options": [
-          "Titles are only for outsiders; friends are exempt.",
-          "Different levels of respect based on friendship, seniority, or popularity create division. Professional forms should not become a weapon to include some people and exclude others.",
-          "Cliques improve teamwork.",
-          "Cold titles are always more professional than warmth."
+          "professional",
+          "rude",
+          "clear",
+          "brief"
         ]
       }
     ]
   },
   {
-    "title": "SECTION D — LEADERSHIP, CORRECTION AND POWER",
+    "title": "SECTION C — ARTICLE READING CHECK",
     "questions": [
       {
         "id": 16,
-        "prompt": "A Supervisor uses their title while humiliating a therapist in front of others: “SP is talking — you will listen.” The words include a role. Is that the standard?",
+        "prompt": "When referring to a client within the team, the article prefers Client + Name over which kind of language?",
         "options": [
-          "Yes. Leadership titles allow public humiliation.",
-          "No. Titles communicate responsibility, not greater human value. Leaders must demonstrate the same respect they expect. Humiliation is not professional address.",
-          "Yes, if the therapist made a real mistake.",
-          "Only Managers may humiliate; SPs may not."
+          "“Client Sam is waiting in Room 2.”",
+          "“That man,” “the guy inside,” “that customer,” or identifying people by appearance or nationality.",
+          "“Mr. Samuel” when speaking to the client.",
+          "“Thr. Jane” in a handover."
         ]
       },
       {
         "id": 17,
-        "prompt": "A therapist receives a fair correction and answers with insults. Another therapist gives the same correction by mocking the person’s work name. Who broke the standard?",
+        "prompt": "Approved direct-address forms for clients include…",
         "options": [
-          "Only the person who was corrected.",
-          "Both. Correction is not permission for disrespect in either direction: do not answer correction with insults, and do not correct by humiliating.",
-          "Neither, because correction is always harsh.",
-          "Only if a client was in the room."
+          "Babe, guy, and first name only.",
+          "Mr. + Name, Ms. + Name, Sir, Ma, and Madam.",
+          "Customer + room number only.",
+          "Hey and yo."
         ]
       },
       {
         "id": 18,
-        "prompt": "A therapist used the wrong work name once, accepted correction, and adjusted. Another repeatedly mocks the SM after being told to stop. How should accountability differ?",
+        "prompt": "The hospital comparison in the article is used to explain that…",
         "options": [
-          "Punish both equally; any error is disciplinary.",
-          "Occasional forgetting plus accepting correction is normal adjustment. Repeated deliberate mocking of colleagues or leaders is a professional-conduct concern. The aim is a culture of intentional respect, not punishing harmless wording mistakes.",
-          "Ignore both; mode of address is meaningless.",
-          "Only written mistakes count."
+          "we diagnose clients.",
+          "just as a hospital consistently refers to the person receiving care as a patient, we consistently recognize the person receiving our service as a client.",
+          "clients are patients.",
+          "titles are medical."
         ]
       },
       {
         "id": 19,
-        "prompt": "A Therapist Guide is correcting technique. A senior-tenured therapist says, “Don’t TG me; I was here first.” What has tenure been confused with?",
+        "prompt": "In the Quick Guide, how is a Therapist Guide addressed?",
         "options": [
-          "Tenure always outranks a TG title on the floor.",
-          "Leadership roles exist for responsibility, not personal superiority. Professional address recognizes the role in that moment. Tenure is not a licence to erase the TG.",
-          "The TG should stop using any title with tenured staff.",
-          "The senior therapist should only be called Manager."
+          "Boss Mabel",
+          "TG / TG Jane (example: TG Mabel in the role section)",
+          "Just Mabel always",
+          "Customer Guide"
         ]
       },
       {
         "id": 20,
-        "prompt": "Where private correction would work, a leader chooses a loud public dressing-down using the therapist’s name as a punchline. What should have guided them?",
+        "prompt": "The closing standard says every person receiving our service remains…",
         "options": [
-          "Public shame trains the whole team faster.",
-          "Correct privately and respectfully where that is appropriate. Using someone’s name to humiliate them is not “being firm.” Firmness without rudeness is still required.",
-          "Names should never be used during correction.",
-          "Only clients may be corrected privately."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION E — CULTURE, CONSISTENCY AND THE FULL STANDARD",
-    "questions": [
-      {
-        "id": 21,
-        "prompt": "A therapist says, “It’s only what I called her — she’s not actually hurt.” Why does Zura still treat repeated careless address as serious?",
-        "options": [
-          "Because wording never affects culture.",
-          "How people address each other gradually forms culture. If careless talk is tolerated, it can grow into mockery, cliques, resistance to leadership, weak client boundaries, and hostility. Mode of address is part of order, professionalism, and dignity.",
-          "Because every slip must be a written warning.",
-          "Because titles exist only for legal documents."
-        ]
-      },
-      {
-        "id": 22,
-        "prompt": "During handover, which script best shows identity, client dignity, and useful clinical detail together?",
-        "options": [
-          "“The short guy likes it hard. Jane, go.”",
-          "“Therapist Clara, this is Client Sam. Client Sam prefers medium pressure and has tension around his shoulders.” Everyone is named with role; the client is not reduced to a body or a joke.",
-          "“Sam wants oil. The other one knows.”",
-          "Whisper the details so titles are unnecessary."
-        ]
-      },
-      {
-        "id": 23,
-        "prompt": "A therapist uses perfect titles when the Manager is present and slang insults when they leave. What mindset is missing?",
-        "options": [
-          "Titles are only a show for leadership.",
-          "“I can be comfortable without becoming careless.” Professional communication should be normal conduct, not a performance when someone important is watching.",
-          "The Manager should never see real staff culture.",
-          "Insults among peers build honesty."
-        ]
-      },
-      {
-        "id": 24,
-        "prompt": "A colleague uses a sexually loaded nickname for another therapist “because we are close.” Why is this in a different category from forgetting “Thr.” once?",
-        "options": [
-          "It is the same as a small title slip.",
-          "Degrading, discriminatory, or sexually inappropriate modes of address are a serious disciplinary concern. Closeness does not authorize sexualized naming at work.",
-          "Sexualized names are allowed if both people smile.",
-          "It is only a problem in client-facing rooms, not the staff area."
-        ]
-      },
-      {
-        "id": 25,
-        "prompt": "Which sequence captures the Mode of Address Standard, and what must still sit on top of every title?",
-        "options": [
-          "IGNORE ROLE → USE NICKNAME → SWITCH TONE WHEN ANGRY",
-          "IDENTIFY → ADDRESS → RESPECT → MAINTAIN. The word must match the tone. Warm without careless, familiar without disrespectful, friendly without inappropriate, firm without rude.",
-          "TITLE → FEAR → SILENCE",
-          "FRIENDSHIP FIRST → ROLE NEVER"
+          "a friend after payment",
+          "a client: Client Sam. Client Grace.",
+          "a family member",
+          "optional to name"
         ]
       }
     ]

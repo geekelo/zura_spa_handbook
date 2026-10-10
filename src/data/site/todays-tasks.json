@@ -13,10 +13,10 @@
           "to": "/onboarding/therapist-foundation-knowledge"
         },
         {
-          "id": "poverty-mindset",
-          "title": "Poverty Mindset",
-          "description": "Read and apply the issue on scarcity, envy, jealousy, inferiority, and client service.",
-          "to": "/courses/self-development/poverty-mindset"
+          "id": "teachability",
+          "title": "Teachability: The Willingness to Learn",
+          "description": "Read how we respond when we discover that we don't know — admit, think, search, process, act, and reflect.",
+          "to": "/courses/self-development/teachability"
         }
       ]
     },
@@ -27,8 +27,8 @@
         {
           "id": "assessment-of-the-day",
           "title": "Assessment of the Day",
-          "description": "Complete the Poverty Mindset Applied Assessment, download the PDF, and submit.",
-          "to": "/assessments/poverty-mindset/applied-assessment"
+          "description": "Complete the Teachability Applied Assessment, download the PDF, and submit.",
+          "to": "/assessments/teachability/applied-assessment"
         }
       ]
     }

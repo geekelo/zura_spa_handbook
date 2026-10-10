@@ -165,7 +165,7 @@ export function getRelatedAssessments(articleId) {
 }
 
 export const assessmentOfTheDay = getAssessment(
-  'poverty-mindset',
+  'teachability',
   'applied-assessment',
 )
 

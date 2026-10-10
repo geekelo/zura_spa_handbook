@@ -11,7 +11,7 @@
         {
           "id": "assessment-1",
           "title": "Lunez Massage Assessment 1",
-          "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "lunez-assessment-1",
           "articleTo": "/categories/about/the-lunez-massage",
@@ -23,7 +23,7 @@
         {
           "id": "assessment-2",
           "title": "Lunez Massage Assessment 2",
-          "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "lunez-assessment-2",
           "articleTo": "/categories/about/the-lunez-massage",
@@ -42,7 +42,7 @@
         {
           "id": "applied-assessment",
           "title": "Problem-Solving Mindset Applied Assessment",
-          "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "problem-solving-mindset",
           "articleTo": "/categories/standards/problem-solving-mindset",
@@ -61,7 +61,7 @@
         {
           "id": "applied-assessment",
           "title": "Appearance Standard Applied Assessment",
-          "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "appearance-standard",
           "articleTo": "/categories/standards/appearance-standard",
@@ -80,7 +80,7 @@
         {
           "id": "applied-assessment",
           "title": "Driver–Passenger Session Standard Applied Assessment",
-          "summary": "20 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "driver-passenger-session-standard",
           "articleTo": "/categories/standards/driver-passenger-session-standard",
@@ -99,7 +99,7 @@
         {
           "id": "applied-assessment",
           "title": "Mode of Address Standard Applied Assessment",
-          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "mode-of-address",
           "articleTo": "/categories/standards/mode-of-address",
@@ -118,7 +118,7 @@
         {
           "id": "applied-assessment",
           "title": "Poverty Mindset Applied Assessment",
-          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "poverty-mindset",
           "articleTo": "/courses/self-development/poverty-mindset",
@@ -137,7 +137,7 @@
         {
           "id": "applied-assessment",
           "title": "Teachability Applied Assessment",
-          "summary": "25 applied questions. Choose an option, give your reason, then download a PDF and submit.",
+          "summary": "20 questions: 10 applied, 5 fill-in-the-gap, 5 article-reading checks. Choose an option, give your reason, then download a PDF and submit.",
           "type": "fillable-assessment",
           "questionsId": "teachability",
           "articleTo": "/courses/self-development/teachability",

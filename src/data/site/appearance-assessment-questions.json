@@ -1,225 +1,215 @@
 [
   {
-    "title": "SECTION A — UNDERSTANDING THE STANDARD",
+    "title": "SECTION A — APPLIED PRACTICE",
     "questions": [
       {
         "id": 1,
-        "prompt": "A therapist says, “Appearance is only about looking attractive in the uniform.” What is the most accurate response?",
+        "prompt": "Your uniform is stained and smells of sweat. A client is waiting. What is the article's professional move?",
         "options": [
-          "That is correct. Attractiveness is the whole standard.",
-          "The Appearance Standard is about cleanliness, neatness, freshness, professionalism, confidence, and readiness to serve — not simply looking attractive.",
-          "Appearance only matters if management is watching.",
-          "Massage skill makes appearance unimportant."
+          "Attend anyway; massage skill hides hygiene.",
+          "Cover it with extra perfume and proceed.",
+          "Change into a clean, fresh, properly worn uniform before receiving the client.",
+          "Tell the client uniforms do not matter in wellness."
         ]
       },
       {
         "id": 2,
-        "prompt": "Why is professional appearance part of the massage service itself?",
+        "prompt": "You think, “This is only about how I personally look.” What may the client think instead, according to the article?",
         "options": [
-          "Because clients never notice hygiene during close contact.",
-          "Because massage involves close physical contact, so the client will notice uniform, hair, hands, nails, breath, body odour, footwear, and overall presentation.",
-          "Because appearance is only for photos.",
-          "Because therapists represent themselves, not Zura Spa."
-        ]
-      },
-      {
-        "id": 3,
-        "prompt": "A therapist thinks, “This is only about how I personally look.” What may the client think instead?",
-        "options": [
-          "“This is how Zura Spa operates.” One therapist’s appearance can strengthen or weaken the whole brand.",
           "“This has nothing to do with the spa.”",
+          "“This is how Zura Spa operates.” One therapist's appearance can strengthen or weaken the whole brand.",
           "“I will only judge the oil.”",
           "“Appearance is optional if the massage is long.”"
         ]
       },
       {
-        "id": 4,
-        "prompt": "Which mindset matches the Appearance Standard?",
-        "options": [
-          "Groom properly only when expecting many clients or when management is present.",
-          "If the therapist is available to attend to a client, the therapist should be client-ready. Appearance is part of the client’s experience.",
-          "Hygiene can wait until after the first session.",
-          "Colleagues are responsible for reminding you every day."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION B — UNIFORM, HAIR AND HYGIENE",
-    "questions": [
-      {
-        "id": 5,
-        "prompt": "The approved uniform is stained and smells of sweat, but the therapist has a client waiting. What should they do?",
-        "options": [
-          "Attend the client anyway because the massage will hide it.",
-          "Cover the smell with extra perfume and proceed.",
-          "Change into a clean, fresh, properly worn uniform before receiving the client, and inspect the uniform before the first client.",
-          "Tell the client that uniforms do not matter."
-        ]
-      },
-      {
-        "id": 6,
-        "prompt": "Long hair keeps falling onto the client and into the oil during massage. What is the issue?",
-        "options": [
-          "Nothing. Hair is always allowed on the client.",
-          "Hair should be clean, neat, controlled, and secured so it does not fall on the client, into oil, or require constant touching.",
-          "The client should hold the therapist’s hair.",
-          "Only short hair is allowed at Zura Spa."
-        ]
-      },
-      {
-        "id": 7,
-        "prompt": "A therapist did not bathe and uses heavy body spray to cover body odour. What is wrong with this?",
+        "id": 3,
+        "prompt": "You did not bathe and use heavy body spray. What is wrong?",
         "options": [
           "Nothing. Fragrance replaces bathing.",
-          "Fragrance supports cleanliness. It does not replace cleanliness. The therapist should not rely on perfume or body spray to cover poor hygiene.",
+          "Fragrance supports cleanliness. It does not replace cleanliness.",
           "Body spray is banned even after bathing.",
           "Clients prefer strong fragrance over freshness."
         ]
       },
       {
-        "id": 8,
-        "prompt": "A therapist becomes excessively sweaty mid-shift and still has another client. What is the responsible action?",
+        "id": 4,
+        "prompt": "You chew gum visibly throughout a professional massage. What should guide you?",
         "options": [
-          "Attend the next client immediately without freshening up.",
-          "Freshen up as needed, including changing clothing if it has absorbed excessive sweat, then continue.",
-          "Ask the client to ignore the smell.",
-          "Spray more perfume and skip deodorant."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION C — BREATH, HANDS, ACCESSORIES AND FOOTWEAR",
-    "questions": [
-      {
-        "id": 9,
-        "prompt": "Why is fresh breath part of the Appearance Standard?",
-        "options": [
-          "Because therapists never speak to clients.",
-          "Because the therapist may communicate at close range, so breath is part of appearance and hygiene.",
-          "Because chewing gum throughout the massage is required.",
-          "Because mouthwash replaces brushing forever."
-        ]
-      },
-      {
-        "id": 10,
-        "prompt": "A therapist chews gum visibly throughout a professional massage session. What should guide them instead?",
-        "options": [
-          "Chewing gum should not become distracting. The therapist should never be chewing gum visibly throughout a professional massage session.",
-          "Gum is the best way to show friendliness.",
-          "Gum is required after every sentence to the client.",
+          "Gum shows friendliness.",
+          "Chewing gum should not become distracting. Never chew gum visibly throughout a professional massage session.",
+          "Gum is required after every sentence.",
           "The client should also chew gum."
         ]
       },
       {
-        "id": 11,
-        "prompt": "Before massage, the therapist should personally ask: “Are my hands safe and comfortable for this client’s skin?” What does that include?",
-        "options": [
-          "Hands that are dirty as long as oil is applied.",
-          "Hands that are clean, maintained, free from visible dirt and offensive odour, and nails that are clean, short enough, smooth, and free from sharp or broken edges.",
-          "Excessively long nails to look fashionable.",
-          "Jewelry that scratches, as long as it is gold."
-        ]
-      },
-      {
-        "id": 12,
-        "prompt": "Which accessories should be removed before massage?",
-        "options": [
-          "None. Accessories always improve the service.",
-          "Large bracelets, noisy jewelry, sharp rings, items that can scratch, items that interfere with movement, and excessive accessories that distract from a professional appearance.",
-          "Only watches belonging to clients.",
-          "All clothing, including the uniform."
-        ]
-      },
-      {
-        "id": 13,
-        "prompt": "A therapist wears dirty, noisy shoes that slap on the treatment-room floor. Why is this a problem?",
-        "options": [
-          "Footwear has no standard.",
-          "Footwear should be clean, suitable, safe, quiet enough not to disturb relaxation, and free from offensive odour. Noisy footwear disrupts a relaxing environment.",
-          "Louder shoes help clients stay awake.",
-          "Dirty shoes show the therapist has been working hard."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION D — CHECKS, TEAM AND CORRECTION",
-    "questions": [
-      {
-        "id": 14,
-        "prompt": "Before becoming available for clients, what should every therapist do?",
-        "options": [
-          "Skip checks if they feel busy.",
-          "Conduct a brief personal appearance check: uniform, hair, hygiene, breath, hands and nails, accessories, footwear, then a final mirror check.",
-          "Ask a colleague to get dressed for them.",
-          "Fix hair and clothing in front of the waiting client."
-        ]
-      },
-      {
-        "id": 15,
-        "prompt": "What is the final mirror-check question?",
-        "options": [
-          "“Will management see me today?”",
-          "“If I were the client meeting this therapist for the first time, would this appearance give me confidence?” If no, correct the issue before attending to the client.",
-          "“Do I look more attractive than my colleague?”",
-          "“Can I start even if I am not ready?”"
-        ]
-      },
-      {
-        "id": 16,
+        "id": 5,
         "prompt": "A colleague has a stain they may not have noticed. What is the better team response?",
         "options": [
-          "Allow them to attend the client unaware, then gossip later.",
-          "Tell them privately and respectfully so they can correct it before the client is affected. Every therapist is still primarily responsible for their own appearance.",
+          "Let them attend, then gossip later.",
+          "Tell them privately and respectfully so they can correct it before the client is affected.",
           "Humiliate them in the corridor.",
-          "Repeatedly take over their basic grooming every day as your job."
+          "Take over their grooming every day as your job."
         ]
       },
       {
-        "id": 17,
-        "prompt": "During 4-hands massage, one therapist has poor hygiene. Why does this matter to the other therapist?",
-        "options": [
-          "It does not. Only one therapist is judged.",
-          "Both therapists represent the service together. The client’s dissatisfaction may affect both, so one person’s lack of preparation can embarrass the co-therapist.",
-          "The professional therapist should copy the poor standard.",
-          "4-hands massage has no appearance standard."
-        ]
-      },
-      {
-        "id": 18,
+        "id": 6,
         "prompt": "A supervisor says, “Your uniform has become stained. Please change before taking another client.” What is the professional response?",
         "options": [
-          "Respond defensively and attend the client anyway.",
+          "Respond defensively and attend anyway.",
           "Accept correction immediately and practically. An accidental stain plus immediate correction is a normal workplace issue.",
           "Ignore it because massage skill compensates for poor hygiene.",
-          "Argue that appearance is a personal choice once you are on shift."
+          "Argue that appearance is a personal choice on shift."
         ]
-      }
-    ]
-  },
-  {
-    "title": "SECTION E — ACCOUNTABILITY AND THE STANDARD",
-    "questions": [
+      },
       {
-        "id": 19,
+        "id": 7,
+        "prompt": "During 4-hands, your partner has poor hygiene. Why does this matter to you?",
+        "options": [
+          "It does not. Only one therapist is judged.",
+          "Both represent the service together. Client dissatisfaction may affect both.",
+          "You should copy the poor standard.",
+          "4-hands has no appearance standard."
+        ]
+      },
+      {
+        "id": 8,
+        "prompt": "You become excessively sweaty mid-shift with another client coming. What is responsible?",
+        "options": [
+          "Attend immediately without freshening.",
+          "Freshen up as needed, including changing clothing if it has absorbed excessive sweat, then continue.",
+          "Ask the client to ignore the smell.",
+          "Spray more perfume and skip deodorant."
+        ]
+      },
+      {
+        "id": 9,
         "prompt": "When does an appearance issue become more than an accident?",
         "options": [
-          "The first time a uniform wrinkles slightly.",
-          "When the same appearance or hygiene problem continues after repeated correction — it becomes a failure to maintain the professional standard.",
+          "The first slight wrinkle.",
+          "When the same appearance or hygiene problem continues after repeated correction.",
           "Never. Appearance is always optional.",
           "Only if a client writes a review."
         ]
       },
       {
-        "id": 20,
-        "prompt": "Which sequence matches the Zura Spa Appearance Standard?",
+        "id": 10,
+        "prompt": "Before becoming available, what should every therapist do?",
         "options": [
-          "SKIP CHECKS → COVER WITH PERFUME → ATTEND ANYWAY",
-          "CLEAN → CHECK → GROOM → FRESHEN → DRESS → PRESENT → MAINTAIN",
-          "LOOK ATTRACTIVE → IGNORE HYGIENE → HOPE THE CLIENT DOES NOT NOTICE",
-          "GROOM ONLY WHEN MANAGEMENT IS PRESENT"
+          "Skip checks if busy.",
+          "A brief personal appearance check: uniform, hair, hygiene, breath, hands and nails, accessories, footwear, then a final mirror check.",
+          "Ask a colleague to get dressed for them.",
+          "Fix hair in front of the waiting client."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION B — FILL IN THE GAP",
+    "questions": [
+      {
+        "id": 11,
+        "prompt": "Complete the article: “Your appearance speaks _____.\"",
+        "options": [
+          "only if management is watching",
+          "before your hands do",
+          "after the last stroke",
+          "only in photographs"
+        ]
+      },
+      {
+        "id": 12,
+        "prompt": "Complete the Appearance Standard sequence: “CLEAN → CHECK → GROOM → FRESHEN → DRESS → PRESENT → _____.\"",
+        "options": [
+          "IMPRESS",
+          "MAINTAIN",
+          "COMPETE",
+          "RELAX"
+        ]
+      },
+      {
+        "id": 13,
+        "prompt": "Complete: “Looking good is not the entire standard. Looking clean, professional and _____ is.\"",
+        "options": [
+          "fashionable",
+          "client-ready",
+          "senior",
+          "expensive"
+        ]
+      },
+      {
+        "id": 14,
+        "prompt": "Complete: “Good massage skills cannot compensate for _____.\"",
+        "options": [
+          "a quiet room",
+          "poor hygiene",
+          "short sessions",
+          "soft music"
+        ]
+      },
+      {
+        "id": 15,
+        "prompt": "Complete the final-mirror question from the article: “If I were the client meeting this therapist for the first time, would this appearance _____?”",
+        "options": [
+          "make me jealous",
+          "give me confidence",
+          "match Instagram",
+          "impress management"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SECTION C — ARTICLE READING CHECK",
+    "questions": [
+      {
+        "id": 16,
+        "prompt": "The opening standard says appearance should communicate cleanliness, neatness, freshness, professionalism, confidence, and…",
+        "options": [
+          "attractiveness as the whole point",
+          "readiness to serve",
+          "personal branding",
+          "fashion leadership"
+        ]
+      },
+      {
+        "id": 17,
+        "prompt": "Before a single massage movement, what has already started, according to the article?",
+        "options": [
+          "Nothing. First impressions do not matter.",
+          "The client has already started forming an impression.",
+          "Only the last minute of the session counts.",
+          "The client should ignore the therapist until oil is applied."
+        ]
+      },
+      {
+        "id": 18,
+        "prompt": "The accountability section says an accidental stain + immediate correction equals…",
+        "options": [
+          "a disciplinary hearing",
+          "a normal workplace issue",
+          "proof the therapist is unfit",
+          "a reason to hide the uniform"
+        ]
+      },
+      {
+        "id": 19,
+        "prompt": "Repeatedly attending clients while improperly presented is described as…",
+        "options": [
+          "a style choice",
+          "a disciplinary concern",
+          "optional if you are skilled",
+          "only a problem for photos"
+        ]
+      },
+      {
+        "id": 20,
+        "prompt": "The closing instruction if any important self-check answer is NO is…",
+        "options": [
+          "attend anyway and hope",
+          "correct it before the session",
+          "ask the client to accept it",
+          "wait until management notices"
         ]
       }
     ]
