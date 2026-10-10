@@ -56,6 +56,16 @@ function downloadFile(file) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
 
+function openWhatsAppApp(phone, text) {
+  const encoded = encodeURIComponent(text)
+  const isAndroid = /android/i.test(navigator.userAgent || '')
+  const href = isAndroid
+    ? `intent://send?phone=${phone}&text=${encoded}#Intent;scheme=whatsapp;package=com.whatsapp;end`
+    : `whatsapp://send?phone=${phone}&text=${encoded}`
+
+  window.location.href = href
+}
+
 export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex }) {
   const { session } = useAuth()
   const recorderRef = useRef(null)
@@ -189,32 +199,18 @@ export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex })
       { type },
     )
     const text = caption()
-    const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`
 
     setStatus('sending')
     setMessage('')
 
     try {
-      if (navigator.canShare?.({ files: [file] })) {
-        await navigator.share({ files: [file], title: copy.label, text })
-        setStatus('ready')
-        setMessage(copy.shared)
-        return
-      }
-    } catch (error) {
-      if (error?.name === 'AbortError') {
-        setStatus('ready')
-        return
-      }
-    }
-
-    try {
       await navigator.clipboard?.writeText(text)
     } catch {
-      // Clipboard may be blocked; WhatsApp still receives the caption in the URL.
+      // Clipboard may be blocked; WhatsApp still receives the caption from the app link.
     }
-    downloadFile(file)
-    window.open(waUrl, '_blank', 'noopener,noreferrer')
+
+    openWhatsAppApp(phone, text)
+    window.setTimeout(() => downloadFile(file), 600)
     setStatus('ready')
     setMessage(copy.opened)
   }

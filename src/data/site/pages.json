@@ -78,7 +78,7 @@
       "unsupported": "This device cannot record audio in the browser.",
       "missingNumber": "A WhatsApp number has not been set for section summaries.",
       "shared": "Share sheet opened. Choose WhatsApp and send the voice note.",
-      "opened": "WhatsApp opened. Attach the saved recording in that chat if it is not already there."
+      "opened": "WhatsApp app should open on this phone. Attach the saved recording in that chat."
     }
   }
 }
