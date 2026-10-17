@@ -1,14 +1,88 @@
 {
   "id": "requirements",
   "title": "Requirements",
-  "summary": "What Zura Spa looks for in a team member.",
+  "summary": "All applicants seeking employment at Zura Spa must meet these personal, work, dress-code, ethics and integrity requirements.",
   "type": "article",
   "order": 1,
   "sections": [
     {
+      "title": "Employment Requirements",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "All applicants seeking employment at Zura Spa must meet the following requirements."
+      ]
+    },
+    {
+      "title": "1. Personal Requirements",
+      "list": [
+        "Must be female.",
+        "Must not be older than 24 years.",
+        "Must be able to communicate effectively in English.",
+        "Must be honest, trustworthy, respectful and well-mannered.",
+        "Must be humble, teachable and genuinely willing to learn.",
+        "Must maintain professionalism, discretion and confidentiality at all times."
+      ]
+    },
+    {
+      "title": "2. Work Commitment",
+      "list": [
+        "Must be hardworking and genuinely willing to work.",
+        "Must be available to work a minimum of four days per week.",
+        "Must value punctuality and consistently report to work on time.",
+        "Must be willing to follow all company standards, policies, procedures and professional guidelines.",
+        "Must be receptive to instructions, corrections, training and continuous improvement."
+      ]
+    },
+    {
+      "title": "3. Dress Code and Personal Work Kit",
+      "paragraphs": [
+        "Must be willing to purchase and maintain the approved Zura Spa work attire:"
+      ],
+      "list": [
+        "Navy blue medical scrubs",
+        "Crocs footwear"
+      ]
+    },
+    {
+      "title": "Personal work kit",
+      "paragraphs": [
+        "Must have a personal work kit containing:"
+      ],
+      "list": [
+        "Perfume or body fragrance",
+        "Sweets or breath mints",
+        "Tissue",
+        "Wet wipes",
+        "Lip gloss",
+        "Sanitary pads"
+      ],
+      "closing": "Must maintain excellent personal hygiene, cleanliness and professional grooming."
+    },
+    {
+      "title": "4. Professional Ethics and Boundaries",
+      "list": [
+        "Must strictly maintain professional boundaries with all clients.",
+        "Must never offer, solicit, agree to or participate in sexual services, including happy endings, under any circumstances.",
+        "Must protect clients' privacy and keep all client information, conversations and spa activities confidential.",
+        "Must not engage in gossip, careless conversations or the unauthorised disclosure of sensitive information.",
+        "Must treat clients, colleagues and management with courtesy, dignity and respect."
+      ]
+    },
+    {
+      "title": "5. Accountability and Integrity",
+      "list": [
+        "Must take responsibility for personal actions and professional conduct.",
+        "Must promptly report complaints, mistakes, misconduct, unusual incidents or operational concerns to management.",
+        "Must never conceal, misrepresent or cover up incidents, errors or violations of company policies.",
+        "Must be willing to cooperate with management in resolving issues and maintaining the spa's standards."
+      ]
+    },
+    {
+      "title": "Our Expectations",
+      "paragraphs": [
+        "At Zura Spa, we value professionalism, integrity, confidentiality, respect, excellence and a genuine willingness to learn.",
+        "Every team member is expected to uphold these values and contribute positively to the experience of our clients and the reputation of the spa."
       ]
     }
-  ]
+  ],
+  "remember": "Professionalism, integrity, confidentiality, respect, excellence and a genuine willingness to learn."
 }

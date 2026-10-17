@@ -1,14 +1,17 @@
 {
   "id": "training",
   "title": "Training",
-  "summary": "How new team members are trained at Zura Spa.",
+  "summary": "New therapists complete a two-week unpaid training period before paid work.",
   "type": "article",
   "order": 5,
   "sections": [
     {
+      "title": "Training",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "All new therapists are required to complete a two-week unpaid training period before resuming regular paid work. The training period is used to teach Zura Spa standards, massage techniques, client handling, communication, hygiene, boundaries, teamwork, and operating procedures.",
+        "Successful completion of the training does not automatically guarantee continued engagement; the therapist must demonstrate the required attitude, competence, professionalism, and willingness to follow Zura Spa standards."
       ]
     }
-  ]
+  ],
+  "remember": "Training is unpaid for two weeks and does not automatically guarantee continued engagement."
 }

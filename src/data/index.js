@@ -1,6 +1,6 @@
 /**
  * Loads handbook content from JSON folders.
- * Edit files in src/data/categories and src/data/journeys — not this file.
+ * Edit files in src/data/categories and src/data/journeys — not this file. JSON topics reload with this module.
  */
 import moreResources from './site/more-resources.json'
 import updates from './site/updates.json'

@@ -1,14 +1,16 @@
 {
   "id": "accommodation",
   "title": "Accommodation",
-  "summary": "Staff housing support and what to expect.",
+  "summary": "Sleepovers on workdays are allowed; Zura Spa does not provide staff housing.",
   "type": "article",
   "order": 3,
   "sections": [
     {
+      "title": "Accommodation",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "Zura Spa does not provide staff quarters or permanent staff accommodation. However, therapists are permitted to sleep over at the spa during their scheduled workdays where necessary or convenient. This arrangement is strictly for workdays and should not be regarded as staff housing or permanent accommodation."
       ]
     }
-  ]
+  ],
+  "remember": "Sleepovers are for scheduled workdays only — not staff housing or permanent accommodation."
 }
