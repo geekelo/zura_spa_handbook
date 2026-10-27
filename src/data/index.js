@@ -222,11 +222,15 @@ function isCourseModuleSection(section) {
 }
 
 function courseModuleSummary(section) {
-  const closing = section.closing?.replace(/^Learning Outcome:\s*/i, '').trim()
-  if (closing) return closing
   const paragraphs = (section.paragraphs || []).filter(
     (paragraph) => paragraph && paragraph !== 'Topics:',
   )
+  const objective = paragraphs.find((paragraph) =>
+    /^Objective:\s*/i.test(paragraph),
+  )
+  if (objective) return objective.trim()
+  const closing = section.closing?.replace(/^Learning Outcome:\s*/i, '').trim()
+  if (closing) return closing
   if (paragraphs[0]) return paragraphs[0]
   return section.list?.[0] || ''
 }
