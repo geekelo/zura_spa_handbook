@@ -366,6 +366,16 @@
   padding: 1rem 0.15rem 0.15rem;
 }
 
+.related-block--lessons {
+  margin-top: 1.35rem;
+}
+
+.related-block--lessons .related-row {
+  grid-template-columns: auto 1fr auto;
+  display: grid;
+  align-items: center;
+}
+
 .related-row--assessment {
   border-color: color-mix(in srgb, var(--ink) 18%, var(--line));
   background: color-mix(in srgb, var(--ink) 5%, var(--surface));

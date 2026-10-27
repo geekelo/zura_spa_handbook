@@ -1,0 +1,69 @@
+{
+  "id": "day-1-lesson-2-working-together",
+  "title": "Lesson 2: Working Together Is Not the Same as Working in the Same Place",
+  "summary": "Sharing a workplace is not teamwork. Teamwork means looking beyond your own task and considering how your actions affect colleagues and clients.",
+  "type": "article",
+  "module": 1,
+  "order": 2,
+  "sections": [
+    {
+      "title": "Staff Development & Teamwork Training",
+      "items": [
+        { "label": "Day", "body": "1 — Understanding Teamwork and the Zura Team Culture" },
+        { "label": "Focus", "body": "The difference between working together and simply working in the same place" }
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "paragraphs": [
+        "Staff can work in the same building, on the same shift, and still not be a team.",
+        "Working in the same place only means people occupy the same space. Teamwork means they cooperate, communicate, support one another and take responsibility for a shared result.",
+        "At Zura Spa, a client's experience depends on more than one person completing their own list. It depends on whether staff notice what the next person needs and act accordingly."
+      ]
+    },
+    {
+      "title": "2. Two situations at Zura Spa"
+    },
+    {
+      "title": "Scenario A: Poor teamwork",
+      "paragraphs": [
+        "A therapist finishes a session and notices that another treatment room needs preparation before the next client arrives.",
+        "She has completed her assigned work, so she ignores the situation, even though she has time to help.",
+        "The next client arrives and has to wait.",
+        "When management asks what happened, she responds, \"That is not my responsibility.\"",
+        "Result: Delayed service, unnecessary pressure on colleagues and a poor client experience."
+      ]
+    },
+    {
+      "title": "Scenario B: Good teamwork",
+      "paragraphs": [
+        "A therapist finishes her session and notices that another treatment room needs preparation.",
+        "She checks whether her colleague needs assistance and offers to help, provided it does not interfere with her own responsibilities.",
+        "The room is prepared on time, and the next client receives prompt service.",
+        "Result: Better service, reduced pressure and stronger working relationships."
+      ]
+    },
+    {
+      "title": "3. The lesson",
+      "paragraphs": [
+        "Good teamwork requires people to look beyond their individual tasks and consider how their actions affect others.",
+        "However, teamwork does not mean doing another person's work continuously or allowing colleagues to neglect their responsibilities.",
+        "Support is part of teamwork. Covering for repeated neglect is not."
+      ]
+    },
+    {
+      "title": "4. How to tell the difference",
+      "items": [
+        {
+          "label": "Working in the same place",
+          "body": "Each person completes only their own list, ignores gaps that affect the next client, and says \"that is not my job\" when help is possible."
+        },
+        {
+          "label": "Working together",
+          "body": "Each person owns their duties, notices what the team needs, offers reasonable help, and communicates so the client is not left waiting."
+        }
+      ]
+    }
+  ],
+  "remember": "Sharing a shift is not teamwork. Teamwork is cooperating so the next client, and the next colleague, are not left with your gap."
+}

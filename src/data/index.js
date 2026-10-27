@@ -146,29 +146,8 @@ function articleIdFromPath(to) {
   return String(to).split('/').filter(Boolean).pop() || ''
 }
 
-export function getAssessmentLookupIds(article, { journeyId, groupId } = {}) {
-  const ids = [article?.id].filter(Boolean)
-  if (!article || !journeyId || !groupId) return ids
-
-  const items = getCourseGroupItems(journeyId, groupId) || []
-  if (article.kind === 'module') {
-    for (const item of items) {
-      if (
-        (item.kind === 'module-reading' || item.module) &&
-        Number(item.module) === Number(article.moduleNumber)
-      ) {
-        ids.push(item.id)
-      }
-    }
-  }
-  if (article.kind === 'overview' || article.id === 'course-outline') {
-    for (const item of items) {
-      if (item.kind === 'module-reading' || item.kind === 'lesson') {
-        ids.push(item.id)
-      }
-    }
-  }
-  return [...new Set(ids)]
+export function getAssessmentLookupIds(article) {
+  return [article?.id].filter(Boolean)
 }
 
 export function getRelatedAssessments(articleIds) {
@@ -257,7 +236,9 @@ function courseModuleSummary(section) {
 export function getCourseGroupItems(journeyId, groupId) {
   const nested = getJourneyGroupTopics(journeyId, groupId) || []
   const outline = nested.find((item) => item.id === 'course-outline')
-  const extra = nested.filter((item) => item.id !== 'course-outline')
+  const extra = nested.filter(
+    (item) => item.id !== 'course-outline' && !item.hidden,
+  )
   if (!outline) return nested
 
   const intro = (outline.sections || []).filter(
@@ -284,33 +265,26 @@ export function getCourseGroupItems(journeyId, groupId) {
   moduleSections.forEach((section, index) => {
     const number = section.title.match(/Module\s+(\d+)/i)?.[1] || String(index + 1)
     const moduleNumber = Number(number)
-    const attached = moduleReadings.filter((item) => Number(item.module) === moduleNumber)
-    const inlineReadings = attached.filter((item) => item.inlineInModule)
-    const linkedReadings = attached.filter((item) => !item.inlineInModule)
-    const readings = [
-      ...inlineReadings.flatMap((item) => item.sections || []),
-      ...(linkedReadings.length
-        ? [
-            {
-              title: 'Module readings',
-              links: linkedReadings.map((item) => ({
-                label: item.title,
-                to: `/${journeyId}/${groupId}/${item.id}`,
-              })),
-            },
-          ]
-        : []),
-    ]
+    const attached = moduleReadings
+      .filter((item) => Number(item.module) === moduleNumber)
+      .sort(byOrder)
     items.push({
       id: `module-${number}`,
-      title: inlineReadings[0]?.title || section.title,
-      summary: inlineReadings[0]?.summary || courseModuleSummary(section),
+      title: section.title,
+      summary: courseModuleSummary(section),
       type: 'article',
       order: moduleNumber,
       kind: 'module',
       moduleNumber,
-      sections: inlineReadings.length ? readings : [section, ...readings],
-      remember: inlineReadings[0]?.remember || outline.remember,
+      sections: [section],
+      remember: outline.remember,
+      lessons: attached.map((item, lessonIndex) => ({
+        id: item.id,
+        title: item.title,
+        summary: item.summary,
+        order: item.order ?? lessonIndex + 1,
+        to: `/${journeyId}/${groupId}/${item.id}`,
+      })),
     })
   })
 

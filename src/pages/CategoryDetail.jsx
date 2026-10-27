@@ -66,7 +66,9 @@ export function JourneyGroupDetail({ journeyId }) {
       {modules.length ? (
         <section className="section">
           <h2 className="section-label">
-            {modules.length} {modules.length === 1 ? 'Module' : 'Modules'}
+            {modules.every((item) => /Day\s+\d+/i.test(item.title))
+              ? `${modules.length} ${modules.length === 1 ? 'Day' : 'Days'}`
+              : `${modules.length} ${modules.length === 1 ? 'Module' : 'Modules'}`}
           </h2>
           <div className="stack">
             {modules.map((item, index) => (

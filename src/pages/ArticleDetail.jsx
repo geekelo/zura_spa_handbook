@@ -181,6 +181,7 @@ export default function ArticleDetail({
   related = [],
   backTo,
   relatedBase,
+  relatedTitle,
   locked = true,
   journeyId,
   groupId,
@@ -193,7 +194,7 @@ export default function ArticleDetail({
   const notes = article.notes || []
   const hasRoutineBody = isRoutine
   const relatedAssessments = getRelatedAssessments(
-    getAssessmentLookupIds(article, { journeyId, groupId }),
+    getAssessmentLookupIds(article),
   )
   const showArticleVoiceNotes =
     sectionSummaries.enabledCategoryIds?.includes(category?.id) ||
@@ -294,6 +295,26 @@ export default function ArticleDetail({
         </section>
       ) : null}
 
+      {article.lessons?.length ? (
+        <section className="related-block related-block--lessons">
+          <h3 className="section-label">{pages.article.lessonsHeading}</h3>
+          <div className="related-stack">
+            {article.lessons.map((item, index) => (
+              <Link key={item.id} to={item.to} className="related-row">
+                <span className="step-item__num" aria-hidden="true">
+                  {item.order || index + 1}
+                </span>
+                <span>
+                  <strong>{item.title}</strong>
+                  <small>{item.summary}</small>
+                </span>
+                <Icon name="chevron" size={18} />
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       {article.remember ? (
         <aside className="remember-card">
           <Icon name="sprout" size={18} />
@@ -316,7 +337,7 @@ export default function ArticleDetail({
       {related.length > 0 ? (
         <section className="related-block">
           <h3 className="section-label">
-            {pages.article.relatedPrefix} {category.title}
+            {relatedTitle || `${pages.article.relatedPrefix} ${category.title}`}
           </h3>
           <div className="related-stack">
             {related.map((item) => (

@@ -1,10 +1,9 @@
 {
   "id": "day-1-meaning-and-importance-of-teamwork",
-  "title": "Day 1: Meaning and Importance of Teamwork",
-  "summary": "What teamwork means at Zura Spa, why it matters, how it differs from merely working in the same place, and how to practise it on the floor.",
+  "title": "Lesson 1: Meaning and Importance of Teamwork",
+  "summary": "What teamwork means at Zura Spa, why it matters, and the habits of a good team member.",
   "type": "article",
   "module": 1,
-  "inlineInModule": true,
   "order": 1,
   "sections": [
     {
@@ -61,28 +60,13 @@
     {
       "title": "3. Working in the same place is not the same as teamwork",
       "paragraphs": [
-        "Consider two situations at Zura Spa."
-      ]
-    },
-    {
-      "title": "Scenario A: Poor teamwork",
-      "paragraphs": [
-        "A therapist finishes a session and notices that another treatment room needs preparation before the next client arrives.",
-        "She has completed her assigned work, so she ignores the situation, even though she has time to help.",
-        "The next client arrives and has to wait.",
-        "When management asks what happened, she responds, \"That is not my responsibility.\"",
-        "Result: Delayed service, unnecessary pressure on colleagues and a poor client experience."
-      ]
-    },
-    {
-      "title": "Scenario B: Good teamwork",
-      "paragraphs": [
-        "A therapist finishes her session and notices that another treatment room needs preparation.",
-        "She checks whether her colleague needs assistance and offers to help, provided it does not interfere with her own responsibilities.",
-        "The room is prepared on time, and the next client receives prompt service.",
-        "Result: Better service, reduced pressure and stronger working relationships.",
-        "Lesson: Good teamwork requires people to look beyond their individual tasks and consider how their actions affect others.",
-        "However, teamwork does not mean doing another person's work continuously or allowing colleagues to neglect their responsibilities."
+        "Teamwork is more than occupying the same spa. Lesson 2 covers this in full, with poor-teamwork and good-teamwork room-preparation scenarios."
+      ],
+      "links": [
+        {
+          "label": "Continue to Lesson 2",
+          "to": "/courses/understanding-team-work/day-1-lesson-2-working-together"
+        }
       ]
     },
     {

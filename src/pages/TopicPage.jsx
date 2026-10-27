@@ -15,6 +15,29 @@ import { SignTopic } from './SignTopic'
 import { EmploymentLetter } from './EmploymentLetter'
 import { JourneyGroupDetail } from './CategoryDetail'
 
+function relatedItems({ journeyId, categoryId, groupId, article }) {
+  if (journeyId && groupId) {
+    const items = getCourseGroupItems(journeyId, groupId) || []
+    if (article.kind === 'module') {
+      return items.filter((item) => item.kind === 'module' && item.id !== article.id)
+    }
+    if (article.kind === 'module-reading' || article.module) {
+      return items.filter(
+        (item) =>
+          item.kind === 'module-reading' &&
+          Number(item.module) === Number(article.module) &&
+          item.id !== article.id,
+      )
+    }
+    return items.filter(
+      (item) => item.id !== article.id && item.kind !== 'module-reading',
+    )
+  }
+
+  const list = journeyId ? getJourneyTopics(journeyId) : getTopics(categoryId)
+  return (list || []).filter((item) => item.id !== article.id)
+}
+
 export function TopicPage({ journeyId }) {
   const { categoryId, articleId, nestedId } = useParams()
 
@@ -73,13 +96,12 @@ export function TopicPage({ journeyId }) {
     return <EmploymentLetter topic={article} backTo={backTo} locked={locked} />
   }
 
-  const related = (
-    (journeyId
-      ? nestedId
-        ? getCourseGroupItems(journeyId, articleId)
-        : getJourneyTopics(journeyId)
-      : getTopics(categoryId)) || []
-  ).filter((item) => item.id !== article.id)
+  const related = relatedItems({
+    journeyId,
+    categoryId,
+    groupId: nestedId ? articleId : undefined,
+    article,
+  })
 
   const relatedBase = journeyId
     ? nestedId
@@ -94,6 +116,13 @@ export function TopicPage({ journeyId }) {
       related={related}
       backTo={backTo}
       relatedBase={relatedBase}
+      relatedTitle={
+        article.module
+          ? `More Day ${article.module} lessons`
+          : article.kind === 'module'
+            ? `More days in ${parent.title}`
+            : undefined
+      }
       locked={locked}
       journeyId={journeyId}
       groupId={nestedId ? articleId : undefined}
