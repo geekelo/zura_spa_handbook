@@ -285,27 +285,32 @@ export function getCourseGroupItems(journeyId, groupId) {
     const number = section.title.match(/Module\s+(\d+)/i)?.[1] || String(index + 1)
     const moduleNumber = Number(number)
     const attached = moduleReadings.filter((item) => Number(item.module) === moduleNumber)
-    const readings = attached.length
-      ? [
-          {
-            title: 'Module readings',
-            links: attached.map((item) => ({
-              label: item.title,
-              to: `/${journeyId}/${groupId}/${item.id}`,
-            })),
-          },
-        ]
-      : []
+    const inlineReadings = attached.filter((item) => item.inlineInModule)
+    const linkedReadings = attached.filter((item) => !item.inlineInModule)
+    const readings = [
+      ...inlineReadings.flatMap((item) => item.sections || []),
+      ...(linkedReadings.length
+        ? [
+            {
+              title: 'Module readings',
+              links: linkedReadings.map((item) => ({
+                label: item.title,
+                to: `/${journeyId}/${groupId}/${item.id}`,
+              })),
+            },
+          ]
+        : []),
+    ]
     items.push({
       id: `module-${number}`,
-      title: section.title,
-      summary: courseModuleSummary(section),
+      title: inlineReadings[0]?.title || section.title,
+      summary: inlineReadings[0]?.summary || courseModuleSummary(section),
       type: 'article',
       order: moduleNumber,
       kind: 'module',
       moduleNumber,
-      sections: [section, ...readings],
-      remember: outline.remember,
+      sections: inlineReadings.length ? readings : [section, ...readings],
+      remember: inlineReadings[0]?.remember || outline.remember,
     })
   })
 

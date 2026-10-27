@@ -155,6 +155,27 @@
           "embedTitle": "Assessment submission"
         }
       ]
+    },
+    {
+      "id": "understanding-team-work",
+      "title": "Understanding Team Work",
+      "description": "Knowledge assessments for the Staff Teamwork Training Programme.",
+      "articleIds": ["day-1-meaning-and-importance-of-teamwork"],
+      "assessments": [
+        {
+          "id": "day-1",
+          "title": "Day 1 Knowledge Assessment",
+          "summary": "5 questions on the meaning and importance of teamwork. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-1",
+          "articleIds": ["day-1-meaning-and-importance-of-teamwork"],
+          "articleTo": "/courses/understanding-team-work/day-1-meaning-and-importance-of-teamwork",
+          "articleLabel": "Read Day 1: Meaning and Importance of Teamwork",
+          "pdfPurpose": "To assess whether a Zura Spa staff member understands what teamwork is, how it differs from merely working in the same place, which behaviours build or damage trust, and how to offer appropriate help without abandoning their own duties.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 1 assessment submission"
+        }
+      ]
     }
   ]
 }

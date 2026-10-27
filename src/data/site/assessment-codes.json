@@ -49,6 +49,13 @@
       "assessmentId": "applied-assessment",
       "title": "Teachability Applied Assessment",
       "accessCode": "187uu"
+    },
+    {
+      "id": "understanding-team-work/day-1",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-1",
+      "title": "Day 1 Knowledge Assessment",
+      "accessCode": "191uu"
     }
   ]
 }

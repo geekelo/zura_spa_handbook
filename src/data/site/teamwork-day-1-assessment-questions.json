@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 1 — MEANING AND IMPORTANCE OF TEAMWORK",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is teamwork?",
+        "options": [
+          "People working independently without communicating",
+          "People cooperating to achieve a common goal",
+          "Everyone having the same personality"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which behaviour demonstrates good teamwork?",
+        "options": [
+          "Offering appropriate help to a busy colleague",
+          "Ignoring problems outside your assigned duties",
+          "Keeping important information to yourself"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Which behaviour can damage trust?",
+        "options": [
+          "Keeping commitments",
+          "Reporting problems promptly",
+          "Gossiping about colleagues"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Does teamwork require everyone to agree on every issue?",
+        "options": [
+          "Yes, disagreement shows disloyalty",
+          "No, respectful disagreement is acceptable",
+          "Yes, staff must always share opinions"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "A colleague is struggling during a busy shift. What should you do?",
+        "options": [
+          "Ignore them because it is their duty",
+          "Abandon your own responsibilities immediately",
+          "Offer appropriate assistance while managing your duties"
+        ]
+      }
+    ]
+  }
+]

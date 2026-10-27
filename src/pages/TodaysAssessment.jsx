@@ -12,6 +12,7 @@ import driverPassengerQuestions from '../data/site/driver-passenger-assessment-q
 import modeOfAddressQuestions from '../data/site/mode-of-address-assessment-questions.json'
 import povertyMindsetQuestions from '../data/site/poverty-mindset-assessment-questions.json'
 import teachabilityQuestions from '../data/site/teachability-assessment-questions.json'
+import teamworkDay1Questions from '../data/site/teamwork-day-1-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -26,6 +27,7 @@ const QUESTION_SETS = {
   'mode-of-address': modeOfAddressQuestions,
   'poverty-mindset': povertyMindsetQuestions,
   'teachability': teachabilityQuestions,
+  'teamwork-day-1': teamworkDay1Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
