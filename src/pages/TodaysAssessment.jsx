@@ -14,6 +14,7 @@ import povertyMindsetQuestions from '../data/site/poverty-mindset-assessment-que
 import teachabilityQuestions from '../data/site/teachability-assessment-questions.json'
 import teamworkDay1Questions from '../data/site/teamwork-day-1-assessment-questions.json'
 import teamworkDay1Lesson3Questions from '../data/site/teamwork-day-1-lesson-3-assessment-questions.json'
+import teamworkDay1Lesson4Questions from '../data/site/teamwork-day-1-lesson-4-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -30,6 +31,7 @@ const QUESTION_SETS = {
   'teachability': teachabilityQuestions,
   'teamwork-day-1': teamworkDay1Questions,
   'teamwork-day-1-lesson-3': teamworkDay1Lesson3Questions,
+  'teamwork-day-1-lesson-4': teamworkDay1Lesson4Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

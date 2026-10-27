@@ -1,0 +1,43 @@
+[
+  {
+    "title": "DAY 1 — LESSON 4: WORKPLACE ATTITUDE EXERCISE",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "Your supervisor points out a mistake in your work. How should you respond?",
+        "options": [
+          "Explain why everyone else also makes mistakes.",
+          "Listen, seek clarification and correct the issue.",
+          "Ignore the feedback because you disagree."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A colleague receives praise from management for excellent performance. How should you respond?",
+        "options": [
+          "Congratulate her and learn from her strengths.",
+          "Dismiss her achievement as favouritism without evidence.",
+          "Stop cooperating with her because she is receiving attention."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "You are frustrated by a colleague's behaviour. How should you respond?",
+        "options": [
+          "Discuss the issue with other staff to gather support.",
+          "Respond angrily to make your feelings clear.",
+          "Address the issue calmly or raise it through the appropriate channel."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "You notice a colleague struggling with an unfamiliar procedure. How should you respond?",
+        "options": [
+          "Offer guidance if you are able and authorised to do so.",
+          "Mock her for not knowing what to do.",
+          "Ignore her because she should already know."
+        ]
+      }
+    ]
+  }
+]

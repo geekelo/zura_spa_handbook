@@ -162,7 +162,8 @@
       "description": "Knowledge assessments for the Staff Teamwork Training Programme.",
       "articleIds": [
         "day-1-meaning-and-importance-of-teamwork",
-        "day-1-lesson-3-shared-goals-and-responsibilities"
+        "day-1-lesson-3-shared-goals-and-responsibilities",
+        "day-1-lesson-4-individual-attitudes"
       ],
       "assessments": [
         {
@@ -190,6 +191,19 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member understands shared goals versus individual responsibilities, who owns assigned duties, when to communicate blockers, and how to support colleagues without encouraging dependency.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Lesson 3 assessment submission"
+        },
+        {
+          "id": "day-1-lesson-4",
+          "title": "Day 1 Lesson 4 Workplace Attitude Exercise",
+          "summary": "4 situations on how you would respond at work. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-1-lesson-4",
+          "articleIds": ["day-1-lesson-4-individual-attitudes"],
+          "articleTo": "/courses/understanding-team-work/day-1-lesson-4-individual-attitudes",
+          "articleLabel": "Read Day 1 Lesson 4: How Individual Attitudes Affect Team Performance",
+          "pdfPurpose": "To assess whether a Zura Spa staff member chooses professional responses to correction, a colleague's success, frustration, and a struggling teammate — without gossip, hostility, or neglect.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Lesson 4 assessment submission"
         }
       ]
     }
