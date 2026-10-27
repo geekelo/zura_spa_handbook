@@ -162,8 +162,6 @@ export function getRelatedAssessments(articleIds) {
     for (const assessment of category.assessments || []) {
       const ids = [
         ...(assessment.articleIds || []),
-        ...(category.articleIds || []),
-        category.id,
         articleIdFromPath(assessment.articleTo),
       ].filter(Boolean)
       if (!ids.some((id) => wanted.has(id))) continue

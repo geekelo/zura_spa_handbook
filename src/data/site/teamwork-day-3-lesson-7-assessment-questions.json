@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 7: APPROPRIATE COMMUNICATION IN STAFF WHATSAPP GROUPS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the primary purpose of a staff WhatsApp group?",
+        "options": [
+          "Sharing unrelated entertainment throughout the day",
+          "Supporting relevant workplace communication and coordination",
+          "Discussing private matters about colleagues"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A supervisor posts an important instruction. What should an employee do?",
+        "options": [
+          "Read it carefully, clarify unclear details and acknowledge when required",
+          "Respond with unrelated stickers",
+          "Assume someone else will handle it"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Two employees begin arguing in the staff group. What is the most professional response?",
+        "options": [
+          "Encourage other employees to take sides",
+          "Share screenshots outside the organisation",
+          "Move the sensitive disagreement to an appropriate private discussion or supervisor"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which message is most professional?",
+        "options": [
+          "YOU PEOPLE ARE ALWAYS CARELESS!!!",
+          "Please, can we confirm who is responsible for preparing Room 2 before the next appointment?",
+          "Nobody here knows what they're doing."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the THINK method encourage?",
+        "options": [
+          "Checking that messages are true, helpful, important, necessary and kind",
+          "Sending messages immediately whenever upset",
+          "Sharing every concern with the entire group"
+        ]
+      }
+    ]
+  }
+]

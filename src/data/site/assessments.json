@@ -160,23 +160,6 @@
       "id": "understanding-team-work",
       "title": "Understanding Team Work",
       "description": "Knowledge assessments for the Staff Teamwork Training Programme.",
-      "articleIds": [
-        "day-1-meaning-and-importance-of-teamwork",
-        "day-1-lesson-3-shared-goals-and-responsibilities",
-        "day-1-lesson-4-individual-attitudes",
-        "day-1-lesson-5-team-success-above-ego",
-        "day-2-lesson-1-respecting-colleagues-supervisors-management",
-        "day-2-lesson-2-workplace-boundaries",
-        "day-2-lesson-3-gossip-mockery-cliques",
-        "day-2-lesson-4-courteous-when-you-disagree",
-        "day-2-lesson-5-personal-feelings-professional-responsibilities",
-        "day-2-lesson-6-maintaining-confidentiality",
-        "day-3-lesson-1-speaking-politely",
-        "day-3-lesson-2-listening-without-interrupting",
-        "day-3-lesson-4-asking-questions-instead-of-assumptions",
-        "day-3-lesson-5-giving-and-receiving-instructions",
-        "day-3-lesson-6-communicating-concerns-to-the-right-person"
-      ],
       "assessments": [
         {
           "id": "day-1",
@@ -372,6 +355,19 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member can report concerns through the right channel: distinguish complaining from reporting, escalate when a supervisor is involved, communicate facts, and follow up on unresolved issues.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Day 3 Lesson 6 assessment submission"
+        },
+        {
+          "id": "day-3-lesson-7",
+          "title": "Day 3 Lesson 7 Knowledge Check",
+          "summary": "5 questions on appropriate communication in staff WhatsApp groups. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-3-lesson-7",
+          "articleIds": ["day-3-lesson-7-staff-whatsapp-groups"],
+          "articleTo": "/courses/understanding-team-work/day-3-lesson-7-staff-whatsapp-groups",
+          "articleLabel": "Read Day 3 Lesson 7: Appropriate Communication in Staff WhatsApp Groups",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can use staff WhatsApp groups professionally: keep messages relevant, acknowledge instructions, handle disagreements privately, and apply the THINK method.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 3 Lesson 7 assessment submission"
         }
       ]
     }

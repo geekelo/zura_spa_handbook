@@ -32,12 +32,7 @@ export function JourneyGroupDetail({ journeyId }) {
   const overview = items?.find((item) => item.kind === 'overview')
   const modules = items?.filter((item) => item.kind === 'module') || []
   const lessons = items?.filter((item) => item.kind === 'lesson') || []
-  const relatedAssessments = getRelatedAssessments([
-    groupId,
-    ...(items || [])
-      .filter((item) => item.kind === 'module-reading' || item.kind === 'lesson')
-      .map((item) => item.id),
-  ])
+  const relatedAssessments = getRelatedAssessments([groupId])
 
   if (!journey || !group || group.type !== 'group' || !items?.length) {
     return <Navigate to={`/${journeyId}`} replace />
