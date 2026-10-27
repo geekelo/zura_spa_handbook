@@ -66,7 +66,11 @@ function openWhatsAppApp(phone, text) {
   window.location.href = href
 }
 
-export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex }) {
+export function SectionSummaryTask({
+  articleTitle,
+  taskKey = 'summary',
+}) {
+  const taskCopy = copy[taskKey] || copy.summary
   const { session } = useAuth()
   const recorderRef = useRef(null)
   const chunksRef = useRef([])
@@ -170,10 +174,10 @@ export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex })
   function caption() {
     const name = workName.trim() || 'Therapist'
     return [
-      'Zura Spa — section summary',
+      taskCopy.caption,
       `Therapist: ${name}`,
       `Article: ${articleTitle}`,
-      `Section: ${sectionTitle || `Section ${sectionIndex + 1}`}`,
+      `Instruction: ${taskCopy.prompt}`,
       '',
       'Voice note attached / attach the recording from the handbook.',
     ].join('\n')
@@ -195,7 +199,7 @@ export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex })
     const type = blob.type || 'audio/webm'
     const file = new File(
       [blob],
-      `zura-summary-${slugPart(articleTitle)}-${slugPart(sectionTitle)}.${extensionFor(type)}`,
+      `zura-${taskKey}-${slugPart(articleTitle)}.${extensionFor(type)}`,
       { type },
     )
     const text = caption()
@@ -217,8 +221,8 @@ export function SectionSummaryTask({ articleTitle, sectionTitle, sectionIndex })
 
   return (
     <div className="section-summary">
-      <p className="section-summary__label">{copy.label}</p>
-      <p className="section-summary__prompt">{copy.prompt}</p>
+      <p className="section-summary__label">{taskCopy.label}</p>
+      <p className="section-summary__prompt">{taskCopy.prompt}</p>
 
       {!session ? (
         <label className="section-summary__name">

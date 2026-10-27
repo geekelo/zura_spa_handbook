@@ -141,23 +141,60 @@ export function getAssessment(categoryId, assessmentId) {
   )
 }
 
-export function getRelatedAssessments(articleId) {
-  if (!articleId) return []
+function articleIdFromPath(to) {
+  if (!to) return ''
+  return String(to).split('/').filter(Boolean).pop() || ''
+}
+
+export function getAssessmentLookupIds(article, { journeyId, groupId } = {}) {
+  const ids = [article?.id].filter(Boolean)
+  if (!article || !journeyId || !groupId) return ids
+
+  const items = getCourseGroupItems(journeyId, groupId) || []
+  if (article.kind === 'module') {
+    for (const item of items) {
+      if (
+        (item.kind === 'module-reading' || item.module) &&
+        Number(item.module) === Number(article.moduleNumber)
+      ) {
+        ids.push(item.id)
+      }
+    }
+  }
+  if (article.kind === 'overview' || article.id === 'course-outline') {
+    for (const item of items) {
+      if (item.kind === 'module-reading' || item.kind === 'lesson') {
+        ids.push(item.id)
+      }
+    }
+  }
+  return [...new Set(ids)]
+}
+
+export function getRelatedAssessments(articleIds) {
+  const wanted = new Set(
+    (Array.isArray(articleIds) ? articleIds : [articleIds]).filter(Boolean),
+  )
+  if (!wanted.size) return []
 
   const related = []
+  const seen = new Set()
   for (const category of assessments.categories || []) {
-    const categoryArticleIds = category.articleIds?.length
-      ? category.articleIds
-      : [category.id]
     for (const assessment of category.assessments || []) {
-      const ids = assessment.articleIds?.length
-        ? assessment.articleIds
-        : categoryArticleIds
-      if (!ids.includes(articleId)) continue
+      const ids = [
+        ...(assessment.articleIds || []),
+        ...(category.articleIds || []),
+        category.id,
+        articleIdFromPath(assessment.articleTo),
+      ].filter(Boolean)
+      if (!ids.some((id) => wanted.has(id))) continue
+      const to = `/assessments/${category.id}/${assessment.id}`
+      if (seen.has(to)) continue
+      seen.add(to)
       related.push({
         ...assessment,
         categoryId: category.id,
-        to: `/assessments/${category.id}/${assessment.id}`,
+        to,
       })
     }
   }

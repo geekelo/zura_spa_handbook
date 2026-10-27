@@ -5,9 +5,11 @@ import {
   getJourney,
   getJourneyTopic,
   getJourneyTopics,
+  getRelatedAssessments,
   getTopics,
 } from '../data'
 import { CategoryCard, ModuleCard } from '../components/CategoryCard'
+import { ArticleAssessments } from '../components/ArticleAssessments'
 import { PageHeader } from '../components/PageHeader'
 import { Icon } from '../components/Icons'
 import './CategoryDetail.css'
@@ -30,6 +32,12 @@ export function JourneyGroupDetail({ journeyId }) {
   const overview = items?.find((item) => item.kind === 'overview')
   const modules = items?.filter((item) => item.kind === 'module') || []
   const lessons = items?.filter((item) => item.kind === 'lesson') || []
+  const relatedAssessments = getRelatedAssessments([
+    groupId,
+    ...(items || [])
+      .filter((item) => item.kind === 'module-reading' || item.kind === 'lesson')
+      .map((item) => item.id),
+  ])
 
   if (!journey || !group || group.type !== 'group' || !items?.length) {
     return <Navigate to={`/${journeyId}`} replace />
@@ -93,6 +101,8 @@ export function JourneyGroupDetail({ journeyId }) {
           </div>
         </section>
       ) : null}
+
+      <ArticleAssessments items={relatedAssessments} />
     </div>
   )
 }

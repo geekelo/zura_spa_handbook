@@ -95,6 +95,8 @@ export function TopicPage({ journeyId }) {
       backTo={backTo}
       relatedBase={relatedBase}
       locked={locked}
+      journeyId={journeyId}
+      groupId={nestedId ? articleId : undefined}
     />
   )
 }

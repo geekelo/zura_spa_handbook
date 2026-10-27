@@ -57,7 +57,8 @@
     "solutionLead": "Follow these steps to manage the situation with care and professionalism.",
     "articleLead": "Use these steps to stay consistent with Zura Spa standards.",
     "rememberLabel": "Remember:",
-    "assessmentsHeading": "Assessments",
+    "assessmentsHeading": "Assessments for this article",
+    "assessmentsAction": "Open assessment",
     "relatedPrefix": "More in",
     "routinePageTitle": "Routine",
     "routineTag": "Routine",
@@ -65,8 +66,6 @@
     "procedureHeading": "Procedure",
     "pendingCopy": "Content for this section will be added soon.",
     "sectionSummary": {
-      "label": "Section summary",
-      "prompt": "Record a short spoken summary of this section, then send it.",
       "record": "Record",
       "stop": "Stop",
       "send": "Send",
@@ -74,11 +73,21 @@
       "sending": "Sending…",
       "nameLabel": "Your work name",
       "nameNeeded": "Add your work name before sending.",
-      "micDenied": "Allow microphone access to record a summary.",
+      "micDenied": "Allow microphone access to record a voice note.",
       "unsupported": "This device cannot record audio in the browser.",
-      "missingNumber": "A WhatsApp number has not been set for section summaries.",
+      "missingNumber": "A WhatsApp number has not been set for article voice notes.",
       "shared": "Share sheet opened. Choose WhatsApp and send the voice note.",
-      "opened": "WhatsApp app should open on this phone. Attach the saved recording in that chat."
+      "opened": "WhatsApp app should open on this phone. Attach the saved recording in that chat.",
+      "summary": {
+        "label": "Article summary",
+        "prompt": "Send a detailed summary of what you understood, section by section.",
+        "caption": "Zura Spa — article summary"
+      },
+      "questions": {
+        "label": "Questions and suggestions",
+        "prompt": "Let us know your questions and suggestions.",
+        "caption": "Zura Spa — questions and suggestions"
+      }
     }
   }
 }

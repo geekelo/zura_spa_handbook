@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
-import { pages, getRelatedAssessments } from '../data'
+import { pages, getAssessmentLookupIds, getRelatedAssessments } from '../data'
 import sectionSummaries from '../data/site/section-summaries.json'
 import { resolveMediaSrc } from '../data/media'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
 import { SectionSummaryTask } from '../components/SectionSummaryTask'
+import { ArticleAssessments } from '../components/ArticleAssessments'
 import './ArticleDetail.css'
 
 function asList(value) {
@@ -41,7 +42,7 @@ function ProcedureList({ procedure }) {
   )
 }
 
-function ContentSection({ section, summaryTask }) {
+function ContentSection({ section }) {
   return (
     <section className="topic-section">
       {section.title ? <h3>{section.title}</h3> : null}
@@ -112,13 +113,6 @@ function ContentSection({ section, summaryTask }) {
         </p>
       ) : null}
       {section.closing ? <p>{section.closing}</p> : null}
-      {summaryTask ? (
-        <SectionSummaryTask
-          articleTitle={summaryTask.articleTitle}
-          sectionTitle={section.title || `Section ${summaryTask.sectionIndex + 1}`}
-          sectionIndex={summaryTask.sectionIndex}
-        />
-      ) : null}
     </section>
   )
 }
@@ -188,6 +182,8 @@ export default function ArticleDetail({
   backTo,
   relatedBase,
   locked = true,
+  journeyId,
+  groupId,
 }) {
   const isScenario = article.type === 'scenario'
   const isRoutine = article.type === 'routine'
@@ -196,10 +192,12 @@ export default function ArticleDetail({
   const guidelines = article.guidelines || []
   const notes = article.notes || []
   const hasRoutineBody = isRoutine
-  const relatedAssessments = getRelatedAssessments(article.id)
-  const showSectionSummaries = sectionSummaries.enabledCategoryIds?.includes(
-    category?.id,
+  const relatedAssessments = getRelatedAssessments(
+    getAssessmentLookupIds(article, { journeyId, groupId }),
   )
+  const showArticleVoiceNotes =
+    sectionSummaries.enabledCategoryIds?.includes(category?.id) ||
+    sectionSummaries.enabledCategoryIds?.includes(journeyId)
   const pageTitle = isScenario
     ? pages.article.scenarioPageTitle
     : isRoutine
@@ -267,15 +265,7 @@ export default function ArticleDetail({
       ) : article.sections?.length ? (
         <div className="topic-body">
           {article.sections.map((section, index) => (
-            <ContentSection
-              key={section.title || index}
-              section={section}
-              summaryTask={
-                showSectionSummaries
-                  ? { articleTitle: article.title, sectionIndex: index }
-                  : null
-              }
-            />
+            <ContentSection key={section.title || index} section={section} />
           ))}
         </div>
       ) : article.steps?.length ? (
@@ -297,13 +287,6 @@ export default function ArticleDetail({
                 <div>
                   <strong>{step.title}</strong>
                   <p>{step.body}</p>
-                  {showSectionSummaries ? (
-                    <SectionSummaryTask
-                      articleTitle={article.title}
-                      sectionTitle={step.title}
-                      sectionIndex={index}
-                    />
-                  ) : null}
                 </div>
               </li>
             ))}
@@ -320,26 +303,15 @@ export default function ArticleDetail({
         </aside>
       ) : null}
 
-      {relatedAssessments.length > 0 ? (
-        <section className="related-block related-block--assessments">
-          <h3 className="section-label">{pages.article.assessmentsHeading}</h3>
-          <div className="related-stack">
-            {relatedAssessments.map((item) => (
-              <Link key={item.to} to={item.to} className="related-row">
-                <span className="related-row__icon" aria-hidden="true">
-                  <Icon name="clipboard" size={20} />
-                </span>
-                <span>
-                  <strong>{item.title}</strong>
-                  <small>{item.summary}</small>
-                </span>
-                <Icon name="chevron" size={18} />
-              </Link>
-            ))}
-          </div>
-        </section>
+      {showArticleVoiceNotes ? (
+        <div className="article-voice-tasks">
+          <SectionSummaryTask articleTitle={article.title} taskKey="summary" />
+          <SectionSummaryTask articleTitle={article.title} taskKey="questions" />
+        </div>
       ) : null}
       </LockedContent>
+
+      <ArticleAssessments items={relatedAssessments} />
 
       {related.length > 0 ? (
         <section className="related-block">
