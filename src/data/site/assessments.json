@@ -163,7 +163,8 @@
       "articleIds": [
         "day-1-meaning-and-importance-of-teamwork",
         "day-1-lesson-3-shared-goals-and-responsibilities",
-        "day-1-lesson-4-individual-attitudes"
+        "day-1-lesson-4-individual-attitudes",
+        "day-1-lesson-5-team-success-above-ego"
       ],
       "assessments": [
         {
@@ -204,6 +205,19 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member chooses professional responses to correction, a colleague's success, frustration, and a struggling teammate — without gossip, hostility, or neglect.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Lesson 4 assessment submission"
+        },
+        {
+          "id": "day-1-lesson-5",
+          "title": "Day 1 Lesson 5 Ego or Team-First Exercise",
+          "summary": "5 situations on whether you choose ego or a team-first response. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-1-lesson-5",
+          "articleIds": ["day-1-lesson-5-team-success-above-ego"],
+          "articleTo": "/courses/understanding-team-work/day-1-lesson-5-team-success-above-ego",
+          "articleLabel": "Read Day 1 Lesson 5: Putting Team Success Above Personal Ego",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can put team success above personal ego: consider ideas on merit, celebrate colleagues, own mistakes, share knowledge, and raise disagreement respectfully.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Lesson 5 assessment submission"
         }
       ]
     }

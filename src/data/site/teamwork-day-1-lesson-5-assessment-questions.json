@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 1 — LESSON 5: EGO OR TEAM-FIRST MINDSET?",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "A colleague suggests a better way to organise treatment supplies. How should you respond?",
+        "options": [
+          "Reject the idea because you have more experience.",
+          "Consider the suggestion and evaluate whether it improves operations.",
+          "Ignore the suggestion because it did not come from management."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Another therapist receives excellent client feedback. How should you respond?",
+        "options": [
+          "Congratulate her and learn from what she does well.",
+          "Complain that management does not appreciate you.",
+          "Tell colleagues that the praise is undeserved."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "You make a mistake that causes a delay. How should you respond?",
+        "options": [
+          "Blame the nearest colleague.",
+          "Keep quiet so nobody discovers it.",
+          "Acknowledge the mistake and help correct the problem."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A less-experienced employee asks you for guidance. How should you respond?",
+        "options": [
+          "Tell her she should already know.",
+          "Offer appropriate guidance when you can.",
+          "Refuse because helping might make her better than you."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "You disagree with a supervisor's instruction. How should you respond?",
+        "options": [
+          "Respectfully ask questions and explain any relevant concerns.",
+          "Refuse to discuss the matter because you feel insulted.",
+          "Complain to colleagues without seeking clarification."
+        ]
+      }
+    ]
+  }
+]

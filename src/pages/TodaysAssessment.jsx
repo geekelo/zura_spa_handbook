@@ -15,6 +15,7 @@ import teachabilityQuestions from '../data/site/teachability-assessment-question
 import teamworkDay1Questions from '../data/site/teamwork-day-1-assessment-questions.json'
 import teamworkDay1Lesson3Questions from '../data/site/teamwork-day-1-lesson-3-assessment-questions.json'
 import teamworkDay1Lesson4Questions from '../data/site/teamwork-day-1-lesson-4-assessment-questions.json'
+import teamworkDay1Lesson5Questions from '../data/site/teamwork-day-1-lesson-5-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -32,6 +33,7 @@ const QUESTION_SETS = {
   'teamwork-day-1': teamworkDay1Questions,
   'teamwork-day-1-lesson-3': teamworkDay1Lesson3Questions,
   'teamwork-day-1-lesson-4': teamworkDay1Lesson4Questions,
+  'teamwork-day-1-lesson-5': teamworkDay1Lesson5Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
