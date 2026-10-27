@@ -1,22 +1,31 @@
 {
   "id": "course-outline",
-  "title": "Week 1 Outline",
-  "summary": "Staff Teamwork Training Programme. Theme: building a respectful, cooperative, responsible and high-performing team. Seven days, 45–60 minutes daily.",
+  "title": "7-Day Course Outline",
+  "summary": "7-Day Staff Teamwork Training Programme. Theme: building a respectful, cooperative, responsible and high-performing team. 45–60 minutes daily.",
   "type": "article",
   "order": 0,
   "sections": [
     {
-      "title": "Week 1 — Staff Teamwork Training Programme",
+      "title": "7-Day Staff Teamwork Training Programme",
       "paragraphs": [
         "Theme: Building a Respectful, Cooperative, Responsible and High-Performing Team.",
         "Duration: 7 days. Daily training: 45–60 minutes. Participants: all Zura Spa staff.",
-        "Training format: teaching, practical examples, role-play, discussions and daily assignments.",
-        "This seven-day outline is a Zura-specific training programme. It is the foundation for daily lessons, real-life scenarios, quizzes and facilitator instructions."
+        "Training format: teaching, practical examples, role-play, discussions and daily assignments."
+      ],
+      "items": [
+        { "label": "Day 01", "body": "Understanding Teamwork and the Zura Team Culture" },
+        { "label": "Day 02", "body": "Respect, Professionalism and Workplace Relationships" },
+        { "label": "Day 03", "body": "Effective Communication and Active Listening" },
+        { "label": "Day 04", "body": "Emotional Intelligence, Humility and Accepting Corrections" },
+        { "label": "Day 05", "body": "Conflict Resolution and Handling Difficult Situations" },
+        { "label": "Day 06", "body": "Accountability, Reliability and Supporting Colleagues" },
+        { "label": "Day 07", "body": "Building a Winning Team: Practical Assessment and Commitment" }
       ]
     },
     {
       "title": "Training Objectives",
       "paragraphs": [
+        "By the end of the seven days, every staff member should understand how to work effectively with others, communicate respectfully, accept corrections, resolve disagreements, take responsibility, and contribute to a healthy working environment.",
         "By the end of the seven days, every staff member should understand how to:"
       ],
       "list": [
@@ -267,8 +276,9 @@
     {
       "title": "Supplementary Learning",
       "paragraphs": [
-        "For extra study, staff may take the free eight-hour Working in Groups and Teams course from The Open University (open.edu). It covers team roles, trust, conflict and performance evaluation, and offers a free statement of participation.",
-        "This seven-day outline is a Zura-specific training programme, not the official syllabus of the Open University course."
+        "For supplementary learning, staff can take the free eight-hour Working in Groups and Teams course from The Open University. It covers team roles, trust, conflict and performance evaluation, and offers a free statement of participation.",
+        "Course link: https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
+        "This seven-day outline is a Zura-specific training programme, not the official syllabus of the Open University course. It can serve as the foundation for a complete staff training manual, with daily lessons, real-life scenarios, quizzes, answers and facilitator instructions."
       ]
     }
   ],
