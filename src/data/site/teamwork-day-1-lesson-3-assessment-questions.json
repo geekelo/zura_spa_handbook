@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 1 — LESSON 3: SHARED GOALS AND RESPONSIBILITIES",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is a shared goal?",
+        "options": [
+          "A task assigned to one employee",
+          "An objective that team members work together to achieve",
+          "A personal ambition unrelated to the organisation"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Who is primarily responsible for completing an assigned duty?",
+        "options": [
+          "The employee assigned to it",
+          "Any available colleague",
+          "The supervisor in every situation"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should you do if you cannot complete an important task on time?",
+        "options": [
+          "Keep quiet until someone notices",
+          "Assume someone else will complete it",
+          "Inform the appropriate person promptly"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which statement best describes teamwork?",
+        "options": [
+          "Everyone shares the same duties",
+          "Everyone contributes through their roles toward shared objectives",
+          "Employees are responsible only for their personal success"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "A colleague repeatedly neglects her duties and expects you to complete them. What is the best response?",
+        "options": [
+          "Keep completing the duties without discussion",
+          "Ignore the situation completely",
+          "Offer reasonable help when needed and raise recurring concerns appropriately"
+        ]
+      }
+    ]
+  }
+]

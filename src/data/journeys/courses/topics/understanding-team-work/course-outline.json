@@ -54,6 +54,10 @@
         {
           "label": "Open Day 1 lesson",
           "to": "/courses/understanding-team-work/day-1-meaning-and-importance-of-teamwork"
+        },
+        {
+          "label": "Open Day 1 Lesson 3: Shared Goals and Responsibilities",
+          "to": "/courses/understanding-team-work/day-1-lesson-3-shared-goals-and-responsibilities"
         }
       ],
       "closing": "Learning Outcome: The staff member can explain what teamwork means at Zura Spa and how their own behaviour helps or harms the whole organisation."

@@ -160,7 +160,10 @@
       "id": "understanding-team-work",
       "title": "Understanding Team Work",
       "description": "Knowledge assessments for the Staff Teamwork Training Programme.",
-      "articleIds": ["day-1-meaning-and-importance-of-teamwork"],
+      "articleIds": [
+        "day-1-meaning-and-importance-of-teamwork",
+        "day-1-lesson-3-shared-goals-and-responsibilities"
+      ],
       "assessments": [
         {
           "id": "day-1",
@@ -174,6 +177,19 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member understands what teamwork is, how it differs from merely working in the same place, which behaviours build or damage trust, and how to offer appropriate help without abandoning their own duties.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Day 1 assessment submission"
+        },
+        {
+          "id": "day-1-lesson-3",
+          "title": "Day 1 Lesson 3 Knowledge Assessment",
+          "summary": "5 questions on shared goals, individual duties and accountability. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-1-lesson-3",
+          "articleIds": ["day-1-lesson-3-shared-goals-and-responsibilities"],
+          "articleTo": "/courses/understanding-team-work/day-1-lesson-3-shared-goals-and-responsibilities",
+          "articleLabel": "Read Day 1 Lesson 3: Shared Goals and Responsibilities",
+          "pdfPurpose": "To assess whether a Zura Spa staff member understands shared goals versus individual responsibilities, who owns assigned duties, when to communicate blockers, and how to support colleagues without encouraging dependency.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Lesson 3 assessment submission"
         }
       ]
     }
