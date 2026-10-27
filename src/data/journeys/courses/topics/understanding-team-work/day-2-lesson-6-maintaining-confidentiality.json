@@ -1,0 +1,394 @@
+{
+  "id": "day-2-lesson-6-maintaining-confidentiality",
+  "title": "Lesson 6: Maintaining Confidentiality",
+  "summary": "Access to private information is a responsibility, not a privilege. Protect client, colleague and business information — and never use confidentiality to hide wrongdoing.",
+  "type": "article",
+  "module": 2,
+  "order": 6,
+  "sections": [
+    {
+      "title": "Staff Development & Teamwork Training",
+      "items": [
+        { "label": "Duration", "body": "45–60 minutes" },
+        { "label": "Participants", "body": "All Zura Spa staff" },
+        { "label": "Focus", "body": "Privacy, discretion, information security, professional trust and responsible reporting" }
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "paragraphs": [
+        "Imagine a client visits Zura Spa for a massage session.",
+        "During the appointment, the client shares some personal information with the therapist.",
+        "Later that evening, the therapist tells a friend about the client's visit and reveals what the client discussed.",
+        "The friend shares the information with another person, and eventually the client hears that her private conversation has been discussed outside the spa.",
+        "How would the client feel? Would she still trust the therapist? Would she feel comfortable returning to Zura Spa?",
+        "Now imagine a different situation.",
+        "A receptionist has access to client telephone numbers and appointment records. She uses one of those numbers to contact a client for a personal reason unrelated to Zura Spa.",
+        "Even if the receptionist believes her intentions are harmless, she has misused information entrusted to the business.",
+        "These examples demonstrate why confidentiality is essential.",
+        "At Zura Spa, access to private information is a responsibility, not a personal privilege.",
+        "Clients, colleagues and management must be able to trust employees to handle information appropriately."
+      ]
+    },
+    {
+      "title": "2. What is confidentiality?",
+      "paragraphs": [
+        "Confidentiality means protecting information that has been entrusted to you and ensuring that it is not disclosed, accessed or used without proper authorisation or a legitimate reason.",
+        "In the workplace, confidentiality involves knowing what information should remain private, who is authorised to receive it and how it should be handled.",
+        "Important distinction: Confidentiality does not mean hiding wrongdoing. Legitimate reporting of harassment, unsafe conduct, suspected fraud or other serious concerns must remain possible."
+      ]
+    },
+    {
+      "title": "Confidentiality includes",
+      "list": [
+        "Protecting client information.",
+        "Protecting employee personal information.",
+        "Protecting internal business information.",
+        "Avoiding unauthorised sharing of records or conversations.",
+        "Using information only for legitimate work purposes.",
+        "Reporting information breaches promptly."
+      ]
+    },
+    {
+      "title": "3. Why confidentiality is important at Zura Spa"
+    },
+    {
+      "title": "1. It builds client trust",
+      "paragraphs": [
+        "Clients should feel confident that their appointments, personal information and conversations will be treated discreetly."
+      ]
+    },
+    {
+      "title": "2. It protects personal privacy",
+      "paragraphs": [
+        "Employees may encounter information about people's identities, contact details, personal circumstances and preferences.",
+        "Such information should not be used or disclosed unnecessarily."
+      ]
+    },
+    {
+      "title": "3. It strengthens workplace relationships",
+      "paragraphs": [
+        "Employees are more likely to trust colleagues and supervisors when sensitive information is handled responsibly."
+      ]
+    },
+    {
+      "title": "4. It protects the organisation",
+      "paragraphs": [
+        "Unauthorised disclosures can damage Zura Spa's reputation, disrupt operations and create legal or regulatory risks."
+      ]
+    },
+    {
+      "title": "5. It demonstrates professionalism",
+      "paragraphs": [
+        "A trustworthy employee understands that private information should not become a subject of entertainment, gossip or personal advantage."
+      ]
+    },
+    {
+      "title": "4. Types of information that must be protected",
+      "paragraphs": [
+        "Not all workplace information has the same sensitivity. Employees should follow Zura Spa's policies and only access or share information needed for their assigned duties."
+      ],
+      "tableHeaders": ["Category", "Examples"],
+      "table": [
+        ["Client information", "Names, telephone numbers, appointment details and service preferences"],
+        ["Client conversations", "Personal matters disclosed during a massage or booking"],
+        ["Client images", "Photographs, videos and recordings"],
+        ["Employee information", "Contact details, personal circumstances and private personnel records"],
+        ["Business information", "Internal procedures, operational plans and non-public business records"],
+        ["Financial information", "Client payment details, internal financial records and authorised transaction information"],
+        ["Access information", "Passwords, login credentials and security codes"]
+      ]
+    },
+    {
+      "title": "5. Maintaining confidentiality with clients",
+      "paragraphs": [
+        "Massage services require a high level of professional trust.",
+        "Clients may disclose personal information, physical discomfort, health-related concerns or preferences that are relevant to their treatment.",
+        "They may also expect privacy about the fact that they visited the spa.",
+        "Lesson: A client's identity, presence and personal information should not become a topic of casual conversation."
+      ]
+    },
+    {
+      "title": "What employees must do",
+      "list": [
+        "Keep client conversations private unless disclosure is authorised or otherwise legitimately required.",
+        "Avoid discussing clients with friends, family or uninvolved colleagues.",
+        "Share necessary treatment information only with authorised staff who need it.",
+        "Never use client contact details for personal purposes.",
+        "Avoid revealing appointments or client identities to unauthorised persons.",
+        "Do not photograph or record clients without appropriate permission and business authorisation.",
+        "Protect booking records and other client information from unauthorised access.",
+        "Report suspected privacy breaches promptly."
+      ]
+    },
+    {
+      "title": "Zura Spa example — a well-known client",
+      "paragraphs": [
+        "A therapist recognises a well-known individual who visits for a massage.",
+        "After work, she tells her friends: \"You won't believe who came to Zura Spa today!\"",
+        "Even if she does not reveal the client's treatment details, disclosing the visit without authorisation may violate the client's privacy."
+      ]
+    },
+    {
+      "title": "6. Confidentiality between colleagues",
+      "paragraphs": [
+        "Employees may become aware of personal information about coworkers through conversations, workplace records or everyday interactions.",
+        "That information should be handled respectfully.",
+        "Lesson: Someone trusting you with personal information does not automatically give you permission to share it."
+      ]
+    },
+    {
+      "title": "Examples of inappropriate conduct",
+      "list": [
+        "Sharing a colleague's private family situation without permission.",
+        "Discussing an employee's confidential personnel matters.",
+        "Forwarding private messages to uninvolved coworkers.",
+        "Revealing personal contact information unnecessarily.",
+        "Spreading unverified information about disciplinary or employment decisions."
+      ]
+    },
+    {
+      "title": "Practical example — a colleague's personal difficulty",
+      "paragraphs": [
+        "A colleague privately tells you that she is experiencing a personal difficulty.",
+        "Later, another employee asks why she has been unusually quiet.",
+        "An inappropriate response would be to reveal the private information.",
+        "A more appropriate response would be: \"I don't think it's my place to discuss her personal circumstances.\""
+      ]
+    },
+    {
+      "title": "7. Protecting internal business information",
+      "paragraphs": [
+        "Employees may have access to operational information that is not intended for public distribution.",
+        "Examples may include internal procedures, client records, financial reports, staff schedules, business plans and access credentials.",
+        "Confidentiality should not be used to prevent employees from making lawful disclosures, reporting misconduct or raising legitimate workplace concerns."
+      ]
+    },
+    {
+      "title": "Appropriate behaviour",
+      "list": [
+        "Use business information only for authorised purposes.",
+        "Avoid forwarding internal documents without permission.",
+        "Do not share passwords or access credentials.",
+        "Store records in approved locations.",
+        "Do not use business information for personal advantage.",
+        "Seek clarification when unsure whether information may be shared."
+      ]
+    },
+    {
+      "title": "8. Confidentiality in WhatsApp and digital communication",
+      "paragraphs": [
+        "Workplace information is often shared through phones, messaging applications and digital records.",
+        "These tools make communication easier, but they also create privacy risks.",
+        "Lesson: Prompt reporting can help limit the consequences of an accidental disclosure."
+      ]
+    },
+    {
+      "title": "Digital confidentiality rules",
+      "items": [
+        {
+          "label": "Protect your device",
+          "body": "Use an appropriate screen lock and avoid leaving devices with sensitive work information unattended."
+        },
+        {
+          "label": "Check recipients before sending",
+          "body": "Confirm that messages, files and screenshots are being sent to the correct authorised person or group."
+        },
+        {
+          "label": "Avoid unnecessary screenshots",
+          "body": "Do not capture or circulate client records, private conversations or internal information without a legitimate work purpose and authorisation."
+        },
+        {
+          "label": "Use approved communication channels",
+          "body": "Share sensitive information only through channels authorised by Zura Spa and only with people who need it."
+        },
+        {
+          "label": "Report mistakes promptly",
+          "body": "If confidential information is sent to the wrong person or a device containing sensitive records is lost, inform the designated supervisor or management immediately."
+        }
+      ]
+    },
+    {
+      "title": "Example — a screenshot sent to the wrong group",
+      "paragraphs": [
+        "A receptionist accidentally sends a screenshot containing client appointment information to the wrong WhatsApp group.",
+        "The appropriate response is not to ignore the mistake and hope nobody notices.",
+        "She should promptly notify the designated person, request deletion where appropriate and follow the organisation's incident procedure."
+      ]
+    },
+    {
+      "title": "9. Confidentiality versus secrecy",
+      "paragraphs": [
+        "These concepts are different.",
+        "Confidentiality protects people and information. It must never become an excuse to cover up harm or misconduct."
+      ],
+      "tableHeaders": ["Confidentiality", "Improper secrecy"],
+      "table": [
+        ["Protects legitimate privacy", "Conceals wrongdoing"],
+        ["Limits access to authorised persons", "Prevents appropriate reporting"],
+        ["Supports trust and professionalism", "May protect misconduct"],
+        ["Allows necessary work-related disclosure", "Pressures employees to remain silent"],
+        ["Follows applicable rules and procedures", "Attempts to avoid accountability"]
+      ]
+    },
+    {
+      "title": "Example — a request to keep quiet",
+      "paragraphs": [
+        "A therapist observes conduct that may put a client at risk.",
+        "She should not remain silent simply because another employee asks her to \"keep it between us.\"",
+        "The concern should be reported through the appropriate channel."
+      ]
+    },
+    {
+      "title": "10. The need-to-know principle",
+      "paragraphs": [
+        "One of the simplest ways to maintain confidentiality is to apply the need-to-know principle.",
+        "This means sharing information only with people who are authorised to receive it and genuinely need it to perform their responsibilities.",
+        "If you are unsure, seek guidance from an authorised supervisor before sharing, unless an urgent safety or reporting obligation requires prompt action."
+      ]
+    },
+    {
+      "title": "Five questions to ask before sharing",
+      "list": [
+        "Is this information private or sensitive?",
+        "Do I have a legitimate reason to share it?",
+        "Is the recipient authorised to receive it?",
+        "Am I sharing only the information that is necessary?",
+        "Am I using an appropriate and secure communication method?"
+      ]
+    },
+    {
+      "title": "11. What to do when confidentiality is breached",
+      "paragraphs": [
+        "A confidentiality breach occurs when information is accessed, disclosed, lost or used inappropriately.",
+        "Breaches may be accidental or deliberate.",
+        "Management should assess the incident and follow applicable organisational and legal requirements, including any necessary notification obligations."
+      ]
+    },
+    {
+      "title": "Appropriate response",
+      "list": [
+        "Recognise the issue. Identify what information may have been exposed.",
+        "Report promptly. Inform the designated supervisor or management without unnecessary delay.",
+        "Limit further exposure. Follow instructions to stop additional sharing or access.",
+        "Preserve relevant facts. Provide accurate information about what happened.",
+        "Cooperate with corrective action. Assist with appropriate investigation and prevention measures.",
+        "Avoid concealment. Do not delete evidence or misrepresent the incident to avoid accountability."
+      ]
+    },
+    {
+      "title": "12. Practical case studies"
+    },
+    {
+      "title": "Case study A: The celebrity client",
+      "paragraphs": [
+        "A popular public figure books a massage session at Zura Spa.",
+        "A therapist recognises the person and sends a message to her friend saying: \"Guess who is here right now!\"",
+        "Expected lesson: Client privacy applies regardless of popularity or public status."
+      ],
+      "list": [
+        "What information has the therapist disclosed?",
+        "Why might the client expect privacy?",
+        "Does being a public figure remove the client's right to confidentiality?",
+        "What should the therapist have done?"
+      ]
+    },
+    {
+      "title": "Case study B: The client telephone number",
+      "paragraphs": [
+        "A receptionist obtains a client's number through the booking system.",
+        "After the appointment, she contacts the client privately for a personal reason.",
+        "Expected lesson: Access to client contact information is for legitimate business purposes, not personal use."
+      ],
+      "list": [
+        "Was the receptionist authorised to use the number for that purpose?",
+        "Why is this a misuse of information?",
+        "How could it affect the client's trust?",
+        "What should the organisation do to prevent similar incidents?"
+      ]
+    },
+    {
+      "title": "Case study C: The staff WhatsApp screenshot",
+      "paragraphs": [
+        "An employee takes a screenshot of a private staff conversation and forwards it to another group.",
+        "The screenshot contains sensitive information about a colleague.",
+        "Expected lesson: Digital communication requires the same discretion as face-to-face conversations."
+      ],
+      "list": [
+        "Which confidentiality concerns arise?",
+        "Why might forwarding the screenshot be harmful?",
+        "What should the employee have considered before sharing it?",
+        "What steps should be taken if the information has already been circulated?"
+      ]
+    },
+    {
+      "title": "Case study D: The request to keep quiet",
+      "paragraphs": [
+        "An employee notices a serious violation of professional service standards.",
+        "Another colleague says: \"Please don't report it. We are supposed to protect one another.\"",
+        "Expected lesson: Team loyalty does not require employees to conceal misconduct or risks to clients."
+      ],
+      "list": [
+        "Is concealing the incident an example of confidentiality?",
+        "What is the difference between loyalty and covering up wrongdoing?",
+        "Who should receive the report?",
+        "Why is prompt reporting important?"
+      ]
+    },
+    {
+      "title": "13. Interactive assessment",
+      "paragraphs": [
+        "Complete the Lesson 6 Knowledge Check at the bottom of this lesson. Choose an option, give your reason, then submit."
+      ],
+      "list": [
+        "What does workplace confidentiality mean? Keeping every workplace issue secret / Protecting entrusted information from unauthorised access, use or disclosure / Refusing to communicate with colleagues",
+        "A therapist recognises a well-known client. What should she do? Respect the client's privacy and avoid unnecessary disclosure / Tell her friends about the visit / Post about the client without using their full name",
+        "A receptionist wants to use a client's phone number for a personal message. What is appropriate? Use the number because it is already in the booking system / Ask another employee to send the message / Do not use client information for an unauthorised personal purpose",
+        "An employee accidentally sends client information to the wrong group. What should she do? Ignore it unless someone complains / Report it promptly and follow the incident procedure / Delete her own copy and tell nobody",
+        "A colleague asks you to conceal serious misconduct in the name of confidentiality. What should you do? Report the concern through the appropriate channel / Agree because colleagues must always protect one another / Discuss the incident with everyone in the workplace"
+      ]
+    },
+    {
+      "title": "14. Personal assignment",
+      "paragraphs": [
+        "Each employee should answer the following questions in writing."
+      ],
+      "list": [
+        "Explain confidentiality in your own words.",
+        "Identify five types of information that should be protected at Zura Spa.",
+        "Explain why client confidentiality is especially important in a massage spa.",
+        "Describe three ways employees can maintain confidentiality when using WhatsApp or other digital tools.",
+        "Explain the difference between confidentiality and concealing misconduct.",
+        "What should you do if you accidentally disclose sensitive client information?",
+        "Describe how you would respond if a friend asked whether a particular person visited Zura Spa.",
+        "Identify three personal commitments you will make to protect confidential information."
+      ]
+    },
+    {
+      "title": "15. Seven-day confidentiality challenge",
+      "tableHeaders": ["Day", "Practical commitment"],
+      "table": [
+        ["1", "Avoid unnecessary discussion of client information"],
+        ["2", "Protect colleagues' private information"],
+        ["3", "Review how you handle work-related messages and screenshots"],
+        ["4", "Check recipients before sharing information"],
+        ["5", "Apply the need-to-know principle"],
+        ["6", "Review proper reporting procedures for privacy concerns"],
+        ["7", "Reflect on how you have demonstrated discretion and trustworthiness"]
+      ]
+    },
+    {
+      "title": "16. Final lesson and takeaway",
+      "paragraphs": [
+        "Confidentiality is an essential part of professionalism.",
+        "At Zura Spa, clients trust employees with personal information, appointments and private conversations.",
+        "Colleagues and management also depend on employees to handle internal information responsibly.",
+        "That trust should never be taken lightly.",
+        "Every employee must understand that private information is not something to use for gossip, entertainment, personal gain or unauthorised disclosure.",
+        "At the same time, confidentiality must never be used as an excuse to conceal wrongdoing or prevent appropriate reporting.",
+        "This completes Day 2: Respect, Professionalism and Workplace Relationships. Next: Day 3 — Effective Communication and Active Listening, beginning with Speaking Clearly and Politely."
+      ]
+    }
+  ],
+  "remember": "Trust is built when people know their information is safe with you. Being trustworthy means protecting what is private, sharing only what is necessary and speaking up when something is wrong. At Zura Spa, confidentiality is not merely a workplace rule—it is a professional responsibility."
+}

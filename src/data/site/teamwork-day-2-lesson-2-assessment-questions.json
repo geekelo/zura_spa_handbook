@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 2: UNDERSTANDING WORKPLACE BOUNDARIES",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main purpose of workplace boundaries?",
+        "options": [
+          "To prevent employees from becoming friendly",
+          "To protect respectful, appropriate and professional interactions",
+          "To stop employees from helping one another"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A colleague repeatedly borrows your belongings without asking. What is the best response?",
+        "options": [
+          "Communicate clearly that permission is required",
+          "Insult the colleague publicly",
+          "Take the colleague's belongings in return"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A supervisor asks intrusive personal questions unrelated to work. What should an employee understand?",
+        "options": [
+          "Supervisors are entitled to every personal detail",
+          "Employees must answer to demonstrate loyalty",
+          "Employees can maintain reasonable privacy boundaries"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A client requests an inappropriate sexual service. What should the therapist do?",
+        "options": [
+          "Agree to avoid disappointing the client",
+          "Decline, maintain professional boundaries and follow reporting procedures",
+          "Ask a colleague to handle the request"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "Which statement best describes healthy teamwork?",
+        "options": [
+          "Supporting colleagues while respecting personal and professional boundaries",
+          "Always accepting additional duties regardless of circumstances",
+          "Sharing every personal detail with coworkers"
+        ]
+      }
+    ]
+  }
+]

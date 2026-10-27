@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 6: COMMUNICATING CONCERNS TO THE RIGHT PERSON",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main purpose of communicating concerns to the right person?",
+        "options": [
+          "To make sure everyone hears about the problem",
+          "To ensure the concern reaches someone who can appropriately address it",
+          "To avoid taking responsibility"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "You notice a treatment-room equipment problem. What should you do?",
+        "options": [
+          "Report it promptly and follow appropriate safety procedures",
+          "Discuss it only with friends",
+          "Ignore it until a client complains"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A colleague tells you about suspected serious misconduct involving a supervisor. What is appropriate?",
+        "options": [
+          "Share the story in the general staff group",
+          "Remain silent because the supervisor is senior",
+          "Use an appropriate alternative or higher-level reporting channel"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which statement is the most constructive workplace report?",
+        "options": [
+          "Everybody here is careless.",
+          "Room 2's air conditioner is not cooling, and a client is scheduled soon. Could we arrange an alternative?",
+          "Nothing ever works."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What should you do if a serious concern remains unresolved?",
+        "options": [
+          "Follow up and escalate through an appropriate channel",
+          "Assume it no longer matters",
+          "Spread the issue to uninvolved colleagues"
+        ]
+      }
+    ]
+  }
+]

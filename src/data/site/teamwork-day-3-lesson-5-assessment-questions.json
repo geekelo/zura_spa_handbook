@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 5: GIVING AND RECEIVING INSTRUCTIONS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What makes a workplace instruction effective?",
+        "options": [
+          "Speaking loudly so the employee obeys",
+          "Clearly communicating the task, responsibility, requirements and deadline",
+          "Assuming the employee already knows everything"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "You receive an instruction you do not understand. What should you do?",
+        "options": [
+          "Ask a respectful clarifying question",
+          "Pretend to understand and guess",
+          "Ignore the instruction"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Two people give you conflicting work instructions. What is the best response?",
+        "options": [
+          "Choose whichever task you prefer",
+          "Ignore both instructions",
+          "Explain the conflict and seek clarification of priorities"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A task is delayed because required supplies are unavailable. What should the employee do?",
+        "options": [
+          "Say nothing until the deadline passes",
+          "Report the difficulty promptly and seek guidance",
+          "Claim the task is complete"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "Which statement best describes responsible execution of instructions?",
+        "options": [
+          "Understanding the task, completing it appropriately and communicating the outcome",
+          "Saying 'okay' even when the task is unclear",
+          "Completing only the easiest part of the task"
+        ]
+      }
+    ]
+  }
+]

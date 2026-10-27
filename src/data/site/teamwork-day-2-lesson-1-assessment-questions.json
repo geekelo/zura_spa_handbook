@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 1: RESPECTING COLLEAGUES, SUPERVISORS AND MANAGEMENT",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the best definition of workplace respect?",
+        "options": [
+          "Agreeing with everyone at all times",
+          "Treating people with dignity and professional consideration",
+          "Avoiding all conversations with supervisors"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A colleague makes a mistake. What is the most respectful response?",
+        "options": [
+          "Correct the issue without humiliating the person",
+          "Mock the colleague in front of others",
+          "Tell other employees before addressing the issue"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "You disagree with a supervisor's instruction. What should you do?",
+        "options": [
+          "Respond angrily and refuse to discuss it",
+          "Complain to colleagues without clarification",
+          "Raise your concerns respectfully and seek clarification"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Who is responsible for demonstrating workplace respect?",
+        "options": [
+          "Employees only",
+          "Everyone, including management and supervisors",
+          "Supervisors only"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "Which statement is correct?",
+        "options": [
+          "Respect requires tolerating mistreatment",
+          "Respect means never questioning management",
+          "Respect allows professional disagreement and appropriate boundaries"
+        ]
+      }
+    ]
+  }
+]

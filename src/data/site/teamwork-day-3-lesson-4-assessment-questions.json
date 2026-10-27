@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 4: ASKING QUESTIONS INSTEAD OF MAKING ASSUMPTIONS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is an assumption?",
+        "options": [
+          "A fact that has been carefully verified",
+          "A conclusion accepted without enough information to confirm it",
+          "A clear instruction from a supervisor"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A colleague does not greet you. What is the most appropriate response?",
+        "options": [
+          "Avoid immediately concluding that the colleague dislikes you",
+          "Tell other staff that the colleague is disrespectful",
+          "Refuse to cooperate with the colleague"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A client asks to change a booking. What should the receptionist do?",
+        "options": [
+          "Cancel the booking immediately",
+          "Assume the client wants another therapist",
+          "Ask exactly what the client wants to change and confirm the details"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which question is most constructive when a task is incomplete?",
+        "options": [
+          "Why are you always so lazy?",
+          "Was there a difficulty that prevented the task from being completed?",
+          "Don't you know how to do your job?"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the CHECK method encourage?",
+        "options": [
+          "Considering facts, holding back assumptions, enquiring, confirming and responding constructively",
+          "Accepting the first explanation that comes to mind",
+          "Avoiding questions because they show uncertainty"
+        ]
+      }
+    ]
+  }
+]

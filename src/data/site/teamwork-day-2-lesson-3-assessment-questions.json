@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 3: AVOIDING GOSSIP, MOCKERY, CLIQUES AND UNHEALTHY COMPETITION",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "Which situation best describes workplace gossip?",
+        "options": [
+          "Reporting a safety concern to a supervisor",
+          "Spreading an unverified rumour about a colleague's private life",
+          "Sharing an appointment update with the assigned therapist"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A new therapist makes a mistake. What should an experienced colleague do?",
+        "options": [
+          "Correct her respectfully and explain the procedure",
+          "Mock her in front of other staff",
+          "Tell everyone she is incompetent"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "When does a friendship group become an unhealthy clique?",
+        "options": [
+          "When colleagues occasionally have lunch together",
+          "When colleagues share common interests",
+          "When the group deliberately excludes or undermines other employees"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What is an example of healthy competition?",
+        "options": [
+          "Withholding useful information from colleagues",
+          "Improving your own skills and celebrating others' achievements",
+          "Discouraging clients from booking another therapist"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "A colleague begins spreading a rumour. What is the best response?",
+        "options": [
+          "Avoid spreading it and redirect genuine concerns to appropriate channels",
+          "Repeat it to other colleagues",
+          "Add your own assumptions to the story"
+        ]
+      }
+    ]
+  }
+]

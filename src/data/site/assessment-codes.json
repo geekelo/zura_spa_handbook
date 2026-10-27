@@ -77,6 +77,83 @@
       "assessmentId": "day-1-lesson-5",
       "title": "Day 1 Lesson 5 Ego or Team-First Exercise",
       "accessCode": "194uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-1",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-1",
+      "title": "Day 2 Lesson 1 Knowledge Check",
+      "accessCode": "201uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-2",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-2",
+      "title": "Day 2 Lesson 2 Knowledge Check",
+      "accessCode": "202uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-3",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-3",
+      "title": "Day 2 Lesson 3 Knowledge Check",
+      "accessCode": "203uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-4",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-4",
+      "title": "Day 2 Lesson 4 Knowledge Check",
+      "accessCode": "204uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-5",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-5",
+      "title": "Day 2 Lesson 5 Knowledge Check",
+      "accessCode": "205uu"
+    },
+    {
+      "id": "understanding-team-work/day-2-lesson-6",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-2-lesson-6",
+      "title": "Day 2 Lesson 6 Knowledge Check",
+      "accessCode": "206uu"
+    },
+    {
+      "id": "understanding-team-work/day-3-lesson-1",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-3-lesson-1",
+      "title": "Day 3 Lesson 1 Knowledge Check",
+      "accessCode": "301uu"
+    },
+    {
+      "id": "understanding-team-work/day-3-lesson-2",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-3-lesson-2",
+      "title": "Day 3 Lesson 2 Knowledge Check",
+      "accessCode": "302uu"
+    },
+    {
+      "id": "understanding-team-work/day-3-lesson-4",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-3-lesson-4",
+      "title": "Day 3 Lesson 4 Knowledge Check",
+      "accessCode": "304uu"
+    },
+    {
+      "id": "understanding-team-work/day-3-lesson-5",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-3-lesson-5",
+      "title": "Day 3 Lesson 5 Knowledge Check",
+      "accessCode": "305uu"
+    },
+    {
+      "id": "understanding-team-work/day-3-lesson-6",
+      "categoryId": "understanding-team-work",
+      "assessmentId": "day-3-lesson-6",
+      "title": "Day 3 Lesson 6 Knowledge Check",
+      "accessCode": "306uu"
     }
   ]
 }

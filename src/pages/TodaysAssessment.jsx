@@ -16,6 +16,17 @@ import teamworkDay1Questions from '../data/site/teamwork-day-1-assessment-questi
 import teamworkDay1Lesson3Questions from '../data/site/teamwork-day-1-lesson-3-assessment-questions.json'
 import teamworkDay1Lesson4Questions from '../data/site/teamwork-day-1-lesson-4-assessment-questions.json'
 import teamworkDay1Lesson5Questions from '../data/site/teamwork-day-1-lesson-5-assessment-questions.json'
+import teamworkDay2Lesson1Questions from '../data/site/teamwork-day-2-lesson-1-assessment-questions.json'
+import teamworkDay2Lesson2Questions from '../data/site/teamwork-day-2-lesson-2-assessment-questions.json'
+import teamworkDay2Lesson3Questions from '../data/site/teamwork-day-2-lesson-3-assessment-questions.json'
+import teamworkDay2Lesson4Questions from '../data/site/teamwork-day-2-lesson-4-assessment-questions.json'
+import teamworkDay2Lesson5Questions from '../data/site/teamwork-day-2-lesson-5-assessment-questions.json'
+import teamworkDay2Lesson6Questions from '../data/site/teamwork-day-2-lesson-6-assessment-questions.json'
+import teamworkDay3Lesson1Questions from '../data/site/teamwork-day-3-lesson-1-assessment-questions.json'
+import teamworkDay3Lesson2Questions from '../data/site/teamwork-day-3-lesson-2-assessment-questions.json'
+import teamworkDay3Lesson4Questions from '../data/site/teamwork-day-3-lesson-4-assessment-questions.json'
+import teamworkDay3Lesson5Questions from '../data/site/teamwork-day-3-lesson-5-assessment-questions.json'
+import teamworkDay3Lesson6Questions from '../data/site/teamwork-day-3-lesson-6-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -34,6 +45,17 @@ const QUESTION_SETS = {
   'teamwork-day-1-lesson-3': teamworkDay1Lesson3Questions,
   'teamwork-day-1-lesson-4': teamworkDay1Lesson4Questions,
   'teamwork-day-1-lesson-5': teamworkDay1Lesson5Questions,
+  'teamwork-day-2-lesson-1': teamworkDay2Lesson1Questions,
+  'teamwork-day-2-lesson-2': teamworkDay2Lesson2Questions,
+  'teamwork-day-2-lesson-3': teamworkDay2Lesson3Questions,
+  'teamwork-day-2-lesson-4': teamworkDay2Lesson4Questions,
+  'teamwork-day-2-lesson-5': teamworkDay2Lesson5Questions,
+  'teamwork-day-2-lesson-6': teamworkDay2Lesson6Questions,
+  'teamwork-day-3-lesson-1': teamworkDay3Lesson1Questions,
+  'teamwork-day-3-lesson-2': teamworkDay3Lesson2Questions,
+  'teamwork-day-3-lesson-4': teamworkDay3Lesson4Questions,
+  'teamwork-day-3-lesson-5': teamworkDay3Lesson5Questions,
+  'teamwork-day-3-lesson-6': teamworkDay3Lesson6Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

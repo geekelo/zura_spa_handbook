@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 6: MAINTAINING CONFIDENTIALITY",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does workplace confidentiality mean?",
+        "options": [
+          "Keeping every workplace issue secret",
+          "Protecting entrusted information from unauthorised access, use or disclosure",
+          "Refusing to communicate with colleagues"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A therapist recognises a well-known client. What should she do?",
+        "options": [
+          "Respect the client's privacy and avoid unnecessary disclosure",
+          "Tell her friends about the visit",
+          "Post about the client without using their full name"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A receptionist wants to use a client's phone number for a personal message. What is appropriate?",
+        "options": [
+          "Use the number because it is already in the booking system",
+          "Ask another employee to send the message",
+          "Do not use client information for an unauthorised personal purpose"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "An employee accidentally sends client information to the wrong group. What should she do?",
+        "options": [
+          "Ignore it unless someone complains",
+          "Report it promptly and follow the incident procedure",
+          "Delete her own copy and tell nobody"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "A colleague asks you to conceal serious misconduct in the name of confidentiality. What should you do?",
+        "options": [
+          "Report the concern through the appropriate channel",
+          "Agree because colleagues must always protect one another",
+          "Discuss the incident with everyone in the workplace"
+        ]
+      }
+    ]
+  }
+]

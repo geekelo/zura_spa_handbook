@@ -1,0 +1,511 @@
+{
+  "id": "day-3-lesson-4-asking-questions-instead-of-assumptions",
+  "title": "Lesson 4: Asking Questions Instead of Making Assumptions",
+  "summary": "Seek clarification before treating incomplete information, personal interpretations or suspicions as established facts.",
+  "type": "article",
+  "module": 3,
+  "order": 4,
+  "sections": [
+    {
+      "title": "Staff Development & Teamwork Training",
+      "items": [
+        { "label": "Duration", "body": "45–60 minutes" },
+        { "label": "Participants", "body": "All Zura Spa staff" },
+        { "label": "Focus", "body": "Clarification, critical thinking, effective communication, teamwork and preventing misunderstandings" }
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "paragraphs": [
+        "Imagine a receptionist informs a therapist that her next client has requested a change.",
+        "Before the receptionist finishes explaining, the therapist assumes that the client wants to cancel the appointment.",
+        "She becomes upset and says: \"Why do clients always change their minds at the last minute?\"",
+        "However, the client was not cancelling. She only wanted to change from a Deep Tissue Massage to a Swedish Massage.",
+        "The therapist's frustration was based on something that had not actually happened.",
+        "Now imagine a different response.",
+        "The therapist asks: \"Please, what exactly does the client want to change? Is it the appointment time or the massage service?\"",
+        "The receptionist explains the request, and the therapist makes the necessary preparation.",
+        "The situation is resolved without unnecessary tension.",
+        "The difference between these two situations is simple: one employee assumed, while the other asked.",
+        "At Zura Spa, employees must learn to seek clarification rather than treating incomplete information, personal interpretations or suspicions as established facts."
+      ]
+    },
+    {
+      "title": "2. What is an assumption?",
+      "paragraphs": [
+        "An assumption is something a person accepts as true without having enough information to confirm it.",
+        "Assumptions are not always deliberate. Sometimes they happen automatically because of previous experiences, emotions, habits or expectations.",
+        "Each explanation may be possible, but there may be other reasons.",
+        "The colleague may be distracted. The supervisor may have an update. The client may want to give positive feedback. The receptionist may be attending to another client.",
+        "A possibility is not the same as a confirmed fact."
+      ],
+      "list": [
+        "A colleague does not greet you, so you assume she is angry with you.",
+        "A supervisor calls you into the office, so you assume you are in trouble.",
+        "A client asks to speak with management, so you assume she wants to complain.",
+        "A therapist is quiet, so you assume she is unfriendly.",
+        "A receptionist has not replied to a message, so you assume she is deliberately ignoring you."
+      ]
+    },
+    {
+      "title": "3. Why employees make assumptions",
+      "items": [
+        {
+          "label": "1. Rushing",
+          "body": "Employees may make quick decisions without checking important details, especially during busy periods."
+        },
+        {
+          "label": "2. Previous experiences",
+          "body": "An employee may expect a situation to repeat because something similar happened before."
+        },
+        {
+          "label": "3. Personal emotions",
+          "body": "Anger, disappointment, fear or insecurity can influence how employees interpret other people's actions."
+        },
+        {
+          "label": "4. Incomplete communication",
+          "body": "Important details may be missing from instructions, conversations or messages."
+        },
+        {
+          "label": "5. Gossip and other people's opinions",
+          "body": "Employees may form conclusions about colleagues or clients based on unverified information."
+        },
+        {
+          "label": "6. Overconfidence",
+          "body": "An employee may believe she already understands a situation and therefore sees no need to ask questions."
+        }
+      ]
+    },
+    {
+      "title": "4. Why making assumptions can be harmful",
+      "paragraphs": [
+        "At Zura Spa, an incorrect assumption can affect more than one person.",
+        "A single misunderstanding may be easy to correct. However, repeated assumptions can gradually damage teamwork and service quality.",
+        "Asking a short question early can prevent a much larger problem later."
+      ],
+      "tableHeaders": ["Area", "Possible consequence"],
+      "table": [
+        ["Client service", "The wrong massage service or appointment arrangement"],
+        ["Teamwork", "Unnecessary disagreement between employees"],
+        ["Workplace relationships", "Resentment, suspicion and loss of trust"],
+        ["Operations", "Delays, missed instructions or duplicated work"],
+        ["Professional development", "Repeated mistakes because clarification was not requested"],
+        ["Management", "Decisions based on incomplete or inaccurate information"],
+        ["Client safety", "Failure to clarify relevant preferences, discomfort or service limitations"]
+      ]
+    },
+    {
+      "title": "5. The difference between facts, assumptions and interpretations",
+      "paragraphs": [
+        "Employees should learn to separate what they know from what they believe.",
+        "An observation may be accurate while the explanation attached to it is wrong.",
+        "For example: \"I noticed that you did not respond to my message.\" This is an observation.",
+        "\"You ignored my message because you don't respect me.\" This is an interpretation that may not be supported by the facts.",
+        "A better approach would be: \"I sent a message earlier and haven't received a response. Did you see it?\""
+      ],
+      "tableHeaders": ["Situation", "Confirmed fact", "Unverified assumption"],
+      "table": [
+        ["A colleague does not greet you", "She did not greet you", "She dislikes you"],
+        ["A supervisor requests a meeting", "A meeting has been requested", "You are about to be punished"],
+        ["A client asks for another therapist", "The client requested a change", "The client thinks you are incompetent"],
+        ["A receptionist replies late", "The response was delayed", "She deliberately ignored you"],
+        ["A therapist leaves a room quickly", "She left the room quickly", "She is angry"],
+        ["A client gives short answers", "The client is speaking briefly", "The client is dissatisfied"]
+      ]
+    },
+    {
+      "title": "6. Seven principles of asking effective questions"
+    },
+    {
+      "title": "Principle 1: Ask before concluding",
+      "paragraphs": [
+        "When information is incomplete, seek clarification before forming a definite judgment.",
+        "Instead of: \"You deliberately left the room unprepared.\"",
+        "Ask: \"Was there a reason the room preparation was not completed?\""
+      ]
+    },
+    {
+      "title": "Principle 2: Ask questions to understand, not to accuse",
+      "paragraphs": [
+        "A question can still sound hostile if it is designed to blame someone.",
+        "Accusatory: \"Why are you always so careless?\"",
+        "Constructive: \"What happened during the preparation, and what do we need to correct?\""
+      ]
+    },
+    {
+      "title": "Principle 3: Be specific",
+      "paragraphs": [
+        "Vague questions often produce vague answers.",
+        "Vague: \"What is happening?\"",
+        "Specific: \"Has the 4 p.m. client confirmed the appointment, and which massage service did she select?\""
+      ]
+    },
+    {
+      "title": "Principle 4: Listen to the answer",
+      "paragraphs": [
+        "Asking questions is not useful if you interrupt the explanation or ignore the response.",
+        "Give the person a reasonable opportunity to answer."
+      ]
+    },
+    {
+      "title": "Principle 5: Confirm important details",
+      "paragraphs": [
+        "Repeat critical information when necessary.",
+        "Example: \"Just to confirm, the appointment is now at 5 p.m., and the client requested a Zura Massage. Is that correct?\""
+      ]
+    },
+    {
+      "title": "Principle 6: Avoid asking questions that embarrass people unnecessarily",
+      "paragraphs": [
+        "Questions should not be used to ridicule or humiliate colleagues.",
+        "Sensitive corrections are often better handled privately."
+      ]
+    },
+    {
+      "title": "Principle 7: Take appropriate action after clarification",
+      "paragraphs": [
+        "Once the necessary information is available, respond responsibly.",
+        "Do not continue making accusations after the facts have been established."
+      ]
+    },
+    {
+      "title": "7. Open-ended and closed-ended questions",
+      "paragraphs": [
+        "Different situations require different types of questions.",
+        "Effective communication often combines both types of questions."
+      ]
+    },
+    {
+      "title": "Open-ended questions",
+      "paragraphs": [
+        "These encourage explanation.",
+        "Open-ended questions are useful when the situation requires understanding or discussion."
+      ],
+      "list": [
+        "\"Could you explain what happened?\"",
+        "\"What difficulties did you experience?\"",
+        "\"How would you prefer us to handle this?\"",
+        "\"What do you think caused the delay?\"",
+        "\"What support would help you complete the task?\""
+      ]
+    },
+    {
+      "title": "Closed-ended questions",
+      "paragraphs": [
+        "These usually request a specific answer, such as yes, no, a time or a choice.",
+        "Closed-ended questions are useful when employees need to confirm a specific detail quickly."
+      ],
+      "list": [
+        "\"Has the client arrived?\"",
+        "\"Is Room 2 ready?\"",
+        "\"Did the client request Swedish Massage?\"",
+        "\"Is the appointment confirmed for 3 p.m.?\"",
+        "\"Have the clean towels been replaced?\""
+      ]
+    },
+    {
+      "title": "8. Asking questions when receiving instructions",
+      "paragraphs": [
+        "Employees sometimes avoid asking questions because they fear appearing inexperienced or unintelligent.",
+        "However, failing to clarify an instruction can create avoidable mistakes.",
+        "Employees should not ask unnecessary questions merely to delay work. The goal is to obtain the information needed to complete the task correctly."
+      ]
+    },
+    {
+      "title": "Example — arranging treatment rooms",
+      "paragraphs": [
+        "A supervisor says: \"Please arrange the treatment rooms before the afternoon appointments.\"",
+        "An employee may assume that all rooms require the same preparation.",
+        "However, the assigned services may differ.",
+        "A better response would be: \"Please, which rooms are assigned for the afternoon appointments, and are there any special preparation requirements?\""
+      ]
+    },
+    {
+      "title": "Important details to clarify",
+      "list": [
+        "What exactly needs to be done?",
+        "Who is responsible?",
+        "When should the task be completed?",
+        "What standard is expected?",
+        "Are there special requirements?",
+        "Who should be informed when the task is complete?"
+      ]
+    },
+    {
+      "title": "9. Asking questions when dealing with clients",
+      "paragraphs": [
+        "Client communication requires particular care because assumptions may affect comfort, satisfaction and safety.",
+        "A therapist should respect a client's request to stop and follow appropriate safety procedures when discomfort or other concerns arise.",
+        "Lesson: Asking the right questions helps employees understand each client's individual needs rather than treating every client as identical."
+      ]
+    },
+    {
+      "title": "A. Confirming the requested service",
+      "paragraphs": [
+        "Instead of assuming: \"You booked Deep Tissue Massage, so that's what we're doing.\"",
+        "Ask: \"Please, can I confirm that you would still like the Deep Tissue Massage you selected?\""
+      ]
+    },
+    {
+      "title": "B. Understanding pressure preferences",
+      "paragraphs": [
+        "Instead of assuming: \"Everybody prefers firm pressure.\"",
+        "Ask: \"Would you prefer light, firm or deep pressure today?\""
+      ]
+    },
+    {
+      "title": "C. Clarifying discomfort",
+      "paragraphs": [
+        "Instead of assuming: \"The client is just being difficult.\"",
+        "Ask: \"Could you tell me what feels uncomfortable so I can understand your concern?\""
+      ]
+    },
+    {
+      "title": "D. Understanding complaints",
+      "paragraphs": [
+        "Instead of assuming: \"The client is trying to cause trouble.\"",
+        "Ask: \"Could you please explain which part of your experience did not meet your expectations?\""
+      ]
+    },
+    {
+      "title": "E. Confirming appointments",
+      "paragraphs": [
+        "Instead of assuming: \"The client will arrive at the usual time.\"",
+        "Ask: \"Can I confirm that your appointment is still scheduled for 4 p.m.?\""
+      ]
+    },
+    {
+      "title": "10. Asking questions instead of judging colleagues",
+      "paragraphs": [
+        "Misunderstandings between colleagues can grow quickly when employees interpret actions negatively without seeking clarification.",
+        "Key principle: Ask about the situation before making judgments about someone's intentions or character."
+      ]
+    },
+    {
+      "title": "Example A: The colleague who is quiet",
+      "paragraphs": [
+        "An employee notices that her colleague has been unusually quiet.",
+        "Assumption: \"She is angry with me.\"",
+        "Better question: \"You seem quieter than usual today. Is everything okay?\"",
+        "The colleague may choose not to discuss personal matters. That choice should be respected."
+      ]
+    },
+    {
+      "title": "Example B: The incomplete task",
+      "paragraphs": [
+        "A therapist notices that a treatment room has not been fully prepared.",
+        "Assumption: \"The previous therapist is lazy.\"",
+        "Better question: \"I noticed the room is not fully ready. Was there an issue with the preparation?\""
+      ]
+    },
+    {
+      "title": "Example C: The delayed response",
+      "paragraphs": [
+        "A receptionist does not respond immediately to a work message.",
+        "Assumption: \"She is deliberately ignoring me.\"",
+        "Better question: \"Did you receive the message about the appointment change?\""
+      ]
+    },
+    {
+      "title": "Example D: The unexpected correction",
+      "paragraphs": [
+        "A supervisor corrects an employee.",
+        "Assumption: \"My supervisor does not like me.\"",
+        "Better question: \"Could you explain what I should do differently next time?\""
+      ]
+    },
+    {
+      "title": "11. A practical method: The CHECK approach",
+      "items": [
+        {
+          "label": "C — Consider what you know",
+          "body": "Identify the confirmed facts and the information that is missing."
+        },
+        {
+          "label": "H — Hold back assumptions",
+          "body": "Avoid treating your first interpretation as the truth."
+        },
+        {
+          "label": "E — Enquire respectfully",
+          "body": "Ask a clear, relevant question without unnecessary blame."
+        },
+        {
+          "label": "C — Confirm your understanding",
+          "body": "Listen carefully and verify important details."
+        },
+        {
+          "label": "K — Keep the response constructive",
+          "body": "Act on the confirmed information and focus on an appropriate solution."
+        }
+      ]
+    },
+    {
+      "title": "CHECK example",
+      "paragraphs": [
+        "A therapist notices that the supplies she requested are missing.",
+        "Instead of accusing the receptionist of ignoring her request, she uses the CHECK method.",
+        "She confirms what was requested, considers that there may have been a misunderstanding and asks: \"Please, did you receive my request for additional massage oil? I noticed it hasn't arrived.\"",
+        "The receptionist explains that the request was not received.",
+        "They agree on how to obtain the supplies and confirm future requests.",
+        "The issue is resolved without unnecessary blame."
+      ]
+    },
+    {
+      "title": "12. When questions are not enough",
+      "paragraphs": [
+        "Asking questions is important, but employees should also recognise situations requiring immediate action.",
+        "In these circumstances, employees should not delay necessary safety measures or reporting while attempting to obtain every possible explanation.",
+        "Questions can help establish facts, but they must not become a reason to ignore immediate risks.",
+        "Likewise, employees should not use repeated questioning to pressure clients or colleagues into revealing private information they are not required to share."
+      ],
+      "list": [
+        "A client asks a therapist to stop a treatment.",
+        "An urgent safety concern is identified.",
+        "An employee witnesses threatening or abusive conduct.",
+        "There is a suspected serious breach of professional standards.",
+        "A situation requires prompt escalation under workplace procedures."
+      ]
+    },
+    {
+      "title": "13. Practical case studies"
+    },
+    {
+      "title": "Case study A: The missing supplies",
+      "paragraphs": [
+        "A therapist arrives for her next appointment and discovers that the treatment room does not have enough clean towels.",
+        "She immediately accuses the previous therapist of being irresponsible.",
+        "Later, she learns that the laundry delivery was delayed and the issue had already been reported.",
+        "Expected lesson: Employees should seek facts before assigning blame."
+      ],
+      "list": [
+        "What did the therapist assume?",
+        "What facts were missing?",
+        "What question could she have asked?",
+        "How did her accusation affect the colleague?",
+        "What should happen after the correct information is established?"
+      ]
+    },
+    {
+      "title": "Case study B: The client requesting a change",
+      "paragraphs": [
+        "A client tells the receptionist that she wants to change her booking.",
+        "The receptionist assumes the client wants to cancel and removes the appointment.",
+        "The client later arrives expecting her session.",
+        "Expected lesson: Clarifying specific requests prevents booking errors and client dissatisfaction."
+      ],
+      "list": [
+        "What assumption caused the mistake?",
+        "What should the receptionist have asked?",
+        "Why is confirming appointment details important?",
+        "How should the mistake be addressed?"
+      ]
+    },
+    {
+      "title": "Case study C: The quiet colleague",
+      "paragraphs": [
+        "An employee notices that a colleague has not been speaking much.",
+        "She tells others: \"I think she's upset with management.\"",
+        "The information spreads, even though the colleague was simply concentrating on her responsibilities.",
+        "Expected lesson: Unverified interpretations should not be circulated as facts."
+      ],
+      "list": [
+        "Was there enough evidence to support the conclusion?",
+        "How did the assumption turn into gossip?",
+        "What could the employee have done instead?",
+        "Why should employees respect colleagues' privacy?"
+      ]
+    },
+    {
+      "title": "Case study D: The supervisor's message",
+      "paragraphs": [
+        "A supervisor sends an employee a message: \"Please see me when you arrive.\"",
+        "The employee assumes she has done something wrong.",
+        "She becomes anxious and starts discussing the situation with other staff.",
+        "When she meets the supervisor, she discovers the meeting is about a new training opportunity.",
+        "Expected lesson: Employees should not automatically interpret incomplete information negatively."
+      ],
+      "list": [
+        "What caused the employee's concern?",
+        "Was her conclusion supported by the message?",
+        "What could she have asked?",
+        "How can employees manage uncertainty professionally?"
+      ]
+    },
+    {
+      "title": "14. Practical group activity: Fact or assumption?",
+      "paragraphs": [
+        "Activity duration: 10 minutes.",
+        "The facilitator reads each statement aloud.",
+        "Participants identify whether the statement describes a confirmed observation or an assumption.",
+        "Follow-up: Ask each participant to turn one assumption into a respectful question.",
+        "Example — Assumption: \"The receptionist ignored my request.\" Question: \"Please, did you receive my request earlier?\"",
+        "Expected outcome: Participants should learn to distinguish observations from interpretations and seek clarification before reacting."
+      ],
+      "tableHeaders": ["Statement", "Classification"],
+      "table": [
+        ["\"The client arrived 15 minutes late.\"", "Fact, if verified"],
+        ["\"The client does not respect our time.\"", "Assumption"],
+        ["\"The therapist has not replied to my message.\"", "Fact, if verified"],
+        ["\"The therapist is deliberately ignoring me.\"", "Assumption"],
+        ["\"The supervisor requested a meeting.\"", "Fact"],
+        ["\"The supervisor wants to punish me.\"", "Assumption"],
+        ["\"The treatment room was not ready at 2 p.m.\"", "Fact, if verified"],
+        ["\"The employee responsible is lazy.\"", "Assumption"]
+      ]
+    },
+    {
+      "title": "15. Interactive assessment",
+      "paragraphs": [
+        "Complete the Lesson 4 Knowledge Check at the bottom of this lesson. Choose an option, give your reason, then submit."
+      ],
+      "list": [
+        "What is an assumption? A fact that has been carefully verified / A conclusion accepted without enough information to confirm it / A clear instruction from a supervisor",
+        "A colleague does not greet you. What is the most appropriate response? Avoid immediately concluding that the colleague dislikes you / Tell other staff that the colleague is disrespectful / Refuse to cooperate with the colleague",
+        "A client asks to change a booking. What should the receptionist do? Cancel the booking immediately / Assume the client wants another therapist / Ask exactly what the client wants to change and confirm the details",
+        "Which question is most constructive when a task is incomplete? Why are you always so lazy? / Was there a difficulty that prevented the task from being completed? / Don't you know how to do your job?",
+        "What does the CHECK method encourage? Considering facts, holding back assumptions, enquiring, confirming and responding constructively / Accepting the first explanation that comes to mind / Avoiding questions because they show uncertainty"
+      ]
+    },
+    {
+      "title": "16. Personal assignment",
+      "paragraphs": [
+        "Each employee should answer the following questions in writing."
+      ],
+      "list": [
+        "Explain what an assumption means in your own words.",
+        "Identify five reasons employees may make incorrect assumptions.",
+        "Describe three ways assumptions can negatively affect Zura Spa's operations.",
+        "Explain the difference between a confirmed fact and an interpretation.",
+        "Give three examples of assumptions employees might make about colleagues.",
+        "Rewrite those assumptions as respectful questions.",
+        "Explain the CHECK method and how it can improve communication.",
+        "Describe a situation where asking a question could prevent a misunderstanding.",
+        "Identify three personal habits you intend to develop to avoid unnecessary assumptions."
+      ]
+    },
+    {
+      "title": "17. Seven-day clarification challenge",
+      "tableHeaders": ["Day", "Practical commitment"],
+      "table": [
+        ["1", "Identify one assumption before reacting to it"],
+        ["2", "Ask a clarifying question when information is incomplete"],
+        ["3", "Confirm an important appointment or work instruction"],
+        ["4", "Avoid making judgments about a colleague's intentions"],
+        ["5", "Practise asking questions without blame or accusation"],
+        ["6", "Separate observations from personal interpretations"],
+        ["7", "Reflect on how clarification helped prevent misunderstandings"]
+      ]
+    },
+    {
+      "title": "18. Final lesson and takeaway",
+      "paragraphs": [
+        "Many workplace problems begin not because someone deliberately acted wrongly, but because another person misunderstood the situation.",
+        "At Zura Spa, employees should develop the habit of seeking clarification before making judgments, assigning blame or taking action based on incomplete information.",
+        "Asking questions demonstrates a willingness to understand.",
+        "It reduces mistakes, protects workplace relationships and helps employees make better decisions.",
+        "Next topic: Giving and Receiving Instructions Correctly."
+      ]
+    }
+  ],
+  "remember": "Do not allow assumptions to replace understanding. What you think happened may not be what actually happened. What you believe someone meant may not be what they intended. Before reacting, ask. Before blaming, clarify. Before concluding, confirm. A professional employee seeks the facts and responds with understanding rather than unnecessary judgment."
+}

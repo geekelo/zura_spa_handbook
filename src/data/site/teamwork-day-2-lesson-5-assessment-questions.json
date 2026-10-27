@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 5: SEPARATING PERSONAL FEELINGS FROM PROFESSIONAL RESPONSIBILITIES",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does separating personal feelings from professional responsibilities mean?",
+        "options": [
+          "Never experiencing negative emotions",
+          "Managing your behaviour so personal feelings do not unfairly interfere with work",
+          "Hiding every personal problem from management"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "You are upset with a colleague, but she needs important appointment information. What should you do?",
+        "options": [
+          "Communicate the necessary information professionally",
+          "Refuse because you are not speaking to her",
+          "Wait until she apologises, even if the appointment is delayed"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A therapist feels too distressed to concentrate safely on a session. What is the best response?",
+        "options": [
+          "Continue without telling anyone regardless of the risk",
+          "Leave without informing anyone",
+          "Notify the appropriate supervisor and seek assistance or an adjustment"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A supervisor excuses a friend's mistakes but penalises others for similar mistakes. What is the problem?",
+        "options": [
+          "The supervisor is being supportive",
+          "Personal friendship is interfering with professional fairness",
+          "Employees should never be friends with supervisors"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "Which statement about emotional maturity is correct?",
+        "options": [
+          "It means recognising emotions and choosing appropriate responses",
+          "It means never disagreeing with management",
+          "It means pretending that problems do not exist"
+        ]
+      }
+    ]
+  }
+]

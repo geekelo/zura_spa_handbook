@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 2 — LESSON 4: BEING COURTEOUS EVEN WHEN YOU DISAGREE",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "A colleague disagrees with your suggestion during a staff meeting.",
+        "options": [
+          "Tell her she doesn't know what she's talking about.",
+          "Ask her to explain her perspective and discuss the options.",
+          "Refuse to speak to her afterward."
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Your supervisor gives an instruction you believe is unclear.",
+        "options": [
+          "Ask politely for clarification.",
+          "Ignore the instruction without explanation.",
+          "Complain to colleagues that the supervisor is incompetent."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A coworker speaks sharply to you because she is frustrated.",
+        "options": [
+          "Respond with an insult.",
+          "Spread the incident around the workplace.",
+          "Remain calm, set a respectful boundary and escalate if necessary."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "You realise your suggestion was not the best option.",
+        "options": [
+          "Continue arguing to protect your pride.",
+          "Acknowledge the better option and cooperate.",
+          "Blame someone else for the discussion."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "A disagreement becomes heated.",
+        "options": [
+          "Suggest a short pause and return to the issue calmly.",
+          "Raise your voice to make yourself heard.",
+          "Bring up unrelated past mistakes."
+        ]
+      }
+    ]
+  }
+]

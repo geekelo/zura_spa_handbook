@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 2: LISTENING WITHOUT INTERRUPTING",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main purpose of active listening?",
+        "options": [
+          "To prepare your response while another person speaks",
+          "To understand the speaker's message accurately",
+          "To avoid speaking during every conversation"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A client begins explaining a sensitive area before a massage. What should the therapist do?",
+        "options": [
+          "Listen carefully, clarify the concern and respond appropriately",
+          "Interrupt because the therapist already has experience",
+          "Assume the client's concern is unimportant"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A supervisor gives an instruction that is unclear. What is the best response?",
+        "options": [
+          "Guess what the supervisor means",
+          "Ignore the instruction",
+          "Ask a relevant clarifying question and confirm the expected task"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A colleague disagrees with you. How should you listen?",
+        "options": [
+          "Interrupt to defend your position",
+          "Allow the explanation and consider the information before responding",
+          "Assume disagreement means disrespect"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "When may interrupting be appropriate?",
+        "options": [
+          "When an urgent safety concern requires immediate attention",
+          "Whenever you disagree with the speaker",
+          "Whenever you believe you know what the speaker will say"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 3 — LESSON 1: SPEAKING POLITELY AND CHOOSING APPROPRIATE WORDS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "Which statement best describes polite workplace communication?",
+        "options": [
+          "Agreeing with everyone regardless of the situation",
+          "Expressing messages clearly and respectfully",
+          "Avoiding all difficult conversations"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A colleague makes a mistake. Which response is most professional?",
+        "options": [
+          "The room is missing supplies. Please correct it before the next appointment.",
+          "You never do anything properly.",
+          "Everybody knows you're careless."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "You are too busy to assist a colleague immediately. What should you say?",
+        "options": [
+          "Leave me alone.",
+          "That's your problem.",
+          "I'm completing another task. Can we arrange assistance through the supervisor?"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A client complains about a delay. What is the best response?",
+        "options": [
+          "You're not the only client here.",
+          "I'm sorry for the delay. Let me check the situation and update you.",
+          "Stop complaining."
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the CLEAR communication method encourage?",
+        "options": [
+          "Calmness, listening, clear expression, clarification and resolution",
+          "Speaking quickly to end conversations",
+          "Avoiding responsibility for difficult messages"
+        ]
+      }
+    ]
+  }
+]
