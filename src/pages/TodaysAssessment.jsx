@@ -35,6 +35,9 @@ import teamworkDay4Lesson4Questions from '../data/site/teamwork-day-4-lesson-4-a
 import teamworkDay4Lesson5Questions from '../data/site/teamwork-day-4-lesson-5-assessment-questions.json'
 import teamworkDay4Lesson6Questions from '../data/site/teamwork-day-4-lesson-6-assessment-questions.json'
 import teamworkDay4Lesson7Questions from '../data/site/teamwork-day-4-lesson-7-assessment-questions.json'
+import teamworkDay5Lesson1Questions from '../data/site/teamwork-day-5-lesson-1-assessment-questions.json'
+import teamworkDay5Lesson2Questions from '../data/site/teamwork-day-5-lesson-2-assessment-questions.json'
+import teamworkDay5Lessons37Questions from '../data/site/teamwork-day-5-lessons-3-7-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -72,6 +75,9 @@ const QUESTION_SETS = {
   'teamwork-day-4-lesson-5': teamworkDay4Lesson5Questions,
   'teamwork-day-4-lesson-6': teamworkDay4Lesson6Questions,
   'teamwork-day-4-lesson-7': teamworkDay4Lesson7Questions,
+  'teamwork-day-5-lesson-1': teamworkDay5Lesson1Questions,
+  'teamwork-day-5-lesson-2': teamworkDay5Lesson2Questions,
+  'teamwork-day-5-lessons-3-7': teamworkDay5Lessons37Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

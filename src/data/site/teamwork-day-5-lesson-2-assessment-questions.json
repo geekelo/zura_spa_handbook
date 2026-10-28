@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 5 — LESSON 2: UNDERSTANDING THE DIFFERENCE BETWEEN DISAGREEMENT AND DISRESPECT",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main difference between disagreement and disrespect?",
+        "options": [
+          "Disagreement involves different opinions, while disrespect involves inappropriate treatment",
+          "Disagreement is always wrong, while disrespect is sometimes necessary",
+          "Disagreement only happens between supervisors"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which statement demonstrates respectful disagreement?",
+        "options": [
+          "Your idea is ridiculous.",
+          "I understand your point, but I see the situation differently.",
+          "Nobody asked for your opinion."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "An employee respectfully questions a scheduling instruction because it conflicts with another booking. Is this automatically disrespectful?",
+        "options": [
+          "Yes, employees should never ask questions.",
+          "Yes, because disagreement always challenges authority.",
+          "No, raising a genuine operational concern respectfully can be appropriate."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What should you do when someone disagrees with your suggestion?",
+        "options": [
+          "Listen, consider their reasoning and respond respectfully",
+          "Immediately assume they dislike you",
+          "Refuse to cooperate with them"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the AGREE method encourage?",
+        "options": [
+          "Arguing until everyone accepts your opinion",
+          "Acknowledging perspectives, giving your view, reviewing facts, exploring solutions and establishing next steps",
+          "Avoiding all discussions with colleagues"
+        ]
+      }
+    ]
+  }
+]

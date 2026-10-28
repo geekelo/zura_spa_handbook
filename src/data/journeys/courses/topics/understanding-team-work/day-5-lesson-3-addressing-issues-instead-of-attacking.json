@@ -1,0 +1,151 @@
+{
+  "id": "day-5-lesson-3-addressing-issues-instead-of-attacking",
+  "title": "Lesson 3: Addressing Issues Instead of Attacking Personalities",
+  "summary": "Concentrate on the specific mistake and the expected improvement. Do not turn an operational problem into a judgment about someone's character.",
+  "type": "article",
+  "module": 5,
+  "order": 3,
+  "sections": [
+    {
+      "title": "Staff Development & Teamwork Training",
+      "items": [
+        { "label": "Duration", "body": "45–60 minutes" },
+        { "label": "Participants", "body": "All Zura Spa staff" },
+        { "label": "Focus", "body": "Issue-focused communication, facts instead of labels, and practical solutions" }
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "paragraphs": [
+        "Imagine a receptionist makes an error while recording a client's appointment.",
+        "The therapist assigned to the client discovers the mistake and says: \"You're always so careless. I don't understand why you can't do simple things properly.\"",
+        "The receptionist becomes upset and responds: \"You're not perfect either. You also make mistakes!\"",
+        "The discussion turns into an argument about each person's character. Meanwhile, the original booking problem remains unresolved.",
+        "Now consider a different approach: \"The appointment was recorded for 3 p.m., but the client confirmed 4 p.m. Let's correct the booking and agree on how to verify appointment times going forward.\"",
+        "This approach identifies the actual problem, corrects it and helps prevent recurrence.",
+        "The first approach attacks the person. The second addresses the issue.",
+        "At Zura Spa, employees should learn to separate operational problems from personal judgments."
+      ]
+    },
+    {
+      "title": "2. What does addressing the issue mean?",
+      "paragraphs": [
+        "Addressing the issue means concentrating on the specific action, mistake, misunderstanding or situation that requires attention.",
+        "It involves identifying what happened, understanding its effect and finding a practical solution.",
+        "For example: \"The room wasn't ready before the appointment.\" This identifies a work-related problem.",
+        "By contrast: \"You're lazy and irresponsible.\" This labels the employee's personality without explaining the precise issue."
+      ]
+    },
+    {
+      "title": "3. Why personal attacks make conflict worse",
+      "paragraphs": [
+        "Personal attacks often create additional problems beyond the original disagreement.",
+        "When employees feel personally attacked, they may concentrate on defending their dignity rather than understanding what needs improvement.",
+        "A workplace problem should not become a judgment about someone's entire character."
+      ],
+      "list": [
+        "Make employees defensive.",
+        "Distract attention from the actual issue.",
+        "Damage trust.",
+        "Create resentment.",
+        "Encourage retaliation.",
+        "Reduce cooperation.",
+        "Make employees afraid to report mistakes."
+      ]
+    },
+    {
+      "title": "4. Focus on facts, not labels",
+      "paragraphs": [
+        "The second column describes specific behaviours. This makes it easier to establish the facts and identify appropriate improvements."
+      ],
+      "tableHeaders": ["Personality attack", "Issue-focused communication"],
+      "table": [
+        ["\"You're lazy.\"", "\"The assigned task wasn't completed.\""],
+        ["\"You're careless.\"", "\"The appointment details were entered incorrectly.\""],
+        ["\"You're selfish.\"", "\"The shared supplies were not replenished.\""],
+        ["\"You're disrespectful.\"", "\"You interrupted me several times during the discussion.\""],
+        ["\"You're unreliable.\"", "\"You arrived after your scheduled start time on three occasions.\""],
+        ["\"You never listen.\"", "\"The instruction wasn't followed as discussed. Can we clarify it?\""]
+      ]
+    },
+    {
+      "title": "5. Avoid exaggerations",
+      "paragraphs": [
+        "Words such as always, never, everybody and nothing can make a disagreement more hostile, especially when they are inaccurate.",
+        "Unhelpful: \"You never do anything properly.\"",
+        "Better: \"The room checklist was incomplete after yesterday's session and again this morning.\"",
+        "Specific information is more useful than exaggerated criticism."
+      ]
+    },
+    {
+      "title": "6. The ISSUE method",
+      "items": [
+        {
+          "label": "I — Identify the actual problem",
+          "body": "Describe what happened without attacking the person."
+        },
+        {
+          "label": "S — Separate facts from assumptions",
+          "body": "Confirm what is known and avoid guessing intentions."
+        },
+        {
+          "label": "S — Speak respectfully",
+          "body": "Use calm, professional language."
+        },
+        {
+          "label": "U — Understand the other perspective",
+          "body": "Allow relevant explanations and ask clarifying questions."
+        },
+        {
+          "label": "E — Establish a solution",
+          "body": "Agree on what needs to change and who will take responsibility."
+        }
+      ]
+    },
+    {
+      "title": "7. Practical example",
+      "paragraphs": [
+        "Two therapists disagree about an unfinished room preparation.",
+        "Instead of arguing about who is lazy or irresponsible, they can discuss what preparation was required, which tasks were incomplete, who was assigned to complete them, whether there was a communication or handover problem, and what needs to happen before the next appointment.",
+        "If the responsibility remains disputed, the supervisor should clarify the arrangement."
+      ]
+    },
+    {
+      "title": "8. When the issue involves repeated misconduct",
+      "paragraphs": [
+        "Focusing on behaviour does not mean ignoring repeated problems.",
+        "If an employee repeatedly fails to complete assigned responsibilities, the supervisor may need to document the incidents, communicate expectations and follow the appropriate performance-management process.",
+        "The discussion should still remain factual and respectful.",
+        "Accountability and dignity can exist together."
+      ]
+    },
+    {
+      "title": "9. Lesson 3 case study",
+      "paragraphs": [
+        "A receptionist forgets to communicate an appointment change. The therapist responds by calling her incompetent in front of colleagues.",
+        "Expected lesson: Address the actual problem without making degrading judgments about the person involved."
+      ],
+      "list": [
+        "What was the original operational problem?",
+        "Which statement turned the correction into a personal attack?",
+        "What should the therapist have said?",
+        "What responsibility belongs to the receptionist?",
+        "How can the booking process be improved?"
+      ]
+    },
+    {
+      "title": "10. Lesson 3 practical exercise",
+      "paragraphs": [
+        "Rewrite the following statements as issue-focused feedback."
+      ],
+      "tableHeaders": ["Original statement", "Improved statement"],
+      "table": [
+        ["\"You're so lazy!\"", "\"The assigned cleaning task wasn't completed.\""],
+        ["\"You don't have common sense!\"", "\"The appointment was recorded incorrectly. Let's verify the details.\""],
+        ["\"You're the problem in this team!\"", "\"This repeated handover issue is affecting the team, and we need to address it.\""],
+        ["\"You don't care about clients!\"", "\"The client's concern wasn't communicated promptly. Please ensure such concerns are escalated.\""]
+      ]
+    }
+  ],
+  "remember": "When a problem occurs, focus on what happened, why it matters and what needs to change. Do not turn one mistake into a judgment about someone's entire personality."
+}

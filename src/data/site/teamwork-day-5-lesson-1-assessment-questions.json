@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 5 — LESSON 1: COMMON CAUSES OF WORKPLACE CONFLICT",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is workplace conflict?",
+        "options": [
+          "Any situation where employees have different personalities",
+          "A disagreement, tension or dispute that affects workplace relationships or cooperation",
+          "Every correction given by a supervisor"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Two employees each assume the other will complete a shared task. What is the likely cause of conflict?",
+        "options": [
+          "Unclear responsibilities",
+          "Jealousy",
+          "Personal attack"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Which behaviour is most likely to escalate a workplace disagreement?",
+        "options": [
+          "Asking for clarification",
+          "Discussing the issue privately",
+          "Making personal accusations and involving colleagues in taking sides"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What should an employee do after hearing an unverified rumour about a colleague?",
+        "options": [
+          "Share it with the entire team",
+          "Avoid spreading it and seek appropriate clarification if necessary",
+          "Immediately confront the colleague with an accusation"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the ROOT method encourage?",
+        "options": [
+          "Recognising the issue, observing facts, opening respectful communication and taking appropriate action",
+          "Reacting immediately, opposing colleagues and transferring blame",
+          "Remaining silent about every disagreement"
+        ]
+      }
+    ]
+  }
+]
