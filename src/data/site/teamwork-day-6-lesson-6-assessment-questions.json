@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 6 — LESSON 6: SUPPORTING NEW AND LESS-EXPERIENCED STAFF",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main purpose of supporting new employees?",
+        "options": [
+          "To complete all their work permanently",
+          "To help them develop competence, confidence and accountability",
+          "To make them dependent on experienced staff"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A new employee asks a reasonable question about a procedure. What should an experienced colleague do?",
+        "options": [
+          "Explain the procedure respectfully and confirm understanding",
+          "Mock the employee for not knowing",
+          "Tell the employee to guess"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should happen when a new employee has not demonstrated competence in a safety-sensitive procedure?",
+        "options": [
+          "Allow independent work to build confidence",
+          "Ask another new employee to supervise",
+          "Arrange appropriate training or supervision before independent performance"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which behaviour demonstrates healthy knowledge-sharing?",
+        "options": [
+          "Withholding information to remain indispensable",
+          "Sharing approved procedures and helping colleagues learn",
+          "Excluding new employees from operational updates"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the GUIDE method stand for?",
+        "options": [
+          "Greet, Understand, Instruct, Develop and Encourage",
+          "Guess, Undermine, Ignore, Discourage and Exclude",
+          "Give orders, Use criticism, Insult, Demand and Embarrass"
+        ]
+      }
+    ]
+  }
+]

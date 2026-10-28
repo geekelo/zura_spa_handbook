@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 6 — LESSON 3: HELPING COLLEAGUES WITHOUT NEGLECTING PERSONAL RESPONSIBILITIES",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the best description of healthy teamwork?",
+        "options": [
+          "Completing everyone's duties regardless of your own workload",
+          "Supporting colleagues appropriately while remaining accountable for your own responsibilities",
+          "Refusing to help colleagues under any circumstances"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A therapist has an imminent appointment, and a colleague asks for non-urgent help. What should she normally do?",
+        "options": [
+          "Complete essential appointment preparation before offering help",
+          "Immediately abandon her own preparation",
+          "Ignore the colleague without responding"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What is a good way to help a new employee learn a procedure?",
+        "options": [
+          "Always complete the task for her",
+          "Tell her to work it out alone",
+          "Explain, demonstrate and allow her to practise"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "When should an employee seek supervisory guidance?",
+        "options": [
+          "Whenever anyone asks for help",
+          "When competing responsibilities cannot be managed appropriately or require reassignment",
+          "Only after an argument"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the HELP method stand for?",
+        "options": [
+          "Hear, Evaluate, Limit and Protect",
+          "Hide, Escape, Leave and Pretend",
+          "Hurry, Expect, Lose and Panic"
+        ]
+      }
+    ]
+  }
+]

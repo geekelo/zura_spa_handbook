@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 6 — LESSON 2: PUNCTUALITY AND KEEPING COMMITMENTS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does punctuality mean in the workplace?",
+        "options": [
+          "Arriving whenever convenient",
+          "Being present, prepared and ready at the agreed time",
+          "Arriving before the supervisor"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "What should an employee do when she realises she may arrive late?",
+        "options": [
+          "Communicate promptly through the appropriate channel",
+          "Wait until someone asks where she is",
+          "Give an unrealistic arrival time"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "A receptionist promises a client a callback but cannot obtain the required information on time. What should she do?",
+        "options": [
+          "Ignore the commitment",
+          "Pretend the information has been confirmed",
+          "Provide an honest update and arrange a realistic follow-up"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which behaviour demonstrates dependability?",
+        "options": [
+          "Agreeing to every request regardless of capacity",
+          "Making realistic commitments and fulfilling them consistently",
+          "Leaving unfinished work without explanation"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the READY method encourage?",
+        "options": [
+          "Review schedules, Estimate time, Act early, Deliver commitments and Yield honest updates",
+          "Rush, Excuse, Avoid, Delay and Yell",
+          "Relax, Expect reminders, Arrive late, Deny and Yield responsibility"
+        ]
+      }
+    ]
+  }
+]

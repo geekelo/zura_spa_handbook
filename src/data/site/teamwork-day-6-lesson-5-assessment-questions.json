@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 6 — LESSON 5: REPORTING MISTAKES PROMPTLY RATHER THAN CONCEALING THEM",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the most appropriate response when an employee discovers a mistake that may affect a client?",
+        "options": [
+          "Hide it and hope nobody notices",
+          "Report it promptly and take appropriate corrective action",
+          "Wait until the client complains"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "What is the difference between making a mistake and concealing one?",
+        "options": [
+          "A mistake may be accidental, while concealment involves deliberately hiding relevant information",
+          "They are always the same behaviour",
+          "Concealment is acceptable if the mistake is small"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "An employee accidentally sends confidential client information to the wrong recipient. What should she do?",
+        "options": [
+          "Post the details in the general staff WhatsApp group",
+          "Delete the message from her own device and say nothing",
+          "Report the incident promptly through the designated private channel"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What should an employee do when equipment may be unsafe?",
+        "options": [
+          "Continue using it until someone complains",
+          "Stop using it, protect people and report the concern",
+          "Hide the problem to avoid embarrassment"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the REPORT method encourage?",
+        "options": [
+          "Recognise, Establish facts, Promptly inform, Offer action, Record and Take preventive steps",
+          "Relax, Excuse, Pretend, Overlook, Refuse and Transfer blame",
+          "React angrily, Escape, Post publicly, Overstate, Reject and Threaten"
+        ]
+      }
+    ]
+  }
+]

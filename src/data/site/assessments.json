@@ -498,6 +498,84 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member can address issues without personal attacks, refuse gossip and retaliation, escalate serious or repeated concerns, resolve disagreements privately, and restore professional cooperation.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Day 5 Lessons 3–7 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-1",
+          "title": "Day 6 Lesson 1 Knowledge Check",
+          "summary": "5 questions on taking ownership of assigned duties. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-1",
+          "articleIds": ["day-6-lesson-1-taking-ownership-of-assigned-duties"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-1-taking-ownership-of-assigned-duties",
+          "articleLabel": "Read Day 6 Lesson 1: Taking Ownership of Assigned Duties",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can take ownership of assigned duties, complete work without constant reminders, report mistakes honestly, take appropriate initiative, and apply OWNER.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 1 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-2",
+          "title": "Day 6 Lesson 2 Knowledge Check",
+          "summary": "5 questions on punctuality and keeping commitments. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-2",
+          "articleIds": ["day-6-lesson-2-punctuality-and-keeping-commitments"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-2-punctuality-and-keeping-commitments",
+          "articleLabel": "Read Day 6 Lesson 2: Punctuality and Keeping Commitments",
+          "pdfPurpose": "To assess whether a Zura Spa staff member understands workplace punctuality as readiness, communicates delays honestly, keeps realistic commitments, and applies READY.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 2 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-3",
+          "title": "Day 6 Lesson 3 Knowledge Check",
+          "summary": "5 questions on helping colleagues without neglecting personal duties. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-3",
+          "articleIds": ["day-6-lesson-3-helping-colleagues-without-neglecting-duties"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-3-helping-colleagues-without-neglecting-duties",
+          "articleLabel": "Read Day 6 Lesson 3: Helping Colleagues Without Neglecting Personal Responsibilities",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can support colleagues without abandoning assigned duties, set respectful boundaries, help new staff learn, and apply HELP when requests compete with their own work.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 3 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-4",
+          "title": "Day 6 Lesson 4 Knowledge Check",
+          "summary": "5 questions on avoiding blame-shifting and excuses. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-4",
+          "articleIds": ["day-6-lesson-4-avoiding-blame-shifting-and-excuses"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-4-avoiding-blame-shifting-and-excuses",
+          "articleLabel": "Read Day 6 Lesson 4: Avoiding Blame-Shifting and Excuses",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can distinguish explanations from excuses, acknowledge actual responsibility, refuse unfair blame, and apply OWN IT.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 4 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-5",
+          "title": "Day 6 Lesson 5 Knowledge Check",
+          "summary": "5 questions on reporting mistakes promptly rather than concealing them. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-5",
+          "articleIds": ["day-6-lesson-5-reporting-mistakes-promptly"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-5-reporting-mistakes-promptly",
+          "articleLabel": "Read Day 6 Lesson 5: Reporting Mistakes Promptly Rather Than Concealing Them",
+          "pdfPurpose": "To assess whether a Zura Spa staff member reports mistakes early to the right person, distinguishes accidental errors from concealment, protects safety and privacy, and applies REPORT.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 5 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-6",
+          "title": "Day 6 Lesson 6 Knowledge Check",
+          "summary": "5 questions on supporting new and less-experienced staff. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-6",
+          "articleIds": ["day-6-lesson-6-supporting-new-and-less-experienced-staff"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-6-supporting-new-and-less-experienced-staff",
+          "articleLabel": "Read Day 6 Lesson 6: Supporting New and Less-Experienced Staff",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can support new colleagues with patience and knowledge-sharing, avoid mockery and exclusion, and apply GUIDE.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 6 assessment submission"
         }
       ]
     }

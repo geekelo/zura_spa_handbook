@@ -1,0 +1,591 @@
+{
+  "id": "day-6-lesson-5-reporting-mistakes-promptly",
+  "title": "Lesson 5: Reporting Mistakes Promptly Rather Than Concealing Them",
+  "summary": "A mistake can often be corrected. Concealing it can make it worse. Report relevant errors early, to the right person, with facts — not assumptions, gossip or falsified records.",
+  "type": "article",
+  "module": 6,
+  "order": 5,
+  "sections": [
+    {
+      "title": "Staff Development & Teamwork Training",
+      "items": [
+        { "label": "Duration", "body": "45–60 minutes" },
+        { "label": "Participants", "body": "All Zura Spa staff" },
+        { "label": "Focus", "body": "Honesty, accountability, early reporting, professional integrity, problem-solving and client protection" }
+      ]
+    },
+    {
+      "title": "1. Introduction: A small mistake that became a big problem",
+      "paragraphs": [
+        "Imagine a receptionist at Zura Spa who receives a booking from a client.",
+        "The client requests a Deep Tissue Massage for 4:00 p.m.",
+        "While entering the appointment, the receptionist accidentally selects 5:00 p.m.",
+        "A few minutes later, she notices the mistake.",
+        "She becomes worried: \"What if the supervisor gets angry with me? What if they think I'm careless?\"",
+        "Instead of reporting the error, she decides to leave the booking as it is.",
+        "She hopes the client will arrive at 5:00 p.m. or that someone else will discover the problem.",
+        "At 4:00 p.m., the client arrives.",
+        "The therapist is attending to another client, and no treatment room has been prepared for the appointment.",
+        "The client becomes frustrated.",
+        "The receptionist tries to explain the situation, but the confusion continues.",
+        "The supervisor becomes involved.",
+        "What could have been corrected earlier has now affected the client, the therapist, the appointment schedule and the reputation of the spa.",
+        "Now imagine a different response.",
+        "Immediately after discovering the mistake, the receptionist informs the supervisor: \"I entered a client's appointment for 5:00 p.m., but the client requested 4:00 p.m. I noticed the error just now. I'm sorry. Can we review the schedule and contact the client to confirm the correct arrangement?\"",
+        "The supervisor reviews the schedule, and the necessary correction is made.",
+        "The client receives accurate information before arriving.",
+        "The mistake is resolved without unnecessary disruption.",
+        "Both situations began with the same error.",
+        "The difference was how the employee responded after discovering it.",
+        "A mistake may create a problem, but concealing it can create a much bigger one.",
+        "At Zura Spa, employees must understand that promptly reporting mistakes is not a sign of weakness. It is a demonstration of honesty, maturity and responsibility."
+      ]
+    },
+    {
+      "title": "2. What does reporting a mistake mean?",
+      "paragraphs": [
+        "Reporting a mistake means informing the appropriate person when an error, omission or unexpected problem has occurred.",
+        "It involves communicating relevant facts honestly and early enough for corrective action to be taken.",
+        "When you discover a mistake that may affect clients, colleagues, safety, finances or operations, do not simply hope that nobody notices.",
+        "Report it through the appropriate channel."
+      ],
+      "list": [
+        "A receptionist enters the wrong appointment time.",
+        "A therapist discovers that a required preparation step was missed.",
+        "An employee notices an error in a payment record.",
+        "A staff member accidentally damages workplace equipment.",
+        "A client complaint was not communicated.",
+        "An employee sends incorrect booking information.",
+        "A colleague notices that an important handover was incomplete.",
+        "A staff member accidentally shares confidential information with an unauthorised person."
+      ]
+    },
+    {
+      "title": "3. What does concealing a mistake mean?",
+      "paragraphs": [
+        "Concealing a mistake means deliberately hiding, denying, misrepresenting or withholding important information about an error to prevent others from discovering it.",
+        "An employee who has not yet noticed a mistake is not necessarily concealing it.",
+        "Concealment begins when an employee becomes aware of relevant information and deliberately hides or misrepresents it.",
+        "Making a mistake and deliberately hiding a mistake are two different behaviours."
+      ],
+      "list": [
+        "Deleting a booking record to hide an incorrect entry.",
+        "Claiming that a task was completed when it was not.",
+        "Hiding damaged equipment.",
+        "Giving false information about a client complaint.",
+        "Changing payment figures to conceal a discrepancy.",
+        "Blaming another employee for an error you made.",
+        "Keeping silent about a serious problem because you fear correction."
+      ]
+    },
+    {
+      "title": "4. The difference between making a mistake and concealing one",
+      "paragraphs": [
+        "A therapist accidentally spills massage oil on a treatment-room floor.",
+        "Mistake: The oil was spilled accidentally.",
+        "Concealment: The therapist leaves the spill unattended and tells nobody because she does not want to be blamed.",
+        "The initial spill may be accidental.",
+        "Leaving a known slip hazard unaddressed creates an additional problem.",
+        "The appropriate response is to secure the area, prevent anyone from slipping and follow the required cleaning and reporting procedure."
+      ],
+      "tableHeaders": ["Making a mistake", "Concealing a mistake"],
+      "table": [
+        ["May be accidental", "Involves deliberate withholding or misrepresentation"],
+        ["Can happen despite reasonable care", "Often reflects a decision to avoid disclosure"],
+        ["May be corrected quickly", "Can delay correction"],
+        ["Creates an opportunity for learning", "Can prevent learning"],
+        ["Does not automatically demonstrate dishonesty", "Can undermine trust and integrity"],
+        ["May affect one task", "Can create wider operational consequences"]
+      ]
+    },
+    {
+      "title": "5. Why employees sometimes hide mistakes",
+      "paragraphs": [
+        "Employees may conceal mistakes for different reasons.",
+        "These feelings may help explain why an employee hesitates, but they do not make concealment a responsible solution.",
+        "Fear may make honesty difficult, but hiding an important mistake usually makes the situation harder to resolve."
+      ],
+      "items": [
+        {
+          "label": "Fear of punishment",
+          "body": "An employee worries about being reprimanded or disciplined."
+        },
+        {
+          "label": "Fear of embarrassment",
+          "body": "An employee does not want colleagues to know that she made an error."
+        },
+        {
+          "label": "Protecting personal reputation",
+          "body": "An employee wants to maintain the appearance of being competent."
+        },
+        {
+          "label": "Pride",
+          "body": "An employee finds it difficult to acknowledge being wrong."
+        },
+        {
+          "label": "Hoping the problem will disappear",
+          "body": "An employee believes the error may resolve itself without intervention."
+        },
+        {
+          "label": "Fear of disappointing management",
+          "body": "An employee worries that admitting a mistake will reduce the supervisor's confidence in her."
+        },
+        {
+          "label": "Previous negative experiences",
+          "body": "An employee may have experienced harsh or humiliating reactions after reporting errors."
+        }
+      ]
+    },
+    {
+      "title": "6. Why prompt reporting matters at Zura Spa",
+      "items": [
+        {
+          "label": "1. It protects clients",
+          "body": "Early reporting helps prevent errors from affecting client comfort, safety and service quality."
+        },
+        {
+          "label": "2. It allows faster correction",
+          "body": "Problems are often easier to resolve when identified early."
+        },
+        {
+          "label": "3. It builds trust",
+          "body": "Colleagues and supervisors can rely on employees who communicate honestly."
+        },
+        {
+          "label": "4. It strengthens teamwork",
+          "body": "Relevant information reaches the people who need it to respond effectively."
+        },
+        {
+          "label": "5. It helps identify underlying problems",
+          "body": "Management can recognise unclear procedures, training gaps or equipment issues."
+        },
+        {
+          "label": "6. It encourages professional growth",
+          "body": "Employees can learn from errors instead of repeating them."
+        }
+      ]
+    },
+    {
+      "title": "7. How delay can make a mistake worse",
+      "paragraphs": [
+        "A mistake that is manageable when discovered may become more complicated when reporting is delayed.",
+        "The earlier a relevant problem is reported, the more opportunity the team has to limit its consequences."
+      ],
+      "list": [
+        "A mistake occurs: an appointment is entered incorrectly.",
+        "The employee discovers it: there is an opportunity to correct it early.",
+        "The employee stays silent: the incorrect information remains in use.",
+        "Other employees act on the error: room preparation and scheduling may be affected.",
+        "The client experiences a problem: a preventable mistake becomes a service disruption."
+      ]
+    },
+    {
+      "title": "8. Report mistakes before someone discovers them",
+      "paragraphs": [
+        "Some employees only acknowledge mistakes after being confronted.",
+        "A therapist accidentally damages an item of equipment.",
+        "She decides not to report it.",
+        "Later, another employee discovers the damage.",
+        "When questioned, the therapist admits what happened.",
+        "Although she eventually tells the truth, she had an earlier opportunity to report the problem.",
+        "Better response: \"I accidentally damaged this equipment while moving it. I've stopped using it because I don't know whether it's safe. I'm reporting it now so it can be checked.\"",
+        "Do not wait until you are caught before you become honest.",
+        "Professional integrity means communicating relevant mistakes even when nobody is watching."
+      ]
+    },
+    {
+      "title": "9. Reporting a mistake does not mean announcing it to everyone",
+      "paragraphs": [
+        "Employees must understand the difference between appropriate reporting and unnecessary disclosure.",
+        "Not every mistake should be discussed in a staff WhatsApp group or shared with every colleague.",
+        "A receptionist discovers that confidential client information was accidentally sent to an unauthorised person.",
+        "She should not post the client's information in the general staff group while asking what to do.",
+        "Instead, she should report the incident immediately to the designated supervisor or management contact, preserve relevant details and follow the approved privacy-incident procedure.",
+        "Reporting responsibly means informing the right person, not spreading the information unnecessarily."
+      ],
+      "list": [
+        "The seriousness of the incident.",
+        "Who needs to know.",
+        "Whether client information is involved.",
+        "Whether immediate action is required.",
+        "The workplace's reporting procedure."
+      ]
+    },
+    {
+      "title": "10. What information should be included in a mistake report?",
+      "paragraphs": [
+        "A useful report should be factual, clear and sufficiently detailed for the responsible person to understand the situation.",
+        "Example: \"Good afternoon. I noticed that I entered the wrong appointment time for a client earlier today. The client requested 4:00 p.m., but I recorded 5:00 p.m. I have not changed the booking yet because I want to confirm room and therapist availability. Please, can we review the schedule and contact the client?\"",
+        "This report is useful because it identifies the problem and the next decision required."
+      ],
+      "items": [
+        {
+          "label": "1. What happened?",
+          "body": "Describe the mistake."
+        },
+        {
+          "label": "2. When did it happen?",
+          "body": "State the relevant time or period."
+        },
+        {
+          "label": "3. Who or what may be affected?",
+          "body": "Identify relevant clients, tasks or equipment without unnecessary disclosure."
+        },
+        {
+          "label": "4. What action has already been taken?",
+          "body": "Explain any immediate corrective steps."
+        },
+        {
+          "label": "5. What assistance is needed?",
+          "body": "Identify decisions or support required."
+        }
+      ]
+    },
+    {
+      "title": "11. Report facts, not assumptions",
+      "paragraphs": [
+        "Employees should avoid exaggerating, speculating or making unsupported accusations.",
+        "Poor report: \"The booking system is always useless. It deliberately changed the appointment.\"",
+        "Better report: \"I entered the appointment for 4:00 p.m., but the record currently displays 5:00 p.m. I am not sure whether I entered it incorrectly or there was a system issue. Could we review the record?\"",
+        "The second statement separates observation from assumption.",
+        "When reporting a mistake, be honest about what you know and what you do not know.",
+        "An employee should not invent an explanation simply to make the report sound complete."
+      ]
+    },
+    {
+      "title": "12. Immediate action versus reporting",
+      "paragraphs": [
+        "Sometimes a mistake requires immediate action before a detailed report can be completed.",
+        "A therapist spills massage oil on the floor. The immediate priority is preventing anyone from slipping. She should warn others, restrict access if necessary and follow the approved cleaning procedure. She should also notify the appropriate person.",
+        "If a client becomes unwell during a session, the therapist should stop the treatment, follow the emergency response procedure and obtain appropriate assistance. She should not continue the session simply because she is afraid of being blamed.",
+        "When there is an immediate safety concern, protect people first and report promptly.",
+        "Employees should not delay urgent assistance while trying to prepare a perfect explanation."
+      ]
+    },
+    {
+      "title": "13. Reporting financial and payment errors",
+      "paragraphs": [
+        "Payment-related errors require particular care because they involve money, records and trust.",
+        "A receptionist notices that she recorded a payment incorrectly.",
+        "She should not secretly alter unrelated entries to make the records appear balanced.",
+        "She should report the discrepancy and follow the authorised correction or reconciliation process.",
+        "Accuracy and honesty are essential whenever money is involved."
+      ],
+      "list": [
+        "Recording the wrong payment amount.",
+        "Marking an unpaid appointment as paid.",
+        "Entering a payment under the wrong client.",
+        "Discovering a discrepancy between a transaction and a record.",
+        "Accidentally issuing incorrect payment information.",
+        "Do not invent transactions, falsify receipts, delete records to conceal discrepancies, make unauthorised financial adjustments, or fail to preserve relevant transaction information."
+      ]
+    },
+    {
+      "title": "14. Reporting mistakes involving client privacy",
+      "paragraphs": [
+        "Zura Spa employees may handle sensitive client information, including names, contact details, appointment records and service preferences.",
+        "This information must be treated confidentially.",
+        "A receptionist accidentally sends a client's booking information to the wrong recipient.",
+        "She notices immediately.",
+        "She should not ignore the error because the recipient has not responded.",
+        "She should promptly report the incident through the designated channel and follow management's instructions for containment, documentation and any required notification.",
+        "Deleting a message from your own device does not necessarily remove it from the recipient's device.",
+        "Employees should not assume a privacy incident has been resolved merely because a message was deleted.",
+        "Privacy mistakes require prompt, discreet and accurate reporting."
+      ]
+    },
+    {
+      "title": "15. Reporting equipment damage and operational problems",
+      "paragraphs": [
+        "Employees should report damaged or malfunctioning equipment promptly.",
+        "A therapist notices that a massage table is unstable.",
+        "She thinks: \"Maybe it will be fine for one more session.\"",
+        "This is an inappropriate risk.",
+        "The therapist should stop using the equipment, report the concern and follow the approved procedure for obtaining a safe alternative.",
+        "Do not conceal equipment problems simply because reporting them may cause inconvenience.",
+        "Client and employee safety are more important than avoiding an uncomfortable conversation."
+      ],
+      "list": [
+        "An unstable massage table.",
+        "A faulty electrical socket.",
+        "A damaged treatment-room fitting.",
+        "A water leak.",
+        "Broken furniture.",
+        "An equipment fault affecting client comfort or safety."
+      ]
+    },
+    {
+      "title": "16. Reporting a colleague's mistake respectfully",
+      "paragraphs": [
+        "Sometimes an employee discovers a mistake made by someone else.",
+        "The response should be professional and focused on the issue.",
+        "A therapist notices that a colleague recorded the wrong room number for an upcoming appointment.",
+        "She can say: \"I noticed the booking shows Room 2, but the room allocation appears to be Room 3. Could we check it before the client arrives?\"",
+        "If the error is minor and can be safely corrected through the normal procedure, the employees may resolve it appropriately.",
+        "However, serious concerns involving safety, harassment, confidentiality, theft or other misconduct should be reported through the designated channel.",
+        "Reporting a genuine concern is not gossip.",
+        "Gossip spreads unnecessary information.",
+        "Responsible reporting communicates relevant facts to someone who can address the issue."
+      ]
+    },
+    {
+      "title": "17. The REPORT method",
+      "paragraphs": [
+        "A receptionist discovers an incorrect appointment entry.",
+        "She recognises that the appointment time is wrong.",
+        "She establishes the correct time from the available information.",
+        "She promptly informs the supervisor.",
+        "She offers to contact the client and update the booking.",
+        "She records the correction accurately.",
+        "She takes steps to verify appointment details before future confirmations.",
+        "This is responsible reporting."
+      ],
+      "items": [
+        {
+          "label": "R — Recognise the mistake",
+          "body": "Identify what went wrong and whether immediate action is necessary."
+        },
+        {
+          "label": "E — Establish the facts",
+          "body": "Separate what you know from assumptions or uncertainty."
+        },
+        {
+          "label": "P — Promptly inform the right person",
+          "body": "Communicate through the appropriate reporting channel without unnecessary delay."
+        },
+        {
+          "label": "O — Offer appropriate corrective action",
+          "body": "Explain what has been done and what assistance may be needed."
+        },
+        {
+          "label": "R — Record relevant details",
+          "body": "Complete any required incident, booking, payment or handover documentation accurately."
+        },
+        {
+          "label": "T — Take steps to prevent recurrence",
+          "body": "Learn from the incident and follow through on agreed improvements."
+        }
+      ]
+    },
+    {
+      "title": "18. What should happen after a mistake is reported?",
+      "paragraphs": [
+        "Reporting is the beginning of resolving a problem, not necessarily the end.",
+        "An employee reports an incorrect appointment time.",
+        "The supervisor confirms the booking details, checks availability, arranges the appropriate correction and ensures the affected client receives accurate information.",
+        "The team may then review whether the booking process needs improvement.",
+        "A report is valuable when it helps the organisation understand, contain and correct a problem."
+      ],
+      "list": [
+        "Confirming the facts.",
+        "Assessing the seriousness of the issue.",
+        "Protecting affected clients or employees.",
+        "Correcting the error where possible.",
+        "Updating relevant records.",
+        "Informing other authorised people who need to know.",
+        "Reviewing the cause.",
+        "Agreeing on preventive measures."
+      ]
+    },
+    {
+      "title": "19. What if you are afraid to report a mistake?",
+      "paragraphs": [
+        "An employee may feel nervous about admitting an error.",
+        "That feeling is understandable, especially when the mistake may have consequences.",
+        "However, the employee should focus on the responsibility to communicate accurately.",
+        "Prepare a short factual statement: \"I need to report a mistake I noticed. This is what happened, this is what I have done so far, and this is where I need guidance.\"",
+        "Avoid spending excessive time creating explanations or excuses.",
+        "If the usual reporting person is directly involved in misconduct, or reporting to that person would be unsafe, use an appropriate alternative management or reporting channel.",
+        "Prompt reporting does not guarantee that there will be no consequences.",
+        "Serious negligence, dishonesty or repeated misconduct may still require corrective or disciplinary action.",
+        "However, concealment can create additional concerns beyond the original mistake."
+      ]
+    },
+    {
+      "title": "20. How supervisors should respond to reported mistakes",
+      "paragraphs": [
+        "Employees are more likely to report mistakes early when they believe the reporting process is fair.",
+        "An employee reports an incorrect booking before the client arrives.",
+        "The supervisor should first ensure the appointment issue is addressed.",
+        "The supervisor can then discuss how the error occurred and what procedure should be followed.",
+        "A workplace should encourage honest reporting without removing accountability.",
+        "Employees should not be punished merely for raising a genuine concern, but reporting an error does not automatically eliminate responsibility for the underlying conduct."
+      ],
+      "list": [
+        "Listen without immediately humiliating the employee.",
+        "Establish what happened.",
+        "Prioritise safety and corrective action.",
+        "Distinguish accidental mistakes from deliberate misconduct.",
+        "Consider unclear instructions, training gaps and resource limitations.",
+        "Apply standards consistently.",
+        "Explain necessary corrections.",
+        "Encourage accurate documentation.",
+        "Recognise the importance of early reporting.",
+        "Address repeated or serious misconduct appropriately."
+      ]
+    },
+    {
+      "title": "21. Practical case studies",
+      "paragraphs": [
+        "Use the four case studies below in discussion. Identify the original mistake, when concealment began, and the appropriate report."
+      ]
+    },
+    {
+      "title": "Case study A: The incorrect appointment",
+      "paragraphs": [
+        "A receptionist enters a client's appointment for the wrong time.",
+        "She discovers the mistake but does not report it.",
+        "The client arrives and finds that the therapist is unavailable.",
+        "Expected lesson: Prompt reporting creates an opportunity to correct errors before they affect clients."
+      ],
+      "list": [
+        "What was the original mistake?",
+        "At what point did concealment begin?",
+        "How could early reporting have helped?",
+        "Who should have been informed?",
+        "What should the receptionist do after the problem becomes known?"
+      ]
+    },
+    {
+      "title": "Case study B: The damaged massage table",
+      "paragraphs": [
+        "A therapist notices that a massage table has become unstable.",
+        "She worries that reporting the problem will make management blame her.",
+        "She continues using the table.",
+        "Expected lesson: Safety-related problems must be acted on and reported promptly."
+      ],
+      "list": [
+        "What is the immediate safety concern?",
+        "Why is continuing to use the table inappropriate?",
+        "What should the therapist do first?",
+        "Who should receive the report?",
+        "Why must safety take priority over embarrassment?"
+      ]
+    },
+    {
+      "title": "Case study C: The payment discrepancy",
+      "paragraphs": [
+        "A receptionist notices that a payment amount was entered incorrectly.",
+        "She considers changing another transaction to make the totals match.",
+        "Expected lesson: Financial errors require honesty, accurate records and authorised corrections."
+      ],
+      "list": [
+        "Why would this create a more serious problem?",
+        "What records should be preserved?",
+        "Who should be informed?",
+        "What correction process should be followed?",
+        "How can similar mistakes be prevented?"
+      ]
+    },
+    {
+      "title": "Case study D: The accidental disclosure",
+      "paragraphs": [
+        "An employee accidentally sends confidential client information to an unauthorised recipient.",
+        "She deletes the message from her own phone and decides not to tell anyone.",
+        "Expected lesson: Confidentiality incidents must be reported discreetly and promptly."
+      ],
+      "list": [
+        "Has deleting the message necessarily resolved the incident?",
+        "Why is prompt reporting important?",
+        "Why should the information not be shared in the general staff group?",
+        "Who should receive the report?",
+        "What preventive habits could reduce similar incidents?"
+      ]
+    },
+    {
+      "title": "22. Practical group activity: Report, correct or conceal?",
+      "paragraphs": [
+        "Activity duration: 10 minutes.",
+        "Purpose: Help employees recognise appropriate responses to workplace mistakes.",
+        "Read each situation and decide what the employee should do before revealing the recommended response.",
+        "Role-play: Divide participants into pairs. One employee should act as a staff member who has discovered a mistake. The other should act as the supervisor receiving the report. The employee should practise using the REPORT method. The supervisor should practise listening, clarifying facts and agreeing on corrective action without humiliating the employee. Exchange roles afterward.",
+        "Expected outcome: Employees become more confident in reporting mistakes honestly and responding to reports constructively."
+      ],
+      "items": [
+        {
+          "label": "1. A receptionist notices that she entered the wrong appointment time, but the client has not arrived.",
+          "body": "Report promptly and correct. Inform the supervisor, review availability and contact the client before they arrive."
+        },
+        {
+          "label": "2. A therapist accidentally damages a piece of equipment and nobody notices.",
+          "body": "Report anyway. Stop using it if safety is uncertain and inform the appropriate person so it can be checked."
+        },
+        {
+          "label": "3. An employee discovers an incorrect payment record.",
+          "body": "Report through the authorised process. Do not alter unrelated entries, invent transactions or delete records."
+        },
+        {
+          "label": "4. A staff member sends confidential client information to the wrong person.",
+          "body": "Report the incident promptly through the designated private channel. Do not post details in the general staff group."
+        },
+        {
+          "label": "5. A therapist forgets a routine room-preparation step but notices before the client arrives.",
+          "body": "Correct it now. Complete the missing step and report if the delay or gap may still affect the appointment."
+        },
+        {
+          "label": "6. An employee witnesses a serious safety concern involving another colleague.",
+          "body": "Report through the designated channel. Protect people first. This is responsible reporting, not gossip."
+        }
+      ]
+    },
+    {
+      "title": "23. Interactive assessment",
+      "paragraphs": [
+        "Complete the Lesson 5 Knowledge Check at the bottom of this lesson. Choose an option, give your reason, then submit."
+      ],
+      "list": [
+        "What is the most appropriate response when an employee discovers a mistake that may affect a client? Hide it and hope nobody notices / Report it promptly and take appropriate corrective action / Wait until the client complains",
+        "What is the difference between making a mistake and concealing one? A mistake may be accidental, while concealment involves deliberately hiding relevant information / They are always the same behaviour / Concealment is acceptable if the mistake is small",
+        "An employee accidentally sends confidential client information to the wrong recipient. What should she do? Post the details in the general staff WhatsApp group / Delete the message from her own device and say nothing / Report the incident promptly through the designated private channel",
+        "What should an employee do when equipment may be unsafe? Continue using it until someone complains / Stop using it, protect people and report the concern / Hide the problem to avoid embarrassment",
+        "What does the REPORT method encourage? Recognise, Establish facts, Promptly inform, Offer action, Record and Take preventive steps / Relax, Excuse, Pretend, Overlook, Refuse and Transfer blame / React angrily, Escape, Post publicly, Overstate, Reject and Threaten"
+      ]
+    },
+    {
+      "title": "24. Personal assignment",
+      "paragraphs": [
+        "Each employee should answer the following questions in writing."
+      ],
+      "list": [
+        "Explain what reporting a mistake means.",
+        "Describe the difference between making a mistake and deliberately concealing one.",
+        "Identify five reasons employees may hesitate to report mistakes.",
+        "Explain how delayed reporting can affect Zura Spa's clients and operations.",
+        "Describe how a receptionist should report an incorrect appointment entry.",
+        "Explain why financial errors must be reported through authorised procedures.",
+        "Describe how an employee should respond after accidentally disclosing confidential client information.",
+        "Explain why reporting a mistake does not mean discussing it with every colleague.",
+        "Identify five important details that should be included in a mistake report.",
+        "Describe the REPORT method in your own words.",
+        "Explain how supervisors can encourage early reporting while maintaining accountability.",
+        "Identify three workplace mistakes that should be reported promptly and explain the appropriate reporting channel for each."
+      ]
+    },
+    {
+      "title": "25. Seven-day honesty and reporting challenge",
+      "tableHeaders": ["Day", "Practical commitment"],
+      "table": [
+        ["1", "Review the appropriate channels for reporting workplace mistakes"],
+        ["2", "Practise describing problems using facts rather than assumptions"],
+        ["3", "Report relevant mistakes or operational concerns without unnecessary delay"],
+        ["4", "Avoid hiding incomplete tasks or inaccurate information"],
+        ["5", "Practise using the REPORT method in a workplace scenario"],
+        ["6", "Help a colleague understand the importance of responsible reporting"],
+        ["7", "Reflect on your honesty, accountability and willingness to seek help"]
+      ]
+    },
+    {
+      "title": "26. Final lesson and takeaway",
+      "paragraphs": [
+        "Reporting mistakes promptly is an essential part of professional integrity.",
+        "At Zura Spa, employees should understand that mistakes can happen, but deliberately concealing them can create more serious consequences.",
+        "An incorrect appointment may be corrected. A missing supply may be replaced. A damaged item may be repaired. A communication error may be clarified.",
+        "However, when employees hide relevant information, the organisation loses valuable time and the opportunity to respond effectively.",
+        "Employees should report mistakes honestly, communicate with the appropriate person and participate in corrective action.",
+        "Supervisors should also create an environment where employees can raise genuine concerns without humiliation, while maintaining fair accountability.",
+        "Next topic: Supporting New or Less Experienced Staff."
+      ]
+    }
+  ],
+  "remember": "Your integrity is not measured by whether you have ever made a mistake. It is demonstrated by what you do when you discover one. Do not allow fear, embarrassment or pride to turn a correctable error into a bigger problem. Speak up early, explain the facts honestly and take responsibility for your part. At Zura Spa, we value employees who can be trusted with the truth, even when the truth is uncomfortable. A mistake that is reported can be addressed. A mistake that is concealed may continue causing harm. Choose honesty, choose accountability and choose to protect the trust that clients, colleagues and management place in you."
+}
