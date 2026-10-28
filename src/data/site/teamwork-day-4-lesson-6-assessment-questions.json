@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 4 — LESSON 6: GIVING FEEDBACK WITHOUT EMBARRASSING OTHERS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main purpose of constructive feedback?",
+        "options": [
+          "To embarrass someone so they never repeat a mistake",
+          "To help someone understand an issue and improve",
+          "To demonstrate who has more authority"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "When should individual performance feedback usually be given?",
+        "options": [
+          "Privately when practical, while addressing urgent safety issues immediately",
+          "In front of as many colleagues as possible",
+          "Only through public WhatsApp messages"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Which statement focuses on behaviour rather than identity?",
+        "options": [
+          "You are lazy.",
+          "You never do anything right.",
+          "The room checklist was incomplete before the next appointment."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What does the CARE method stand for?",
+        "options": [
+          "Criticise, Accuse, React, Embarrass",
+          "Choose the setting, Address the issue, Respect the perspective, Explain improvement",
+          "Complain, Argue, Repeat, Escalate"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What should a supervisor do after discovering that a correction was based on inaccurate information?",
+        "options": [
+          "Acknowledge the error, correct the information and apologise where appropriate",
+          "Continue blaming the employee to preserve authority",
+          "Ignore the new facts"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 4 — LESSON 3: AVOIDING DEFENSIVE REACTIONS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is a defensive reaction?",
+        "options": [
+          "A respectful explanation of relevant facts",
+          "A response focused mainly on protecting oneself from perceived blame or criticism",
+          "A willingness to accept constructive feedback"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A supervisor corrects your work. What is the most professional first response?",
+        "options": [
+          "Listen fully and seek clarification where necessary",
+          "Immediately blame another employee",
+          "Raise your voice to defend yourself"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Which statement demonstrates accountability?",
+        "options": [
+          "Everybody else makes mistakes too.",
+          "It's never my responsibility.",
+          "I missed that step. I'll correct it and follow the procedure next time."
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What should an employee do if a correction is inaccurate?",
+        "options": [
+          "Accept blame even when the facts are wrong",
+          "Explain the facts respectfully and request clarification or review",
+          "Insult the person giving the correction"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the LISTEN method encourage?",
+        "options": [
+          "Listening, identifying the issue, staying composed, discussing facts, evaluating responsibility and agreeing on next steps",
+          "Avoiding every difficult conversation",
+          "Responding immediately before hearing the full concern"
+        ]
+      }
+    ]
+  }
+]

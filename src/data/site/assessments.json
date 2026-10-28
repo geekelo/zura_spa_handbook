@@ -368,6 +368,97 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member can use staff WhatsApp groups professionally: keep messages relevant, acknowledge instructions, handle disagreements privately, and apply the THINK method.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Day 3 Lesson 7 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-1",
+          "title": "Day 4 Lesson 1 Knowledge Check",
+          "summary": "5 questions on emotions, emotional triggers and professional responses. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-1",
+          "articleIds": ["day-4-lesson-1-emotions-and-emotional-triggers"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-1-emotions-and-emotional-triggers",
+          "articleLabel": "Read Day 4 Lesson 1: Understanding Emotions and Emotional Triggers",
+          "pdfPurpose": "To assess whether a Zura Spa staff member understands emotional intelligence: recognising triggers, pausing when angry, receiving correction professionally, and raising unfair treatment through appropriate channels.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 1 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-2",
+          "title": "Day 4 Lesson 2 Knowledge Check",
+          "summary": "5 questions on managing anger, frustration and disappointment. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-2",
+          "articleIds": ["day-4-lesson-2-managing-anger-frustration-disappointment"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-2-managing-anger-frustration-disappointment",
+          "articleLabel": "Read Day 4 Lesson 2: Managing Anger, Frustration and Disappointment",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can manage difficult emotions: pause before reacting, handle disappointment without undermining colleagues, apply STOP, and still raise unfair treatment respectfully.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 2 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-3",
+          "title": "Day 4 Lesson 3 Knowledge Check",
+          "summary": "5 questions on avoiding defensive reactions when receiving feedback. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-3",
+          "articleIds": ["day-4-lesson-3-avoiding-defensive-reactions"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-3-avoiding-defensive-reactions",
+          "articleLabel": "Read Day 4 Lesson 3: Avoiding Defensive Reactions",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can receive correction without unnecessary defensiveness: listen first, take genuine responsibility, clarify inaccurate feedback respectfully, and apply the LISTEN method.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 3 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-4",
+          "title": "Day 4 Lesson 4 Knowledge Check",
+          "summary": "5 questions on receiving corrections without hostility. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-4",
+          "articleIds": ["day-4-lesson-4-receiving-corrections-without-hostility"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-4-receiving-corrections-without-hostility",
+          "articleLabel": "Read Day 4 Lesson 4: Receiving Corrections Without Hostility",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can receive correction without hostility: listen first, distinguish hostility from clarification, apply CALM, and challenge inaccurate feedback respectfully.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 4 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-5",
+          "title": "Day 4 Lesson 5 Knowledge Check",
+          "summary": "5 questions on admitting mistakes and apologising sincerely. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-5",
+          "articleIds": ["day-4-lesson-5-admitting-mistakes-and-apologising"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-5-admitting-mistakes-and-apologising",
+          "articleLabel": "Read Day 4 Lesson 5: Admitting Mistakes and Apologising Sincerely",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can admit genuine mistakes, give a sincere apology with corrective action, report safety-related errors promptly, and refuse false blame.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 5 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-6",
+          "title": "Day 4 Lesson 6 Knowledge Check",
+          "summary": "5 questions on giving feedback without embarrassing others. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-6",
+          "articleIds": ["day-4-lesson-6-giving-feedback-without-embarrassing"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-6-giving-feedback-without-embarrassing",
+          "articleLabel": "Read Day 4 Lesson 6: Giving Feedback Without Embarrassing Others",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can give constructive feedback: correct behaviour rather than identity, choose a private setting when practical, apply CARE, and revise inaccurate corrections.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 6 assessment submission"
+        },
+        {
+          "id": "day-4-lesson-7",
+          "title": "Day 4 Lesson 7 Knowledge Check",
+          "summary": "5 questions on distinguishing correction from personal attack. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-4-lesson-7",
+          "articleIds": ["day-4-lesson-7-correction-versus-personal-attack"],
+          "articleTo": "/courses/understanding-team-work/day-4-lesson-7-correction-versus-personal-attack",
+          "articleLabel": "Read Day 4 Lesson 7: Understanding the Difference Between Correction and Personal Attack",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can distinguish constructive correction from personal attack, apply FACT, and respond professionally when feedback is valid but poorly delivered.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 4 Lesson 7 assessment submission"
         }
       ]
     }

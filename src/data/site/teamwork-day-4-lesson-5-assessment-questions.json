@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 4 — LESSON 5: ADMITTING MISTAKES AND APOLOGISING SINCERELY",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does admitting a mistake mean?",
+        "options": [
+          "Accepting blame for every problem",
+          "Honestly acknowledging an error and the responsibility that genuinely belongs to you",
+          "Avoiding discussion until the problem disappears"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which statement is the most sincere apology?",
+        "options": [
+          "I'm sorry I entered the wrong appointment time. I'll correct it and verify bookings more carefully.",
+          "Sorry, but everybody makes mistakes.",
+          "Sorry if you were offended."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should an employee do after discovering an error that may affect client safety?",
+        "options": [
+          "Keep quiet to avoid embarrassment",
+          "Wait to see whether anyone notices",
+          "Take necessary immediate safety action and promptly report the issue"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Why is an apology alone sometimes insufficient?",
+        "options": [
+          "Because employees should never apologise",
+          "Because the mistake may also require correction, reporting or follow-through",
+          "Because apologies are always meaningless"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What should you do if someone wrongly blames you for a mistake?",
+        "options": [
+          "Clarify the facts respectfully without falsely admitting responsibility",
+          "Accept the blame even when you know it is untrue",
+          "Insult the person making the accusation"
+        ]
+      }
+    ]
+  }
+]
