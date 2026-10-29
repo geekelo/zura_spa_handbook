@@ -1,7 +1,7 @@
 {
   "id": "salary-structure",
   "title": "Salary Structure",
-  "summary": "Clinical Massage Therapist pay options, role expectations, and overtime notes for Zura Med Spa.",
+  "summary": "Monthly pay by role and workdays, role expectations, and overtime notes for Zura Med Spa.",
   "type": "article",
   "order": 2,
   "sections": [
@@ -26,50 +26,35 @@
       ]
     },
     {
-      "title": "Work Schedule & Salary — Band B",
+      "title": "Work Schedule & Salary — Clinical Massage Therapist",
       "paragraphs": [
-        "Applicants may choose a preferred work schedule under Band B:"
+        "Applicants may choose a preferred work schedule:"
       ],
       "items": [
         {
-          "label": "7 Days a Week",
-          "body": "₦70,000 monthly"
-        },
-        {
           "label": "6 Days a Week",
-          "body": "₦60,000 monthly"
+          "body": "₦90,000 monthly"
         },
         {
           "label": "5 Days a Week",
-          "body": "₦50,000 monthly"
-        },
-        {
-          "label": "4 Days a Week",
-          "body": "₦40,000 monthly"
+          "body": "₦70,000 monthly"
         }
       ]
     },
     {
-      "title": "Work Schedule & Salary — Band A",
-      "paragraphs": [
-        "Band A rates are ₦5,000 higher than the matching Band B schedule. To be on Band A, the therapist must choose Sunday as one of their work days."
-      ],
+      "title": "Work Schedule & Salary — Other Roles",
       "items": [
         {
-          "label": "7 Days a Week",
-          "body": "₦75,000 monthly"
+          "label": "Leaders",
+          "body": "₦100,000 monthly (minimum 6 days)"
         },
         {
-          "label": "6 Days a Week",
-          "body": "₦65,000 monthly"
+          "label": "Correspondence, receptionist",
+          "body": "₦70,000 monthly (minimum 6 days)"
         },
         {
-          "label": "5 Days a Week",
-          "body": "₦55,000 monthly"
-        },
-        {
-          "label": "4 Days a Week",
-          "body": "₦45,000 monthly"
+          "label": "Cleaner",
+          "body": "₦60,000 monthly (6 days)"
         }
       ]
     },
@@ -124,5 +109,5 @@
       ]
     }
   ],
-  "remember": "Band A requires Sunday as a work day and pays ₦5,000 more than Band B for the same schedule. Late-night sessions starting after 12:00 AM attract extra overtime compensation per session."
+  "remember": "Therapist pay is ₦90,000 for six days a week or ₦70,000 for five days a week. Leaders earn ₦100,000 monthly (minimum six days). Correspondence and receptionist roles earn ₦70,000 monthly (minimum six days). Cleaners earn ₦60,000 monthly for six days. Late-night sessions starting after 12:00 AM attract extra overtime compensation per session."
 }
