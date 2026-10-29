@@ -1,17 +1,26 @@
 {
   "id": "course-outline",
-  "title": "7-Day Course Outline",
-  "summary": "7-Day Staff Teamwork Training Programme. Theme: building a respectful, cooperative, responsible and high-performing team. 45–60 minutes daily.",
+  "title": "Understanding Teamwork",
+  "summary": "Building a Respectful, Cooperative, Responsible and High-Performing Team. 7 days, 45–60 minutes daily, for all Zura Spa staff.",
   "type": "article",
   "order": 0,
   "sections": [
     {
-      "title": "7-Day Staff Teamwork Training Programme",
+      "title": "Understanding Teamwork",
       "paragraphs": [
         "Theme: Building a Respectful, Cooperative, Responsible and High-Performing Team.",
-        "Duration: 7 days. Daily training: 45–60 minutes. Participants: all Zura Spa staff.",
-        "Training format: teaching, practical examples, role-play, discussions and daily assignments."
-      ],
+        "Duration: 7 Days. Daily Training: 45–60 minutes. Participants: All Zura Spa staff.",
+        "Training Format: Teaching, practical examples, role-play, discussions and daily assignments."
+      ]
+    },
+    {
+      "title": "Training objectives",
+      "paragraphs": [
+        "By the end of the seven days, every staff member should understand how to work effectively with others, communicate respectfully, accept corrections, resolve disagreements, take responsibility, and contribute to a healthy working environment."
+      ]
+    },
+    {
+      "title": "Day 1–7 Course Outline",
       "items": [
         { "label": "Day 01", "body": "Understanding Teamwork and the Zura Team Culture" },
         { "label": "Day 02", "body": "Respect, Professionalism and Workplace Relationships" },
@@ -23,31 +32,16 @@
       ]
     },
     {
-      "title": "Training Objectives",
-      "paragraphs": [
-        "By the end of the seven days, every staff member should understand how to work effectively with others, communicate respectfully, accept corrections, resolve disagreements, take responsibility, and contribute to a healthy working environment.",
-        "By the end of the seven days, every staff member should understand how to:"
-      ],
-      "list": [
-        "Work effectively with others.",
-        "Communicate respectfully.",
-        "Accept corrections.",
-        "Resolve disagreements.",
-        "Take responsibility.",
-        "Contribute to a healthy working environment."
-      ]
-    },
-    {
       "title": "Module 1 — Day 1: Understanding Teamwork and the Zura Team Culture",
       "paragraphs": [
         "Objective: Understand what teamwork means and why individual behaviour affects the entire organisation."
       ],
       "list": [
-        "Meaning and importance of teamwork.",
-        "Difference between working together and simply working in the same place.",
-        "Understanding shared goals and responsibilities.",
-        "How individual attitudes affect team performance.",
-        "Putting team success above personal ego."
+        "Meaning and importance of teamwork",
+        "Difference between working together and simply working in the same place",
+        "Understanding shared goals and responsibilities",
+        "How individual attitudes affect team performance",
+        "Putting team success above personal ego"
       ],
       "items": [
         {
@@ -58,8 +52,7 @@
           "label": "Assignment",
           "body": "Write five ways you can personally make Zura a better workplace."
         }
-      ],
-      "closing": "Open the five lessons below in order. Complete each lesson, then do the Day 1 activity and assignment."
+      ]
     },
     {
       "title": "Module 2 — Day 2: Respect, Professionalism and Workplace Relationships",
@@ -67,12 +60,12 @@
         "Objective: Learn to treat every colleague with dignity regardless of position, personality or differences."
       ],
       "list": [
-        "Respecting colleagues, supervisors and management.",
-        "Understanding workplace boundaries.",
-        "Avoiding gossip, mockery, cliques and unhealthy competition.",
-        "Being courteous even when you disagree.",
-        "Separating personal feelings from professional responsibilities.",
-        "Maintaining confidentiality."
+        "Respecting colleagues, supervisors and management",
+        "Understanding workplace boundaries",
+        "Avoiding gossip, mockery, cliques and unhealthy competition",
+        "Being courteous even when you disagree",
+        "Separating personal feelings from professional responsibilities",
+        "Maintaining confidentiality"
       ],
       "items": [
         {
@@ -83,14 +76,7 @@
           "label": "Assignment",
           "body": "Demonstrate three deliberate acts of respect toward colleagues during your shift."
         }
-      ],
-      "links": [
-        {
-          "label": "Read We Are Not Friends, We Are Not Family Standard",
-          "to": "/categories/standards/we-are-a-team"
-        }
-      ],
-      "closing": "Open the Day 2 lessons below in order. Complete each lesson, then do the Day 2 activity and assignment."
+      ]
     },
     {
       "title": "Module 3 — Day 3: Effective Communication and Active Listening",
@@ -98,13 +84,13 @@
         "Objective: Develop clear, respectful and professional communication habits."
       ],
       "list": [
-        "Speaking politely and choosing appropriate words.",
-        "Listening without interrupting.",
-        "Understanding tone, facial expressions and body language.",
-        "Asking questions instead of making assumptions.",
-        "Giving and receiving instructions.",
-        "Communicating concerns to the right person.",
-        "Appropriate communication in staff WhatsApp groups."
+        "Speaking politely and choosing appropriate words",
+        "Listening without interrupting",
+        "Understanding tone, facial expressions and body language",
+        "Asking questions instead of making assumptions",
+        "Giving and receiving instructions",
+        "Communicating concerns to the right person",
+        "Appropriate communication in staff WhatsApp groups"
       ],
       "items": [
         {
@@ -115,18 +101,7 @@
           "label": "Assignment",
           "body": "Practise active listening and document one situation where it improved communication."
         }
-      ],
-      "links": [
-        {
-          "label": "Read Colleague Communication",
-          "to": "/categories/standards/colleague-communication"
-        },
-        {
-          "label": "Read Mode of Address",
-          "to": "/categories/standards/mode-of-address"
-        }
-      ],
-      "closing": "Open the Day 3 lessons below in order. Complete each lesson, then do the Day 3 activity and assignment."
+      ]
     },
     {
       "title": "Module 4 — Day 4: Emotional Intelligence, Humility and Accepting Corrections",
@@ -134,13 +109,13 @@
         "Objective: Learn to manage emotions, receive feedback constructively and respond maturely."
       ],
       "list": [
-        "Understanding emotions and emotional triggers.",
-        "Managing anger, frustration and disappointment.",
-        "Avoiding defensive reactions.",
-        "Receiving corrections without hostility.",
-        "Admitting mistakes and apologising sincerely.",
-        "Giving feedback without embarrassing others.",
-        "Understanding the difference between correction and personal attack."
+        "Understanding emotions and emotional triggers",
+        "Managing anger, frustration and disappointment",
+        "Avoiding defensive reactions",
+        "Receiving corrections without hostility",
+        "Admitting mistakes and apologising sincerely",
+        "Giving feedback without embarrassing others",
+        "Understanding the difference between correction and personal attack"
       ],
       "items": [
         {
@@ -151,14 +126,7 @@
           "label": "Assignment",
           "body": "Identify two areas where you need improvement and how you intend to work on them."
         }
-      ],
-      "links": [
-        {
-          "label": "Read Confrontation",
-          "to": "/categories/standards/confrontation"
-        }
-      ],
-      "closing": "Open the Day 4 lessons below in order. Complete each lesson, then do the Day 4 activity and assignment."
+      ]
     },
     {
       "title": "Module 5 — Day 5: Conflict Resolution and Handling Difficult Situations",
@@ -166,13 +134,13 @@
         "Objective: Resolve disagreements professionally without damaging working relationships."
       ],
       "list": [
-        "Common causes of workplace conflict.",
-        "Difference between disagreement and disrespect.",
-        "Addressing issues instead of attacking personalities.",
-        "Avoiding gossip, retaliation and taking sides.",
-        "Knowing when to involve a supervisor.",
-        "Resolving issues privately and respectfully.",
-        "Moving forward after disagreements."
+        "Common causes of workplace conflict",
+        "Difference between disagreement and disrespect",
+        "Addressing issues instead of attacking personalities",
+        "Avoiding gossip, retaliation and taking sides",
+        "Knowing when to involve a supervisor",
+        "Resolving issues privately and respectfully",
+        "Moving forward after disagreements"
       ],
       "items": [
         {
@@ -183,18 +151,7 @@
           "label": "Assignment",
           "body": "Write the steps you would take to resolve a disagreement with a colleague."
         }
-      ],
-      "links": [
-        {
-          "label": "Read Discussion",
-          "to": "/categories/standards/discussion"
-        },
-        {
-          "label": "Read Escalation",
-          "to": "/categories/standards/escalation"
-        }
-      ],
-      "closing": "Open the Day 5 lessons below in order. Complete each lesson, then do the Day 5 activity and assignment."
+      ]
     },
     {
       "title": "Module 6 — Day 6: Accountability, Reliability and Supporting Colleagues",
@@ -202,13 +159,13 @@
         "Objective: Develop a sense of responsibility and commitment to collective success."
       ],
       "list": [
-        "Taking ownership of assigned duties.",
-        "Punctuality and keeping commitments.",
-        "Helping colleagues without neglecting personal responsibilities.",
-        "Avoiding blame-shifting and excuses.",
-        "Reporting mistakes promptly rather than concealing them.",
-        "Supporting new and less-experienced staff.",
-        "Working together during busy periods."
+        "Taking ownership of assigned duties",
+        "Punctuality and keeping commitments",
+        "Helping colleagues without neglecting personal responsibilities",
+        "Avoiding blame-shifting and excuses",
+        "Reporting mistakes promptly rather than concealing them",
+        "Supporting new and less-experienced staff",
+        "Working together during busy periods"
       ],
       "items": [
         {
@@ -219,31 +176,20 @@
           "label": "Assignment",
           "body": "Identify one improvement you can make to your daily responsibilities that will benefit the entire team."
         }
-      ],
-      "links": [
-        {
-          "label": "Read Accountability & Responsibility",
-          "to": "/categories/standards/accountability-responsibility"
-        },
-        {
-          "label": "Read Giving Reports",
-          "to": "/categories/standards/giving-reports"
-        }
-      ],
-      "closing": "Open the Day 6 lessons below in order. Complete each lesson, then do the Day 6 activity and assignment."
+      ]
     },
     {
-      "title": "Module 7 — Day 7: Building a Winning Team — Practical Assessment and Commitment",
+      "title": "Module 7 — Day 7: Building a Winning Team: Practical Assessment and Commitment",
       "paragraphs": [
         "Objective: Demonstrate the lessons learned and commit to improved workplace behaviour."
       ],
       "list": [
-        "Review of Days 1–6.",
-        "Understanding the qualities of an excellent Zura team member.",
-        "Applying teamwork principles to everyday spa operations.",
-        "Group problem-solving exercise.",
-        "Personal improvement commitments.",
-        "Final assessment and feedback."
+        "Review of Days 1–6",
+        "Understanding the qualities of an excellent Zura team member",
+        "Applying teamwork principles to everyday spa operations",
+        "Group problem-solving exercise",
+        "Personal improvement commitments",
+        "Final assessment and feedback"
       ],
       "items": [
         {
@@ -251,36 +197,10 @@
           "body": "Team members participate in a simulated workday involving customer requests, changing schedules, misunderstandings and shared responsibilities."
         },
         {
-          "label": "Final assignment",
+          "label": "Final Assignment",
           "body": "Each participant submits a personal teamwork improvement plan with five measurable commitments."
         }
-      ],
-      "closing": "Learning Outcome: The staff member can apply the week's lessons on a live shift and commit to five measurable teamwork improvements."
-    },
-    {
-      "title": "Assessment and Completion",
-      "paragraphs": [
-        "Staff should be evaluated on both knowledge and practical behaviour.",
-        "Recommended passing score: 75%, followed by a 30-day workplace behaviour review."
-      ],
-      "tableHeaders": ["Assessment", "Weight"],
-      "table": [
-        ["Daily participation", "20%"],
-        ["Daily assignments", "20%"],
-        ["Practical role-play", "20%"],
-        ["Final knowledge test", "20%"],
-        ["Demonstrated teamwork behaviours", "20%"],
-        ["Total", "100%"]
-      ]
-    },
-    {
-      "title": "Supplementary Learning",
-      "paragraphs": [
-        "For supplementary learning, staff can take the free eight-hour Working in Groups and Teams course from The Open University. It covers team roles, trust, conflict and performance evaluation, and offers a free statement of participation.",
-        "Course link: https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
-        "This seven-day outline is a Zura-specific training programme, not the official syllabus of the Open University course. It can serve as the foundation for a complete staff training manual, with daily lessons, real-life scenarios, quizzes, answers and facilitator instructions."
       ]
     }
-  ],
-  "remember": "Team success comes before personal ego. Practise the day's lesson on the floor, complete the assignment, and treat every colleague with respect."
+  ]
 }
