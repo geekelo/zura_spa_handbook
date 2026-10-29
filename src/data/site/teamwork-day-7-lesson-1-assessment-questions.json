@@ -1,0 +1,97 @@
+[
+  {
+    "title": "DAY 7 — LESSON 1: DAYS 1–6 REVIEW ASSESSMENT",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What distinguishes a real team from employees simply working in the same location?",
+        "options": [
+          "Having the same uniform",
+          "Shared goals, cooperation and accountability",
+          "Working the same number of hours"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which statement demonstrates respectful disagreement?",
+        "options": [
+          "You never know anything.",
+          "Everybody agrees with me except you.",
+          "I understand your view, but let's verify the correct procedure."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should an employee do when an instruction is unclear?",
+        "options": [
+          "Ask an appropriate clarifying question",
+          "Make an assumption and proceed",
+          "Ignore the task"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "How should an employee respond to constructive correction?",
+        "options": [
+          "Immediately blame someone else",
+          "Listen, clarify facts and take appropriate action",
+          "Refuse to discuss the issue"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What is the best approach to a workplace disagreement?",
+        "options": [
+          "Recruit colleagues to take sides",
+          "Spread the disagreement through gossip",
+          "Address the issue respectfully and escalate appropriately if necessary"
+        ]
+      },
+      {
+        "id": 6,
+        "prompt": "What does taking ownership of assigned duties mean?",
+        "options": [
+          "Understanding and fulfilling your responsibilities",
+          "Waiting for repeated reminders",
+          "Assuming colleagues will complete unfinished work"
+        ]
+      },
+      {
+        "id": 7,
+        "prompt": "A colleague needs non-urgent help, but your client arrives shortly. What should you do?",
+        "options": [
+          "Abandon client preparation",
+          "Complete essential preparation and arrange appropriate assistance afterward",
+          "Ignore the colleague rudely"
+        ]
+      },
+      {
+        "id": 8,
+        "prompt": "What should you do after discovering a mistake that may affect a client?",
+        "options": [
+          "Conceal it",
+          "Wait until someone complains",
+          "Report it promptly and help correct it"
+        ]
+      },
+      {
+        "id": 9,
+        "prompt": "How should experienced employees support new colleagues?",
+        "options": [
+          "Provide patient guidance and encourage independent competence",
+          "Mock repeated questions",
+          "Keep useful procedures secret"
+        ]
+      },
+      {
+        "id": 10,
+        "prompt": "What should remain unchanged during busy periods?",
+        "options": [
+          "The number of available tasks",
+          "Safety, hygiene, respect and professional standards",
+          "Every appointment regardless of actual capacity"
+        ]
+      }
+    ]
+  }
+]

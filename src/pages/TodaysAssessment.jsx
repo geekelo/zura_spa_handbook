@@ -44,6 +44,13 @@ import teamworkDay6Lesson3Questions from '../data/site/teamwork-day-6-lesson-3-a
 import teamworkDay6Lesson4Questions from '../data/site/teamwork-day-6-lesson-4-assessment-questions.json'
 import teamworkDay6Lesson5Questions from '../data/site/teamwork-day-6-lesson-5-assessment-questions.json'
 import teamworkDay6Lesson6Questions from '../data/site/teamwork-day-6-lesson-6-assessment-questions.json'
+import teamworkDay6Lesson7Questions from '../data/site/teamwork-day-6-lesson-7-assessment-questions.json'
+import teamworkDay7Lesson1Questions from '../data/site/teamwork-day-7-lesson-1-assessment-questions.json'
+import teamworkDay7Lesson2Questions from '../data/site/teamwork-day-7-lesson-2-assessment-questions.json'
+import teamworkDay7Lesson3Questions from '../data/site/teamwork-day-7-lesson-3-assessment-questions.json'
+import teamworkDay7Lesson4Questions from '../data/site/teamwork-day-7-lesson-4-assessment-questions.json'
+import teamworkDay7Lesson5Questions from '../data/site/teamwork-day-7-lesson-5-assessment-questions.json'
+import teamworkDay7Lesson6Questions from '../data/site/teamwork-day-7-lesson-6-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -90,6 +97,13 @@ const QUESTION_SETS = {
   'teamwork-day-6-lesson-4': teamworkDay6Lesson4Questions,
   'teamwork-day-6-lesson-5': teamworkDay6Lesson5Questions,
   'teamwork-day-6-lesson-6': teamworkDay6Lesson6Questions,
+  'teamwork-day-6-lesson-7': teamworkDay6Lesson7Questions,
+  'teamwork-day-7-lesson-1': teamworkDay7Lesson1Questions,
+  'teamwork-day-7-lesson-2': teamworkDay7Lesson2Questions,
+  'teamwork-day-7-lesson-3': teamworkDay7Lesson3Questions,
+  'teamwork-day-7-lesson-4': teamworkDay7Lesson4Questions,
+  'teamwork-day-7-lesson-5': teamworkDay7Lesson5Questions,
+  'teamwork-day-7-lesson-6': teamworkDay7Lesson6Questions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

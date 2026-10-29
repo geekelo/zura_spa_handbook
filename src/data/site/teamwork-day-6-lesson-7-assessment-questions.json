@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 6 — LESSON 7: WORKING TOGETHER DURING BUSY PERIODS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the most important principle when working together during busy periods?",
+        "options": [
+          "Everybody should focus only on personal duties",
+          "Employees should coordinate responsibilities and support one another appropriately",
+          "Employees should compete to finish first"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "What should an employee do when overwhelmed by several responsibilities?",
+        "options": [
+          "Communicate the workload and request appropriate assistance",
+          "Become rude to colleagues",
+          "Hide unfinished tasks"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Which action is unacceptable even when the spa is extremely busy?",
+        "options": [
+          "Asking a supervisor to clarify priorities",
+          "Helping an available colleague",
+          "Skipping required hygiene or safety procedures"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What should happen when two therapists are assigned the same room?",
+        "options": [
+          "They should argue until one gives up",
+          "They should seek prompt clarification and coordinate an appropriate solution",
+          "They should both promise the room to their clients"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the CALM method stand for?",
+        "options": [
+          "Communicate, Assess, Lend support and Maintain standards",
+          "Complain, Argue, Leave and Mock",
+          "Compete, Accuse, Lose focus and Mislead"
+        ]
+      }
+    ]
+  }
+]

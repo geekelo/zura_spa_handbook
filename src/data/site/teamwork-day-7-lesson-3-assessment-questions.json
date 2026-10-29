@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 7 — LESSON 3: APPLYING TEAMWORK PRINCIPLES TO EVERYDAY SPA OPERATIONS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is one of the first ways an employee contributes to teamwork?",
+        "options": [
+          "Completing assigned responsibilities accurately and on time",
+          "Waiting for colleagues to complete tasks",
+          "Avoiding all communication"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "What should reception do before confirming an appointment change?",
+        "options": [
+          "Promise the requested time immediately",
+          "Check the necessary therapist and room availability",
+          "Assume the therapist will adjust"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should an employee do when an assigned room is not ready?",
+        "options": [
+          "Begin an argument",
+          "Tell the client that colleagues are incompetent",
+          "Communicate the issue and coordinate an appropriate solution"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What is essential during a handover?",
+        "options": [
+          "Accurate information about completed and unresolved responsibilities",
+          "Avoiding all mention of unfinished tasks",
+          "Leaving the next employee to discover problems"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the DAILY framework represent?",
+        "options": [
+          "Delay, Argue, Ignore, Leave, Yell",
+          "Define, Act, Inform, Lend support, Yield to shared goals",
+          "Demand, Accuse, Insist, Limit, Yield"
+        ]
+      }
+    ]
+  }
+]

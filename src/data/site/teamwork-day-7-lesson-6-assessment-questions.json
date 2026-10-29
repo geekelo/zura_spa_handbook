@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 7 — LESSON 6: BUILDING A LASTING CULTURE OF TEAMWORK AND EXCELLENCE",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What best describes workplace culture?",
+        "options": [
+          "The appearance of the workplace",
+          "The shared values, expectations and behaviours that influence how employees work",
+          "The number of employees on duty"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "What is most important for sustaining teamwork after training?",
+        "options": [
+          "Consistent practice, feedback and accountability",
+          "Completing the training and forgetting about it",
+          "Waiting for management to remind everyone constantly"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Who contributes to workplace culture?",
+        "options": [
+          "Only supervisors",
+          "Only experienced employees",
+          "Every employee, with leadership having particular responsibility for setting and reinforcing standards"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "How should repeated inappropriate behaviour be addressed?",
+        "options": [
+          "Ignore it to avoid conflict",
+          "Establish facts, clarify standards and respond fairly through appropriate procedures",
+          "Publicly embarrass the employee"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the CULTURE framework encourage?",
+        "options": [
+          "Communication, shared goals, example, responsibility, standards, respect and improvement",
+          "Competition, secrecy and individual recognition",
+          "Avoiding all workplace disagreements"
+        ]
+      }
+    ]
+  }
+]

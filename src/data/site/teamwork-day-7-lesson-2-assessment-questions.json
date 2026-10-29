@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 7 — LESSON 2: UNDERSTANDING THE QUALITIES OF AN EXCELLENT ZURA TEAM MEMBER",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What best describes an excellent Zura team member?",
+        "options": [
+          "Someone who never makes mistakes",
+          "Someone who combines competence, character, professionalism, accountability and teamwork",
+          "Someone who is popular with every colleague"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which behaviour demonstrates integrity?",
+        "options": [
+          "Reporting a payment discrepancy honestly",
+          "Changing records to conceal an error",
+          "Keeping mistakes secret when management is absent"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should an experienced employee do when introduced to an updated procedure?",
+        "options": [
+          "Refuse because experience is enough",
+          "Ignore it until corrected",
+          "Review and apply the approved procedure"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "Which statement best describes accountability?",
+        "options": [
+          "Accepting blame for every workplace problem",
+          "Taking responsibility for your actual duties and contribution",
+          "Blaming others whenever something goes wrong"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What does the ZURA EXCELLENCE framework represent?",
+        "options": [
+          "Zeal, Understanding, Responsibility and Adaptability",
+          "Zero mistakes, Unlimited work, Rapid speed and Authority",
+          "Zest, Uniformity, Rank and Approval"
+        ]
+      }
+    ]
+  }
+]

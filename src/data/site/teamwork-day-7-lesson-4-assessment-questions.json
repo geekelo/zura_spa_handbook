@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 7 — LESSON 4: GROUP PROBLEM-SOLVING EXERCISE",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "A client is waiting, but the treatment room has not completed its required cleaning. What is the best solution?",
+        "options": [
+          "Allow the client in immediately to avoid delay",
+          "Complete the required cleaning and communicate any necessary delay",
+          "Ask the client to ignore the room condition"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "A payment discrepancy is discovered. What is the best solution?",
+        "options": [
+          "Record only verified information and report the discrepancy",
+          "Assume payment was received",
+          "Delete the incomplete record"
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "Two employees disagree about a task assignment. What is the best solution?",
+        "options": [
+          "Stop communicating with each other",
+          "Discuss the disagreement with unrelated colleagues",
+          "Check the assigned procedure and seek clarification"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "A new employee is struggling with a task. What is the best solution?",
+        "options": [
+          "Mock the employee",
+          "Provide appropriate guidance and supervised practice",
+          "Complete every task for the employee indefinitely"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "An employee is overwhelmed during a busy shift. What is the best solution?",
+        "options": [
+          "Request appropriate assistance and clarify priorities",
+          "Hide the workload problem",
+          "Respond rudely to colleagues"
+        ]
+      }
+    ]
+  }
+]

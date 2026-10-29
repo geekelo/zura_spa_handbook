@@ -576,6 +576,97 @@
           "pdfPurpose": "To assess whether a Zura Spa staff member can support new colleagues with patience and knowledge-sharing, avoid mockery and exclusion, and apply GUIDE.",
           "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
           "embedTitle": "Day 6 Lesson 6 assessment submission"
+        },
+        {
+          "id": "day-6-lesson-7",
+          "title": "Day 6 Lesson 7 Knowledge Check",
+          "summary": "5 questions on working together during busy periods. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-6-lesson-7",
+          "articleIds": ["day-6-lesson-7-working-together-during-busy-periods"],
+          "articleTo": "/courses/understanding-team-work/day-6-lesson-7-working-together-during-busy-periods",
+          "articleLabel": "Read Day 6 Lesson 7: Working Together During Busy Periods",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can cooperate under pressure, request help without rudeness, keep hygiene and safety standards, and apply CALM.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 6 Lesson 7 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-1",
+          "title": "Days 1–6 Review Assessment",
+          "summary": "10 questions reviewing Days 1–6. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-1",
+          "articleIds": ["day-7-lesson-1-review-of-days-1-6"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-1-review-of-days-1-6",
+          "articleLabel": "Read Day 7 Lesson 1: Review of Days 1–6 — Bringing Everything Together",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can apply Days 1–6 together: teamwork, respect, communication, correction, conflict resolution, accountability, support for new staff, and busy-period standards.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 1 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-2",
+          "title": "Day 7 Lesson 2 Knowledge Check",
+          "summary": "5 questions on the qualities of an excellent Zura team member. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-2",
+          "articleIds": ["day-7-lesson-2-qualities-of-an-excellent-zura-team-member"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-2-qualities-of-an-excellent-zura-team-member",
+          "articleLabel": "Read Day 7 Lesson 2: Understanding the Qualities of an Excellent Zura Team Member",
+          "pdfPurpose": "To assess whether a Zura Spa staff member understands excellence as competence plus character, integrity, accountability, teachability and the ZURA EXCELLENCE framework.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 2 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-3",
+          "title": "Day 7 Lesson 3 Knowledge Check",
+          "summary": "5 questions on applying teamwork principles to everyday spa operations. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-3",
+          "articleIds": ["day-7-lesson-3-applying-teamwork-to-everyday-operations"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-3-applying-teamwork-to-everyday-operations",
+          "articleLabel": "Read Day 7 Lesson 3: Applying Teamwork Principles to Everyday Spa Operations",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can apply daily teamwork: complete assigned duties, confirm bookings, communicate room issues, hand over accurately, and use DAILY.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 3 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-4",
+          "title": "Day 7 Lesson 4 Knowledge Check",
+          "summary": "5 decision-making questions on group problem-solving. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-4",
+          "articleIds": ["day-7-lesson-4-group-problem-solving"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-4-group-problem-solving",
+          "articleLabel": "Read Day 7 Lesson 4: Group Problem-Solving Exercise",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can choose safe, honest, respectful solutions: complete required cleaning, report payment discrepancies, clarify assignments, support new staff, and request help during busy periods.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 4 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-5",
+          "title": "Day 7 Lesson 5 Knowledge Check",
+          "summary": "5 questions on personal improvement commitments. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-5",
+          "articleIds": ["day-7-lesson-5-personal-improvement-commitments"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-5-personal-improvement-commitments",
+          "articleLabel": "Read Day 7 Lesson 5: Personal Improvement Commitments",
+          "pdfPurpose": "To assess whether a Zura Spa staff member can write specific SMART commitments, recover from setbacks, and choose a few meaningful priorities rather than vague promises.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 5 assessment submission"
+        },
+        {
+          "id": "day-7-lesson-6",
+          "title": "Day 7 Lesson 6 Knowledge Check",
+          "summary": "5 questions on building a lasting culture of teamwork and excellence. Choose an option, give your reason, then download a PDF and submit.",
+          "type": "fillable-assessment",
+          "questionsId": "teamwork-day-7-lesson-6",
+          "articleIds": ["day-7-lesson-6-lasting-culture-of-teamwork-and-excellence"],
+          "articleTo": "/courses/understanding-team-work/day-7-lesson-6-lasting-culture-of-teamwork-and-excellence",
+          "articleLabel": "Read Day 7 Lesson 6: Building a Lasting Culture of Teamwork and Excellence at Zura Spa",
+          "pdfPurpose": "To assess whether a Zura Spa staff member, especially a leader, understands workplace culture, how to sustain training, who sets the standard, fair responses to repeated misconduct, and the CULTURE framework.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Day 7 Lesson 6 assessment submission"
         }
       ]
     }

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DAY 7 — LESSON 5: PERSONAL IMPROVEMENT COMMITMENTS",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is a personal improvement commitment?",
+        "options": [
+          "A vague promise to become better",
+          "A specific decision to improve a behaviour or skill through consistent action",
+          "A list of colleagues' mistakes"
+        ]
+      },
+      {
+        "id": 2,
+        "prompt": "Which statement is the strongest improvement commitment?",
+        "options": [
+          "I will be more professional.",
+          "I will never make another mistake.",
+          "For the next 30 days, I will confirm important appointment changes with affected colleagues."
+        ]
+      },
+      {
+        "id": 3,
+        "prompt": "What should an employee do after failing to practise an improvement commitment?",
+        "options": [
+          "Acknowledge the setback, reflect and resume the commitment",
+          "Abandon the goal",
+          "Blame colleagues"
+        ]
+      },
+      {
+        "id": 4,
+        "prompt": "What does SMART help employees create?",
+        "options": [
+          "Unrealistic expectations",
+          "Specific, measurable, achievable, relevant and time-bound goals",
+          "Promises that cannot be evaluated"
+        ]
+      },
+      {
+        "id": 5,
+        "prompt": "What is the best approach to selecting improvement commitments?",
+        "options": [
+          "Try to change every behaviour immediately",
+          "Choose goals only to impress management",
+          "Select a few meaningful priorities and practise them consistently"
+        ]
+      }
+    ]
+  }
+]
