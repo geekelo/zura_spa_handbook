@@ -77,8 +77,8 @@
       "micDenied": "Allow microphone access to record a voice note.",
       "unsupported": "This device cannot record audio in the browser.",
       "missingNumber": "A WhatsApp number has not been set for article voice notes.",
-      "shared": "Share sheet opened. Choose WhatsApp and send the voice note.",
-      "opened": "WhatsApp app should open on this phone. Attach the saved recording in that chat.",
+      "shared": "Choose WhatsApp, then the Zura number. The recording is attached — send that chat.",
+      "opened": "The recording was saved on this phone. WhatsApp opened with the caption only. Attach the saved audio file in that chat before you send.",
       "summary": {
         "label": "Article summary",
         "prompt": "Send a detailed summary of what you understood, section by section.",

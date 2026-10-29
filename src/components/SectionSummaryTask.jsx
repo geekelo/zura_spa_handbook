@@ -66,6 +66,16 @@ function openWhatsAppApp(phone, text) {
   window.location.href = href
 }
 
+function canShareAudio(file, text) {
+  if (typeof navigator.share !== 'function') return null
+  const withText = { files: [file], text, title: file.name }
+  const filesOnly = { files: [file], title: file.name }
+  if (!navigator.canShare) return withText
+  if (navigator.canShare(withText)) return withText
+  if (navigator.canShare(filesOnly)) return filesOnly
+  return null
+}
+
 export function SectionSummaryTask({
   articleTitle,
   taskKey = 'summary',
@@ -171,15 +181,14 @@ export function SectionSummaryTask({
     }
   }
 
-  function caption() {
+  function caption(phone) {
     const name = workName.trim() || 'Therapist'
     return [
       taskCopy.caption,
+      `To: +${phone}`,
       `Therapist: ${name}`,
       `Article: ${articleTitle}`,
       `Instruction: ${taskCopy.prompt}`,
-      '',
-      'Voice note attached / attach the recording from the handbook.',
     ].join('\n')
   }
 
@@ -202,19 +211,32 @@ export function SectionSummaryTask({
       `zura-${taskKey}-${slugPart(articleTitle)}.${extensionFor(type)}`,
       { type },
     )
-    const text = caption()
+    const text = caption(phone)
+    const payload = canShareAudio(file, text)
 
     setStatus('sending')
     setMessage('')
 
-    try {
-      await navigator.clipboard?.writeText(text)
-    } catch {
-      // Clipboard may be blocked; WhatsApp still receives the caption from the app link.
+    // Do not await clipboard first — iOS will treat share as outside the tap.
+    void navigator.clipboard?.writeText(text).catch(() => {})
+
+    if (payload) {
+      try {
+        await navigator.share(payload)
+        setStatus('ready')
+        setMessage(copy.shared)
+        return
+      } catch (error) {
+        if (error?.name === 'AbortError') {
+          setStatus('ready')
+          setMessage('')
+          return
+        }
+      }
     }
 
+    downloadFile(file)
     openWhatsAppApp(phone, text)
-    window.setTimeout(() => downloadFile(file), 600)
     setStatus('ready')
     setMessage(copy.opened)
   }
