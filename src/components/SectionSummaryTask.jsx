@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import sectionSummaries from '../data/site/section-summaries.json'
 import { pages } from '../data'
 import { useAuth } from '../auth/AuthContext'
+import { blobToWavFile } from '../lib/audioWav'
 import { Icon } from './Icons'
 import './SectionSummaryTask.css'
 
@@ -56,24 +57,33 @@ function downloadFile(file) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
 
-function openWhatsAppApp(phone, text) {
-  const encoded = encodeURIComponent(text)
-  const isAndroid = /android/i.test(navigator.userAgent || '')
-  const href = isAndroid
-    ? `intent://send?phone=${phone}&text=${encoded}#Intent;scheme=whatsapp;package=com.whatsapp;end`
-    : `whatsapp://send?phone=${phone}&text=${encoded}`
-
-  window.location.href = href
+function sharePayloads(file, text) {
+  return [
+    { files: [file], text, title: file.name },
+    { files: [file], title: file.name },
+  ]
 }
 
-function canShareAudio(file, text) {
-  if (typeof navigator.share !== 'function') return null
-  const withText = { files: [file], text, title: file.name }
-  const filesOnly = { files: [file], title: file.name }
-  if (!navigator.canShare) return withText
-  if (navigator.canShare(withText)) return withText
-  if (navigator.canShare(filesOnly)) return filesOnly
-  return null
+async function shareAudioFile(file, text) {
+  if (typeof navigator.share !== 'function') return 'unsupported'
+
+  for (const data of sharePayloads(file, text)) {
+    try {
+      if (navigator.canShare && !navigator.canShare(data)) continue
+      await navigator.share(data)
+      return 'shared'
+    } catch (error) {
+      if (error?.name === 'AbortError') return 'aborted'
+    }
+  }
+
+  try {
+    await navigator.share({ files: [file], title: file.name })
+    return 'shared'
+  } catch (error) {
+    if (error?.name === 'AbortError') return 'aborted'
+    return 'unsupported'
+  }
 }
 
 export function SectionSummaryTask({
@@ -87,6 +97,7 @@ export function SectionSummaryTask({
   const streamRef = useRef(null)
   const timerRef = useRef(null)
   const previewUrlRef = useRef('')
+  const shareFileRef = useRef(null)
 
   const [status, setStatus] = useState('idle')
   const [seconds, setSeconds] = useState(0)
@@ -94,6 +105,7 @@ export function SectionSummaryTask({
   const [previewUrl, setPreviewUrl] = useState('')
   const [workName, setWorkName] = useState(session?.name || session?.username || '')
   const [message, setMessage] = useState('')
+  const [showSave, setShowSave] = useState(false)
 
   useEffect(() => {
     setWorkName(session?.name || session?.username || '')
@@ -128,8 +140,24 @@ export function SectionSummaryTask({
     setBlob(nextBlob)
   }
 
+  async function prepareShareFile(nextBlob, mimeType) {
+    const base = `zura-${taskKey}-${slugPart(articleTitle)}`
+    const original = new File(
+      [nextBlob],
+      `${base}.${extensionFor(mimeType)}`,
+      { type: mimeType || 'audio/webm' },
+    )
+    shareFileRef.current = original
+    try {
+      shareFileRef.current = await blobToWavFile(nextBlob, `${base}.wav`)
+    } catch {
+      shareFileRef.current = original
+    }
+  }
+
   async function startRecording() {
     setMessage('')
+    setShowSave(false)
     if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === 'undefined') {
       setMessage(copy.unsupported)
       return
@@ -152,12 +180,17 @@ export function SectionSummaryTask({
         const type = recorder.mimeType || mimeType || 'audio/webm'
         const nextBlob = new Blob(chunksRef.current, { type })
         setPreview(nextBlob)
+        void prepareShareFile(nextBlob, type)
         stopStream()
         stopTimer()
         setStatus('ready')
       }
 
-      recorder.start()
+      try {
+        recorder.start(250)
+      } catch {
+        recorder.start()
+      }
       setSeconds(0)
       setStatus('recording')
       timerRef.current = window.setInterval(() => {
@@ -206,39 +239,48 @@ export function SectionSummaryTask({
     }
 
     const type = blob.type || 'audio/webm'
-    const file = new File(
-      [blob],
-      `zura-${taskKey}-${slugPart(articleTitle)}.${extensionFor(type)}`,
-      { type },
-    )
+    const file =
+      shareFileRef.current ||
+      new File(
+        [blob],
+        `zura-${taskKey}-${slugPart(articleTitle)}.${extensionFor(type)}`,
+        { type },
+      )
     const text = caption(phone)
-    const payload = canShareAudio(file, text)
 
     setStatus('sending')
     setMessage('')
-
-    // Do not await clipboard first — iOS will treat share as outside the tap.
+    setShowSave(false)
     void navigator.clipboard?.writeText(text).catch(() => {})
 
-    if (payload) {
-      try {
-        await navigator.share(payload)
-        setStatus('ready')
-        setMessage(copy.shared)
-        return
-      } catch (error) {
-        if (error?.name === 'AbortError') {
-          setStatus('ready')
-          setMessage('')
-          return
-        }
-      }
+    const result = await shareAudioFile(file, text)
+    setStatus('ready')
+    if (result === 'shared') {
+      setMessage(copy.shared)
+      return
+    }
+    if (result === 'aborted') {
+      setMessage('')
+      return
     }
 
+    setShowSave(true)
+    setMessage(copy.shareUnavailable)
+  }
+
+  function saveAudio() {
+    const type = blob?.type || 'audio/webm'
+    const file =
+      shareFileRef.current ||
+      (blob
+        ? new File(
+            [blob],
+            `zura-${taskKey}-${slugPart(articleTitle)}.${extensionFor(type)}`,
+            { type },
+          )
+        : null)
+    if (!file) return
     downloadFile(file)
-    openWhatsAppApp(phone, text)
-    setStatus('ready')
-    setMessage(copy.opened)
   }
 
   return (
@@ -292,6 +334,15 @@ export function SectionSummaryTask({
           <Icon name="send" size={16} />
           {status === 'sending' ? copy.sending : copy.send}
         </button>
+        {showSave ? (
+          <button
+            type="button"
+            className="section-summary__btn section-summary__btn--record"
+            onClick={saveAudio}
+          >
+            {copy.saveAudio}
+          </button>
+        ) : null}
       </div>
 
       {message ? <p className="section-summary__note">{message}</p> : null}
