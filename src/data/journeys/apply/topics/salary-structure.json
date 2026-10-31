@@ -1,7 +1,7 @@
 {
   "id": "salary-structure",
   "title": "Salary Structure",
-  "summary": "Monthly pay by role and workdays, role expectations, and overtime notes for Zura Med Spa.",
+  "summary": "Monthly pay by role and workdays, and role expectations for Zura Med Spa.",
   "type": "article",
   "order": 2,
   "sections": [
@@ -28,7 +28,7 @@
     {
       "title": "Work Schedule & Salary — Clinical Massage Therapist",
       "paragraphs": [
-        "Applicants may choose a preferred work schedule:"
+        "Applicants may choose a preferred work schedule of at least 5 working days:"
       ],
       "items": [
         {
@@ -56,13 +56,6 @@
           "label": "Cleaner",
           "body": "₦60,000 monthly (6 days)"
         }
-      ]
-    },
-    {
-      "title": "Official Working Hours",
-      "paragraphs": [
-        "Official working hours are 8:00 AM to 10:00 PM.",
-        "Sleepovers are allowed to handle late-night bookings. Extra compensation is paid per session handled overtime when the session start time is beyond 12:00 AM."
       ]
     },
     {
@@ -109,5 +102,5 @@
       ]
     }
   ],
-  "remember": "Therapist pay is ₦90,000 for six days a week or ₦70,000 for five days a week. Leaders earn ₦100,000 monthly (minimum six days). Correspondence and receptionist roles earn ₦70,000 monthly (minimum six days). Cleaners earn ₦60,000 monthly for six days. Late-night sessions starting after 12:00 AM attract extra overtime compensation per session."
+  "remember": "Therapist pay is ₦90,000 for six days a week or ₦70,000 for five days a week. Leaders earn ₦100,000 monthly (minimum six days). Correspondence and receptionist roles earn ₦70,000 monthly (minimum six days). Cleaners earn ₦60,000 monthly for six days."
 }

@@ -1,13 +1,21 @@
 {
   "id": "work-timing",
   "title": "Work Timing",
-  "summary": "Shift hours, days of work, and how time is organised.",
+  "summary": "Official hours are 8:00 AM to 10:00 PM, with at least 5 working days. Sleepovers are allowed for late-night bookings.",
   "type": "article",
   "order": 4,
   "sections": [
     {
+      "title": "Official Working Hours",
       "paragraphs": [
-        "Content for this section will be added soon."
+        "Official working hours are 8:00 AM to 10:00 PM.",
+        "Sleepovers are allowed to handle late-night bookings. Extra compensation is paid per session handled overtime when the session start time is beyond 12:00 AM."
+      ]
+    },
+    {
+      "title": "Working Days",
+      "paragraphs": [
+        "Staff work at least 5 working days."
       ]
     }
   ]
