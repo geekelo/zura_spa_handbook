@@ -1,0 +1,42 @@
+{
+  "id": "integration",
+  "title": "Integration",
+  "summary": "After the employment letter: confirm dress code and work kit, receive your work name and handbook password, join team channels, meet the team, tour Standards, and begin massage training.",
+  "type": "article",
+  "order": 10,
+  "steps": [
+    {
+      "title": "Confirmation of dress code",
+      "body": "Confirm that you have the approved uniform, footwear, ash grey scarf (when on cornrows or natural hair), Earpods/AirPods/AirClips, and that you understand how dress code is worn at work."
+    },
+    {
+      "title": "Confirmation of work kit",
+      "body": "Confirm your personal work kit is complete and ready before you begin independent work."
+    },
+    {
+      "title": "Work name",
+      "body": "Receive and confirm your work name. Use it in the handbook, team communication, and professional interactions at Zura Spa."
+    },
+    {
+      "title": "Password to handbook",
+      "body": "Receive your handbook sign-in details so you can access the Zura Spa Work Handbook."
+    },
+    {
+      "title": "Invitation to team communication channels",
+      "body": "Join the approved team channels (WhatsApp, Discord, and any other channel assigned by leadership)."
+    },
+    {
+      "title": "Introduction to team members and leaders",
+      "body": "Be introduced to team members and leaders so you know who to work with, who to report to, and who to ask for support."
+    },
+    {
+      "title": "Tour of the Standards section",
+      "body": "Within the next one week, go through the Standards section of the handbook so you understand the professional expectations of the Zura Team."
+    },
+    {
+      "title": "Training on massage starts",
+      "body": "Massage training begins. Follow the assigned training path, practise to standard, and remain teachable."
+    }
+  ],
+  "remember": "Integration is complete only when dress code and work kit are confirmed, you have your work name and handbook access, you are on the team channels, you have been introduced to the team, you have started the Standards tour, and massage training has begun."
+}
