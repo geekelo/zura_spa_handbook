@@ -83,7 +83,7 @@
       ],
       "list": [
         "Staff Manager",
-        "Client Manager",
+        "Receptionist / Client Manager / Correspondence",
         "Hygiene Manager",
         "Supervisor",
         "Lead Therapist",
@@ -148,8 +148,14 @@
     {
       "title": "Hair",
       "paragraphs": [
-        "Cornrows are not permitted as a work hairstyle. Staff may wear a neat wig or an approved scarf/turban.",
+        "Cornrows are not permitted as a visible work hairstyle. When you are on cornrows or your hair is natural, wear the approved ash grey scarf. Staff may alternatively wear a neat wig.",
         "Hair must always be neat and appropriate for the workplace. Personal grooming must be maintained throughout the workday."
+      ]
+    },
+    {
+      "title": "Earbuds",
+      "paragraphs": [
+        "Earpods, AirPods, or AirClips are part of the required dress code and work kit. Bring an approved pair and keep them available for work."
       ]
     },
     {

@@ -28,7 +28,9 @@
         "Tissue",
         "Lip gloss",
         "Phone charger",
-        "Sanitary pads"
+        "Sanitary pads",
+        "Earpods, AirPods, or AirClips",
+        "Ash grey scarf (required when you are on cornrows or your hair is natural; a neat wig may be worn instead)"
       ]
     },
     {
@@ -84,7 +86,7 @@
     {
       "title": "6. Confirmation Before Resumption",
       "paragraphs": [
-        "The following must be confirmed before a therapist resumes work. A therapist should not consider their onboarding/resumption requirements complete until the required work kit, uniform and footwear have been confirmed.",
+        "The following must be confirmed before a therapist resumes work. A therapist should not consider their onboarding/resumption requirements complete until the required work kit, uniform, footwear, earbuds, and ash grey scarf (where applicable) have been confirmed.",
         "Being prepared for work is part of the job."
       ]
     }
@@ -157,6 +159,20 @@
     {
       "name": "footwear",
       "label": "Black Crocs / approved black work footwear",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "earbuds",
+      "label": "Earpods, AirPods, or AirClips",
+      "type": "select",
+      "required": true,
+      "options": ["Confirmed", "Not yet"]
+    },
+    {
+      "name": "ashGreyScarf",
+      "label": "Ash grey scarf (for cornrows or natural hair; or neat wig)",
       "type": "select",
       "required": true,
       "options": ["Confirmed", "Not yet"]
