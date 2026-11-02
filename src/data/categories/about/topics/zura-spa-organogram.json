@@ -38,41 +38,47 @@
       "list": [
         "Manages daily spa operations.",
         "Ensures staff follow routines, processes, and standards.",
-        "Handles staff attendance, discipline, and work coordination.",
         "Monitors client experience and service delivery.",
         "Ensures rooms, tools, and facilities are ready for operation.",
-        "Escalates major issues to the Executive Director."
+        "Escalates major issues to the Executive Director.",
+        "In the absence of the Spa Manager, the Staff Manager functions as manager."
       ]
     },
     {
-      "title": "4. Supervisor / Team Lead",
+      "title": "4. Staff Manager",
       "paragraphs": [
-        "Reports to: Spa Manager / Operations Manager"
-      ]
-    },
-    {
-      "title": "4a. Staff Manager",
-      "paragraphs": [
-        "Reports to: Spa Manager / Operations Manager"
+        "Reports to: Spa Manager / Executive Director",
+        "The Staff Manager is the people and operations support role for the team, similar to HR. The Staff Manager stands above every other leader and may function as manager when the Spa Manager is absent."
       ],
       "list": [
-        "Oversees staff coordination, attendance, and daily work assignments.",
-        "Manages staff discipline, conduct, and performance monitoring.",
+        "Takes attendance.",
+        "Takes minutes during morning routines.",
+        "Handles operation-related questions from staff.",
+        "Coordinates staff welfare, scheduling, and team communication.",
+        "Oversees staff coordination and daily work assignments.",
+        "Monitors staff discipline, conduct, and performance, and supports correction.",
         "Ensures all team members follow Zura Spa standards and routines.",
-        "Reports staff-related concerns and escalates issues to the Spa Manager.",
-        "Supports staff welfare, scheduling, and team communication."
+        "Stands above every leader (Lead Therapist, Supervisor, Client Manager, Therapist Guide, Hygiene Manager, and other assigned leaders) and may give direction to them.",
+        "Functions as manager in the absence of the Spa Manager.",
+        "Reports staff-related concerns and escalates issues to the Spa Manager or Executive Director."
       ]
     },
     {
-      "title": "4b. Lead Therapist",
+      "title": "5. Operational leaders",
       "paragraphs": [
-        "Reports to: Spa Manager / Staff Manager"
+        "These roles lead specific areas of the work. They report to the Staff Manager. The Staff Manager is above every leader."
+      ]
+    },
+    {
+      "title": "5a. Lead Therapist",
+      "paragraphs": [
+        "Reports to: Staff Manager"
       ],
       "list": [
         "Leads the therapy team in delivering professional Zura Massage services.",
         "Ensures sessions are properly assigned, managed, and executed to standard.",
         "Monitors therapist performance and service quality during operations.",
-        "Reports client concerns, session issues, and therapist conduct to the Spa Manager.",
+        "Reports client concerns, session issues, and therapist conduct to the Staff Manager.",
         "Drives continuous improvement in service delivery and client satisfaction.",
         "Oversees therapist training, correction, and professional development.",
         "Reviews and confirms morning shift handover reports from all therapists.",
@@ -82,9 +88,9 @@
       ]
     },
     {
-      "title": "4c. Supervisor",
+      "title": "5b. Supervisor",
       "paragraphs": [
-        "Reports to: Spa Manager / Staff Manager"
+        "Reports to: Staff Manager"
       ],
       "list": [
         "Supervises therapists and support staff during daily operations.",
@@ -100,9 +106,9 @@
       ]
     },
     {
-      "title": "4d. Hygiene Manager",
+      "title": "5c. Hygiene Manager",
       "paragraphs": [
-        "Reports to: Spa Manager / Supervisor"
+        "Reports to: Staff Manager / Supervisor"
       ],
       "list": [
         "Maintains and enforces hygiene standards across all spa areas.",
@@ -113,7 +119,7 @@
       ]
     },
     {
-      "title": "4e. Therapist Guide",
+      "title": "5d. Therapist Guide",
       "paragraphs": [
         "Reports to: Lead Therapist / Staff Manager"
       ],
@@ -122,13 +128,13 @@
         "Introduces new staff to Zura Spa service standards, routines, and expectations.",
         "Provides hands-on support, correction, and mentorship throughout the onboarding period.",
         "Monitors new staff progress and reports readiness to the Lead Therapist or Staff Manager.",
-        "Ensures new team members are fully integrated and confident before independent operation and handing over to Lead therapist."
+        "Ensures new team members are fully integrated and confident before independent operation and handing over to the Lead Therapist."
       ]
     },
     {
-      "title": "5. Receptionist / Client Manager",
+      "title": "5e. Receptionist / Client Manager",
       "paragraphs": [
-        "Reports to: Spa Manager / Supervisor"
+        "Reports to: Staff Manager"
       ],
       "list": [
         "Welcomes clients and manages client communication.",
@@ -141,9 +147,27 @@
       ]
     },
     {
-      "title": "6. Zura Wellness Professionals / Massage Therapists",
+      "title": "6. Chief Therapist",
       "paragraphs": [
-        "Reports to: Supervisor / Spa Manager"
+        "Chief Therapists are not leaders. They are experts.",
+        "A Chief Therapist has followed and been led, shown significant growth, integrity, loyalty, and honesty, and has worked for a long time with the team and the Zura brand.",
+        "They are examples for the team and must not be found wanting. They are respected and may be consulted by leaders. They must be humble, yet prestigious."
+      ],
+      "list": [
+        "Not a leadership rank and not placed above other leaders.",
+        "An expert example of Zura professional standard, character, and service.",
+        "Has followed leadership, received correction, and demonstrated lasting growth.",
+        "Known for integrity, loyalty, honesty, and long service with the team and the Zura brand.",
+        "Cannot be found wanting in conduct, skill, or attitude.",
+        "May be consulted by leaders for judgement, skill, and example.",
+        "Must remain humble while carrying the prestige of the title.",
+        "Reports to: Staff Manager / Spa Manager for operations and conduct, the same as other therapists."
+      ]
+    },
+    {
+      "title": "7. Zura Wellness Professionals / Massage Therapists",
+      "paragraphs": [
+        "Reports to: Supervisor / Staff Manager"
       ],
       "list": [
         "Provide professional Zura Massage services to clients.",
@@ -156,7 +180,7 @@
       ]
     },
     {
-      "title": "7. Social Media Manager / Content Lead",
+      "title": "8. Social Media Manager / Content Lead",
       "paragraphs": [
         "Reports to: Executive Director / Spa Manager"
       ],
@@ -169,9 +193,9 @@
       ]
     },
     {
-      "title": "8. Cleaner / Housekeeping Staff",
+      "title": "9. Cleaner / Housekeeping Staff",
       "paragraphs": [
-        "Reports to: Supervisor / Spa Manager"
+        "Reports to: Supervisor / Staff Manager"
       ],
       "list": [
         "Cleans the kitchen, reception, waiting area, rooms, lounge, veranda, and other assigned areas.",
@@ -182,9 +206,9 @@
       ]
     },
     {
-      "title": "9. Security Officer",
+      "title": "10. Security Officer",
       "paragraphs": [
-        "Reports to: Spa Manager / Supervisor"
+        "Reports to: Staff Manager / Supervisor"
       ],
       "list": [
         "Opens and closes the gate.",
@@ -203,7 +227,9 @@
         "Zura Group / Founder",
         "↓ Executive Director",
         "↓ Spa Manager / Operations Manager",
-        "↓ Staff Manager / Team Lead / Client Manager / Lead Therapist",
+        "↓ Staff Manager (above every leader; acts as manager when the Spa Manager is absent)",
+        "↓ Lead Therapist / Supervisor / Client Manager / Hygiene Manager / Therapist Guide",
+        "Chief Therapist — expert, not a leader; an example who may be consulted by leaders",
         "↓ Receptionist / Client Service Officer | Zura Wellness Professionals | Cleaner / Housekeeping | Security Officer",
         "Social Media Manager / Content Lead may report directly to the Executive Director or work with the Spa Manager, depending on the task."
       ]
