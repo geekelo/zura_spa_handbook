@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useAuth } from '../auth/AuthContext'
 import { isAssessmentAccessGranted } from '../auth/session'
+import { getAssessmentAccessCode } from '../data'
 import './LockedContent.css'
 
 export function AssessmentGate({ accessKey, children }) {
@@ -20,7 +21,11 @@ export function AssessmentGate({ accessKey, children }) {
     restoreAssessmentAccess()
   }, [restoreAssessmentAccess])
 
-  if (hasAssessmentAccess(accessKey) || isAssessmentAccessGranted(accessKey)) {
+  if (
+    !getAssessmentAccessCode(accessKey) ||
+    hasAssessmentAccess(accessKey) ||
+    isAssessmentAccessGranted(accessKey)
+  ) {
     return children
   }
 

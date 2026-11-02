@@ -13,6 +13,7 @@ import ArticleDetail from './ArticleDetail'
 import { FormTopic } from './FormTopic'
 import { SignTopic } from './SignTopic'
 import { EmploymentLetter } from './EmploymentLetter'
+import { ReturnToWorkLetter } from './ReturnToWorkLetter'
 import { JourneyGroupDetail } from './CategoryDetail'
 
 function relatedItems({ journeyId, categoryId, groupId, article }) {
@@ -94,6 +95,10 @@ export function TopicPage({ journeyId }) {
 
   if (article.type === 'employment-letter') {
     return <EmploymentLetter topic={article} backTo={backTo} locked={locked} />
+  }
+
+  if (article.type === 'return-to-work-letter') {
+    return <ReturnToWorkLetter topic={article} backTo={backTo} locked={locked} />
   }
 
   const related = relatedItems({

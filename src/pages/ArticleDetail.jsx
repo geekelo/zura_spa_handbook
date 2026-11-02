@@ -328,6 +328,12 @@ export default function ArticleDetail({
         <div className="article-voice-tasks">
           <SectionSummaryTask articleTitle={article.title} taskKey="summary" />
           <SectionSummaryTask articleTitle={article.title} taskKey="questions" />
+          {category?.id === 'standards' ? (
+            <SectionSummaryTask
+              articleTitle={article.title}
+              taskKey="standardsReview"
+            />
+          ) : null}
         </div>
       ) : null}
       </LockedContent>

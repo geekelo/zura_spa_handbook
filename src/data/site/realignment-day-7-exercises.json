@@ -1,0 +1,28 @@
+[
+  {
+    "title": "WHAT I HAVE DISCOVERED ABOUT MYSELF",
+    "questions": [
+      { "id": 1, "prompt": "My greatest discovery: What have I learned about myself during this week that I did not fully recognise before?" },
+      { "id": 2, "prompt": "My strengths: What positive qualities do I possess, and how can I use them more effectively?" },
+      { "id": 3, "prompt": "My areas for improvement: Which attitudes or behaviours have I recognised as needing change?" },
+      { "id": 4, "prompt": "My understanding of responsibility: What have I learned about taking ownership of my actions?" },
+      { "id": 5, "prompt": "My relationship with others: How can I become easier to communicate and work with?" },
+      { "id": 6, "prompt": "My professional growth: Which Zura Spa standards do I need to practise more consistently?" },
+      { "id": 7, "prompt": "My commitment: What three specific changes will I begin practising from today?" }
+    ]
+  },
+  {
+    "title": "LOOKING BACK AT THE WEEK",
+    "questions": [
+      { "id": 8, "prompt": "Which of these lessons challenged me most? Which one revealed something about myself that I had previously overlooked?" }
+    ]
+  },
+  {
+    "title": "PERSONAL REFLECTION",
+    "questions": [
+      { "id": 9, "prompt": "What am I ready to leave behind? What attitudes, responses, habits, or ways of thinking no longer represent the person I want to become?" },
+      { "id": 10, "prompt": "What am I ready to build? What qualities, relationships, disciplines, and professional habits do I want to develop?" },
+      { "id": 11, "prompt": "What will people experience differently about me? If my colleagues and management interacted with me after this transformation programme, what positive differences would they notice through my actions?" }
+    ]
+  }
+]

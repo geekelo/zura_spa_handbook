@@ -18,5 +18,19 @@
       "body": "Confirm their booking and offer water or herbal tea."
     }
   ],
-  "remember": "First impressions set the tone for the entire spa journey."
+  "remember": "First impressions set the tone for the entire spa journey.",
+  "sections": [
+    {
+      "title": "Standards-review assignment",
+      "paragraphs": [
+        "Read this official Zura Spa standard, then answer the four questions in the standards-review form. Save your answers, download a PDF, and submit it."
+      ],
+      "list": [
+        "What does this standard require of me?",
+        "Why is this standard important to Zura Spa, my colleagues and our clients?",
+        "Where have I demonstrated this standard well, and where do I need improvement?",
+        "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      ]
+    }
+  ]
 }

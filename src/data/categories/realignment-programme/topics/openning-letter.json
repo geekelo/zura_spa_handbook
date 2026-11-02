@@ -1,0 +1,23 @@
+{
+  "id": "openning-letter",
+  "title": "Openning Letter",
+  "summary": "A letter from Zura Spa Management to the therapist beginning the two-week transformation break.",
+  "type": "article",
+  "order": 0,
+  "sections": [
+    {
+      "paragraphs": [
+        "Dear Zura Therapist,",
+        "Every person reaches moments in life when it becomes necessary to reflect, reassess, and make important changes.",
+        "Your two-week transformation break is an opportunity to invest in yourself, rediscover your strengths, examine the areas where you need to grow, and prepare for a more fulfilling professional journey.",
+        "We want you to remember something important: your value as a person is greater than any mistake or difficult experience you may have had.",
+        "At the same time, growth requires honesty, responsibility, humility, and the willingness to change.",
+        "Over the next 14 days, we encourage you to give yourself the attention you deserve. Reflect deeply. Learn sincerely. Challenge unhelpful habits. Reconnect with your goals and the kind of woman and professional you want to become.",
+        "At Zura Spa, we believe that excellent service begins with the person providing it. Your attitude, character, emotional maturity, professionalism, and willingness to work with others are just as important as your technical skills.",
+        "We hope this period helps you develop greater confidence, clarity, discipline, and enthusiasm for your future.",
+        "We look forward to discussing what you have learned and how we can support your next chapter."
+      ]
+    }
+  ],
+  "remember": "Your future deserves your best effort. — Zura Spa Management"
+}

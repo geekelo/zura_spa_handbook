@@ -1,0 +1,77 @@
+[
+  {
+    "title": "A. PERSONAL PREPARATION",
+    "questions": [
+      { "id": 1, "prompt": "I arrive in time to be fully prepared before my assigned duties begin. How will I keep this?" },
+      { "id": 2, "prompt": "My uniform, footwear, grooming, and personal hygiene meet Zura Spa standards. How will I keep this?" },
+      { "id": 3, "prompt": "I have the required personal work essentials. How will I keep this?" },
+      { "id": 4, "prompt": "I review my assigned sessions and any relevant instructions. How will I keep this?" },
+      { "id": 5, "prompt": "I begin work with a respectful, focused, service-oriented attitude. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "B. TREATMENT-ROOM READINESS",
+    "questions": [
+      { "id": 6, "prompt": "The treatment room is clean, tidy, and appropriately arranged. How will I keep this?" },
+      { "id": 7, "prompt": "Fresh linen and required treatment materials are available. How will I keep this?" },
+      { "id": 8, "prompt": "Equipment and frequently touched surfaces are cleaned according to procedure. How will I keep this?" },
+      { "id": 9, "prompt": "Room temperature, lighting, and presentation support client comfort. How will I keep this?" },
+      { "id": 10, "prompt": "I confirm that the room is ready before inviting the client in. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "C. PROFESSIONAL COMMUNICATION",
+    "questions": [
+      { "id": 11, "prompt": "I greet colleagues and clients respectfully. How will I keep this?" },
+      { "id": 12, "prompt": "I listen carefully to instructions and ask questions when unsure. How will I keep this?" },
+      { "id": 13, "prompt": "I communicate relevant delays or concerns promptly. How will I keep this?" },
+      { "id": 14, "prompt": "I avoid gossip, arguments, unnecessary complaints, and disrespectful language. How will I keep this?" },
+      { "id": 15, "prompt": "I maintain confidentiality and appropriate professional boundaries. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "D. SERVICE QUALITY",
+    "questions": [
+      { "id": 16, "prompt": "I confirm the booked treatment and follow required client consultation procedures. How will I keep this?" },
+      { "id": 17, "prompt": "I respect consent, privacy, draping, comfort, and professional boundaries. How will I keep this?" },
+      { "id": 18, "prompt": "I use appropriate techniques and check pressure and comfort as needed. How will I keep this?" },
+      { "id": 19, "prompt": "I remain attentive, courteous, and focused throughout the treatment. How will I keep this?" },
+      { "id": 20, "prompt": "I complete the treatment and aftercare according to Zura Spa procedures. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "E. COMPLETION AND HANDOVER",
+    "questions": [
+      { "id": 21, "prompt": "I clean, sanitise, and reset the room according to procedure. How will I keep this?" },
+      { "id": 22, "prompt": "I ensure used linen and materials are handled appropriately. How will I keep this?" },
+      { "id": 23, "prompt": "I report any equipment problems, incidents, or client concerns. How will I keep this?" },
+      { "id": 24, "prompt": "I complete required session records and handover communication. How will I keep this?" },
+      { "id": 25, "prompt": "I check that assigned responsibilities are completed before leaving. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "END-OF-DAY NOTES",
+    "questions": [
+      { "id": 26, "prompt": "End-of-day notes" }
+    ]
+  },
+  {
+    "title": "THE THERAPIST PEOPLE CAN DEPEND ON",
+    "questions": [
+      { "id": 27, "prompt": "Write a short description of the therapist you want to become, focusing on your reliability, attitude, communication, hygiene, attention to detail, and service delivery." },
+      { "id": 28, "prompt": "Small habit 1 I can begin practising immediately" },
+      { "id": 29, "prompt": "Small habit 2 I can begin practising immediately" },
+      { "id": 30, "prompt": "Small habit 3 I can begin practising immediately" }
+    ]
+  },
+  {
+    "title": "WHAT WOULD EXCELLENCE LOOK LIKE ON AN ORDINARY WORKING DAY?",
+    "questions": [
+      { "id": 31, "prompt": "Which small responsibilities have I sometimes treated as unimportant?" },
+      { "id": 32, "prompt": "What do my daily habits reveal about my attitude towards my work?" },
+      { "id": 33, "prompt": "Do I require supervision before I do what I already know is right?" },
+      { "id": 34, "prompt": "How can I become a therapist whose consistency gives management confidence?" },
+      { "id": 35, "prompt": "What three things must change in my daily routine before I return to Zura Spa?" }
+    ]
+  }
+]

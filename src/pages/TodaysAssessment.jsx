@@ -51,6 +51,20 @@ import teamworkDay7Lesson3Questions from '../data/site/teamwork-day-7-lesson-3-a
 import teamworkDay7Lesson4Questions from '../data/site/teamwork-day-7-lesson-4-assessment-questions.json'
 import teamworkDay7Lesson5Questions from '../data/site/teamwork-day-7-lesson-5-assessment-questions.json'
 import teamworkDay7Lesson6Questions from '../data/site/teamwork-day-7-lesson-6-assessment-questions.json'
+import realignmentDay1Exercises from '../data/site/realignment-day-1-exercises.json'
+import realignmentDay2Exercises from '../data/site/realignment-day-2-exercises.json'
+import realignmentDay3Exercises from '../data/site/realignment-day-3-exercises.json'
+import realignmentDay4Exercises from '../data/site/realignment-day-4-exercises.json'
+import realignmentDay5Exercises from '../data/site/realignment-day-5-exercises.json'
+import realignmentDay6Exercises from '../data/site/realignment-day-6-exercises.json'
+import realignmentDay7Exercises from '../data/site/realignment-day-7-exercises.json'
+import realignmentDay8Exercises from '../data/site/realignment-day-8-exercises.json'
+import realignmentDay9Exercises from '../data/site/realignment-day-9-exercises.json'
+import realignmentDay10Exercises from '../data/site/realignment-day-10-exercises.json'
+import realignmentDay12Exercises from '../data/site/realignment-day-12-exercises.json'
+import realignmentDay13Exercises from '../data/site/realignment-day-13-exercises.json'
+import realignmentDay14Exercises from '../data/site/realignment-day-14-exercises.json'
+import standardsReviewExercises from '../data/site/standards-review-exercises.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -104,6 +118,20 @@ const QUESTION_SETS = {
   'teamwork-day-7-lesson-4': teamworkDay7Lesson4Questions,
   'teamwork-day-7-lesson-5': teamworkDay7Lesson5Questions,
   'teamwork-day-7-lesson-6': teamworkDay7Lesson6Questions,
+  'realignment-day-1': realignmentDay1Exercises,
+  'realignment-day-2': realignmentDay2Exercises,
+  'realignment-day-3': realignmentDay3Exercises,
+  'realignment-day-4': realignmentDay4Exercises,
+  'realignment-day-5': realignmentDay5Exercises,
+  'realignment-day-6': realignmentDay6Exercises,
+  'realignment-day-7': realignmentDay7Exercises,
+  'realignment-day-8': realignmentDay8Exercises,
+  'realignment-day-9': realignmentDay9Exercises,
+  'realignment-day-10': realignmentDay10Exercises,
+  'realignment-day-12': realignmentDay12Exercises,
+  'realignment-day-13': realignmentDay13Exercises,
+  'realignment-day-14': realignmentDay14Exercises,
+  'standards-review': standardsReviewExercises,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
@@ -162,6 +190,13 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
   const questionsBySection = QUESTION_SETS[topic.questionsId] || []
   const questionCount = useMemo(
     () => allQuestions(questionsBySection).length,
+    [questionsBySection],
+  )
+  const writtenOnly = useMemo(
+    () =>
+      allQuestions(questionsBySection).every(
+        (question) => !question.options?.length,
+      ),
     [questionsBySection],
   )
   const [values, setValues] = useState(() => ({
@@ -230,8 +265,9 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
 
       <AssessmentGate accessKey={accessKey}>
         <p className="lead-copy">
-          {questionCount} applied assessment questions. Tap an option to fill
-          your answer, type your reason, then download a PDF and upload it.
+          {writtenOnly
+            ? `${questionCount} written exercises. Type your answers, save them, then download a PDF and upload it.`
+            : `${questionCount} applied assessment questions. Tap an option to fill your answer, type your reason, then download a PDF and upload it.`}
           {topic.articleTo ? (
             <>
               {' '}
@@ -278,7 +314,9 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
         {questionsBySection.map((section) => (
           <section key={section.title} className="el-card">
             <h2>{section.title}</h2>
-            {section.questions.map((question) => (
+            {section.questions.map((question) => {
+              const written = !question.options?.length
+              return (
               <div key={question.id} className="assessment-question">
                 <p>
                   <strong>
@@ -316,12 +354,23 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
                   Answer
                   <textarea
                     value={values[`q${question.id}Answer`]}
-                    readOnly
-                    tabIndex={-1}
-                    placeholder="Tap an option above to fill this answer"
+                    readOnly={!written}
+                    tabIndex={written ? undefined : -1}
+                    placeholder={
+                      written
+                        ? 'Write your answer here'
+                        : 'Tap an option above to fill this answer'
+                    }
+                    onChange={
+                      written
+                        ? (event) =>
+                            setField(`q${question.id}Answer`, event.target.value)
+                        : undefined
+                    }
                     required
                   />
                 </label>
+                {written ? null : (
                 <label>
                   Reason
                   <textarea
@@ -332,8 +381,10 @@ export function TodaysAssessment({ topic, backTo, accessKey }) {
                     required
                   />
                 </label>
+                )}
               </div>
-            ))}
+              )
+            })}
           </section>
         ))}
 

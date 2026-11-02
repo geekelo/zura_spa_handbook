@@ -1,0 +1,59 @@
+[
+  {
+    "title": "THE THERAPIST I AM CHOOSING TO BECOME",
+    "questions": [
+      { "id": 1, "prompt": "Who was I? What attitudes, habits, or behaviours do I now recognise needed improvement?" },
+      { "id": 2, "prompt": "What have I discovered? What are the five most important lessons I learned during this programme?" },
+      { "id": 3, "prompt": "What responsibility do I accept? Which actions and choices were within my control?" },
+      { "id": 4, "prompt": "Who am I becoming? What qualities do I want to demonstrate as a person and a Zura therapist?" },
+      { "id": 5, "prompt": "What will be different? What specific behaviours will my colleagues, management, and clients notice?" },
+      { "id": 6, "prompt": "How will I sustain my growth? What will I do when I experience pressure, frustration, correction, or discouragement?" },
+      { "id": 7, "prompt": "I will… (commitment 1)" },
+      { "id": 8, "prompt": "I will… (commitment 2)" },
+      { "id": 9, "prompt": "I will… (commitment 3)" },
+      { "id": 10, "prompt": "I will… (commitment 4)" },
+      { "id": 11, "prompt": "I will… (commitment 5)" }
+    ]
+  },
+  {
+    "title": "MY 30-DAY PROFESSIONAL GROWTH ROADMAP",
+    "questions": [
+      { "id": 12, "prompt": "Days 1–7 — Establishing My New Foundation: What will I focus on this week, and how will I show evidence?" },
+      { "id": 13, "prompt": "Days 8–14 — Demonstrating Emotional Maturity: What will I practise this week, and how will I show evidence?" },
+      { "id": 14, "prompt": "Days 15–21 — Building Reliability and Excellence: What will I strengthen this week, and how will I show evidence?" },
+      { "id": 15, "prompt": "Days 22–30 — Making My Growth Sustainable: What will I demonstrate this week, and how will I show evidence?" }
+    ]
+  },
+  {
+    "title": "DAILY EXCELLENCE CHECKLIST — HOW I WILL KEEP EACH COMMITMENT",
+    "questions": [
+      { "id": 16, "prompt": "I arrived on time and was prepared for duty. How will I keep this?" },
+      { "id": 17, "prompt": "My grooming, hygiene, and uniform met Zura Spa standards. How will I keep this?" },
+      { "id": 18, "prompt": "I communicated respectfully with colleagues and management. How will I keep this?" },
+      { "id": 19, "prompt": "I maintained appropriate client boundaries and confidentiality. How will I keep this?" },
+      { "id": 20, "prompt": "I followed approved treatment procedures and safety standards. How will I keep this?" },
+      { "id": 21, "prompt": "I responded to instructions and corrections professionally. How will I keep this?" },
+      { "id": 22, "prompt": "I assisted my team and completed my responsibilities. How will I keep this?" },
+      { "id": 23, "prompt": "I reflected honestly on my actions and identified an improvement. How will I keep this?" }
+    ]
+  },
+  {
+    "title": "REVIEWING ZURA SPA STANDARDS",
+    "questions": [
+      { "id": 24, "prompt": "What does this standard require of me?" },
+      { "id": 25, "prompt": "Why is this standard important to clients and the organisation?" },
+      { "id": 26, "prompt": "How will I demonstrate compliance every day?" },
+      { "id": 27, "prompt": "What should I do if I make a mistake or need clarification?" }
+    ]
+  },
+  {
+    "title": "WHAT WILL MY ACTIONS SAY ABOUT ME?",
+    "questions": [
+      { "id": 28, "prompt": "If nobody knew I had attended this programme, would my conduct alone show that something had changed?" },
+      { "id": 29, "prompt": "What old habit am I most determined not to return to?" },
+      { "id": 30, "prompt": "How will I respond when I encounter the same situations that previously challenged me?" },
+      { "id": 31, "prompt": "Am I prepared to rebuild trust patiently, without demanding immediate recognition?" },
+      { "id": 32, "prompt": "What am I willing to demonstrate consistently, not merely promise?" }
+    ]
+  }
+]

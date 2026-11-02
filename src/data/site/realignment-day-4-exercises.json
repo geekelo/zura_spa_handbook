@@ -1,0 +1,43 @@
+[
+  {
+    "title": "SITUATION 1: RECEIVING CORRECTION",
+    "questions": [
+      { "id": 1, "prompt": "Your supervisor corrects you in front of a colleague because you have not followed a required treatment preparation procedure. PAUSE — What emotion would you initially experience?" },
+      { "id": 2, "prompt": "NAME — What assumption might you make?" },
+      { "id": 3, "prompt": "CHOOSE — How could you respond maturely?" }
+    ]
+  },
+  {
+    "title": "SITUATION 2: FEELING MISUNDERSTOOD",
+    "questions": [
+      { "id": 4, "prompt": "A colleague tells management that you were uncooperative. You believe your actions were misunderstood. PAUSE — How would you feel?" },
+      { "id": 5, "prompt": "NAME — What would be the danger of responding immediately?" },
+      { "id": 6, "prompt": "CHOOSE — How would you explain yourself respectfully?" }
+    ]
+  },
+  {
+    "title": "SITUATION 3: HANDLING A DIFFICULT CLIENT",
+    "questions": [
+      { "id": 7, "prompt": "A client expresses dissatisfaction with your service in an unfriendly tone, despite your efforts. PAUSE — What emotion might arise?" },
+      { "id": 8, "prompt": "NAME — What should you avoid doing?" },
+      { "id": 9, "prompt": "CHOOSE — How could you respond professionally?" }
+    ]
+  },
+  {
+    "title": "PERSONAL REFLECTION",
+    "questions": [
+      { "id": 10, "prompt": "How can I remain respectful even when I am upset?" }
+    ]
+  },
+  {
+    "title": "BECOMING THE PERSON I WANT TO BE",
+    "questions": [
+      { "id": 11, "prompt": "What situations tend to bring out the worst in my attitude?" },
+      { "id": 12, "prompt": "Have I ever allowed anger, pride, or disappointment to affect how I treated someone?" },
+      { "id": 13, "prompt": "When someone corrects me, am I more interested in defending myself or understanding what needs to change?" },
+      { "id": 14, "prompt": "Have I ever mistaken firmness for disrespect or correction for rejection?" },
+      { "id": 15, "prompt": "How would my relationships improve if I became more patient and thoughtful in my responses?" },
+      { "id": 16, "prompt": "What emotional habit must I leave behind before returning to Zura Spa?" }
+    ]
+  }
+]

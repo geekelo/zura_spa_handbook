@@ -117,10 +117,24 @@
   font-size: 1.05rem;
 }
 
+.el-letter h3 {
+  margin: 1.1rem 0 0.45rem;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
 .el-letter h4 {
   margin: 0.95rem 0 0.35rem;
   color: var(--ink);
   font-size: 0.92rem;
+}
+
+.el-letter blockquote {
+  margin: 0.7rem 0 0.9rem;
+  padding: 0.55rem 0.75rem;
+  border-left: 3px solid var(--ink);
+  background: #fff;
+  font-weight: 600;
 }
 
 .el-letter p,

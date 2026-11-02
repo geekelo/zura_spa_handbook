@@ -1,0 +1,46 @@
+[
+  {
+    "title": "MY PROFESSIONAL READINESS CHECKLIST",
+    "questions": [
+      { "id": 1, "prompt": "Punctuality, attendance and shift responsibilities — How will I demonstrate this standard?" },
+      { "id": 2, "prompt": "Clean navy blue scrubs, approved footwear and personal grooming — How will I demonstrate this standard?" },
+      { "id": 3, "prompt": "Professional communication with management and colleagues — How will I demonstrate this standard?" },
+      { "id": 4, "prompt": "Respectful teamwork and following instructions — How will I demonstrate this standard?" },
+      { "id": 5, "prompt": "Client privacy, confidentiality and professional boundaries — How will I demonstrate this standard?" },
+      { "id": 6, "prompt": "Treatment-room cleanliness, hygiene and service preparation — How will I demonstrate this standard?" },
+      { "id": 7, "prompt": "Approved massage techniques and client-care procedures — How will I demonstrate this standard?" },
+      { "id": 8, "prompt": "Reporting complaints, mistakes, incidents and concerns promptly — How will I demonstrate this standard?" },
+      { "id": 9, "prompt": "Honesty, accountability and responsible workplace conduct — How will I demonstrate this standard?" }
+    ]
+  },
+  {
+    "title": "A DAY IN MY RENEWED PROFESSIONAL LIFE",
+    "questions": [
+      { "id": 10, "prompt": "Before resumption: How will I prepare physically, emotionally, and professionally?" },
+      { "id": 11, "prompt": "Meeting colleagues: How will I greet everyone, especially colleagues with whom I previously experienced difficulties?" },
+      { "id": 12, "prompt": "Receiving instructions: How will I demonstrate listening, humility, and willingness to learn?" },
+      { "id": 13, "prompt": "Serving clients: How will I ensure my clients experience professionalism, comfort, respect, and excellent service?" },
+      { "id": 14, "prompt": "Facing a challenge: If I am corrected or misunderstood, what will I do differently?" },
+      { "id": 15, "prompt": "Ending my shift: How will I complete my responsibilities and evaluate my performance?" }
+    ]
+  },
+  {
+    "title": "MY RESPONSE TO THREE DIFFICULT SITUATIONS",
+    "questions": [
+      { "id": 16, "prompt": "Your supervisor corrects a mistake you believe was not entirely your fault. Which response would you choose, and why? (Explain immediately why someone else contributed / Listen, clarify the facts respectfully, and agree on how to resolve the issue / Remain silent but complain to a colleague later.)" },
+      { "id": 17, "prompt": "A colleague you previously disagreed with does not respond warmly to your greeting. Which response would you choose, and why? (Continue being polite and professional without demanding a particular response / Conclude that the colleague dislikes you and stop cooperating / Tell another colleague that the person is holding a grudge.)" },
+      { "id": 18, "prompt": "A client complains about an aspect of their massage session. Which response would you choose, and why? (Argue that you followed the procedure correctly / Dismiss the complaint because you feel criticised / Listen, acknowledge the concern, and follow Zura Spa's client-complaint procedure.)" }
+    ]
+  },
+  {
+    "title": "WHAT WILL PEOPLE NOTICE ABOUT MY ACTIONS AFTER I RETURN?",
+    "questions": [
+      { "id": 19, "prompt": "Will my colleagues notice greater respect and cooperation?" },
+      { "id": 20, "prompt": "Will management notice that I receive instructions and corrections more constructively?" },
+      { "id": 21, "prompt": "Will my clients experience better attentiveness and professionalism?" },
+      { "id": 22, "prompt": "Will I demonstrate better emotional control during difficult moments?" },
+      { "id": 23, "prompt": "Will I take initiative rather than constantly waiting to be reminded?" },
+      { "id": 24, "prompt": "Will my actions demonstrate the lessons I have been learning?" }
+    ]
+  }
+]

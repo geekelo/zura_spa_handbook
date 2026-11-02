@@ -284,15 +284,42 @@
     {
       "title": "19. Quick Zura Spa Mode-of-Address Guide",
       "items": [
-        { "label": "Therapist", "body": "Therapist Jane / Thr. Jane" },
-        { "label": "Manager", "body": "Manager" },
-        { "label": "Staff Manager", "body": "SM / SM Jane" },
-        { "label": "Client Manager", "body": "CM / CM Jane" },
-        { "label": "Supervisor", "body": "SP / SP Jane" },
-        { "label": "Lead Therapist", "body": "LT / LT Jane" },
-        { "label": "Therapist Guide", "body": "TG / TG Jane" },
-        { "label": "Client (internal discussion)", "body": "Client Sam" },
-        { "label": "Client (direct address)", "body": "Mr. Sam / Ms. Grace / Sir / Ma / Madam" }
+        {
+          "label": "Therapist",
+          "body": "Therapist Jane / Thr. Jane"
+        },
+        {
+          "label": "Manager",
+          "body": "Manager"
+        },
+        {
+          "label": "Staff Manager",
+          "body": "SM / SM Jane"
+        },
+        {
+          "label": "Client Manager",
+          "body": "CM / CM Jane"
+        },
+        {
+          "label": "Supervisor",
+          "body": "SP / SP Jane"
+        },
+        {
+          "label": "Lead Therapist",
+          "body": "LT / LT Jane"
+        },
+        {
+          "label": "Therapist Guide",
+          "body": "TG / TG Jane"
+        },
+        {
+          "label": "Client (internal discussion)",
+          "body": "Client Sam"
+        },
+        {
+          "label": "Client (direct address)",
+          "body": "Mr. Sam / Ms. Grace / Sir / Ma / Madam"
+        }
       ]
     },
     {
@@ -306,6 +333,18 @@
         "THE WORD MUST MATCH THE TONE. A respectful title spoken disrespectfully is still disrespect.",
         "At Zura Spa, we can be warm without becoming careless, familiar without becoming disrespectful, friendly without becoming inappropriate, and firm without becoming rude.",
         "Respect the client. Respect leadership. Respect your colleagues. Respect the Zura standard."
+      ]
+    },
+    {
+      "title": "Standards-review assignment",
+      "paragraphs": [
+        "Read this official Zura Spa standard, then answer the four questions in the standards-review form. Save your answers, download a PDF, and submit it."
+      ],
+      "list": [
+        "What does this standard require of me?",
+        "Why is this standard important to Zura Spa, my colleagues and our clients?",
+        "Where have I demonstrated this standard well, and where do I need improvement?",
+        "What specific behaviour will demonstrate my commitment to this standard when I resume?"
       ]
     }
   ],

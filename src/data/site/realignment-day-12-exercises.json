@@ -1,0 +1,44 @@
+[
+  {
+    "title": "MY FIVE PERSONAL COMMITMENTS",
+    "questions": [
+      { "id": 1, "prompt": "Punctuality and time management — What I commit to doing" },
+      { "id": 2, "prompt": "Punctuality and time management — How I will keep this commitment" },
+      { "id": 3, "prompt": "Honesty and transparency — What I commit to doing" },
+      { "id": 4, "prompt": "Honesty and transparency — How I will keep this commitment" },
+      { "id": 5, "prompt": "Consistency in my responsibilities — What I commit to doing" },
+      { "id": 6, "prompt": "Consistency in my responsibilities — How I will keep this commitment" },
+      { "id": 7, "prompt": "Confidentiality and discretion — What I commit to doing" },
+      { "id": 8, "prompt": "Confidentiality and discretion — How I will keep this commitment" },
+      { "id": 9, "prompt": "Discipline and professional conduct — What I commit to doing" },
+      { "id": 10, "prompt": "Discipline and professional conduct — How I will keep this commitment" }
+    ]
+  },
+  {
+    "title": "REPORTING MISTAKES AND REQUESTING HELP",
+    "questions": [
+      { "id": 11, "prompt": "Exercise A — Reporting a mistake: Write how you would explain the overlooked room-preparation requirement to your supervisor. Include what happened, how it affected others, how you will help resolve it, and what you will do differently." },
+      { "id": 12, "prompt": "Exercise B — Requesting help: Explain how you would request guidance on a treatment procedure you do not fully understand, without pretending to know what to do or attempting the procedure beyond your competence." }
+    ]
+  },
+  {
+    "title": "AM I DEPENDABLE?",
+    "questions": [
+      { "id": 13, "prompt": "When I give my word, how consistently do I fulfil it?" },
+      { "id": 14, "prompt": "Do I need frequent reminders before completing my responsibilities?" },
+      { "id": 15, "prompt": "Have I ever hidden a mistake because I was afraid of the consequences?" },
+      { "id": 16, "prompt": "Do I follow workplace procedures even when nobody is supervising me?" },
+      { "id": 17, "prompt": "Can management confidently rely on me to complete assigned tasks?" },
+      { "id": 18, "prompt": "Can my colleagues trust me to respect private conversations?" },
+      { "id": 19, "prompt": "What personal habits could prevent me from becoming dependable?" },
+      { "id": 20, "prompt": "What will I do differently when I resume?" },
+      { "id": 21, "prompt": "What actions will make me someone others can depend on?" }
+    ]
+  },
+  {
+    "title": "WHEN I RETURN",
+    "questions": [
+      { "id": 22, "prompt": "Complete this statement in at least five sentences: When I return to Zura Spa, I want to become someone management, my colleagues, and our clients can depend on because…" }
+    ]
+  }
+]

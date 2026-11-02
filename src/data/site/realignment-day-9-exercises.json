@@ -1,0 +1,33 @@
+[
+  {
+    "title": "MY ZURA THERAPIST CODE",
+    "questions": [
+      { "id": 1, "prompt": "Appearance — How will I maintain a neat, appropriate and professional appearance?" },
+      { "id": 2, "prompt": "Hygiene — What daily hygiene and sanitation habits will I consistently practise?" },
+      { "id": 3, "prompt": "Client privacy — How will I protect client information, conversations and dignity?" },
+      { "id": 4, "prompt": "Therapeutic boundaries — How will I maintain professional boundaries, respect consent and handle inappropriate requests?" },
+      { "id": 5, "prompt": "Punctuality — What habits will help me become more dependable and prepared?" },
+      { "id": 6, "prompt": "Courtesy — How will I demonstrate respect in my words, tone and actions?" },
+      { "id": 7, "prompt": "My personal pledge: In two or three sentences, describe the therapist you intend to become." }
+    ]
+  },
+  {
+    "title": "WHAT SHOULD A CLIENT FEEL AFTER INTERACTING WITH ME?",
+    "questions": [
+      { "id": 8, "prompt": "How do I want clients to describe my professionalism?" },
+      { "id": 9, "prompt": "Does my tone of voice contribute to relaxation or discomfort?" },
+      { "id": 10, "prompt": "Do I make clients feel respected regardless of their personality or background?" },
+      { "id": 11, "prompt": "Do I listen to clients' concerns and preferences?" },
+      { "id": 12, "prompt": "Do I maintain my standards even when I am tired or having a difficult day?" },
+      { "id": 13, "prompt": "What is one aspect of my service that I would like to improve before resumption?" }
+    ]
+  },
+  {
+    "title": "FROM UNDERSTANDING TO ACTION",
+    "questions": [
+      { "id": 14, "prompt": "What must I preserve? Identify the professional strengths and good habits you already possess." },
+      { "id": 15, "prompt": "What must I improve? Identify the behaviours, attitudes, or routines that require attention." },
+      { "id": 16, "prompt": "What must I begin? Identify new habits that will help you deliver a more consistent and professional experience." }
+    ]
+  }
+]

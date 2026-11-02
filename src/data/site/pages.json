@@ -89,6 +89,11 @@
         "label": "Questions and suggestions",
         "prompt": "Let us know your questions and suggestions.",
         "caption": "Zura Spa — questions and suggestions"
+      },
+      "standardsReview": {
+        "label": "Standards-review answers",
+        "prompt": "Record your answers to the four standards-review questions for this standard.",
+        "caption": "Zura Spa — standards-review answers"
       }
     }
   }

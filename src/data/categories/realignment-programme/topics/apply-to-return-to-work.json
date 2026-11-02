@@ -1,0 +1,10 @@
+{
+  "id": "apply-to-return-to-work",
+  "title": "Apply to Return to Work",
+  "summary": "Read the letter from management, sign your Personal Transformation Statement, download the application, and send it.",
+  "type": "return-to-work-letter",
+  "order": 18,
+  "successMessage": "Your application to return has been signed and saved on this device. Download it, then send it with the form below.",
+  "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+  "embedTitle": "Return-to-work application submission"
+}

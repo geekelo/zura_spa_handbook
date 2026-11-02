@@ -1,0 +1,49 @@
+[
+  {
+    "title": "SCENARIO 1 — SHARED RESPONSIBILITIES",
+    "questions": [
+      { "id": 1, "prompt": "What would you do? How would you balance cooperation with personal responsibility and fairness?" },
+      { "id": 2, "prompt": "What might an immature or unprofessional response look like, and why could that damage trust within the team?" },
+      { "id": 3, "prompt": "Which Zura Spa workplace standard would guide you towards a better decision?" }
+    ]
+  },
+  {
+    "title": "SCENARIO 2 — A WORKPLACE MISUNDERSTANDING",
+    "questions": [
+      { "id": 4, "prompt": "How would you approach her, clarify the misunderstanding, and prevent the situation from becoming a conflict?" },
+      { "id": 5, "prompt": "What might an immature or unprofessional response look like, and why could that damage trust within the team?" },
+      { "id": 6, "prompt": "Which Zura Spa workplace standard would guide you towards a better decision?" }
+    ]
+  },
+  {
+    "title": "SCENARIO 3 — A COLLEAGUE NEEDS ASSISTANCE",
+    "questions": [
+      { "id": 7, "prompt": "What practical assistance could you offer while respecting professional boundaries, client care, and management procedures?" },
+      { "id": 8, "prompt": "What might an immature or unprofessional response look like, and why could that damage trust within the team?" },
+      { "id": 9, "prompt": "Which Zura Spa workplace standard would guide you towards a better decision?" }
+    ]
+  },
+  {
+    "title": "WHAT DO I CONTRIBUTE TO MY TEAM?",
+    "questions": [
+      { "id": 10, "prompt": "Do my colleagues feel comfortable asking me for assistance?" },
+      { "id": 11, "prompt": "Do I celebrate other people's achievements, or do I secretly compare myself with them?" },
+      { "id": 12, "prompt": "Have I ever contributed to gossip, tension, or division in the workplace?" },
+      { "id": 13, "prompt": "When I disagree with someone, do I seek understanding or try to prove that I am right?" },
+      { "id": 14, "prompt": "Do I sometimes expect support from others without offering the same support in return?" },
+      { "id": 15, "prompt": "Can I maintain professional respect for a colleague even when we are not personally close?" },
+      { "id": 16, "prompt": "What are three things I could change about my behaviour to make Zura Spa a more peaceful and productive workplace?" },
+      { "id": 17, "prompt": "How can my presence make my teammates' work easier?" }
+    ]
+  },
+  {
+    "title": "THE KIND OF TEAMMATE I WANT TO BECOME",
+    "questions": [
+      { "id": 18, "prompt": "One competitive or jealous habit I want to overcome is..." },
+      { "id": 19, "prompt": "One way I can communicate more respectfully is..." },
+      { "id": 20, "prompt": "When a colleague succeeds, I will..." },
+      { "id": 21, "prompt": "When I disagree with a colleague, I will..." },
+      { "id": 22, "prompt": "One practical way I can support the Zura Spa team after resumption is..." }
+    ]
+  }
+]

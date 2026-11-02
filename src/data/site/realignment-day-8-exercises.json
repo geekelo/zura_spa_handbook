@@ -1,0 +1,55 @@
+[
+  {
+    "title": "PART A — TEN REASONS MY CAREER MATTERS",
+    "questions": [
+      { "id": 1, "prompt": "Reason 1" },
+      { "id": 2, "prompt": "Reason 2" },
+      { "id": 3, "prompt": "Reason 3" },
+      { "id": 4, "prompt": "Reason 4" },
+      { "id": 5, "prompt": "Reason 5" },
+      { "id": 6, "prompt": "Reason 6" },
+      { "id": 7, "prompt": "Reason 7" },
+      { "id": 8, "prompt": "Reason 8" },
+      { "id": 9, "prompt": "Reason 9" },
+      { "id": 10, "prompt": "Reason 10" }
+    ]
+  },
+  {
+    "title": "PART B — THREE FUTURE OPPORTUNITIES",
+    "questions": [
+      { "id": 11, "prompt": "Opportunity 1: The opportunity I would like" },
+      { "id": 12, "prompt": "Opportunity 1: What I need to develop to prepare for it" },
+      { "id": 13, "prompt": "Opportunity 2: The opportunity I would like" },
+      { "id": 14, "prompt": "Opportunity 2: What I need to develop to prepare for it" },
+      { "id": 15, "prompt": "Opportunity 3: The opportunity I would like" },
+      { "id": 16, "prompt": "Opportunity 3: What I need to develop to prepare for it" }
+    ]
+  },
+  {
+    "title": "PART C — PERSONAL REFLECTION",
+    "questions": [
+      { "id": 17, "prompt": "Why did I originally choose this work, and has my motivation changed?" },
+      { "id": 18, "prompt": "What kind of future am I building through my work?" },
+      { "id": 19, "prompt": "One professional decision I will make differently when I resume" }
+    ]
+  },
+  {
+    "title": "THREE YEARS FROM TODAY",
+    "questions": [
+      { "id": 20, "prompt": "What decisions would you need to start making now for that future to become more possible?" },
+      { "id": 21, "prompt": "What habits would you need to leave behind?" },
+      { "id": 22, "prompt": "What knowledge would you need to acquire?" },
+      { "id": 23, "prompt": "What kind of attitude would you need to develop?" }
+    ]
+  },
+  {
+    "title": "IS MY CURRENT BEHAVIOUR CONSISTENT WITH MY FUTURE GOALS?",
+    "questions": [
+      { "id": 24, "prompt": "What do I want my professional life to look like in three years?" },
+      { "id": 25, "prompt": "What qualities would someone in that position need?" },
+      { "id": 26, "prompt": "Am I currently developing those qualities?" },
+      { "id": 27, "prompt": "Which of my present habits could prevent me from reaching my goals?" },
+      { "id": 28, "prompt": "What can I begin doing differently when I return to Zura Spa?" }
+    ]
+  }
+]

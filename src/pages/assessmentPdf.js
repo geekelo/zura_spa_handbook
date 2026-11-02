@@ -119,12 +119,14 @@ export async function downloadAssessmentPdf({
       write(`Answer: ${filled(values[`q${question.id}Answer`])}`, {
         size: 10,
         style: 'bold',
-        gap: 1.5,
+        gap: question.options?.length ? 1.5 : 5,
       })
+      if (question.options?.length) {
       write(`Reason: ${filled(values[`q${question.id}Reason`])}`, {
         size: 10,
         gap: 5,
       })
+      }
     }
   }
 

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "SITUATION 1",
+    "questions": [
+      { "id": 1, "prompt": "What happened? Describe the situation objectively." },
+      { "id": 2, "prompt": "How did I respond, and what was I feeling?" },
+      { "id": 3, "prompt": "What was within my control, and what was outside my control?" },
+      { "id": 4, "prompt": "How might my actions have affected others?" },
+      { "id": 5, "prompt": "What would I do differently if the situation happened again?" }
+    ]
+  },
+  {
+    "title": "SITUATION 2",
+    "questions": [
+      { "id": 6, "prompt": "What happened? Describe the situation objectively." },
+      { "id": 7, "prompt": "How did I respond, and what was I feeling?" },
+      { "id": 8, "prompt": "What was within my control, and what was outside my control?" },
+      { "id": 9, "prompt": "How might my actions have affected others?" },
+      { "id": 10, "prompt": "What would I do differently if the situation happened again?" }
+    ]
+  },
+  {
+    "title": "SITUATION 3",
+    "questions": [
+      { "id": 11, "prompt": "What happened? Describe the situation objectively." },
+      { "id": 12, "prompt": "How did I respond, and what was I feeling?" },
+      { "id": 13, "prompt": "What was within my control, and what was outside my control?" },
+      { "id": 14, "prompt": "How might my actions have affected others?" },
+      { "id": 15, "prompt": "What would I do differently if the situation happened again?" }
+    ]
+  },
+  {
+    "title": "AM I WAITING FOR OTHERS TO CHANGE BEFORE I IMPROVE?",
+    "questions": [
+      { "id": 16, "prompt": "What positive change have I been postponing because of somebody else's behaviour?" },
+      { "id": 17, "prompt": "Are there people I continue to blame for habits that I now have the ability to change?" },
+      { "id": 18, "prompt": "Have I ever mistaken admitting a mistake for losing my dignity?" },
+      { "id": 19, "prompt": "What part of my attitude or behaviour needs my immediate attention?" },
+      { "id": 20, "prompt": "If everyone around me remained exactly the same, what improvements could I still make in my own life?" },
+      { "id": 21, "prompt": "Complete this sentence: I have decided to stop waiting for ________ to change before I begin improving ________." }
+    ]
+  }
+]

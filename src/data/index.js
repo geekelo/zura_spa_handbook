@@ -126,6 +126,8 @@ export function assessmentAccessKey(categoryId, assessmentId) {
 }
 
 export function getAssessmentAccessCode(accessKey) {
+  if (String(accessKey || '').startsWith('realignment-programme/')) return ''
+  if (String(accessKey || '').startsWith('standards-review/')) return ''
   const entry = assessmentCodes.assessments?.find((item) => item.id === accessKey)
   const code = entry?.accessCode || assessmentCodes.defaultAccessCode
   return code?.trim() || ''

@@ -1,0 +1,38 @@
+{
+  "id": "curriculum",
+  "title": "Curriculum",
+  "summary": "Fourteen calendar days of reading, reflection and exercises. Week 1 is inner transformation; Week 2 is professional rebirth.",
+  "type": "article",
+  "order": 2,
+  "sections": [
+    {
+      "paragraphs": [
+        "The curriculum uses principles of self-awareness, emotional regulation, cognitive reframing, personal accountability, intrinsic motivation, and habit formation."
+      ]
+    },
+    {
+      "title": "Programme structure",
+      "items": [
+        { "label": "Duration", "body": "14 calendar days" },
+        { "label": "Daily commitment", "body": "45–60 minutes" },
+        { "label": "Learning format", "body": "Reading, reflection, exercises" },
+        { "label": "Check-ins", "body": "Days 1, 7 and 14" }
+      ],
+      "paragraphs": [
+        "The programme has two phases. The first week helps the therapist understand herself, confront unhelpful attitudes, and rediscover her values. The second week develops professional identity, interpersonal maturity, motivation, and readiness for resumption."
+      ]
+    },
+    {
+      "title": "Week 1 — The Inner Transformation",
+      "paragraphs": [
+        "Theme: Before I change how I work, I must understand how I think."
+      ]
+    },
+    {
+      "title": "Week 2 — The Professional Rebirth",
+      "paragraphs": [
+        "Theme: I am not returning simply to occupy a position. I am returning to contribute value."
+      ]
+    }
+  ]
+}

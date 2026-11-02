@@ -1,0 +1,98 @@
+[
+  {
+    "title": "ZURA SPA STANDARDS REVIEW — DAY 1",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does Zura Spa seek to achieve through its services?"
+      },
+      {
+        "id": 2,
+        "prompt": "What qualities are expected of someone representing Zura Spa?"
+      },
+      {
+        "id": 3,
+        "prompt": "How does my individual behaviour influence the experience of our clients?"
+      },
+      {
+        "id": 4,
+        "prompt": "What responsibilities do I have towards my colleagues and management?"
+      },
+      {
+        "id": 5,
+        "prompt": "Which expectations do I already meet consistently, and where do I need to improve?"
+      }
+    ]
+  },
+  {
+    "title": "MY PERSONAL JOURNEY — YESTERDAY, TODAY, AND THE PERSON I AM BECOMING",
+    "questions": [
+      {
+        "id": 6,
+        "prompt": "Part A: The Person I Was. Describe yourself when you first joined Zura Spa. Consider your expectations, motivation, attitude, strengths, dreams, and goals."
+      },
+      {
+        "id": 7,
+        "prompt": "Part B: The Person I Have Become. Describe yourself today, including positive changes, skills gained, and areas needing improvement."
+      },
+      {
+        "id": 8,
+        "prompt": "Part C: The Person I Want to Become. Describe the version of yourself you would like to see in the next six months, and identify at least three specific habits you will begin developing."
+      }
+    ]
+  },
+  {
+    "title": "IF I COULD BEGIN AGAIN",
+    "questions": [
+      {
+        "id": 9,
+        "prompt": "What would I appreciate more?"
+      },
+      {
+        "id": 10,
+        "prompt": "What would I take more seriously?"
+      },
+      {
+        "id": 11,
+        "prompt": "What attitudes would I approach differently?"
+      },
+      {
+        "id": 12,
+        "prompt": "What mistakes would I make a conscious effort to avoid?"
+      },
+      {
+        "id": 13,
+        "prompt": "How would I build better relationships with colleagues?"
+      },
+      {
+        "id": 14,
+        "prompt": "How would I respond when corrected or misunderstood?"
+      },
+      {
+        "id": 15,
+        "prompt": "What would I do to become a more dependable and valuable therapist?"
+      },
+      {
+        "id": 16,
+        "prompt": "Final reflection (write at least 150 words): If I had the opportunity to begin again, what would I do differently, and what is stopping me from beginning those changes today?"
+      }
+    ]
+  },
+  {
+    "title": "TODAY'S PERSONAL CHALLENGE",
+    "questions": [
+      {
+        "id": 17,
+        "prompt": "Let go of one limiting belief. Identify one negative belief about yourself or your ability to improve, then replace it with a realistic, encouraging statement."
+      },
+      {
+        "id": 18,
+        "prompt": "Identify one behaviour to improve. Choose one specific behaviour you would like to change and describe what a better response would look like."
+      },
+      {
+        "id": 19,
+        "prompt": "Make one commitment to yourself. Write down one practical action you will begin taking immediately, whether or not anyone is watching."
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "title": "RESPONDING TO CONSTRUCTIVE CRITICISM",
+    "questions": [
+      { "id": 1, "prompt": "Listening — How would you respond without interrupting or becoming defensive?" },
+      { "id": 2, "prompt": "Clarifying — What respectful questions would you ask?" },
+      { "id": 3, "prompt": "Acknowledging — How would you recognise the concern while remaining truthful?" },
+      { "id": 4, "prompt": "Improving — What three specific actions would you take to improve?" }
+    ]
+  },
+  {
+    "title": "DO I WANT TO BE RIGHT OR BECOME BETTER?",
+    "questions": [
+      { "id": 5, "prompt": "When someone corrects me, what is my first emotional reaction?" },
+      { "id": 6, "prompt": "Do I listen to understand, or do I listen to defend myself?" },
+      { "id": 7, "prompt": "Have I ever rejected useful advice because I disliked the person giving it?" },
+      { "id": 8, "prompt": "Can I apologise sincerely without adding excuses?" },
+      { "id": 9, "prompt": "Have I repeated a mistake after promising to change?" },
+      { "id": 10, "prompt": "What feedback have I received at Zura Spa that I have not fully acted upon?" },
+      { "id": 11, "prompt": "What kind of therapist and colleague would I become if I were more teachable?" },
+      { "id": 12, "prompt": "Which of the two therapists would you trust to grow into a leadership position, and why?" },
+      { "id": 13, "prompt": "Which of these therapists am I becoming through my everyday choices?" }
+    ]
+  }
+]

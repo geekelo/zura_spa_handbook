@@ -1,0 +1,53 @@
+[
+  {
+    "title": "PART A — FIVE PERSONAL STRENGTHS",
+    "questions": [
+      { "id": 1, "prompt": "Strength 1" },
+      { "id": 2, "prompt": "Strength 2" },
+      { "id": 3, "prompt": "Strength 3" },
+      { "id": 4, "prompt": "Strength 4" },
+      { "id": 5, "prompt": "Strength 5" }
+    ]
+  },
+  {
+    "title": "PART B — HABIT 1",
+    "questions": [
+      { "id": 6, "prompt": "The habit I need to improve" },
+      { "id": 7, "prompt": "How this habit affects others" },
+      { "id": 8, "prompt": "What I will do differently" }
+    ]
+  },
+  {
+    "title": "PART B — HABIT 2",
+    "questions": [
+      { "id": 9, "prompt": "The habit I need to improve" },
+      { "id": 10, "prompt": "How this habit affects others" },
+      { "id": 11, "prompt": "What I will do differently" }
+    ]
+  },
+  {
+    "title": "PART B — HABIT 3",
+    "questions": [
+      { "id": 12, "prompt": "The habit I need to improve" },
+      { "id": 13, "prompt": "How this habit affects others" },
+      { "id": 14, "prompt": "What I will do differently" }
+    ]
+  },
+  {
+    "title": "PART C — PERSONAL REFLECTION",
+    "questions": [
+      { "id": 15, "prompt": "What do people experience when they work with me?" },
+      { "id": 16, "prompt": "One change I am willing to begin making today" }
+    ]
+  },
+  {
+    "title": "FINAL REFLECTION — THE PERSON OTHERS EXPERIENCE",
+    "questions": [
+      { "id": 17, "prompt": "Do I make teamwork easier or more difficult?" },
+      { "id": 18, "prompt": "Do people feel comfortable approaching me?" },
+      { "id": 19, "prompt": "How do I behave when things do not go my way?" },
+      { "id": 20, "prompt": "When I make a mistake, do I take responsibility or look for someone to blame?" },
+      { "id": 21, "prompt": "If I were supervising someone with my current attitude and habits, what would I appreciate, and what would I want them to improve?" }
+    ]
+  }
+]

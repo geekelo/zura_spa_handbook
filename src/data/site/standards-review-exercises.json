@@ -1,0 +1,548 @@
+[
+  {
+    "title": "GUEST GREETING STANDARD",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 2,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 3,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 4,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "PRIVACY & DISCRETION",
+    "questions": [
+      {
+        "id": 5,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 6,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 7,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 8,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "GROWTH MINDSET STANDARD",
+    "questions": [
+      {
+        "id": 9,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 10,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 11,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 12,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "PROBLEM-SOLVING MINDSET STANDARD",
+    "questions": [
+      {
+        "id": 13,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 14,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 15,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 16,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "APPEARANCE STANDARD",
+    "questions": [
+      {
+        "id": 17,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 18,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 19,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 20,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "COMMUNICATION WITH CLIENTS STANDARD",
+    "questions": [
+      {
+        "id": 21,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 22,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 23,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 24,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "MODE OF ADDRESS STANDARD",
+    "questions": [
+      {
+        "id": 25,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 26,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 27,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 28,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "ESCALATION STANDARD",
+    "questions": [
+      {
+        "id": 29,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 30,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 31,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 32,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "MASSAGE TASK & SESSION UPDATE STANDARD",
+    "questions": [
+      {
+        "id": 33,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 34,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 35,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 36,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "BORROWING, PERSONAL OWNERSHIP & INDEPENDENCE STANDARD",
+    "questions": [
+      {
+        "id": 37,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 38,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 39,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 40,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "ACCOUNTABILITY & RESPONSIBILITY STANDARD",
+    "questions": [
+      {
+        "id": 41,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 42,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 43,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 44,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "RECEIVING TIPS FROM CLIENTS STANDARD",
+    "questions": [
+      {
+        "id": 45,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 46,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 47,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 48,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "WALKING STANDARD",
+    "questions": [
+      {
+        "id": 49,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 50,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 51,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 52,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "ORDERLINESS STANDARD",
+    "questions": [
+      {
+        "id": 53,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 54,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 55,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 56,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "GIVING REPORTS STANDARD",
+    "questions": [
+      {
+        "id": 57,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 58,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 59,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 60,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "WE ARE NOT FRIENDS, WE ARE NOT FAMILY STANDARD",
+    "questions": [
+      {
+        "id": 61,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 62,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 63,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 64,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "SLEEPOVERS STANDARD",
+    "questions": [
+      {
+        "id": 65,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 66,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 67,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 68,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "LATENESS AND PUNCTUALITY STANDARD",
+    "questions": [
+      {
+        "id": 69,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 70,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 71,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 72,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "CONFRONTATION STANDARD",
+    "questions": [
+      {
+        "id": 73,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 74,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 75,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 76,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "NO COMMUNICATION WITH EX-TEAM MEMBERS STANDARD",
+    "questions": [
+      {
+        "id": 77,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 78,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 79,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 80,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "REQUESTS FOR LUNEZ MASSAGE DURING A SESSION STANDARD",
+    "questions": [
+      {
+        "id": 81,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 82,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 83,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 84,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "DISCUSSION STANDARD",
+    "questions": [
+      {
+        "id": 85,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 86,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 87,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 88,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "TASK ASSIGNING STANDARD",
+    "questions": [
+      {
+        "id": 89,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 90,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 91,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 92,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "COMMUNICATION WITH COLLEAGUES STANDARD",
+    "questions": [
+      {
+        "id": 93,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 94,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 95,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 96,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "THE EVERYONE IS 20 YEARS OLD STANDARD",
+    "questions": [
+      {
+        "id": 97,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 98,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 99,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 100,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "DRIVER–PASSENGER SESSION STANDARD",
+    "questions": [
+      {
+        "id": 101,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 102,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 103,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 104,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  }
+]
