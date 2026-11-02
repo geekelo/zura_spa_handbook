@@ -892,6 +892,26 @@
           "embedTitle": "Day 14 exercise submission"
         }
       ]
+    },
+    {
+      "id": "zura-team-welcome",
+      "title": "Zura Team Welcome",
+      "description": "Pre-resumption assessment based strictly on the Welcome Address.",
+      "assessments": [
+        {
+          "id": "pre-resumption",
+          "title": "Pre-Resumption Welcome Address Assessment",
+          "summary": "Taken on resumption with an access code. Answer all 10 questions based strictly on the Welcome Address. Total marks: 20 (2 marks per question).",
+          "type": "fillable-assessment",
+          "questionsId": "welcome-address",
+          "articleIds": ["welcome-to-the-zura-team"],
+          "articleTo": "/welcome",
+          "articleLabel": "Read the Welcome Address",
+          "pdfPurpose": "Zura Team Pre-Resumption Welcome Address Assessment: 10 written questions (2 marks each, 20 marks total) based strictly on the Welcome Address, covering professionalism, mindset, culture, borrowing and family, communication, confrontation, working environment, discouraged behaviours, leadership and standards, and the kind of people the Zura Team is looking for.",
+          "embedScript": "https://surveymars.com/js/qembed.js?activity=m3ABbmk8s&source=iframe&width=420",
+          "embedTitle": "Welcome Address assessment submission"
+        }
+      ]
     }
   ]
 }

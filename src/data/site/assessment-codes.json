@@ -322,6 +322,13 @@
       "assessmentId": "day-7-lesson-6",
       "title": "Day 7 Lesson 6 Knowledge Check",
       "accessCode": "706uu"
+    },
+    {
+      "id": "zura-team-welcome/pre-resumption",
+      "categoryId": "zura-team-welcome",
+      "assessmentId": "pre-resumption",
+      "title": "Pre-Resumption Welcome Address Assessment",
+      "accessCode": "108uu"
     }
   ]
 }

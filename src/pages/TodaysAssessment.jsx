@@ -65,6 +65,7 @@ import realignmentDay12Exercises from '../data/site/realignment-day-12-exercises
 import realignmentDay13Exercises from '../data/site/realignment-day-13-exercises.json'
 import realignmentDay14Exercises from '../data/site/realignment-day-14-exercises.json'
 import standardsReviewExercises from '../data/site/standards-review-exercises.json'
+import welcomeAddressQuestions from '../data/site/welcome-address-assessment-questions.json'
 import { downloadAssessmentPdf } from './assessmentPdf'
 import './EmploymentLetter.css'
 import './FormTopic.css'
@@ -132,6 +133,7 @@ const QUESTION_SETS = {
   'realignment-day-13': realignmentDay13Exercises,
   'realignment-day-14': realignmentDay14Exercises,
   'standards-review': standardsReviewExercises,
+  'welcome-address': welcomeAddressQuestions,
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']

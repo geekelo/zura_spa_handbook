@@ -1,0 +1,102 @@
+{
+  "id": "welcome-to-the-zura-team",
+  "title": "Welcome to the Zura Team",
+  "summary": "A pre-resumption address to shortlisted applicants.",
+  "type": "article",
+  "order": -1,
+  "public": true,
+  "sections": [
+    {
+      "paragraphs": [
+        "Congratulations on being shortlisted to join the Zura Team.",
+        "Before you resume, we want you to understand the kind of team you are joining, what we expect from you, and the mindset that will help you succeed here."
+      ]
+    },
+    {
+      "title": "First, we want you to come with an open mind.",
+      "paragraphs": [
+        "Whatever experiences, disappointments, habits, or unresolved issues you may have had in previous workplaces, we encourage you to leave that baggage behind. This is a new environment, with its own culture, leadership, standards, and expectations.",
+        "We want you to be willing to learn, humble enough to understand, flexible enough to adapt, and disciplined enough to comply."
+      ]
+    },
+    {
+      "title": "Our common goal is to become professionals.",
+      "paragraphs": [
+        "To us, professionalism means three things:"
+      ],
+      "list": [
+        "Learn how to do things well.",
+        "Demonstrate that you can do them well.",
+        "Keep doing them well, consistently, even without supervision."
+      ],
+      "closing": "That is the standard we are building together."
+    },
+    {
+      "title": "Understanding Our Team Culture",
+      "paragraphs": [
+        "The Zura Team values order, appropriateness, calmness, respect, and excellence.",
+        "We believe there is a proper way, time, place, and manner for doing things.",
+        "We are individualistic in the sense that everyone is expected to think independently, take responsibility, and develop personal competence. However, we are also cooperative enough to work in synergy towards our common goals.",
+        "You do not have to be everyone's friend to be an excellent teammate. You simply need to be respectful, dependable, and willing to cooperate.",
+        "We maintain professional boundaries. Borrowing among colleagues is not allowed, and we discourage bringing friends or family members into the same team to avoid favouritism, unhealthy alliances, and cliques.",
+        "We value individuality, but we do not encourage division."
+      ]
+    },
+    {
+      "title": "Communication, Respect, and Emotional Maturity",
+      "paragraphs": [
+        "We communicate with courtesy, clarity, and a respectful, suggestive tone.",
+        "Instead of making demands, attacking people, or speaking harshly, we learn to make requests, offer suggestions, ask questions, and express concerns appropriately.",
+        "Confrontation, whether open or private, is prohibited. This means aggressive arguments, intimidation, hostility, and personal attacks are unacceptable. However, respectful disagreement, clarification, and reporting genuine concerns are always encouraged through the appropriate channels.",
+        "We want you to focus on understanding the message being communicated rather than immediately taking offence at someone's tone. At the same time, everyone remains responsible for communicating respectfully.",
+        "When you are unsure, ask. When something is unclear, seek clarification. When there is a misunderstanding, communicate rather than assume.",
+        "We encourage emotional self-control, especially when you are upset. Anger is a feeling, but how you express it is a choice.",
+        "We do not encourage gossip, unnecessary noise, grudges, silent hostility, or keeping malice.",
+        "If there is an issue, address it maturely through the appropriate process and move forward."
+      ]
+    },
+    {
+      "title": "The Kind of Environment We Maintain",
+      "paragraphs": [
+        "Our working environment is intentionally calm, orderly, and focused.",
+        "If you are naturally quiet, you may find this environment particularly comfortable.",
+        "If you are naturally very outgoing or energetic, you are equally welcome, but we expect you to regulate your energy to suit the environment.",
+        "There is room for different personalities, but our shared priority is calmness, professionalism, and mutual respect.",
+        "We value critical thinkers and problem solvers. We want people who observe, think, ask intelligent questions, and contribute solutions rather than creating unnecessary problems."
+      ]
+    },
+    {
+      "title": "Leadership, Standards, and Accountability",
+      "paragraphs": [
+        "We expect you to work respectfully with your leaders, receive instructions, accept constructive correction, and follow established procedures.",
+        "We value compliance because standards help us maintain consistency, fairness, safety, and quality.",
+        "When standards are violated, appropriate sanctions may apply in accordance with our established procedures.",
+        "Punctuality is compulsory. Habitual lateness, disregard for instructions, and deliberate non-compliance are unacceptable.",
+        "However, we do not expect you to know everything on your first day.",
+        "We expect you to be teachable.",
+        "Ask questions. Practise. Accept guidance. Improve your skills. Build your confidence. Take responsibility for your progress.",
+        "We value individual growth, and we want every member of the team to become more competent, mature, confident, and professionally valuable."
+      ]
+    },
+    {
+      "title": "The Welcome Address Assessment",
+      "paragraphs": [
+        "There is a written assessment on this Welcome Address. It can only be taken on resumption, with an access code given that day. Do not attempt it before you resume.",
+        "Before resumption, go over this Welcome Address again until you understand it. The assessment is not based on opinion. Your answers must come strictly from what is written here."
+      ]
+    },
+    {
+      "title": "Our Final Message to You",
+      "paragraphs": [
+        "We are not looking for perfect people.",
+        "We are looking for people who are willing to learn, willing to improve, willing to cooperate, and willing to consistently do things well.",
+        "We want you to succeed as an individual while contributing meaningfully to the success of the entire Zura Team.",
+        "Come with an open mind, a humble attitude, a willingness to adapt, and a genuine commitment to excellence.",
+        "Learn how to do it well. Show that you can do it well. Then keep doing it well.",
+        "That is what it means to be a professional.",
+        "Welcome to the Zura Team."
+      ]
+    }
+  ],
+  "remember": "Learn how to do it well. Show that you can do it well. Then keep doing it well. That is what it means to be a professional."
+}

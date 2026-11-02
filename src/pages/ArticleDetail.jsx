@@ -183,6 +183,7 @@ export default function ArticleDetail({
   relatedBase,
   relatedTitle,
   locked = true,
+  showAssessments = true,
   journeyId,
   groupId,
 }) {
@@ -338,7 +339,7 @@ export default function ArticleDetail({
       ) : null}
       </LockedContent>
 
-      <ArticleAssessments items={relatedAssessments} />
+      {showAssessments ? <ArticleAssessments items={relatedAssessments} /> : null}
 
       {related.length > 0 ? (
         <section className="related-block">

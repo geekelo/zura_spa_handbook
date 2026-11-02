@@ -1,4 +1,4 @@
-import { Navigate, useParams } from 'react-router-dom'
+import { Navigate, useLocation, useParams } from 'react-router-dom'
 import {
   getCategory,
   getJourney,
@@ -39,8 +39,10 @@ function relatedItems({ journeyId, categoryId, groupId, article }) {
   return (list || []).filter((item) => item.id !== article.id)
 }
 
-export function TopicPage({ journeyId }) {
-  const { categoryId, articleId, nestedId } = useParams()
+export function TopicPage({ journeyId, articleId: articleIdProp }) {
+  const { categoryId, articleId: articleIdParam, nestedId } = useParams()
+  const location = useLocation()
+  const articleId = articleIdProp || articleIdParam
 
   if (journeyId && !nestedId) {
     const group = getJourneyTopic(journeyId, articleId)
@@ -76,14 +78,17 @@ export function TopicPage({ journeyId }) {
     )
   }
 
-  const backTo = journeyId
-    ? nestedId
-      ? article.module
-        ? `/${journeyId}/${articleId}/module-${article.module}`
-        : `/${journeyId}/${articleId}`
-      : `/${journeyId}`
-    : `/categories/${categoryId}`
-  const locked = journeyId !== 'apply'
+  const fromWelcome = location.pathname === '/welcome'
+  const backTo = fromWelcome
+    ? '/'
+    : journeyId
+      ? nestedId
+        ? article.module
+          ? `/${journeyId}/${articleId}/module-${article.module}`
+          : `/${journeyId}/${articleId}`
+        : `/${journeyId}`
+      : `/categories/${categoryId}`
+  const locked = journeyId !== 'apply' && !article.public
 
   if (article.type === 'form') {
     return <FormTopic topic={article} backTo={backTo} locked={locked} />
@@ -101,12 +106,14 @@ export function TopicPage({ journeyId }) {
     return <ReturnToWorkLetter topic={article} backTo={backTo} locked={locked} />
   }
 
-  const related = relatedItems({
-    journeyId,
-    categoryId,
-    groupId: nestedId ? articleId : undefined,
-    article,
-  })
+  const related = fromWelcome
+    ? []
+    : relatedItems({
+        journeyId,
+        categoryId,
+        groupId: nestedId ? articleId : undefined,
+        article,
+      })
 
   const relatedBase = journeyId
     ? nestedId
@@ -129,6 +136,7 @@ export function TopicPage({ journeyId }) {
             : undefined
       }
       locked={locked}
+      showAssessments={!fromWelcome}
       journeyId={journeyId}
       groupId={nestedId ? articleId : undefined}
     />

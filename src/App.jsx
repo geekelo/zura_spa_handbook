@@ -54,6 +54,15 @@ export default function App() {
               element={<TopicPage journeyId="apply" />}
             />
             <Route
+              path="welcome"
+              element={
+                <TopicPage
+                  journeyId="onboarding"
+                  articleId="welcome-to-the-zura-team"
+                />
+              }
+            />
+            <Route
               path="onboarding"
               element={<JourneyDetail journeyId="onboarding" />}
             />

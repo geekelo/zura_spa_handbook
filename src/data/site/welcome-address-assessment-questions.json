@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Questions — 2 marks each, 20 marks total",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "According to the Welcome Address only, what are the three things that define professionalism in the Zura Team?"
+      },
+      {
+        "id": 2,
+        "prompt": "According to the Welcome Address, what mindset are applicants expected to have when joining the Zura Team, particularly concerning experiences from previous workplaces?"
+      },
+      {
+        "id": 3,
+        "prompt": "According to the Welcome Address, what does it mean that the Zura Team is individualistic but cooperative?"
+      },
+      {
+        "id": 4,
+        "prompt": "According to the Welcome Address, what is the team's policy on borrowing among colleagues and bringing friends or family members into the team?"
+      },
+      {
+        "id": 5,
+        "prompt": "According to the Welcome Address, how are team members expected to communicate, and what should they do when instructions or messages are unclear?"
+      },
+      {
+        "id": 6,
+        "prompt": "According to the Welcome Address, what forms of confrontation are prohibited, and how should disagreements or concerns be handled instead?"
+      },
+      {
+        "id": 7,
+        "prompt": "According to the Welcome Address, what kind of working environment does the Zura Team maintain, and what is expected of naturally outgoing or energetic individuals?"
+      },
+      {
+        "id": 8,
+        "prompt": "According to the Welcome Address, what behaviours are discouraged or prohibited regarding gossip, noise, anger, grudges, and workplace relationships?"
+      },
+      {
+        "id": 9,
+        "prompt": "According to the Welcome Address, what does the Zura Team expect regarding punctuality, compliance with standards, receiving correction, and working with leaders?"
+      },
+      {
+        "id": 10,
+        "prompt": "According to the Welcome Address, what kind of people is the Zura Team looking for, and what is the team's common goal?"
+      }
+    ]
+  }
+]
