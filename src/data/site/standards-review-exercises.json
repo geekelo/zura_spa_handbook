@@ -539,8 +539,29 @@
         "id": 103,
         "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
       },
-      {
+        {
         "id": 104,
+        "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
+      }
+    ]
+  },
+  {
+    "title": "CRITICAL FEEDBACK RESPONSE STANDARD",
+    "questions": [
+      {
+        "id": 105,
+        "prompt": "What does this standard require of me?"
+      },
+      {
+        "id": 106,
+        "prompt": "Why is this standard important to Zura Spa, my colleagues and our clients?"
+      },
+      {
+        "id": 107,
+        "prompt": "Where have I demonstrated this standard well, and where do I need improvement?"
+      },
+      {
+        "id": 108,
         "prompt": "What specific behaviour will demonstrate my commitment to this standard when I resume?"
       }
     ]
