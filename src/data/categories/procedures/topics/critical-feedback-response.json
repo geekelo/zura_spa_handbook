@@ -1,0 +1,138 @@
+{
+  "id": "critical-feedback-response",
+  "title": "Critical Feedback Response",
+  "summary": "How therapists give and receive critical feedback using the L.I.F.T. model, so feedback is welcomed, understood, reflected upon, and acted on.",
+  "type": "article",
+  "order": 3,
+  "sections": [
+    {
+      "paragraphs": [
+        "When one therapist gives another therapist critical feedback, the receiving therapist should see it as an opportunity for growth, professional development, and improvement, not as a personal attack.",
+        "The goal is to build a culture where feedback is welcomed, understood, reflected upon, and acted on.",
+        "Zura Spa uses a standard Therapist Feedback Response Framework."
+      ]
+    },
+    {
+      "title": "1. How the receiving therapist should see feedback",
+      "paragraphs": [
+        "Every therapist should approach feedback with these five mindsets:"
+      ],
+      "items": [
+        {
+          "label": "Don't take it personally",
+          "body": "Separate your professional conduct or performance from your personal identity."
+        },
+        {
+          "label": "Be willing to listen",
+          "body": "Don't interrupt, argue, or become defensive while the feedback is being communicated."
+        },
+        {
+          "label": "Understand before responding",
+          "body": "Seek clarification if something is unclear."
+        },
+        {
+          "label": "Reflect honestly",
+          "body": "Consider whether there is truth in what has been said, even if it is uncomfortable."
+        },
+        {
+          "label": "Focus on improvement",
+          "body": "The objective is not to establish who is right or wrong but to identify what needs to change."
+        }
+      ]
+    },
+    {
+      "title": "2. How the receiving therapist should respond — the L.I.F.T. Feedback Response Model",
+      "paragraphs": [
+        "L.I.F.T. is the standard response framework for receiving critical feedback."
+      ],
+      "items": [
+        {
+          "label": "L — Listen and acknowledge",
+          "body": "Show that you have listened without immediately defending yourself. Example: \"Thank you for bringing this to my attention. I appreciate you taking the time to point it out.\""
+        },
+        {
+          "label": "I — Inquire and understand",
+          "body": "Ask questions to understand the situation and the specific concern. Example: \"Could you help me understand the particular instance where you noticed this?\""
+        },
+        {
+          "label": "F — Find the lesson",
+          "body": "Reflect on the feedback and identify what you could have done differently. Example: \"Having considered what you've said, I can see how my approach may have affected the situation.\""
+        },
+        {
+          "label": "T — Take responsibility and take action",
+          "body": "State what you intend to do differently. Example: \"I'll work on improving this going forward and ensure it doesn't become a recurring issue.\""
+        }
+      ]
+    },
+    {
+      "title": "3. Response template for therapists",
+      "paragraphs": [
+        "This is the template every therapist can use when responding to critical feedback.",
+        "Thank you for bringing this to my attention.",
+        "I have taken time to understand your observation and the concerns you have raised.",
+        "I understand that feedback is an important part of our professional growth, and I am willing to learn and improve.",
+        "Having reflected on what you've said:"
+      ],
+      "list": [
+        "What I understand: Briefly explain what you understood from the feedback.",
+        "What I acknowledge: Identify the aspect you agree needs improvement.",
+        "My perspective (if necessary): Provide additional context respectfully, without becoming defensive.",
+        "What I will improve: State the specific action you intend to take."
+      ],
+      "closing": "I appreciate the feedback and will make a conscious effort to improve in this area."
+    },
+    {
+      "title": "4. What therapists should avoid when receiving feedback",
+      "tableHeaders": ["Avoid saying or doing", "Better approach"],
+      "table": [
+        ["\"That's not true.\"", "\"Can you help me understand what you observed?\""],
+        ["\"You do it too.\"", "Address the feedback independently of the other person's conduct."],
+        ["\"That's just how I am.\"", "\"I understand this is an area I need to work on.\""],
+        ["\"You are always picking on me.\"", "\"I'd appreciate specific examples so I can understand the concern.\""],
+        ["Keeping quiet out of anger", "Acknowledge the feedback and request time to reflect if necessary."],
+        ["Making excuses", "Take responsibility where appropriate."]
+      ]
+    },
+    {
+      "title": "5. Feedback must also be constructive",
+      "paragraphs": [
+        "The therapist giving feedback has a responsibility too.",
+        "Critical feedback should:"
+      ],
+      "list": [
+        "Address behaviour, not attack personality.",
+        "Be specific, not based on assumptions.",
+        "Be communicated respectfully.",
+        "Include examples where possible.",
+        "Focus on improvement rather than humiliation.",
+        "Be communicated privately, especially when it concerns individual conduct."
+      ]
+    },
+    {
+      "title": "Wrong approach",
+      "paragraphs": [
+        "\"You are very careless. You don't know how to handle clients properly.\""
+      ]
+    },
+    {
+      "title": "Better approach",
+      "paragraphs": [
+        "\"I noticed that during the last client session, you did not confirm the client's comfort level before proceeding with the next massage technique. This is important because we need to ensure every client feels comfortable and safe. Please make it a habit to check in with clients throughout their sessions.\""
+      ]
+    },
+    {
+      "title": "6. The Zura Spa feedback culture",
+      "paragraphs": [
+        "Feedback is a gift. Growth is a responsibility.",
+        "At Zura Spa, we do not see feedback as an attack on our personality or an attempt to undermine one another.",
+        "We see feedback as an opportunity to identify blind spots, correct mistakes, strengthen our professional standards, and become better at what we do.",
+        "Giving feedback requires respect. Receiving feedback requires maturity. Applying feedback requires responsibility.",
+        "We are not expected to be perfect, but we are expected to be teachable, accountable, and willing to improve.",
+        "No therapist should be punished socially, ignored, mocked, or treated differently for respectfully giving constructive feedback. Equally, no therapist should be labelled difficult simply because they respectfully seek clarification or disagree with an observation.",
+        "This creates psychological safety while maintaining professional accountability.",
+        "The ultimate measure of feedback is not how beautifully someone responds to it, but whether their behaviour improves afterwards."
+      ]
+    }
+  ],
+  "remember": "Feedback is a gift. Growth is a responsibility. The measure of feedback is whether behaviour improves afterwards."
+}
