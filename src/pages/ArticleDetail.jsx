@@ -2,11 +2,13 @@ import { Link } from 'react-router-dom'
 import { pages, getAssessmentLookupIds, getRelatedAssessments } from '../data'
 import sectionSummaries from '../data/site/section-summaries.json'
 import { resolveMediaSrc } from '../data/media'
+import { useAuth } from '../auth/AuthContext'
 import { PageHeader } from '../components/PageHeader'
 import { LockedContent } from '../components/LockedContent'
 import { Icon } from '../components/Icons'
 import { SectionSummaryTask } from '../components/SectionSummaryTask'
 import { ArticleAssessments } from '../components/ArticleAssessments'
+import { ListenReader } from '../components/ListenReader'
 import './ArticleDetail.css'
 
 function asList(value) {
@@ -187,6 +189,10 @@ export default function ArticleDetail({
   journeyId,
   groupId,
 }) {
+  const { isLoggedIn } = useAuth()
+  const showListen =
+    (category?.id === 'standards' || journeyId === 'courses') &&
+    (!locked || isLoggedIn)
   const isScenario = article.type === 'scenario'
   const isRoutine = article.type === 'routine'
   const relevance = asList(article.relevance)
@@ -231,6 +237,7 @@ export default function ArticleDetail({
             ) : null}
           </div>
         </div>
+        {showListen ? <ListenReader article={article} /> : null}
       </section>
 
       <TopicVideos article={article} />

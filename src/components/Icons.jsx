@@ -176,6 +176,19 @@ export function Icon({ name, size = 22, className = '' }) {
           <path d="M6 11a6 6 0 0 0 12 0M12 17v4" />
         </svg>
       )
+    case 'play':
+      return (
+        <svg {...props}>
+          <path d="M8 6.5v11l10-5.5-10-5.5z" />
+        </svg>
+      )
+    case 'pause':
+      return (
+        <svg {...props}>
+          <rect x="7" y="6" width="3.5" height="12" rx="0.8" />
+          <rect x="13.5" y="6" width="3.5" height="12" rx="0.8" />
+        </svg>
+      )
     case 'stop':
       return (
         <svg {...props}>
